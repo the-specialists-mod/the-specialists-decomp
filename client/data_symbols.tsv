@@ -1,0 +1,232 @@
+address	name	type	section
+100799f8	??_7Scheme@vgui@@6B@	undefined *	.rdata
+100799f8	Ordinal_199	undefined *	.rdata
+100799f8	vgui::Scheme::`vftable'	undefined *	.rdata
+10079a10	??_7Color@vgui@@6B@	undefined *	.rdata
+10079a10	Ordinal_177	undefined *	.rdata
+10079a10	vgui::Color::`vftable'	undefined *	.rdata
+10079a28	??_7Panel@vgui@@6B@	undefined *	.rdata
+10079a28	Ordinal_198	undefined *	.rdata
+10079a28	vgui::Panel::`vftable'	undefined *	.rdata
+10079c24	??_7Label@vgui@@6B@	undefined *	.rdata
+10079c24	Ordinal_192	undefined *	.rdata
+10079c24	vgui::Label::`vftable'	undefined *	.rdata
+10079e98	??_7Image@vgui@@6B@	undefined *	.rdata
+10079e98	Ordinal_187	undefined *	.rdata
+10079e98	vgui::Image::`vftable'	undefined *	.rdata
+10079ef8	??_7Border@vgui@@6B@	undefined *	.rdata
+10079ef8	Ordinal_173	undefined *	.rdata
+10079ef8	vgui::Border::`vftable'	undefined *	.rdata
+10079f60	??_7LineBorder@vgui@@6B@	undefined *	.rdata
+10079f60	Ordinal_194	undefined *	.rdata
+10079f60	vgui::LineBorder::`vftable'	undefined *	.rdata
+10079fcc	??_7ImagePanel@vgui@@6B@	undefined *	.rdata
+10079fcc	Ordinal_188	undefined *	.rdata
+10079fcc	vgui::ImagePanel::`vftable'	undefined *	.rdata
+1007a1cc	??_7Bitmap@vgui@@6B@	undefined *	.rdata
+1007a1cc	Ordinal_171	undefined *	.rdata
+1007a1cc	vgui::Bitmap::`vftable'	undefined *	.rdata
+1007a230	??_7BitmapTGA@vgui@@6B@	undefined *	.rdata
+1007a230	Ordinal_172	undefined *	.rdata
+1007a230	vgui::BitmapTGA::`vftable'	undefined *	.rdata
+1007a298	??_7InputSignal@vgui@@6B@	undefined *	.rdata
+1007a298	Ordinal_189	undefined *	.rdata
+1007a298	vgui::InputSignal::`vftable'	undefined *	.rdata
+1007a2c4	??_7Button@vgui@@6B@	undefined *	.rdata
+1007a2c4	Ordinal_176	undefined *	.rdata
+1007a2c4	vgui::Button::`vftable'	undefined *	.rdata
+1007ac40	??_7Cursor@vgui@@6B@	undefined *	.rdata
+1007ac40	Ordinal_178	undefined *	.rdata
+1007ac40	vgui::Cursor::`vftable'	undefined *	.rdata
+1007ac50	??_7Frame@vgui@@6B@	undefined *	.rdata
+1007ac50	Ordinal_185	undefined *	.rdata
+1007ac50	vgui::Frame::`vftable'	undefined *	.rdata
+1007ae90	??_7SurfaceBase@vgui@@6B@	undefined *	.rdata
+1007ae90	Ordinal_207	undefined *	.rdata
+1007ae90	vgui::SurfaceBase::`vftable'	undefined *	.rdata
+1007af18	??_7Surface@vgui@@6B@	undefined *	.rdata
+1007af18	Ordinal_206	undefined *	.rdata
+1007af18	vgui::Surface::`vftable'	undefined *	.rdata
+1007afa8	??_7Layout@vgui@@6B@	pointer	.rdata
+1007afa8	Ordinal_193	pointer	.rdata
+1007afa8	vgui::Layout::`vftable'	pointer	.rdata
+1007afac	??_7BorderLayout@vgui@@6B@	pointer	.rdata
+1007afac	Ordinal_174	pointer	.rdata
+1007afac	vgui::BorderLayout::`vftable'	pointer	.rdata
+1007afb4	??_7ActionSignal@vgui@@6B@	pointer	.rdata
+1007afb4	Ordinal_169	pointer	.rdata
+1007afb4	vgui::ActionSignal::`vftable'	pointer	.rdata
+1007afb8	??_7MenuSeparator@vgui@@6B@	undefined *	.rdata
+1007afb8	Ordinal_196	undefined *	.rdata
+1007afb8	vgui::MenuSeparator::`vftable'	undefined *	.rdata
+1007b1e4	??_7TextPanel@vgui@@6B@	undefined *	.rdata
+1007b1e4	Ordinal_213	undefined *	.rdata
+1007b1e4	vgui::TextPanel::`vftable'	undefined *	.rdata
+1007b3f0	??_7LoweredBorder@vgui@@6B@	undefined *	.rdata
+1007b3f0	Ordinal_195	undefined *	.rdata
+1007b3f0	vgui::LoweredBorder::`vftable'	undefined *	.rdata
+1007b458	??_7Font@vgui@@6B@	undefined *	.rdata
+1007b458	Ordinal_184	undefined *	.rdata
+1007b458	vgui::Font::`vftable'	undefined *	.rdata
+1007b470	??_7App@vgui@@6B@	undefined *	.rdata
+1007b470	Ordinal_170	undefined *	.rdata
+1007b470	vgui::App::`vftable'	undefined *	.rdata
+1007b54c	??_7BuildGroup@vgui@@6B@	undefined *	.rdata
+1007b54c	Ordinal_175	undefined *	.rdata
+1007b54c	vgui::BuildGroup::`vftable'	undefined *	.rdata
+1007b584	??_7InputStream@vgui@@6B@	undefined *	.rdata
+1007b584	Ordinal_190	undefined *	.rdata
+1007b584	vgui::InputStream::`vftable'	undefined *	.rdata
+1007b5a0	??_7FileInputStream@vgui@@6B@	undefined *	.rdata
+1007b5a0	Ordinal_183	undefined *	.rdata
+1007b5a0	vgui::FileInputStream::`vftable'	undefined *	.rdata
+1007b5c0	??_7DesktopIcon@vgui@@6B@	undefined *	.rdata
+1007b5c0	Ordinal_181	undefined *	.rdata
+1007b5c0	vgui::DesktopIcon::`vftable'	undefined *	.rdata
+1007b7cc	??_7MiniApp@vgui@@6B@	undefined *	.rdata
+1007b7cc	Ordinal_197	undefined *	.rdata
+1007b7cc	vgui::MiniApp::`vftable'	undefined *	.rdata
+1007b7d8	??_7ScrollPanel@vgui@@6B@	undefined *	.rdata
+1007b7d8	Ordinal_202	undefined *	.rdata
+1007b7d8	vgui::ScrollPanel::`vftable'	undefined *	.rdata
+1007ba00	??_7ScrollBar@vgui@@6B@	undefined *	.rdata
+1007ba00	Ordinal_201	undefined *	.rdata
+1007ba00	vgui::ScrollBar::`vftable'	undefined *	.rdata
+1007bc3c	??_7Slider@vgui@@6B@	undefined *	.rdata
+1007bc3c	Ordinal_204	undefined *	.rdata
+1007bc3c	vgui::Slider::`vftable'	undefined *	.rdata
+1007c0dc	??_7ScrollBar2@vgui@@6B@	undefined *	.rdata
+1007c0dc	Ordinal_200	undefined *	.rdata
+1007c0dc	vgui::ScrollBar2::`vftable'	undefined *	.rdata
+1007c320	??_7Slider2@vgui@@6B@	undefined *	.rdata
+1007c320	Ordinal_203	undefined *	.rdata
+1007c320	vgui::Slider2::`vftable'	undefined *	.rdata
+1007c560	??_7IntChangeSignal@vgui@@6B@	pointer	.rdata
+1007c560	Ordinal_191	pointer	.rdata
+1007c560	vgui::IntChangeSignal::`vftable'	pointer	.rdata
+1007c630	??_7TextImage@vgui@@6B@	undefined *	.rdata
+1007c630	Ordinal_212	undefined *	.rdata
+1007c630	vgui::TextImage::`vftable'	undefined *	.rdata
+1007cdb0	??_7TablePanel@vgui@@6B@	undefined *	.rdata
+1007cdb0	Ordinal_208	undefined *	.rdata
+1007cdb0	vgui::TablePanel::`vftable'	undefined *	.rdata
+1007d000	??_7HeaderPanel@vgui@@6B@	undefined *	.rdata
+1007d000	Ordinal_186	undefined *	.rdata
+1007d000	vgui::HeaderPanel::`vftable'	undefined *	.rdata
+1007d220	??_7TextGrid@vgui@@6B@	undefined *	.rdata
+1007d220	Ordinal_211	undefined *	.rdata
+1007d220	vgui::TextGrid::`vftable'	undefined *	.rdata
+1007e160	??_7TextEntry@vgui@@6BInputSignal@1@@	undefined *	.rdata
+1007e160	Ordinal_209	undefined *	.rdata
+1007e160	vgui::TextEntry::`vftable'{for_`vgui::InputSignal'}	undefined *	.rdata
+1007e18c	??_7TextEntry@vgui@@6BPanel@1@@	undefined *	.rdata
+1007e18c	Ordinal_210	undefined *	.rdata
+1007e18c	vgui::TextEntry::`vftable'{for_`vgui::Panel'}	undefined *	.rdata
+1007e3e8	??_7EtchedBorder@vgui@@6B@	undefined *	.rdata
+1007e3e8	Ordinal_182	undefined *	.rdata
+1007e3e8	vgui::EtchedBorder::`vftable'	undefined *	.rdata
+1007e450	??_7DataInputStream@vgui@@6BInputStream@1@@	undefined *	.rdata
+1007e450	Ordinal_180	undefined *	.rdata
+1007e450	vgui::DataInputStream::`vftable'{for_`vgui::InputStream'}	undefined *	.rdata
+1007e46c	??_7DataInputStream@vgui@@6B01@@	undefined *	.rdata
+1007e46c	Ordinal_179	undefined *	.rdata
+1007e46c	vgui::DataInputStream::`vftable'{for_`vgui::DataInputStream'}	undefined *	.rdata
+1007e49c	??_8DataInputStream@vgui@@7B@	undefined1	.rdata
+1007e49c	Ordinal_214	undefined1	.rdata
+1007e49c	vgui::DataInputStream::`vbtable'	undefined1	.rdata
+1007f674	??_7StackLayout@vgui@@6B@	pointer	.rdata
+1007f674	Ordinal_205	pointer	.rdata
+1007f674	vgui::StackLayout::`vftable'	pointer	.rdata
+10081e94	type_info::vftable	pointer	.rdata
+10096bd8	CException::RTTI_Type_Descriptor	TypeDescriptor	.data
+10097430	type_info::RTTI_Type_Descriptor	TypeDescriptor	.data
+100987b0	??_C@_00A@?$AA@	TerminatedCString	.data
+100987b0	Ordinal_215	TerminatedCString	.data
+100987b0	s_	TerminatedCString	.data
+100d5b28	gEngfuncs	cl_enginefunc_t_ts30	.data
+ffdff000	ExceptionList	void *32	tdb
+ffdff004	StackBase	void *32	tdb
+ffdff008	StackLimit	void *32	tdb
+ffdff00c	SubSystemTib	void *32	tdb
+ffdff010	FiberData	void *32	tdb
+ffdff014	ArbitraryUserPointer	void *32	tdb
+ffdff018	Self	void *32	tdb
+ffdff01c	EnvironmentPointer	void *32	tdb
+ffdff020	ClientId	CLIENT_ID	tdb
+ffdff028	ActiveRpcHandle	void *32	tdb
+ffdff02c	ThreadLocalStoragePointer	void *32	tdb
+ffdff030	ProcessEnvironmentBlock	void *32	tdb
+ffdff034	LastErrorValue	dword.conflict	tdb
+ffdff038	CountOfOwnedCriticalSections	dword.conflict	tdb
+ffdff03c	CsrClientThread	void *32	tdb
+ffdff040	Win32ThreadInfo	void *32	tdb
+ffdff044	User32Reserved	dword.conflict[26]	tdb
+ffdff0ac	UserReserved	dword.conflict[5]	tdb
+ffdff0c0	WOW32Reserved	void *32	tdb
+ffdff0c4	CurrentLocale	dword.conflict	tdb
+ffdff0c8	FpSoftwareStatusRegister	dword.conflict	tdb
+ffdff0cc	SystemReserved1	void *32[54]	tdb
+ffdff1a4	ExceptionCode	dword.conflict	tdb
+ffdff1a8	ActivationContextStackPointer	void *32	tdb
+ffdff1ac	SpareBytes	uchar[36]	tdb
+ffdff1d0	TxFsContext	dword.conflict	tdb
+ffdff1d4	GdiTebBatch	dword.conflict	tdb
+ffdff6b4	RealClientId	CLIENT_ID	tdb
+ffdff6bc	GdiCachedProcessHandle	void *32	tdb
+ffdff6c0	GdiClientPID	dword.conflict	tdb
+ffdff6c4	GdiCLientTID	dword.conflict	tdb
+ffdff6c8	GdiThreadLocalInfo	void *32	tdb
+ffdff6cc	Win32ClientInfo	void *32[62]	tdb
+ffdff7c4	glDispatchTable	void *32[233]	tdb
+ffdffb68	glReserved1	void *32[29]	tdb
+ffdffbdc	glReserved2	void *32	tdb
+ffdffbe0	glSectionInfo	void *32	tdb
+ffdffbe4	glSection	void *32	tdb
+ffdffbe8	glTable	void *32	tdb
+ffdffbec	glCurrentRC	void *32	tdb
+ffdffbf0	glContext	void *32	tdb
+ffdffbf4	LastStatusValue	dword.conflict	tdb
+ffdffc00	StaticUnicodeBuffer	wchar16[261]	tdb
+ffdffe0c	DeallocationStack	void *32	tdb
+ffdffe10	TlsSlots	void *32[64]	tdb
+ffdfff10	TlsLinks.Flink	void *32	tdb
+ffdfff14	TlsLinks.Blink	void *32	tdb
+ffdfff18	Vdm	void *32	tdb
+ffdfff1c	ReservedForNtRpc	void *32	tdb
+ffdfff20	DbgSsReserved	void *32[2]	tdb
+ffdfff28	HardErrorMode	dword.conflict	tdb
+ffdfff2c	Instrumentation	void *32[9]	tdb
+ffdfff50	ActivityId	GUID	tdb
+ffdfff60	SubProcessTag	void *32	tdb
+ffdfff64	EtwLocalData	void *32	tdb
+ffdfff68	EtwTraceData	void *32	tdb
+ffdfff6c	WinSockData	void *32	tdb
+ffdfff70	GdiBatchCount	dword.conflict	tdb
+ffdfff74	IdealProcessorValue	dword.conflict	tdb
+ffdfff78	GuaranteedStackBytes	dword.conflict	tdb
+ffdfff7c	ReservedForPerf	void *32	tdb
+ffdfff80	ReservedForOle	void *32	tdb
+ffdfff84	WaitingOnLoaderLock	dword.conflict	tdb
+ffdfff88	SavedPriorityState	void *32	tdb
+ffdfff8c	SoftPatchPtr1	void *32	tdb
+ffdfff90	ThreadPoolData	void *32	tdb
+ffdfff94	TlsExpansionSlots	void *32	tdb
+ffdfff98	MuiGeneration	dword.conflict	tdb
+ffdfff9c	IsImpersonating	dword.conflict	tdb
+ffdfffa0	NlsCache	void *32	tdb
+ffdfffa4	pShimData	void *32	tdb
+ffdfffa8	HeapVirtualAffinity	dword.conflict	tdb
+ffdfffac	CurrentTransactionHandle	void *32	tdb
+ffdfffb0	ActiveFrame	void *32	tdb
+ffdfffb4	FlsData	void *32	tdb
+ffdfffb8	PreferredLanguages	void *32	tdb
+ffdfffbc	UserPrefLanguages	void *32	tdb
+ffdfffc0	MergedPrefLanguages	void *32	tdb
+ffdfffc4	MuiImpersonation	dword.conflict	tdb
+ffdfffc8	CrossTebFlags	ushort	tdb
+ffdfffca	SameTebFlags	ushort	tdb
+ffdfffcc	TxnScopeEnterCallback	void *32	tdb
+ffdfffd0	TxnScopeExitCallback	void *32	tdb
+ffdfffd4	TxnScopeContext	void *32	tdb
+ffdfffd8	LockCount	dword.conflict	tdb
+ffdfffe0	ResourceRetValue	void *32	tdb

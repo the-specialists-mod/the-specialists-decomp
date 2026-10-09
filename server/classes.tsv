@@ -1,0 +1,240 @@
+class	methods	struct_size	note
+CTSAnimation	14		PlaceHolder Structure
+CBulletManager	8		PlaceHolder Structure
+CTSTimer	6	0x6c	sizeof = 0x6c (from GetClassPtr)
+CTSCustomTarget	6	0x878	sizeof = 0x878 (from GetClassPtr)
+CBreakable	23	0x118	sizeof = 0x118 (from GetClassPtr)
+CTSGameRules	41		PlaceHolder Structure
+CTSBriefcase	7		PlaceHolder Structure
+CTSPowerUp	12	0x9c	sizeof = 0x9c (from GetClassPtr)
+EHANDLE	4		PlaceHolder Structure
+CBaseDoor	18	0x168	sizeof = 0x168 (from GetClassPtr)
+CRotDoor	4	0x168	sizeof = 0x168 (from GetClassPtr)
+CHalfLifeMultiplay	56		PlaceHolder Structure
+IVoiceGameMgrHelper	1		PlaceHolder Structure
+CMultiplayGameMgrHelper	2		PlaceHolder Structure
+CPlane	3		PlaceHolder Structure
+CHalfLifeRules	40		PlaceHolder Structure
+CHalfLifeTeamplay	22		PlaceHolder Structure
+UTIL_GroupTrace	2		PlaceHolder Structure
+CSaveRestoreBuffer	12		PlaceHolder Structure
+CGlobalState	12		PlaceHolder Structure
+CVoiceGameMgr	8		PlaceHolder Structure
+CTSSharedEmitter	12		PlaceHolder Structure
+type_info	6		PlaceHolder Structure
+bad_cast	2		PlaceHolder Structure
+bad_typeid	2		PlaceHolder Structure
+__user_type_info	13		PlaceHolder Structure
+__si_type_info	5		PlaceHolder Structure
+__class_type_info	5		PlaceHolder Structure
+exception	3		PlaceHolder Structure
+bad_exception	2		PlaceHolder Structure
+__pointer_type_info	1		PlaceHolder Structure
+__attr_type_info	1		PlaceHolder Structure
+__builtin_type_info	1		PlaceHolder Structure
+__func_type_info	1		PlaceHolder Structure
+__ptmf_type_info	1		PlaceHolder Structure
+__ptmd_type_info	1		PlaceHolder Structure
+__array_type_info	1		PlaceHolder Structure
+bad_alloc	2		PlaceHolder Structure
+CSprite	23	0x6c	sizeof = 0x6c (from GetClassPtr)
+CBlood	9	0x64	sizeof = 0x64 (from GetClassPtr)
+CSoundEnt	14	0x874	sizeof = 0x874 (from GetClassPtr)
+CGunTarget	14	0x168	sizeof = 0x168 (from GetClassPtr)
+CBasePlayer	120	0xb8c	sizeof = 0xb8c (from GetClassPtr)
+CMomentaryDoor	7	0x108	sizeof = 0x108 (from GetClassPtr)
+CBaseMonster	44	0x64	PlaceHolder Class Structure
+CBaseSpectator	5		PlaceHolder Class Structure
+CFuncTrackTrain	20	0xac	sizeof = 0xac (from GetClassPtr)
+CBeam	44	0x64	sizeof = 0x64 (from GetClassPtr)
+CGameScore	7	0x68	sizeof = 0x68 (from GetClassPtr)
+CEnvSpark	8	0x68	sizeof = 0x68 (from GetClassPtr)
+CPathCorner	5	0x68	sizeof = 0x68 (from GetClassPtr)
+CBaseEntity	90	0x64	sizeof = 0x64 (from GetClassPtr)
+CEnvSound	5	0x6c	sizeof = 0x6c (from GetClassPtr)
+CSound	4		PlaceHolder Class Structure
+CGib	9	0x74	sizeof = 0x74 (from GetClassPtr)
+CFuncTrackChange	20	0x150	sizeof = 0x150 (from GetClassPtr)
+CTSTrigger	5	0x110	sizeof = 0x110 (from GetClassPtr)
+CTSScoreGiver	3	0x7c	sizeof = 0x7c (from GetClassPtr)
+CTSSlowMotionPoint	5	0xf8	sizeof = 0xf8 (from GetClassPtr)
+CGlow	5	0x6c	sizeof = 0x6c (from GetClassPtr)
+CTSEmitter	4	0x114	sizeof = 0x114 (from GetClassPtr)
+CFuncWall	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CBaseButton	15	0x13c	sizeof = 0x13c (from GetClassPtr)
+CTSGun	47	0xa10	sizeof = 0xa10 (from GetClassPtr)
+CWreckage	5	0x168	sizeof = 0x168 (from GetClassPtr)
+CPushable	11	0x124	sizeof = 0x124 (from GetClassPtr)
+CFuncTank	27	0x64	PlaceHolder Class Structure
+CBubbling	8	0x74	sizeof = 0x74 (from GetClassPtr)
+CWeaponBox	13	0x180	sizeof = 0x180 (from GetClassPtr)
+CMultiSource	8	0x1ec	sizeof = 0x1ec (from GetClassPtr)
+CXenSpore	6	0x64	PlaceHolder Class Structure
+CGameText	7	0x90	sizeof = 0x90 (from GetClassPtr)
+CSave	19		PlaceHolder Structure
+CItemSoda	4	0x64	sizeof = 0x64 (from GetClassPtr)
+CPathTrack	15	0x78	sizeof = 0x78 (from GetClassPtr)
+CBaseToggle	13	0x64	PlaceHolder Class Structure
+CBaseTrigger	10	0x104	sizeof = 0x104 (from GetClassPtr)
+CXenTreeTrigger	2	0x64	sizeof = 0x64 (from GetClassPtr)
+CMultiManager	11	0x190	sizeof = 0x190 (from GetClassPtr)
+CMomentaryRotButton	14	0x12c	sizeof = 0x12c (from GetClassPtr)
+CTSSlowMotion	11	0x108	sizeof = 0x108 (from GetClassPtr)
+CSpeaker	8	0x68	sizeof = 0x68 (from GetClassPtr)
+CAmbientGeneric	9	0xd4	sizeof = 0xd4 (from GetClassPtr)
+CTSDMHill	7	0x80	sizeof = 0x80 (from GetClassPtr)
+CPlatTrigger	3	0x68	sizeof = 0x68 (from GetClassPtr)
+CGibShooter	8	0x88	sizeof = 0x88 (from GetClassPtr)
+CBasePlatTrain	6	0x64	PlaceHolder Class Structure
+CTSPlayerAmount	4	0x13c	sizeof = 0x13c (from GetClassPtr)
+CMessage	4	0x64	sizeof = 0x64 (from GetClassPtr)
+CBasePlayerItem	38	0x64	PlaceHolder Structure
+CTSGroundWeapon	14	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CGameTeamMaster	8	0x70	sizeof = 0x70 (from GetClassPtr)
+CBasePlayerWeapon	32	0x64	PlaceHolder Structure
+CTSObjectivePointer	3	0x78	sizeof = 0x78 (from GetClassPtr)
+CCyclerSprite	9	0x70	sizeof = 0x70 (from GetClassPtr)
+CRecharge	9	0x118	sizeof = 0x118 (from GetClassPtr)
+CVipEscape	3		PlaceHolder Class Structure
+CRestore	13		PlaceHolder Structure
+CPointEntity	2	0x64	sizeof = 0x64 (from GetClassPtr)
+CItemSecurity	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CButtonTarget	4	0x64	sizeof = 0x64 (from GetClassPtr)
+CTriggerCamera	8	0xa8	sizeof = 0xa8 (from GetClassPtr)
+CTSPhysicObject	5	0x64	PlaceHolder Class Structure
+CNullEntity	1	0x64	sizeof = 0x64 (from GetClassPtr)
+CBaseAnimating	21	0x64	PlaceHolder Class Structure
+CTSWorldGun	13	0xd8	sizeof = 0xd8 (from GetClassPtr)
+CGameTeamSet	3	0x68	sizeof = 0x68 (from GetClassPtr)
+CFuncPlatRot	9	0x12c	sizeof = 0x12c (from GetClassPtr)
+CFuncWallToggle	5	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSWind	3	0x70	sizeof = 0x70 (from GetClassPtr)
+CTSObjective	8	0x64	PlaceHolder Structure
+CEnvExplosion	6	0x16c	sizeof = 0x16c (from GetClassPtr)
+CLightning	15	0x98	sizeof = 0x98 (from GetClassPtr)
+CFuncPlat	15	0x114	sizeof = 0x114 (from GetClassPtr)
+CDecal	4	0x64	sizeof = 0x64 (from GetClassPtr)
+CTriggerMonsterJump	3	0x104	sizeof = 0x104 (from GetClassPtr)
+CPendulum	11	0x94	sizeof = 0x94 (from GetClassPtr)
+CTSKnife	9	0xa4	sizeof = 0xa4 (from GetClassPtr)
+CFuncRotating	13	0x78	sizeof = 0x78 (from GetClassPtr)
+CLaser	11	0x78	sizeof = 0x78 (from GetClassPtr)
+CRuleEntity	6	0x64	PlaceHolder Class Structure
+CTriggerCounter	1	0x104	sizeof = 0x104 (from GetClassPtr)
+CLight	5	0x6c	sizeof = 0x6c (from GetClassPtr)
+CGamePlayerHurt	2	0x68	sizeof = 0x68 (from GetClassPtr)
+CFuncTankLaser	7	0xec	sizeof = 0xec (from GetClassPtr)
+CFrictionModifier	6	0x68	sizeof = 0x68 (from GetClassPtr)
+CBloodSplat	2	0x64	sizeof = 0x64 (from GetClassPtr)
+CGameCounter	12	0x68	sizeof = 0x68 (from GetClassPtr)
+CBaseDMStart	2	0x64	sizeof = 0x64 (from GetClassPtr)
+CFuncTankControls	6	0x68	sizeof = 0x68 (from GetClassPtr)
+CTriggerVolume	1	0x64	sizeof = 0x64 (from GetClassPtr)
+CTestEffect	4	0x138	sizeof = 0x138 (from GetClassPtr)
+CFuncConveyor	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSDeadCorpse	5	0x6c	sizeof = 0x6c (from GetClassPtr)
+CWorld	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CFireAndDie	4	0x6c	sizeof = 0x6c (from GetClassPtr)
+CFuncTrain	11	0x118	sizeof = 0x118 (from GetClassPtr)
+CShake	11	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSTeamEscape	9	0xf8	sizeof = 0xf8 (from GetClassPtr)
+CTSObjectiveManager	5	0xa0	sizeof = 0xa0 (from GetClassPtr)
+CEnvFunnel	3	0x70	sizeof = 0x70 (from GetClassPtr)
+CWorldItem	2	0x68	sizeof = 0x68 (from GetClassPtr)
+CTSMapGlobals	7	0x6c	sizeof = 0x6c (from GetClassPtr)
+CRevertSaved	14	0x6c	sizeof = 0x6c (from GetClassPtr)
+CFuncIllusionary	3	0x104	sizeof = 0x104 (from GetClassPtr)
+CGameCounterSet	2	0x68	sizeof = 0x68 (from GetClassPtr)
+CTargetCDAudio	5	0x64	sizeof = 0x64 (from GetClassPtr)
+CBasePlayerAmmo	5		PlaceHolder Structure
+CWeaponCycler	7	0xd0	sizeof = 0xd0 (from GetClassPtr)
+CTSBomb	11	0x88	sizeof = 0x88 (from GetClassPtr)
+CTSHack	9	0x80	sizeof = 0x80 (from GetClassPtr)
+CAutoTrigger	7	0x74	sizeof = 0x74 (from GetClassPtr)
+CFade	7	0x64	sizeof = 0x64 (from GetClassPtr)
+CGamePlayerEquip	5	0x168	sizeof = 0x168 (from GetClassPtr)
+CTSWinGiver	7	0x7c	sizeof = 0x7c (from GetClassPtr)
+CLadder	3	0x104	sizeof = 0x104 (from GetClassPtr)
+CGamePlayerTeam	5	0x68	sizeof = 0x68 (from GetClassPtr)
+CTSGroundAmmo	11	0xac	sizeof = 0xac (from GetClassPtr)
+CEnvGlobal	5	0x70	sizeof = 0x70 (from GetClassPtr)
+CBaseDelay	5	0x6c	sizeof = 0x6c (from GetClassPtr)
+CRenderFxManager	2	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSSellZone	3	0x68	sizeof = 0x68 (from GetClassPtr)
+CEnvBeverage	3	0x6c	sizeof = 0x6c (from GetClassPtr)
+CTSParticle	3	0x224	sizeof = 0x224 (from GetClassPtr)
+CTSStunt	25		PlaceHolder Class Structure
+CActAnimating	6	0x64	PlaceHolder Class Structure
+CTriggerGravity	2	0x104	sizeof = 0x104 (from GetClassPtr)
+CInfoBreakable	1	0x6c	sizeof = 0x6c (from GetClassPtr)
+CGameRules	21		PlaceHolder Class Structure
+CFuncMonsterClip	2	0x64	sizeof = 0x64 (from GetClassPtr)
+CInfoIntermission	2	0x64	sizeof = 0x64 (from GetClassPtr)
+CTriggerEndSection	4	0x104	sizeof = 0x104 (from GetClassPtr)
+CTSAmmoPack	7	0xa8	sizeof = 0xa8 (from GetClassPtr)
+CShower	4	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSFog	1	0x64	sizeof = 0x64 (from GetClassPtr)
+CTriggerPush	3	0x104	sizeof = 0x104 (from GetClassPtr)
+CTriggerSave	2	0x104	sizeof = 0x104 (from GetClassPtr)
+CTSFlag	15	0xb0	sizeof = 0xb0 (from GetClassPtr)
+CRuleBrushEntity	1	0x64	PlaceHolder Class Structure
+CRulePointEntity	1	0x64	PlaceHolder Class Structure
+CFuncTankRocket	2	0xe4	sizeof = 0xe4 (from GetClassPtr)
+CGamePlayerZone	4	0x78	sizeof = 0x78 (from GetClassPtr)
+CEnvLight	2	0x6c	sizeof = 0x6c (from GetClassPtr)
+CTriggerCDAudio	4	0x104	sizeof = 0x104 (from GetClassPtr)
+CFuncTankMortar	2	0xe4	sizeof = 0xe4 (from GetClassPtr)
+CTriggerHurt	2	0x104	sizeof = 0x104 (from GetClassPtr)
+CXenHair	3	0x84	sizeof = 0x84 (from GetClassPtr)
+CCycler	9	0x64	PlaceHolder Class Structure
+CTriggerRelay	6	0x70	sizeof = 0x70 (from GetClassPtr)
+CTriggerChangeTarget	6	0x70	sizeof = 0x70 (from GetClassPtr)
+CFuncTrainControls	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CSprayCan	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSShrapnel	6	0x9c	sizeof = 0x9c (from GetClassPtr)
+CM61Grenade	6	0x94	sizeof = 0x94 (from GetClassPtr)
+CWallHealth	9	0x118	sizeof = 0x118 (from GetClassPtr)
+CItem	5	0x64	PlaceHolder Structure
+CRotButton	1	0x13c	sizeof = 0x13c (from GetClassPtr)
+CHealthKit	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CXenTree	10	0x88	sizeof = 0x88 (from GetClassPtr)
+CDeadHEV	3	0x168	sizeof = 0x168 (from GetClassPtr)
+CItemAntidote	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CEnvShooter	3	0x88	sizeof = 0x88 (from GetClassPtr)
+CXenPLight	8	0x88	sizeof = 0x88 (from GetClassPtr)
+CItemSuit	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CItemBattery	3	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSPistolWeapon	3		PlaceHolder Class Structure
+CTSSMGWeapon	3	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSKnifeWeapon	3	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSShotgunWeapon	3	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSRifleWeapon	3	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSGrenadeWeapon	1	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSSniperWeapon	1	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSBigPistolWeapon	3	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSMGWeapon	1	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSKatanaWeapon	1	0xb4	sizeof = 0xb4 (from GetClassPtr)
+CTSShotgunAmmo	1	0xac	sizeof = 0xac (from GetClassPtr)
+CTSRifleAmmo	1	0xac	sizeof = 0xac (from GetClassPtr)
+CTSBigPistolAmmo	1	0xac	sizeof = 0xac (from GetClassPtr)
+CTSSniperAmmo	1	0xac	sizeof = 0xac (from GetClassPtr)
+CTSSMGAmmo	1	0xac	sizeof = 0xac (from GetClassPtr)
+CTSPistolAmmo	1		PlaceHolder Class Structure
+CChangeLevel	12	0x14c	sizeof = 0x14c (from GetClassPtr)
+CTSModel	2	0x104	sizeof = 0x104 (from GetClassPtr)
+CTriggerMultiple	1	0x104	sizeof = 0x104 (from GetClassPtr)
+CTriggerTeleport	1	0x104	sizeof = 0x104 (from GetClassPtr)
+CXenSporeSmall	1	0x84	sizeof = 0x84 (from GetClassPtr)
+CXenSporeMed	1	0x84	sizeof = 0x84 (from GetClassPtr)
+CXenSporeLarge	1	0x84	sizeof = 0x84 (from GetClassPtr)
+CTSSuperJump	1	0x9c	sizeof = 0x9c (from GetClassPtr)
+CTriggerOnce	1	0x104	sizeof = 0x104 (from GetClassPtr)
+CFuncTankGun	1	0xe4	sizeof = 0xe4 (from GetClassPtr)
+CGenericCycler	1	0x168	sizeof = 0x168 (from GetClassPtr)
+CCyclerProbe	1	0x168	sizeof = 0x168 (from GetClassPtr)
+CCorpse	1	0x64	sizeof = 0x64 (from GetClassPtr)
+CFuncTrackAuto	2	0x150	sizeof = 0x150 (from GetClassPtr)
+CGameEnd	1	0x68	sizeof = 0x68 (from GetClassPtr)
+CStripWeapons	1	0x64	sizeof = 0x64 (from GetClassPtr)
+CTSGrenade	2		
+CXenHull	2	0x64	sizeof = 0x64 (from GetClassPtr)

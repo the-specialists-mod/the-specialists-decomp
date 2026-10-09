@@ -1,0 +1,2433 @@
+address	value	referenced_by
+10081f42	null)	FUN_1006cfbd
+10081f51	null)	FUN_1006cfbd
+10081f66	GAIsProcessorFeaturePresent	
+10081f84	KERNEL32	FUN_1006d817
+10081f90	e+000	FUN_1006d99f
+100820b4	runtime error 	
+100820c8	TLOSS error\r\n	
+100820d8	SING error\r\n	
+100820e8	DOMAIN error\r\n	
+100820f8	R6028\r\n- unable to initialize heap\r\n	
+10082120	R6027\r\n- not enough space for lowio initialization\r\n	
+10082158	R6026\r\n- not enough space for stdio initialization\r\n	
+10082190	R6025\r\n- pure virtual function call\r\n	
+100821b8	R6024\r\n- not enough space for _onexit/atexit table\r\n	
+100821f0	R6019\r\n- unable to open console device\r\n	
+1008221c	R6018\r\n- unexpected heap error\r\n	
+10082240	R6017\r\n- unexpected multithread lock error\r\n	
+10082270	R6016\r\n- not enough space for thread data\r\n	
+1008229c	\r\nabnormal program termination\r\n	
+100822c0	R6009\r\n- not enough space for environment\r\n	10097ed4,FUN_10073533
+100822ec	R6008\r\n- not enough space for arguments\r\n	
+10082318	R6002\r\n- floating point not loaded\r\n	
+10082340	Microsoft Visual C++ Runtime Library	FUN_10073533
+1008236c	Runtime Error!\n\nProgram: 	FUN_10073533
+1008238c	<program name unknown>	FUN_10073533
+100823a4	SunMonTueWedThuFriSat	
+100823bc	JanFebMarAprMayJunJulAugSepOctNovDec	
+100823e8	GetLastActivePopup	FUN_10075d3e
+100823fc	GetActiveWindow	FUN_10075d3e
+1008240c	MessageBoxA	FUN_10075d3e
+10082418	user32.dll	FUN_10075d3e
+10082424	1#QNAN	FUN_10076127
+1008242c	1#INF	FUN_10076127
+10082434	1#IND	FUN_10076127
+1008243c	1#SNAN	FUN_10076127
+10082488	floor	
+100824f8	H:mm:ss	100983f8
+10082500	dddd, MMMM dd, yyyy	100983f4
+10082514	M/d/yy	100983f0
+10082524	December	100983e4
+10082530	November	100983e0
+1008253c	October	100983dc
+10082544	September	100983d8
+10082550	August	100983d4
+10082568	April	100983c4
+10082570	March	100983c0
+10082578	February	100983bc
+10082584	January	100983b8
+100825bc	Saturday	10098384
+100825c8	Friday	10098380
+100825d0	Thursday	1009837c
+100825dc	Wednesday	10098378
+100825e8	Tuesday	10098374
+100825f0	Monday	10098370
+100825f8	Sunday	1009836c
+10083aae	LoadLibraryA	
+10083abe	GetProcAddress	
+10083ace	KERNEL32.dll	
+10083ade	GetCursorPos	
+10083aee	SetCursorPos	
+10083afe	SystemParametersInfoA	
+10083b14	USER32.dll	
+10083b22	joyGetDevCapsA	
+10083b34	joyGetPosEx	
+10083b42	joyGetNumDevs	
+10083b50	WINMM.dll	
+10083b5c	?getCursor@Scheme@vgui@@UAEPAVCursor@2@W4SchemeCursor@12@@Z	
+10083b9a	?setCursor@Scheme@vgui@@UAEXW4SchemeCursor@12@PAVCursor@2@@Z	
+10083bda	?getFont@Scheme@vgui@@UAEPAVFont@2@W4SchemeFont@12@@Z	
+10083c12	?setFont@Scheme@vgui@@UAEXW4SchemeFont@12@PAVFont@2@@Z	
+10083c4c	?getColor@Scheme@vgui@@UAEXW4SchemeColor@12@AAH111@Z	
+10083c84	?setColor@Scheme@vgui@@UAEXW4SchemeColor@12@HHHH@Z	
+10083cba	??AColor@vgui@@UAEHH@Z	
+10083cd4	?getColor@Color@vgui@@UAEXAAH000@Z	
+10083cfa	?getColor@Color@vgui@@UAEXAAW4SchemeColor@Scheme@2@@Z	
+10083d32	?setColor@Color@vgui@@UAEXHHHH@Z	
+10083d56	?setColor@Color@vgui@@UAEXW4SchemeColor@Scheme@2@@Z	
+10083d8c	?init@Color@vgui@@EAEXXZ	
+10083da8	?internalSetCursor@Panel@vgui@@MAEXXZ	
+10083dd0	?internalFocusChanged@Panel@vgui@@MAEX_N@Z	
+10083dfe	?internalKeyFocusTicked@Panel@vgui@@MAEXXZ	
+10083e2c	?internalKeyReleased@Panel@vgui@@MAEXW4KeyCode@2@@Z	
+10083e62	?internalKeyTyped@Panel@vgui@@MAEXW4KeyCode@2@@Z	
+10083e96	?internalKeyPressed@Panel@vgui@@MAEXW4KeyCode@2@@Z	
+10083ecc	?internalMouseWheeled@Panel@vgui@@MAEXH@Z	
+10083ef8	?internalMouseReleased@Panel@vgui@@MAEXW4MouseCode@2@@Z	
+10083f32	?internalMouseDoublePressed@Panel@vgui@@MAEXW4MouseCode@2@@Z	
+10083f72	?internalMousePressed@Panel@vgui@@MAEXW4MouseCode@2@@Z	
+10083fac	?internalCursorExited@Panel@vgui@@MAEXXZ	
+10083fd8	?internalCursorEntered@Panel@vgui@@MAEXXZ	
+10084004	?internalCursorMoved@Panel@vgui@@MAEXHH@Z	
+10084030	?paintBuildOverlay@Panel@vgui@@MAEXXZ	
+10084058	?paint@Panel@vgui@@MAEXXZ	
+10084074	?paintBackground@Panel@vgui@@MAEXXZ	
+1008409a	?solve@Panel@vgui@@MAEXXZ	
+100840b6	?drawTexturedRect@Panel@vgui@@MAEXHHHH@Z	
+100840e2	?drawSetTexture@Panel@vgui@@MAEXH@Z	
+10084108	?drawSetTextureRGBA@Panel@vgui@@MAEXHPBDHH@Z	
+10084138	?drawPrintChar@Panel@vgui@@MAEXD@Z	
+1008415e	?drawPrintChar@Panel@vgui@@MAEXHHD@Z	
+10084186	?drawPrintText@Panel@vgui@@MAEXPBDH@Z	
+100841ae	?drawPrintText@Panel@vgui@@MAEXHHPBDH@Z	
+100841d8	?drawSetTextPos@Panel@vgui@@MAEXHH@Z	
+10084200	?drawSetTextColor@Panel@vgui@@MAEXW4SchemeColor@Scheme@2@@Z	
+1008423e	?drawSetTextColor@Panel@vgui@@MAEXHHHH@Z	
+1008426a	?drawSetTextFont@Panel@vgui@@MAEXW4SchemeFont@Scheme@2@@Z	
+100842a6	?drawSetTextFont@Panel@vgui@@MAEXPAVFont@2@@Z	
+100842d6	?drawOutlinedRect@Panel@vgui@@MAEXHHHH@Z	
+10084302	?drawFilledRect@Panel@vgui@@MAEXHHHH@Z	
+1008432c	?drawSetColor@Panel@vgui@@MAEXW4SchemeColor@Scheme@2@@Z	
+10084366	?drawSetColor@Panel@vgui@@MAEXHHHH@Z	
+1008438e	?internalPerformLayout@Panel@vgui@@MAEXXZ	
+100843ba	?performLayout@Panel@vgui@@MAEXXZ	
+100843de	?setSurfaceBaseTraverse@Panel@vgui@@UAEXPAVSurfaceBase@2@@Z	
+1008441c	?paintTraverse@Panel@vgui@@UAEXXZ	
+10084440	?paintTraverse@Panel@vgui@@MAEX_N@Z	
+10084466	?solveTraverse@Panel@vgui@@UAEXXZ	
+1008448a	?isCursorNone@Panel@vgui@@UAE_NXZ	
+100844ae	?getLayoutInfo@Panel@vgui@@UAEPAVLayoutInfo@2@XZ	
+100844e2	?setLayoutInfo@Panel@vgui@@UAEXPAVLayoutInfo@2@@Z	
+10084516	?getVirtualSize@Panel@vgui@@UAEXAAH0@Z	
+10084540	?getApp@Panel@vgui@@UAEPAVApp@2@XZ	
+10084566	?setAsMouseArena@Panel@vgui@@UAEX_N@Z	
+1008458e	?setAsMouseCapture@Panel@vgui@@UAEX_N@Z	
+100845b8	?getBgColor@Panel@vgui@@UAEXAAH000@Z	
+100845e0	?getBgColor@Panel@vgui@@UAEXAAVColor@2@@Z	
+1008460c	?getFgColor@Panel@vgui@@UAEXAAH000@Z	
+10084634	?getFgColor@Panel@vgui@@UAEXAAVColor@2@@Z	
+10084660	?setBgColor@Panel@vgui@@UAEXW4SchemeColor@Scheme@2@@Z	
+10084698	?setBgColor@Panel@vgui@@UAEXHHHH@Z	
+100846be	?setBgColor@Panel@vgui@@UAEXVColor@2@@Z	
+100846e8	?setFgColor@Panel@vgui@@UAEXW4SchemeColor@Scheme@2@@Z	
+10084720	?setFgColor@Panel@vgui@@UAEXHHHH@Z	
+10084746	?setFgColor@Panel@vgui@@UAEXVColor@2@@Z	
+10084770	?applyPersistanceText@Panel@vgui@@UAEXPBD@Z	
+1008479e	?getPersistanceText@Panel@vgui@@UAEXPADH@Z	
+100847cc	?createPropertyPanel@Panel@vgui@@UAEPAV12@XZ	
+100847fc	?repaintParent@Panel@vgui@@UAEXXZ	
+10084820	?removeAllChildren@Panel@vgui@@UAEXXZ	
+10084848	?isBuildGroupEnabled@Panel@vgui@@UAE_NXZ	
+10084874	?setBuildGroup@Panel@vgui@@UAEXPAVBuildGroup@2@PBD@Z	
+100848ac	?setEnabled@Panel@vgui@@UAEX_N@Z	
+100848d0	?isEnabled@Panel@vgui@@UAE_NXZ	
+100848f2	?getSurfaceBase@Panel@vgui@@UAEPAVSurfaceBase@2@XZ	
+10084928	?getPreferredSize@Panel@vgui@@UAEXAAH0@Z	
+10084954	?setPreferredSize@Panel@vgui@@UAEXHH@Z	
+1008497e	?getPaintSize@Panel@vgui@@UAEXAAH0@Z	
+100849a6	?getInset@Panel@vgui@@UAEXAAH000@Z	
+100849cc	?setPaintEnabled@Panel@vgui@@UAEX_N@Z	
+100849f4	?setPaintBackgroundEnabled@Panel@vgui@@UAEX_N@Z	
+10084a26	?setPaintBorderEnabled@Panel@vgui@@UAEX_N@Z	
+10084a54	?setBorder@Panel@vgui@@UAEXPAVBorder@2@@Z	
+10084a80	?setAutoFocusNavEnabled@Panel@vgui@@UAEX_N@Z	
+10084ab0	?isAutoFocusNavEnabled@Panel@vgui@@UAE_NXZ	
+10084ade	?addFocusChangeSignal@Panel@vgui@@UAEXPAVFocusChangeSignal@2@@Z	
+10084b20	?requestFocusNext@Panel@vgui@@UAEXXZ	
+10084b48	?requestFocusPrev@Panel@vgui@@UAEXXZ	
+10084b70	?setFocusNavGroup@Panel@vgui@@UAEXPAVFocusNavGroup@2@@Z	
+10084baa	?invalidateLayout@Panel@vgui@@UAEX_N@Z	
+10084bd4	?setLayout@Panel@vgui@@UAEXPAVLayout@2@@Z	
+10084c00	?getChild@Panel@vgui@@UAEPAV12@H@Z	
+10084c26	?getChildCount@Panel@vgui@@UAEHXZ	
+10084c4a	?hasFocus@Panel@vgui@@UAE_NXZ	
+10084c6a	?requestFocus@Panel@vgui@@UAEXXZ	
+10084c8e	?getMinimumSize@Panel@vgui@@UAEXAAH0@Z	
+10084cb8	?setMinimumSize@Panel@vgui@@UAEXHH@Z	
+10084ce0	?getCursor@Panel@vgui@@UAEPAVCursor@2@XZ	
+10084d0c	?setCursor@Panel@vgui@@UAEXPAVCursor@2@@Z	
+10084d38	?setCursor@Panel@vgui@@UAEXW4SchemeCursor@Scheme@2@@Z	
+10084d70	?screenToLocal@Panel@vgui@@UAEXAAH0@Z	
+10084d98	?localToScreen@Panel@vgui@@UAEXAAH0@Z	
+10084dc0	?isWithinTraverse@Panel@vgui@@UAEPAV12@HH@Z	
+10084dee	?isWithin@Panel@vgui@@UAE_NHH@Z	
+10084e10	?removeRepaintSignal@Panel@vgui@@UAEXPAVRepaintSignal@2@@Z	
+10084e4e	?addRepaintSignal@Panel@vgui@@UAEXPAVRepaintSignal@2@@Z	
+10084e88	?removeInputSignal@Panel@vgui@@UAEXPAVInputSignal@2@@Z	
+10084ec2	?addInputSignal@Panel@vgui@@UAEXPAVInputSignal@2@@Z	
+10084ef8	?wasKeyReleased@Panel@vgui@@UAE_NW4KeyCode@2@@Z	
+10084f2a	?wasKeyTyped@Panel@vgui@@UAE_NW4KeyCode@2@@Z	
+10084f5a	?isKeyDown@Panel@vgui@@UAE_NW4KeyCode@2@@Z	
+10084f88	?wasKeyPressed@Panel@vgui@@UAE_NW4KeyCode@2@@Z	
+10084fba	?wasMouseReleased@Panel@vgui@@UAE_NW4MouseCode@2@@Z	
+10084ff0	?isMouseDown@Panel@vgui@@UAE_NW4MouseCode@2@@Z	
+10085022	?wasMouseDoublePressed@Panel@vgui@@UAE_NW4MouseCode@2@@Z	
+1008505e	?wasMousePressed@Panel@vgui@@UAE_NW4MouseCode@2@@Z	
+10085094	?removeChild@Panel@vgui@@UAEXPAV12@@Z	
+100850bc	?insertChildAt@Panel@vgui@@UAEXPAV12@H@Z	
+100850e8	?addChild@Panel@vgui@@UAEXPAV12@@Z	
+1008510e	?setParent@Panel@vgui@@UAEXPAV12@@Z	
+10085134	?getClipRect@Panel@vgui@@UAEXAAH000@Z	
+1008515c	?getAbsExtents@Panel@vgui@@UAEXAAH000@Z	
+10085186	?repaintAll@Panel@vgui@@UAEXXZ	
+100851a8	?repaint@Panel@vgui@@UAEXXZ	
+100851c6	?isVisibleUp@Panel@vgui@@UAE_NXZ	
+100851ea	?isVisible@Panel@vgui@@UAE_NXZ	
+1008520c	?setVisible@Panel@vgui@@UAEX_N@Z	
+10085230	?getParent@Panel@vgui@@UAEPAV12@XZ	
+10085256	?getTall@Panel@vgui@@UAEHXZ	
+10085274	?getWide@Panel@vgui@@UAEHXZ	
+10085292	?getBounds@Panel@vgui@@UAEXAAH000@Z	
+100852b8	?setBounds@Panel@vgui@@UAEXHHHH@Z	
+100852dc	?getSize@Panel@vgui@@UAEXAAH0@Z	
+100852fe	?setSize@Panel@vgui@@UAEXHH@Z	
+1008531e	?getPos@Panel@vgui@@UAEXAAH0@Z	
+10085340	?setPos@Panel@vgui@@UAEXHH@Z	
+10085360	?recomputeMinimumSize@Label@vgui@@MAEXXZ	
+1008538c	?computeAlignment@Label@vgui@@MAEXAAH00000000000@Z	
+100853c2	?setContentFitted@Label@vgui@@UAEX_N@Z	
+100853ec	?setContentAlignment@Label@vgui@@UAEXW4Alignment@12@@Z	
+10085426	?setTextAlignment@Label@vgui@@UAEXW4Alignment@12@@Z	
+1008545c	?getContentSize@Label@vgui@@UAEXAAH0@Z	
+10085486	?getTextSize@Label@vgui@@UAEXAAH0@Z	
+100854ac	?setFont@Label@vgui@@UAEXW4SchemeFont@Scheme@2@@Z	
+100854e0	?setFont@Label@vgui@@UAEXPAVFont@2@@Z	
+10085508	?setText@Label@vgui@@UAEXHPBD@Z	
+1008552a	?setText@Label@vgui@@UAAXPBDZZ	
+1008554c	?setImage@Label@vgui@@UAEXPAVImage@2@@Z	
+10085576	?paint@Label@vgui@@MAEXXZ	
+10085592	?setFgColor@Label@vgui@@UAEXW4SchemeColor@Scheme@2@@Z	
+100855ca	?setFgColor@Label@vgui@@UAEXHHHH@Z	
+100855f0	?createPropertyPanel@Label@vgui@@UAEPAVPanel@2@XZ	
+10085624	?init@Label@vgui@@AAEXHPBD_N@Z	
+10085646	??0Panel@vgui@@QAE@HHHH@Z	
+10085662	?doPaint@Image@vgui@@UAEXPAVPanel@2@@Z	
+1008568c	?paint@Image@vgui@@MAEXPAVPanel@2@@Z	
+100856b4	?drawTexturedRect@Image@vgui@@MAEXHHHH@Z	
+100856e0	?drawSetTexture@Image@vgui@@MAEXH@Z	
+10085706	?drawSetTextureRGBA@Image@vgui@@MAEXHPBDHH@Z	
+10085736	?drawPrintChar@Image@vgui@@MAEXD@Z	
+1008575c	?drawPrintChar@Image@vgui@@MAEXHHD@Z	
+10085784	?drawPrintText@Image@vgui@@MAEXPBDH@Z	
+100857ac	?drawPrintText@Image@vgui@@MAEXHHPBDH@Z	
+100857d6	?drawSetTextPos@Image@vgui@@MAEXHH@Z	
+100857fe	?drawSetTextColor@Image@vgui@@MAEXW4SchemeColor@Scheme@2@@Z	
+1008583c	?drawSetTextColor@Image@vgui@@MAEXHHHH@Z	
+10085868	?drawSetTextFont@Image@vgui@@MAEXW4SchemeFont@Scheme@2@@Z	
+100858a4	?drawSetTextFont@Image@vgui@@MAEXPAVFont@2@@Z	
+100858d4	?drawOutlinedRect@Image@vgui@@MAEXHHHH@Z	
+10085900	?drawFilledRect@Image@vgui@@MAEXHHHH@Z	
+1008592a	?drawSetColor@Image@vgui@@MAEXW4SchemeColor@Scheme@2@@Z	
+10085964	?drawSetColor@Image@vgui@@MAEXHHHH@Z	
+1008598c	?setSize@Image@vgui@@MAEXHH@Z	
+100859ac	?getColor@Image@vgui@@UAEXAAVColor@2@@Z	
+100859d6	?setColor@Image@vgui@@UAEXVColor@2@@Z	
+100859fe	?getSize@Image@vgui@@UAEXAAH0@Z	
+10085a20	?getPos@Image@vgui@@UAEXAAH0@Z	
+10085a42	?setPos@Image@vgui@@UAEXHH@Z	
+10085a62	?getInset@Border@vgui@@UAEXAAH000@Z	
+10085a88	?setInset@Border@vgui@@UAEXHHHH@Z	
+10085aac	?drawPrintChar@Border@vgui@@MAEXHHD@Z	
+10085ad4	?drawPrintText@Border@vgui@@MAEXHHPBDH@Z	
+10085b00	?drawSetTextPos@Border@vgui@@MAEXHH@Z	
+10085b28	?drawOutlinedRect@Border@vgui@@MAEXHHHH@Z	
+10085b54	?drawFilledRect@Border@vgui@@MAEXHHHH@Z	
+10085b7e	??0Color@vgui@@QAE@HHHH@Z	
+10085b9a	?init@LineBorder@vgui@@EAEXHVColor@2@@Z	
+10085bc4	?paint@LineBorder@vgui@@MAEXPAVPanel@2@@Z	
+10085bf0	?setImage@ImagePanel@vgui@@UAEXPAVImage@2@@Z	
+10085c20	?paintBackground@ImagePanel@vgui@@MAEXXZ	
+10085c4c	??0Panel@vgui@@QAE@XZ	
+10085c64	?setRGBA@Bitmap@vgui@@MAEXHHEEEE@Z	
+10085c8a	?paint@Bitmap@vgui@@UAEXPAVPanel@2@@Z	
+10085cb2	?setSize@Bitmap@vgui@@MAEXHH@Z	
+10085cd4	?loadTGA@BitmapTGA@vgui@@EAE_NPAVInputStream@2@_N@Z	
+10085d0a	?setButtonController@Button@vgui@@MAEXPAVButtonController@2@@Z	
+10085d4c	?fireActionSignal@Button@vgui@@UAEXXZ	
+10085d74	?isMouseClickEnabled@Button@vgui@@UAE_NW4MouseCode@2@@Z	
+10085dae	?setMouseClickEnabled@Button@vgui@@UAEXW4MouseCode@2@_N@Z	
+10085dea	?setButtonBorderEnabled@Button@vgui@@UAEX_N@Z	
+10085e1a	?isArmed@Button@vgui@@UAE_NXZ	
+10085e3a	?setButtonGroup@Button@vgui@@UAEXPAVButtonGroup@2@@Z	
+10085e72	?addActionSignal@Button@vgui@@UAEXPAVActionSignal@2@@Z	
+10085eac	?doClick@Button@vgui@@UAEXXZ	
+10085ecc	?isSelected@Button@vgui@@UAE_NXZ	
+10085ef0	?setArmed@Button@vgui@@UAEX_N@Z	
+10085f12	?setSelectedDirect@Button@vgui@@UAEX_N@Z	
+10085f3e	?setSelected@Button@vgui@@UAEX_N@Z	
+10085f64	?paintBackground@Button@vgui@@MAEXXZ	
+10085f8c	?createPropertyPanel@Button@vgui@@UAEPAVPanel@2@XZ	
+10085fc2	?getDefaultCursor@Cursor@vgui@@UAE?AW4DefaultCursor@12@XZ	
+10085ffe	?getBitmap@Cursor@vgui@@UAEPAVBitmap@2@XZ	
+1008602a	?privateInit@Cursor@vgui@@EAEXPAVBitmap@2@HH@Z	
+1008605c	?getHotspot@Cursor@vgui@@UAEXAAH0@Z	
+10086082	?fireMinimizingSignal@Frame@vgui@@UAEXXZ	
+100860ae	?fireClosingSignal@Frame@vgui@@UAEXXZ	
+100860d6	?setCloseButtonVisible@Frame@vgui@@UAEX_N@Z	
+10086104	?setMaximizeButtonVisible@Frame@vgui@@UAEX_N@Z	
+10086136	?setMinimizeButtonVisible@Frame@vgui@@UAEX_N@Z	
+10086168	?setTrayButtonVisible@Frame@vgui@@UAEX_N@Z	
+10086196	?setMenuButtonVisible@Frame@vgui@@UAEX_N@Z	
+100861c4	?addFrameSignal@Frame@vgui@@UAEXPAVFrameSignal@2@@Z	
+100861fa	?isSizeable@Frame@vgui@@UAE_NXZ	
+1008621c	?isMoveable@Frame@vgui@@UAE_NXZ	
+1008623e	?setSizeable@Frame@vgui@@UAEX_N@Z	
+10086262	?setMoveable@Frame@vgui@@UAEX_N@Z	
+10086286	?getTitle@Frame@vgui@@UAEXPADH@Z	
+100862aa	?setTitle@Frame@vgui@@UAEXPBD@Z	
+100862cc	?getClient@Frame@vgui@@UAEPAVPanel@2@XZ	
+100862f6	?isInternal@Frame@vgui@@UAE_NXZ	
+10086318	?setInternal@Frame@vgui@@UAEX_N@Z	
+1008633c	?paintBackground@Frame@vgui@@UAEXXZ	
+10086362	?setVisible@Frame@vgui@@UAEX_N@Z	
+10086386	?setSize@Frame@vgui@@UAEXHH@Z	
+100863a6	?addModeInfo@SurfaceBase@vgui@@MAEXHHH@Z	
+100863d2	?setEmulatedCursorPos@SurfaceBase@vgui@@UAEXHH@Z	
+10086406	?setEmulatedCursorVisible@SurfaceBase@vgui@@UAEX_N@Z	
+1008643e	?getApp@SurfaceBase@vgui@@UAEPAVApp@2@XZ	
+1008646a	?getModeInfo@SurfaceBase@vgui@@UAE_NHAAH00@Z	
+1008649a	?getModeInfoCount@SurfaceBase@vgui@@UAEHXZ	
+100864c8	?resetModeInfo@SurfaceBase@vgui@@UAEXXZ	
+100864f2	?requestSwap@SurfaceBase@vgui@@UAEXXZ	
+1008651a	?getPanel@SurfaceBase@vgui@@UAEPAVPanel@2@XZ	
+1008654a	?recreateContext@Surface@vgui@@MAE_NXZ	
+10086574	?createPlat@Surface@vgui@@MAE_NXZ	
+10086598	?applyChanges@Surface@vgui@@MAEXXZ	
+100865be	?popMakeCurrent@Surface@vgui@@MAEXPAVPanel@2@@Z	
+100865f0	?pushMakeCurrent@Surface@vgui@@MAEXPAVPanel@2@_N@Z	
+10086626	?swapBuffers@Surface@vgui@@MAEXXZ	
+1008664a	?setCursor@Surface@vgui@@MAEXPAVCursor@2@@Z	
+10086678	?enableMouseCapture@Surface@vgui@@MAEX_N@Z	
+100866a6	?invalidate@Surface@vgui@@MAEXPAVPanel@2@@Z	
+100866d4	?drawTexturedRect@Surface@vgui@@MAEXHHHH@Z	
+10086702	?drawSetTexture@Surface@vgui@@MAEXH@Z	
+1008672a	?drawSetTextureRGBA@Surface@vgui@@MAEXHPBDHH@Z	
+1008675c	?drawPrintText@Surface@vgui@@MAEXPBDH@Z	
+10086786	?drawSetTextPos@Surface@vgui@@MAEXHH@Z	
+100867b0	?drawSetTextColor@Surface@vgui@@MAEXHHHH@Z	
+100867de	?drawSetTextFont@Surface@vgui@@MAEXPAVFont@2@@Z	
+10086810	?drawOutlinedRect@Surface@vgui@@MAEXHHHH@Z	
+1008683e	?drawFilledRect@Surface@vgui@@MAEXHHHH@Z	
+1008686a	?drawSetColor@Surface@vgui@@MAEXHHHH@Z	
+10086894	?createNewTextureID@Surface@vgui@@MAEHXZ	
+100868c0	?isWithin@Surface@vgui@@UAE_NHH@Z	
+100868e4	?hasFocus@Surface@vgui@@UAE_NXZ	
+10086906	?createPopup@Surface@vgui@@UAEXPAVPanel@2@@Z	
+10086936	?setAsTopMost@Surface@vgui@@UAEX_N@Z	
+1008695e	?setWindowedMode@Surface@vgui@@UAEXXZ	
+10086986	?setFullscreenMode@Surface@vgui@@UAE_NHHH@Z	
+100869b4	?setTitle@Surface@vgui@@UAEXPBD@Z	
+100869d8	?getModeInfoCount@Surface@vgui@@UAEHXZ	
+10086a02	??1SurfaceBase@vgui@@IAE@XZ	
+10086a20	?performLayout@Layout@vgui@@UAEXPAVPanel@2@@Z	
+10086a50	?createLayoutInfo@BorderLayout@vgui@@UAEPAVLayoutInfo@2@W4Alignment@12@@Z	
+10086a9c	?performLayout@BorderLayout@vgui@@UAEXPAVPanel@2@@Z	
+10086ad2	?paintBackground@MenuSeparator@vgui@@MAEXXZ	
+10086b00	?getTextImage@TextPanel@vgui@@UAEPAVTextImage@2@XZ	
+10086b36	?setFont@TextPanel@vgui@@UAEXW4SchemeFont@Scheme@2@@Z	
+10086b6e	?setFont@TextPanel@vgui@@UAEXPAVFont@2@@Z	
+10086b9a	?setText@TextPanel@vgui@@UAEXPBD@Z	
+10086bc0	?paint@TextPanel@vgui@@MAEXXZ	
+10086be0	?setFgColor@TextPanel@vgui@@UAEXW4SchemeColor@Scheme@2@@Z	
+10086c1c	?setFgColor@TextPanel@vgui@@UAEXHHHH@Z	
+10086c46	?setSize@TextPanel@vgui@@UAEXHH@Z	
+10086c6a	?paint@LoweredBorder@vgui@@MAEXPAVPanel@2@@Z	
+10086c9a	?getId@Font@vgui@@UAEHXZ	
+10086cb6	?getTall@Font@vgui@@UAEHXZ	
+10086cd4	?getTextSize@Font@vgui@@UAEXPBDAAH1@Z	
+10086cfc	?getCharABCwide@Font@vgui@@UAEXHAAH00@Z	
+10086d26	?getCharRGBA@Font@vgui@@UAEXHHHHHPAE@Z	
+10086d50	?init@Font@vgui@@EAEXPBDPAXHHHMH_N222@Z	
+10086d7a	?internalTick@App@vgui@@MAEXXZ	
+10086d9c	?platTick@App@vgui@@MAEXXZ	
+10086dba	?surfaceBaseDeleted@App@vgui@@MAEXPAVSurfaceBase@2@@Z	
+10086df2	?surfaceBaseCreated@App@vgui@@MAEXPAVSurfaceBase@2@@Z	
+10086e2a	?setMouseFocus@App@vgui@@EAEXPAVPanel@2@@Z	
+10086e58	?updateMouseFocus@App@vgui@@EAEXHHPAVSurfaceBase@2@@Z	
+10086e90	?init@App@vgui@@EAEXXZ	
+10086eaa	?internalKeyReleased@App@vgui@@UAEXW4KeyCode@2@PAVSurfaceBase@2@@Z	
+10086ef0	?internalKeyTyped@App@vgui@@UAEXW4KeyCode@2@PAVSurfaceBase@2@@Z	
+10086f32	?internalKeyPressed@App@vgui@@UAEXW4KeyCode@2@PAVSurfaceBase@2@@Z	
+10086f76	?internalMouseWheeled@App@vgui@@UAEXHPAVSurfaceBase@2@@Z	
+10086fb2	?internalMouseReleased@App@vgui@@UAEXW4MouseCode@2@PAVSurfaceBase@2@@Z	
+10086ffc	?internalMouseDoublePressed@App@vgui@@UAEXW4MouseCode@2@PAVSurfaceBase@2@@Z	
+1008704a	?internalMousePressed@App@vgui@@UAEXW4MouseCode@2@PAVSurfaceBase@2@@Z	
+10087092	?internalCursorMoved@App@vgui@@UAEXHHPAVSurfaceBase@2@@Z	
+100870ce	?run@App@vgui@@UAEXXZ	
+100870e6	?setMinimumTickMillisInterval@App@vgui@@UAEXH@Z	
+10087118	?getCursorOveride@App@vgui@@UAEPAVCursor@2@XZ	
+10087148	?setCursorOveride@App@vgui@@UAEXPAVCursor@2@@Z	
+1008717a	?getRegistryInteger@App@vgui@@UAE_NPBDAAH@Z	
+100871a8	?setRegistryInteger@App@vgui@@UAE_NPBDH@Z	
+100871d4	?getRegistryString@App@vgui@@UAE_NPBDPADH@Z	
+10087202	?setRegistryString@App@vgui@@UAE_NPBD0@Z	
+1008722e	?internalSetMouseArena@App@vgui@@UAEXHHHH_N@Z	
+1008725e	?reset@App@vgui@@UAEXXZ	
+10087278	?getClipboardText@App@vgui@@UAEHHPADH@Z	
+100872a2	?setClipboardText@App@vgui@@UAEXPBDH@Z	
+100872cc	?getClipboardTextCount@App@vgui@@UAEHXZ	
+100872f6	?getKeyCodeText@App@vgui@@UAEXW4KeyCode@2@PADH@Z	
+1008732a	?getKeyCodeChar@App@vgui@@UAEDW4KeyCode@2@_N@Z	
+1008735c	?getTimeMillis@App@vgui@@UAEJXZ	
+1008737e	?enableBuildMode@App@vgui@@UAEXXZ	
+100873a2	?getScheme@App@vgui@@UAEPAVScheme@2@XZ	
+100873cc	?setScheme@App@vgui@@UAEXPAVScheme@2@@Z	
+100873f6	?repaintAll@App@vgui@@UAEXXZ	
+10087416	?getFocus@App@vgui@@UAEPAVPanel@2@XZ	
+1008743e	?requestFocus@App@vgui@@UAEXPAVPanel@2@@Z	
+1008746a	?setMouseArena@App@vgui@@UAEXHHHH_N@Z	
+10087492	?setMouseArena@App@vgui@@UAEXPAVPanel@2@@Z	
+100874c0	?setMouseCapture@App@vgui@@UAEXPAVPanel@2@@Z	
+100874f0	?getCursorPos@App@vgui@@UAEXAAH0@Z	
+10087516	?setCursorPos@App@vgui@@UAEXHH@Z	
+1008753a	?addTickSignal@App@vgui@@UAEXPAVTickSignal@2@@Z	
+1008756c	?wasKeyReleased@App@vgui@@UAE_NW4KeyCode@2@PAVPanel@2@@Z	
+100875a8	?wasKeyTyped@App@vgui@@UAE_NW4KeyCode@2@PAVPanel@2@@Z	
+100875e0	?isKeyDown@App@vgui@@UAE_NW4KeyCode@2@PAVPanel@2@@Z	
+10087616	?wasKeyPressed@App@vgui@@UAE_NW4KeyCode@2@PAVPanel@2@@Z	
+10087650	?wasMouseReleased@App@vgui@@UAE_NW4MouseCode@2@PAVPanel@2@@Z	
+10087690	?isMouseDown@App@vgui@@UAE_NW4MouseCode@2@PAVPanel@2@@Z	
+100876ca	?wasMouseDoublePressed@App@vgui@@UAE_NW4MouseCode@2@PAVPanel@2@@Z	
+1008770e	?wasMousePressed@App@vgui@@UAE_NW4MouseCode@2@PAVPanel@2@@Z	
+1008774c	?externalTick@App@vgui@@UAEXXZ	
+1008776e	?stop@App@vgui@@UAEXXZ	
+10087788	?start@App@vgui@@UAEXXZ	
+100877a2	?getCursor@BuildGroup@vgui@@MAEPAVCursor@2@PAVPanel@2@@Z	
+100877de	?keyTyped@BuildGroup@vgui@@MAEXW4KeyCode@2@PAVPanel@2@@Z	
+1008781a	?mouseDoublePressed@BuildGroup@vgui@@MAEXW4MouseCode@2@PAVPanel@2@@Z	
+10087862	?mouseReleased@BuildGroup@vgui@@MAEXW4MouseCode@2@PAVPanel@2@@Z	
+100878a4	?mousePressed@BuildGroup@vgui@@MAEXW4MouseCode@2@PAVPanel@2@@Z	
+100878e6	?cursorMoved@BuildGroup@vgui@@MAEXHHPAVPanel@2@@Z	
+1008791a	?panelAdded@BuildGroup@vgui@@MAEXPAVPanel@2@PBD@Z	
+1008794e	?fireCurrentPanelChangeSignal@BuildGroup@vgui@@EAEXXZ	
+10087986	?applySnap@BuildGroup@vgui@@EAEXPAVPanel@2@@Z	
+100879b6	?copyPropertiesToClipboard@BuildGroup@vgui@@UAEXXZ	
+100879ec	?getCurrentPanel@BuildGroup@vgui@@UAEPAVPanel@2@XZ	
+10087a22	?addCurrentPanelChangeSignal@BuildGroup@vgui@@UAEXPAVChangeSignal@2@@Z	
+10087a6c	?isEnabled@BuildGroup@vgui@@UAE_NXZ	
+10087a92	?setEnabled@BuildGroup@vgui@@UAEX_N@Z	
+10087aba	?close@FileInputStream@vgui@@UAEXXZ	
+10087ae0	?close@FileInputStream@vgui@@UAEXAA_N@Z	
+10087b0a	?readUChar@FileInputStream@vgui@@UAEEAA_N@Z	
+10087b38	?readUChar@FileInputStream@vgui@@UAEXPAEHAA_N@Z	
+10087b6a	?getAvailable@FileInputStream@vgui@@UAEHAA_N@Z	
+10087b9c	?seekEnd@FileInputStream@vgui@@UAEXAA_N@Z	
+10087bc8	?seekRelative@FileInputStream@vgui@@UAEXHAA_N@Z	
+10087bfa	?seekStart@FileInputStream@vgui@@UAEXAA_N@Z	
+10087c28	?getMiniApp@DesktopIcon@vgui@@UAEPAVMiniApp@2@XZ	
+10087c5c	?setDesktop@DesktopIcon@vgui@@UAEXPAVDesktop@2@@Z	
+10087c90	?setImage@DesktopIcon@vgui@@UAEXPAVImage@2@@Z	
+10087cc0	?doActivate@DesktopIcon@vgui@@UAEXXZ	
+10087ce8	?paintBackground@DesktopIcon@vgui@@MAEXXZ	
+10087d14	?setName@MiniApp@vgui@@MAEXPBD@Z	
+10087d38	?getName@MiniApp@vgui@@UAEXPADH@Z	
+10087d5c	?recomputeScroll@ScrollPanel@vgui@@UAEXXZ	
+10087d88	?validate@ScrollPanel@vgui@@UAEXXZ	
+10087dae	?getVerticalScrollBar@ScrollPanel@vgui@@UAEPAVScrollBar@2@XZ	
+10087dee	?getHorizontalScrollBar@ScrollPanel@vgui@@UAEPAVScrollBar@2@XZ	
+10087e30	?recomputeClientSize@ScrollPanel@vgui@@UAEXXZ	
+10087e60	?getScrollValue@ScrollPanel@vgui@@UAEXAAH0@Z	
+10087e90	?setScrollValue@ScrollPanel@vgui@@UAEXHH@Z	
+10087ebe	?getClientClip@ScrollPanel@vgui@@UAEPAVPanel@2@XZ	
+10087ef2	?getClient@ScrollPanel@vgui@@UAEPAVPanel@2@XZ	
+10087f22	?setScrollBarAutoVisible@ScrollPanel@vgui@@UAEX_N0@Z	
+10087f5a	?setScrollBarVisible@ScrollPanel@vgui@@UAEX_N0@Z	
+10087f8e	?setSize@ScrollPanel@vgui@@MAEXHH@Z	
+10087fb4	?fireIntChangeSignal@ScrollBar@vgui@@UAEXXZ	
+10087fe2	?validate@ScrollBar@vgui@@UAEXXZ	
+10088006	?setButtonPressedScrollValue@ScrollBar@vgui@@UAEXH@Z	
+1008803e	?doButtonPressed@ScrollBar@vgui@@UAEXH@Z	
+1008806a	?getSlider@ScrollBar@vgui@@UAEPAVSlider@2@XZ	
+1008809a	?setSlider@ScrollBar@vgui@@UAEXPAVSlider@2@@Z	
+100880ca	?getButton@ScrollBar@vgui@@UAEPAVButton@2@H@Z	
+100880fa	?setButton@ScrollBar@vgui@@UAEXPAVButton@2@H@Z	
+1008812c	?hasFullRange@ScrollBar@vgui@@UAE_NXZ	
+10088154	?isVertical@ScrollBar@vgui@@UAE_NXZ	
+1008817a	?setRangeWindowEnabled@ScrollBar@vgui@@UAEX_N@Z	
+100881ac	?setRangeWindow@ScrollBar@vgui@@UAEXH@Z	
+100881d6	?setRange@ScrollBar@vgui@@UAEXHH@Z	
+100881fc	?addIntChangeSignal@ScrollBar@vgui@@UAEXPAVIntChangeSignal@2@@Z	
+1008823e	?getValue@ScrollBar@vgui@@UAEHXZ	
+10088262	?setValue@ScrollBar@vgui@@UAEXH@Z	
+10088286	?performLayout@ScrollBar@vgui@@MAEXXZ	
+100882ae	?setSize@ScrollBar@vgui@@UAEXHH@Z	
+100882d2	?fireIntChangeSignal@Slider@vgui@@MAEXXZ	
+100882fe	?privateMouseReleased@Slider@vgui@@UAEXW4MouseCode@2@PAVPanel@2@@Z	
+10088344	?privateMousePressed@Slider@vgui@@UAEXW4MouseCode@2@PAVPanel@2@@Z	
+10088388	?privateCursorMoved@Slider@vgui@@UAEXHHPAVPanel@2@@Z	
+100883c0	?recomputeValueFromNobPos@Slider@vgui@@EAEXXZ	
+100883f0	?recomputeNobPosFromValue@Slider@vgui@@EAEXXZ	
+10088420	?setButtonOffset@Slider@vgui@@UAEXH@Z	
+10088448	?hasFullRange@Slider@vgui@@UAE_NXZ	
+1008846e	?getNobPos@Slider@vgui@@UAEXAAH0@Z	
+10088494	?setRangeWindowEnabled@Slider@vgui@@UAEX_N@Z	
+100884c4	?setRangeWindow@Slider@vgui@@UAEXH@Z	
+100884ec	?getRange@Slider@vgui@@UAEXAAH0@Z	
+10088510	?setRange@Slider@vgui@@UAEXHH@Z	
+10088532	?addIntChangeSignal@Slider@vgui@@UAEXPAVIntChangeSignal@2@@Z	
+10088572	?isVertical@Slider@vgui@@UAE_NXZ	
+10088596	?getValue@Slider@vgui@@UAEHXZ	
+100885b6	?setValue@Slider@vgui@@UAEXH@Z	
+100885d8	?paintBackground@Slider@vgui@@MAEXXZ	
+10088600	?setSize@Slider@vgui@@UAEXHH@Z	
+10088622	??0LineBorder@vgui@@QAE@VColor@1@@Z	
+10088648	??0Button@vgui@@QAE@PBDHHHH@Z	
+10088668	??0ImagePanel@vgui@@QAE@PAVImage@1@@Z	
+10088690	??0Label@vgui@@QAE@PBD@Z	
+100886ac	?setFont@TextImage@vgui@@UAEXW4SchemeFont@Scheme@2@@Z	
+100886e4	?setFont@TextImage@vgui@@UAEXPAVFont@2@@Z	
+10088710	?setText@TextImage@vgui@@UAEXHPBD@Z	
+10088736	?setText@TextImage@vgui@@UAEXPBD@Z	
+1008875c	?getFont@TextImage@vgui@@UAEPAVFont@2@XZ	
+10088788	?getTextSizeWrapped@TextImage@vgui@@UAEXAAH0@Z	
+100887ba	?getTextSize@TextImage@vgui@@UAEXAAH0@Z	
+100887e4	?init@TextImage@vgui@@EAEXHPBD@Z	
+10088808	?paint@TextImage@vgui@@MAEXPAVPanel@2@@Z	
+10088834	?setSize@TextImage@vgui@@UAEXHH@Z	
+10088858	??0Slider@vgui@@QAE@HHHH_N@Z	
+10088878	??0ScrollBar@vgui@@QAE@HHHH_N@Z	
+1008889a	??0Button@vgui@@QAE@PBDHH@Z	
+100888b8	?privateKeyTyped@TablePanel@vgui@@EAEXW4KeyCode@2@PAVPanel@2@@Z	
+100888fa	?privateMouseDoublePressed@TablePanel@vgui@@EAEXW4MouseCode@2@PAVPanel@2@@Z	
+10088948	?privateMousePressed@TablePanel@vgui@@EAEXW4MouseCode@2@PAVPanel@2@@Z	
+10088990	?stopCellEditing@TablePanel@vgui@@UAEXXZ	
+100889bc	?setEditableCell@TablePanel@vgui@@UAEXHH@Z	
+100889ea	?setCellSectionEnabled@TablePanel@vgui@@UAEX_N@Z	
+10088a1e	?setRowSelectionEnabled@TablePanel@vgui@@UAEX_N@Z	
+10088a52	?setColumnSelectionEnabled@TablePanel@vgui@@UAEX_N@Z	
+10088a8a	?setHeaderPanel@TablePanel@vgui@@UAEXPAVHeaderPanel@2@@Z	
+10088ac6	?getSelectedCell@TablePanel@vgui@@UAEXAAH0@Z	
+10088af6	?setSelectedCell@TablePanel@vgui@@UAEXHH@Z	
+10088b24	?setColumnExtents@TablePanel@vgui@@UAEXHHH@Z	
+10088b54	?getColumnCount@TablePanel@vgui@@UAEHXZ	
+10088b7e	?setGridSize@TablePanel@vgui@@UAEXHH@Z	
+10088ba8	?setGridVisible@TablePanel@vgui@@UAEX_N0@Z	
+10088bd6	?setColumnCount@TablePanel@vgui@@UAEXH@Z	
+10088c02	?setCellEditingEnabled@TablePanel@vgui@@UAEX_N@Z	
+10088c36	?paint@TablePanel@vgui@@MAEXXZ	
+10088c58	?getVirtualSize@TablePanel@vgui@@UAEXAAH0@Z	
+10088c86	?isWithinTraverse@TablePanel@vgui@@MAEPAVPanel@2@HH@Z	
+10088cbe	?privateMouseReleased@HeaderPanel@vgui@@UAEXW4MouseCode@2@PAVPanel@2@@Z	
+10088d08	?privateMousePressed@HeaderPanel@vgui@@UAEXW4MouseCode@2@PAVPanel@2@@Z	
+10088d52	?privateCursorMoved@HeaderPanel@vgui@@UAEXHHPAVPanel@2@@Z	
+10088d8e	?fireChangeSignal@HeaderPanel@vgui@@UAEXXZ	
+10088dbc	?addChangeSignal@HeaderPanel@vgui@@UAEXPAVChangeSignal@2@@Z	
+10088dfa	?getSectionExtents@HeaderPanel@vgui@@UAEXHAAH0@Z	
+10088e2e	?getSectionCount@HeaderPanel@vgui@@UAEHXZ	
+10088e5a	?setSliderPos@HeaderPanel@vgui@@UAEXHH@Z	
+10088e86	?addSectionPanel@HeaderPanel@vgui@@UAEXPAVPanel@2@@Z	
+10088ebe	?performLayout@HeaderPanel@vgui@@MAEXXZ	
+10088ee8	?printf@TextGrid@vgui@@UAAHPBDZZ	
+10088f0c	?vprintf@TextGrid@vgui@@UAEHPBDPAD@Z	
+10088f34	?setXY@TextGrid@vgui@@UAEXHH@Z	
+10088f56	?newLine@TextGrid@vgui@@UAEXXZ	
+10088f78	?setGridSize@TextGrid@vgui@@UAEXHH@Z	
+10088fa0	?paintBackground@TextGrid@vgui@@MAEXXZ	
+10088fca	??0TextPanel@vgui@@QAE@PBDHHHH@Z	
+10088fee	??0Label@vgui@@QAE@PBDHH@Z	
+1008900c	?keyFocusTicked@TextEntry@vgui@@MAEXPAVPanel@2@@Z	
+10089040	?keyReleased@TextEntry@vgui@@MAEXW4KeyCode@2@PAVPanel@2@@Z	
+1008907e	?keyTyped@TextEntry@vgui@@MAEXW4KeyCode@2@PAVPanel@2@@Z	
+100890b8	?keyPressed@TextEntry@vgui@@MAEXW4KeyCode@2@PAVPanel@2@@Z	
+100890f4	?mouseWheeled@TextEntry@vgui@@MAEXHPAVPanel@2@@Z	
+10089128	?mouseReleased@TextEntry@vgui@@MAEXW4MouseCode@2@PAVPanel@2@@Z	
+1008916a	?mouseDoublePressed@TextEntry@vgui@@MAEXW4MouseCode@2@PAVPanel@2@@Z	
+100891b0	?mousePressed@TextEntry@vgui@@MAEXW4MouseCode@2@PAVPanel@2@@Z	
+100891f0	?cursorExited@TextEntry@vgui@@MAEXPAVPanel@2@@Z	
+10089222	?cursorEntered@TextEntry@vgui@@MAEXPAVPanel@2@@Z	
+10089256	?cursorMoved@TextEntry@vgui@@MAEXHHPAVPanel@2@@Z	
+1008928a	?selectCheck@TextEntry@vgui@@MAEXXZ	
+100892b0	?cursorToPixelSpace@TextEntry@vgui@@MAEHH@Z	
+100892de	?getSelectedPixelRange@TextEntry@vgui@@MAE_NAAH0@Z	
+10089314	?getSelectedRange@TextEntry@vgui@@MAE_NAAH0@Z	
+10089344	?fireActionSignal@TextEntry@vgui@@MAEXXZ	
+10089370	?setCharAt@TextEntry@vgui@@MAEXDH@Z	
+10089396	?setTextHidden@TextEntry@vgui@@UAEX_N@Z	
+100893c0	?setFont@TextEntry@vgui@@UAEXPAVFont@2@@Z	
+100893ec	?addActionSignal@TextEntry@vgui@@UAEXPAVActionSignal@2@@Z	
+10089428	?doDeleteSelected@TextEntry@vgui@@UAEXXZ	
+10089454	?doPasteSelected@TextEntry@vgui@@UAEXXZ	
+1008947e	?doPaste@TextEntry@vgui@@UAEXXZ	
+100894a0	?doCopySelected@TextEntry@vgui@@UAEXXZ	
+100894ca	?doSelectNone@TextEntry@vgui@@UAEXXZ	
+100894f2	?doDelete@TextEntry@vgui@@UAEXXZ	
+10089516	?doBackspace@TextEntry@vgui@@UAEXXZ	
+1008953c	?doInsertChar@TextEntry@vgui@@UAEXD@Z	
+10089564	?doGotoEndOfLine@TextEntry@vgui@@UAEXXZ	
+1008958e	?doGotoFirstOfLine@TextEntry@vgui@@UAEXXZ	
+100895ba	?doGotoRight@TextEntry@vgui@@UAEXXZ	
+100895e0	?doGotoLeft@TextEntry@vgui@@UAEXXZ	
+10089606	?resetCursorBlink@TextEntry@vgui@@UAEXXZ	
+10089632	?getText@TextEntry@vgui@@UAEXHPADH@Z	
+1008965a	?setText@TextEntry@vgui@@UAEXPBDH@Z	
+10089680	?paintBackground@TextEntry@vgui@@MAEXXZ	
+100896aa	?paint@EtchedBorder@vgui@@MAEXPAVPanel@2@@Z	
+100896d8	??0Color@vgui@@QAE@W4SchemeColor@Scheme@1@@Z	
+10089708	??0Label@vgui@@QAE@PBDHHHH@Z	
+10089728	??0TablePanel@vgui@@QAE@HHHHH@Z	
+1008974a	??0ScrollPanel@vgui@@QAE@HHHH@Z	
+1008976c	??0HeaderPanel@vgui@@QAE@HHHH@Z	
+1008978e	?readLine@DataInputStream@vgui@@UAEXPADHAA_N@Z	
+100897c0	?readDouble@DataInputStream@vgui@@UAENAA_N@Z	
+100897f0	?readFloat@DataInputStream@vgui@@UAEMAA_N@Z	
+1008981e	?readULong@DataInputStream@vgui@@UAEKAA_N@Z	
+1008984c	?readLong@DataInputStream@vgui@@UAEJAA_N@Z	
+1008987a	?readUInt@DataInputStream@vgui@@UAEIAA_N@Z	
+100898a8	?readInt@DataInputStream@vgui@@UAEHAA_N@Z	
+100898d4	?readUShort@DataInputStream@vgui@@UAEGAA_N@Z	
+10089904	?readShort@DataInputStream@vgui@@UAEFAA_N@Z	
+10089932	?readChar@DataInputStream@vgui@@UAEDAA_N@Z	
+10089960	?readBool@DataInputStream@vgui@@UAE_NAA_N@Z	
+1008998e	?close@DataInputStream@vgui@@UAEXXZ	
+100899b4	?seekStart@DataInputStream@vgui@@UAEXAA_N@Z	
+100899e2	?seekRelative@DataInputStream@vgui@@UAEXHAA_N@Z	
+10089a14	?seekEnd@DataInputStream@vgui@@UAEXAA_N@Z	
+10089a40	?getAvailable@DataInputStream@vgui@@UAEHAA_N@Z	
+10089a72	?readUChar@DataInputStream@vgui@@UAEXPAEHAA_N@Z	
+10089aa4	?readUChar@DataInputStream@vgui@@UAEEAA_N@Z	
+10089ad2	?close@DataInputStream@vgui@@UAEXAA_N@Z	
+10089afc	??0BorderLayout@vgui@@QAE@H@Z	
+10089b1c	??0BitmapTGA@vgui@@QAE@PAVInputStream@1@_N@Z	
+10089b4c	?performLayout@StackLayout@vgui@@UAEXPAVPanel@2@@Z	
+10089b82	??0Font@vgui@@QAE@PBDPAXHHHMH_N222@Z	
+10089baa	??0Color@vgui@@QAE@XZ	
+10089bc2	??0TextImage@vgui@@QAE@PBD@Z	
+10089be2	??0Image@vgui@@QAE@XZ	
+10089bfa	?getInstance@App@vgui@@SAPAV12@XZ	
+10089c1c	vgui.dll	
+10089c26	WSOCK32.dll	
+10089c34	glDisable	
+10089c40	glEnable	
+10089c4c	glHint	
+10089c56	glFogf	
+10089c60	glFogfv	
+10089c6a	glFogi	
+10089c72	OPENGL32.dll	
+10089c82	ExitProcess	
+10089c90	TerminateProcess	
+10089ca4	GetCurrentProcess	
+10089cb8	RtlUnwind	
+10089cc4	RaiseException	
+10089cd6	GetTimeZoneInformation	
+10089cf0	GetSystemTime	
+10089d00	GetLocalTime	
+10089d10	HeapFree	
+10089d1c	HeapAlloc	
+10089d28	InterlockedDecrement	
+10089d40	InterlockedIncrement	
+10089d58	GetCommandLineA	
+10089d6a	GetVersion	
+10089d78	GetModuleHandleA	
+10089d8c	InitializeCriticalSection	
+10089da8	DeleteCriticalSection	
+10089dc0	EnterCriticalSection	
+10089dd8	LeaveCriticalSection	
+10089df0	HeapReAlloc	
+10089dfe	HeapSize	
+10089e0a	GetCurrentThreadId	
+10089e20	TlsSetValue	
+10089e2e	TlsAlloc	
+10089e3a	TlsFree	
+10089e44	SetLastError	
+10089e54	TlsGetValue	
+10089e62	GetLastError	
+10089e72	CloseHandle	
+10089e80	SetHandleCount	
+10089e92	GetStdHandle	
+10089ea2	GetFileType	
+10089eb0	GetStartupInfoA	
+10089ec2	SetFilePointer	
+10089ed4	ReadFile	
+10089ee0	WriteFile	
+10089eec	SetUnhandledExceptionFilter	
+10089f0a	HeapDestroy	
+10089f18	HeapCreate	
+10089f26	VirtualFree	
+10089f34	VirtualAlloc	
+10089f44	IsBadWritePtr	
+10089f54	WideCharToMultiByte	
+10089f6a	MultiByteToWideChar	
+10089f80	LCMapStringA	
+10089f90	LCMapStringW	
+10089fa0	GetStringTypeA	
+10089fb2	GetStringTypeW	
+10089fc4	GetModuleFileNameA	
+10089fda	FreeEnvironmentStringsA	
+10089ff4	FreeEnvironmentStringsW	
+1008a00e	GetEnvironmentStrings	
+1008a026	GetEnvironmentStringsW	
+1008a040	IsBadReadPtr	
+1008a050	IsBadCodePtr	
+1008a060	SetStdHandle	
+1008a070	FlushFileBuffers	
+1008a084	CreateFileA	
+1008a092	GetCPInfo	
+1008a09e	GetACP	
+1008a0a8	GetOEMCP	
+1008a0b4	SetEndOfFile	
+1008a0c4	CompareStringA	
+1008a0d6	CompareStringW	
+1008a0e8	SetEnvironmentVariableA	
+1008b4e2	client.dll	1008a10c
+1008b4ed	??0?$Dar@D@vgui@@QAE@H@Z	1008a90c
+1008b506	??0?$Dar@D@vgui@@QAE@XZ	1008a910
+1008b51e	??0?$Dar@H@vgui@@QAE@H@Z	1008a914
+1008b537	??0?$Dar@H@vgui@@QAE@XZ	1008a918
+1008b54f	??0?$Dar@PAD@vgui@@QAE@H@Z	1008a91c
+1008b56a	??0?$Dar@PAD@vgui@@QAE@XZ	1008a920
+1008b584	??0?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAE@H@Z	1008a924
+1008b5ad	??0?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAE@XZ	1008a928
+1008b5d5	??0?$Dar@PAVActionSignal@vgui@@@vgui@@QAE@H@Z	1008a92c
+1008b603	??0?$Dar@PAVActionSignal@vgui@@@vgui@@QAE@XZ	1008a930
+1008b630	??0?$Dar@PAVButton@vgui@@@vgui@@QAE@H@Z	1008a934
+1008b658	??0?$Dar@PAVButton@vgui@@@vgui@@QAE@XZ	1008a938
+1008b67f	??0?$Dar@PAVChangeSignal@vgui@@@vgui@@QAE@H@Z	1008a93c
+1008b6ad	??0?$Dar@PAVChangeSignal@vgui@@@vgui@@QAE@XZ	1008a940
+1008b6da	??0?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAE@H@Z	1008a944
+1008b707	??0?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAE@XZ	1008a948
+1008b733	??0?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAE@H@Z	1008a94c
+1008b766	??0?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAE@XZ	1008a950
+1008b798	??0?$Dar@PAVFrame@vgui@@@vgui@@QAE@H@Z	1008a954
+1008b7bf	??0?$Dar@PAVFrame@vgui@@@vgui@@QAE@XZ	1008a958
+1008b7e5	??0?$Dar@PAVFrameSignal@vgui@@@vgui@@QAE@H@Z	1008a95c
+1008b812	??0?$Dar@PAVFrameSignal@vgui@@@vgui@@QAE@XZ	1008a960
+1008b83e	??0?$Dar@PAVInputSignal@vgui@@@vgui@@QAE@H@Z	1008a964
+1008b86b	??0?$Dar@PAVInputSignal@vgui@@@vgui@@QAE@XZ	1008a968
+1008b897	??0?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAE@H@Z	1008a96c
+1008b8c8	??0?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAE@XZ	1008a970
+1008b8f8	??0?$Dar@PAVLabel@vgui@@@vgui@@QAE@H@Z	1008a974
+1008b91f	??0?$Dar@PAVLabel@vgui@@@vgui@@QAE@XZ	1008a978
+1008b945	??0?$Dar@PAVPanel@vgui@@@vgui@@QAE@H@Z	1008a97c
+1008b96c	??0?$Dar@PAVPanel@vgui@@@vgui@@QAE@XZ	1008a980
+1008b992	??0?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAE@H@Z	1008a984
+1008b9c1	??0?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAE@XZ	1008a988
+1008b9ef	??0?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAE@H@Z	1008a98c
+1008ba1c	??0?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAE@XZ	1008a990
+1008ba48	??0?$Dar@PAVTickSignal@vgui@@@vgui@@QAE@H@Z	1008a994
+1008ba74	??0?$Dar@PAVTickSignal@vgui@@@vgui@@QAE@XZ	1008a998
+1008ba9f	??0ActionSignal@vgui@@QAE@ABV01@@Z	1008a99c
+1008bac2	??0ActionSignal@vgui@@QAE@XZ	1008a9a0
+1008badf	??0App@vgui@@QAE@ABV01@@Z	1008a9a4
+1008baf9	??0Bitmap@vgui@@QAE@ABV01@@Z	1008a9a8
+1008bb16	??0BitmapTGA@vgui@@QAE@ABV01@@Z	1008a9ac
+1008bb36	??0Border@vgui@@QAE@ABV01@@Z	1008a9b0
+1008bb53	??0BorderLayout@vgui@@QAE@ABV01@@Z	1008a9b4
+1008bb76	??0BuildGroup@vgui@@QAE@ABV01@@Z	1008a9b8
+1008bb97	??0Button@vgui@@QAE@ABV01@@Z	1008a9bc
+1008bbb4	??0Color@vgui@@QAE@ABV01@@Z	1008a9c0
+1008bbd0	??0Cursor@vgui@@QAE@ABV01@@Z	1008a9c4
+1008bbed	??0DataInputStream@vgui@@QAE@ABV01@@Z	1008a9c8
+1008bc13	??0DesktopIcon@vgui@@QAE@ABV01@@Z	1008a9cc
+1008bc35	??0EtchedBorder@vgui@@QAE@ABV01@@Z	1008a9d0
+1008bc58	??0FileInputStream@vgui@@QAE@ABV01@@Z	1008a9d4
+1008bc7e	??0Font@vgui@@QAE@ABV01@@Z	1008a9d8
+1008bc99	??0Frame@vgui@@QAE@ABV01@@Z	1008a9dc
+1008bcb5	??0HeaderPanel@vgui@@QAE@ABV01@@Z	1008a9e0
+1008bcd7	??0Image@vgui@@QAE@ABV01@@Z	1008a9e4
+1008bcf3	??0ImagePanel@vgui@@QAE@ABV01@@Z	1008a9e8
+1008bd14	??0ImagePanel@vgui@@QAE@XZ	1008a9ec
+1008bd2f	??0InputSignal@vgui@@QAE@ABV01@@Z	1008a9f0
+1008bd51	??0InputSignal@vgui@@QAE@XZ	1008a9f4
+1008bd6d	??0InputStream@vgui@@QAE@ABV01@@Z	1008a9f8
+1008bd8f	??0InputStream@vgui@@QAE@XZ	1008a9fc
+1008bdab	??0IntChangeSignal@vgui@@QAE@ABV01@@Z	1008aa00
+1008bdd1	??0IntChangeSignal@vgui@@QAE@XZ	1008aa04
+1008bdf1	??0Label@vgui@@QAE@ABV01@@Z	1008aa08
+1008be0d	??0Label@vgui@@QAE@XZ	1008aa0c
+1008be23	??0Layout@vgui@@QAE@ABV01@@Z	1008aa10
+1008be40	??0LineBorder@vgui@@QAE@ABV01@@Z	1008aa14
+1008be61	??0LoweredBorder@vgui@@QAE@ABV01@@Z	1008aa18
+1008be85	??0MenuSeparator@vgui@@QAE@ABV01@@Z	1008aa1c
+1008bea9	??0MiniApp@vgui@@QAE@ABV01@@Z	1008aa20
+1008bec7	??0Panel@vgui@@QAE@ABV01@@Z	1008aa24
+1008bee3	??0Scheme@vgui@@QAE@ABV01@@Z	1008aa28
+1008bf00	??0ScrollBar2@vgui@@QAE@ABV01@@Z	1008aa2c
+1008bf21	??0ScrollBar2@vgui@@QAE@HHHH_N@Z	1008aa30
+1008bf42	??0ScrollBar@vgui@@QAE@ABV01@@Z	1008aa34
+1008bf62	??0ScrollPanel@vgui@@QAE@ABV01@@Z	1008aa38
+1008bf84	??0Slider2@vgui@@QAE@ABV01@@Z	1008aa3c
+1008bfa2	??0Slider2@vgui@@QAE@HHHH_N@Z	1008aa40
+1008bfc0	??0Slider@vgui@@QAE@ABV01@@Z	1008aa44
+1008bfdd	??0StackLayout@vgui@@QAE@ABV01@@Z	1008aa48
+1008bfff	??0Surface@vgui@@QAE@ABV01@@Z	1008aa4c
+1008c01d	??0SurfaceBase@vgui@@QAE@ABV01@@Z	1008aa50
+1008c03f	??0TablePanel@vgui@@QAE@ABV01@@Z	1008aa54
+1008c060	??0TextEntry@vgui@@QAE@ABV01@@Z	1008aa58
+1008c080	??0TextGrid@vgui@@QAE@ABV01@@Z	1008aa5c
+1008c09f	??0TextImage@vgui@@QAE@ABV01@@Z	1008aa60
+1008c0bf	??0TextPanel@vgui@@QAE@ABV01@@Z	1008aa64
+1008c0df	??1Surface@vgui@@QAE@XZ	1008aa68
+1008c0f7	??4?$Dar@D@vgui@@QAEAAV01@ABV01@@Z	1008aa6c
+1008c11a	??4?$Dar@H@vgui@@QAEAAV01@ABV01@@Z	1008aa70
+1008c13d	??4?$Dar@PAD@vgui@@QAEAAV01@ABV01@@Z	1008aa74
+1008c162	??4?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa78
+1008c195	??4?$Dar@PAVActionSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa7c
+1008c1cd	??4?$Dar@PAVButton@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa80
+1008c1ff	??4?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa84
+1008c237	??4?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa88
+1008c26e	??4?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa8c
+1008c2ab	??4?$Dar@PAVFrame@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa90
+1008c2dc	??4?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa94
+1008c313	??4?$Dar@PAVInputSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa98
+1008c34a	??4?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aa9c
+1008c385	??4?$Dar@PAVLabel@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aaa0
+1008c3b6	??4?$Dar@PAVPanel@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aaa4
+1008c3e7	??4?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aaa8
+1008c420	??4?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aaac
+1008c457	??4?$Dar@PAVTickSignal@vgui@@@vgui@@QAEAAV01@ABV01@@Z	1008aab0
+1008c48d	??4ActionSignal@vgui@@QAEAAV01@ABV01@@Z	1008aab4
+1008c4b5	??4App@vgui@@QAEAAV01@ABV01@@Z	1008aab8
+1008c4d4	??4Bitmap@vgui@@QAEAAV01@ABV01@@Z	1008aabc
+1008c4f6	??4BitmapTGA@vgui@@QAEAAV01@ABV01@@Z	1008aac0
+1008c51b	??4Border@vgui@@QAEAAV01@ABV01@@Z	1008aac4
+1008c53d	??4BorderLayout@vgui@@QAEAAV01@ABV01@@Z	1008aac8
+1008c565	??4BuildGroup@vgui@@QAEAAV01@ABV01@@Z	1008aacc
+1008c58b	??4Button@vgui@@QAEAAV01@ABV01@@Z	1008aad0
+1008c5ad	??4Color@vgui@@QAEAAV01@ABV01@@Z	1008aad4
+1008c5ce	??4Cursor@vgui@@QAEAAV01@ABV01@@Z	1008aad8
+1008c5f0	??4DataInputStream@vgui@@QAEAAV01@ABV01@@Z	1008aadc
+1008c61b	??4DesktopIcon@vgui@@QAEAAV01@ABV01@@Z	1008aae0
+1008c642	??4EtchedBorder@vgui@@QAEAAV01@ABV01@@Z	1008aae4
+1008c66a	??4FileInputStream@vgui@@QAEAAV01@ABV01@@Z	1008aae8
+1008c695	??4Font@vgui@@QAEAAV01@ABV01@@Z	1008aaec
+1008c6b5	??4Frame@vgui@@QAEAAV01@ABV01@@Z	1008aaf0
+1008c6d6	??4HeaderPanel@vgui@@QAEAAV01@ABV01@@Z	1008aaf4
+1008c6fd	??4Image@vgui@@QAEAAV01@ABV01@@Z	1008aaf8
+1008c71e	??4ImagePanel@vgui@@QAEAAV01@ABV01@@Z	1008aafc
+1008c744	??4InputSignal@vgui@@QAEAAV01@ABV01@@Z	1008ab00
+1008c76b	??4InputStream@vgui@@QAEAAV01@ABV01@@Z	1008ab04
+1008c792	??4IntChangeSignal@vgui@@QAEAAV01@ABV01@@Z	1008ab08
+1008c7bd	??4Label@vgui@@QAEAAV01@ABV01@@Z	1008ab0c
+1008c7de	??4Layout@vgui@@QAEAAV01@ABV01@@Z	1008ab10
+1008c800	??4LineBorder@vgui@@QAEAAV01@ABV01@@Z	1008ab14
+1008c826	??4LoweredBorder@vgui@@QAEAAV01@ABV01@@Z	1008ab18
+1008c84f	??4MenuSeparator@vgui@@QAEAAV01@ABV01@@Z	1008ab1c
+1008c878	??4MiniApp@vgui@@QAEAAV01@ABV01@@Z	1008ab20
+1008c89b	??4Panel@vgui@@QAEAAV01@ABV01@@Z	1008ab24
+1008c8bc	??4Scheme@vgui@@QAEAAV01@ABV01@@Z	1008ab28
+1008c8de	??4ScrollBar2@vgui@@QAEAAV01@ABV01@@Z	1008ab2c
+1008c904	??4ScrollBar@vgui@@QAEAAV01@ABV01@@Z	1008ab30
+1008c929	??4ScrollPanel@vgui@@QAEAAV01@ABV01@@Z	1008ab34
+1008c950	??4Slider2@vgui@@QAEAAV01@ABV01@@Z	1008ab38
+1008c973	??4Slider@vgui@@QAEAAV01@ABV01@@Z	1008ab3c
+1008c995	??4StackLayout@vgui@@QAEAAV01@ABV01@@Z	1008ab40
+1008c9bc	??4String@vgui@@QAEAAV01@ABV01@@Z	1008ab44
+1008c9de	??4Surface@vgui@@QAEAAV01@ABV01@@Z	1008ab48
+1008ca01	??4SurfaceBase@vgui@@QAEAAV01@ABV01@@Z	1008ab4c
+1008ca28	??4TablePanel@vgui@@QAEAAV01@ABV01@@Z	1008ab50
+1008ca4e	??4TextEntry@vgui@@QAEAAV01@ABV01@@Z	1008ab54
+1008ca73	??4TextGrid@vgui@@QAEAAV01@ABV01@@Z	1008ab58
+1008ca97	??4TextImage@vgui@@QAEAAV01@ABV01@@Z	1008ab5c
+1008cabc	??4TextPanel@vgui@@QAEAAV01@ABV01@@Z	1008ab60
+1008cae1	??A?$Dar@D@vgui@@QAEDH@Z	1008ab64
+1008cafa	??A?$Dar@H@vgui@@QAEHH@Z	1008ab68
+1008cb13	??A?$Dar@PAD@vgui@@QAEPADH@Z	1008ab6c
+1008cb30	??A?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEPAV?$Dar@D@1@H@Z	1008ab70
+1008cb65	??A?$Dar@PAVActionSignal@vgui@@@vgui@@QAEPAVActionSignal@1@H@Z	1008ab74
+1008cba4	??A?$Dar@PAVButton@vgui@@@vgui@@QAEPAVButton@1@H@Z	1008ab78
+1008cbd7	??A?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEPAVChangeSignal@1@H@Z	1008ab7c
+1008cc16	??A?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEPAVDesktopIcon@1@H@Z	1008ab80
+1008cc53	??A?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEPAVFocusChangeSignal@1@H@Z	1008ab84
+1008cc9c	??A?$Dar@PAVFrame@vgui@@@vgui@@QAEPAVFrame@1@H@Z	1008ab88
+1008cccd	??A?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEPAVFrameSignal@1@H@Z	1008ab8c
+1008cd0a	??A?$Dar@PAVInputSignal@vgui@@@vgui@@QAEPAVInputSignal@1@H@Z	1008ab90
+1008cd47	??A?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEPAVIntChangeSignal@1@H@Z	1008ab94
+1008cd8c	??A?$Dar@PAVLabel@vgui@@@vgui@@QAEPAVLabel@1@H@Z	1008ab98
+1008cdbd	??A?$Dar@PAVPanel@vgui@@@vgui@@QAEPAVPanel@1@H@Z	1008ab9c
+1008cdee	??A?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEPAVRepaintSignal@1@H@Z	1008aba0
+1008ce2f	??A?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEPAVSurfaceBase@1@H@Z	1008aba4
+1008ce6c	??A?$Dar@PAVTickSignal@vgui@@@vgui@@QAEPAVTickSignal@1@H@Z	1008aba8
+1008cea7	??_7ActionSignal@vgui@@6B@	1008abac
+1008cec2	??_7App@vgui@@6B@	1008abb0
+1008ced4	??_7Bitmap@vgui@@6B@	1008abb4
+1008cee9	??_7BitmapTGA@vgui@@6B@	1008abb8
+1008cf01	??_7Border@vgui@@6B@	1008abbc
+1008cf16	??_7BorderLayout@vgui@@6B@	1008abc0
+1008cf31	??_7BuildGroup@vgui@@6B@	1008abc4
+1008cf4a	??_7Button@vgui@@6B@	1008abc8
+1008cf5f	??_7Color@vgui@@6B@	1008abcc
+1008cf73	??_7Cursor@vgui@@6B@	1008abd0
+1008cf88	??_7DataInputStream@vgui@@6B01@@	1008abd4
+1008cfa9	??_7DataInputStream@vgui@@6BInputStream@1@@	1008abd8
+1008cfd5	??_7DesktopIcon@vgui@@6B@	1008abdc
+1008cfef	??_7EtchedBorder@vgui@@6B@	1008abe0
+1008d00a	??_7FileInputStream@vgui@@6B@	1008abe4
+1008d028	??_7Font@vgui@@6B@	1008abe8
+1008d03b	??_7Frame@vgui@@6B@	1008abec
+1008d04f	??_7HeaderPanel@vgui@@6B@	1008abf0
+1008d069	??_7Image@vgui@@6B@	1008abf4
+1008d07d	??_7ImagePanel@vgui@@6B@	1008abf8
+1008d096	??_7InputSignal@vgui@@6B@	1008abfc
+1008d0b0	??_7InputStream@vgui@@6B@	1008ac00
+1008d0ca	??_7IntChangeSignal@vgui@@6B@	1008ac04
+1008d0e8	??_7Label@vgui@@6B@	1008ac08
+1008d0fc	??_7Layout@vgui@@6B@	1008ac0c
+1008d111	??_7LineBorder@vgui@@6B@	1008ac10
+1008d12a	??_7LoweredBorder@vgui@@6B@	1008ac14
+1008d146	??_7MenuSeparator@vgui@@6B@	1008ac18
+1008d162	??_7MiniApp@vgui@@6B@	1008ac1c
+1008d178	??_7Panel@vgui@@6B@	1008ac20
+1008d18c	??_7Scheme@vgui@@6B@	1008ac24
+1008d1a1	??_7ScrollBar2@vgui@@6B@	1008ac28
+1008d1ba	??_7ScrollBar@vgui@@6B@	1008ac2c
+1008d1d2	??_7ScrollPanel@vgui@@6B@	1008ac30
+1008d1ec	??_7Slider2@vgui@@6B@	1008ac34
+1008d202	??_7Slider@vgui@@6B@	1008ac38
+1008d217	??_7StackLayout@vgui@@6B@	1008ac3c
+1008d231	??_7Surface@vgui@@6B@	1008ac40
+1008d247	??_7SurfaceBase@vgui@@6B@	1008ac44
+1008d261	??_7TablePanel@vgui@@6B@	1008ac48
+1008d27a	??_7TextEntry@vgui@@6BInputSignal@1@@	1008ac4c
+1008d2a0	??_7TextEntry@vgui@@6BPanel@1@@	1008ac50
+1008d2c0	??_7TextGrid@vgui@@6B@	1008ac54
+1008d2d7	??_7TextImage@vgui@@6B@	1008ac58
+1008d2ef	??_7TextPanel@vgui@@6B@	1008ac5c
+1008d307	??_8DataInputStream@vgui@@7B@	1008ac60
+1008d325	??_C@_00A@?$AA@	1008ac64
+1008d335	?AttemptToMaterialize@CBasePlayerItem@@QAEXXZ	1008ac68
+1008d363	?CorpseFallThink@CBaseMonster@@QAEXXZ	1008ac6c
+1008d389	?DefaultTouch@CBasePlayerAmmo@@QAEXPAVCBaseEntity@@@Z	1008ac70
+1008d3bf	?DefaultTouch@CBasePlayerItem@@QAEXPAVCBaseEntity@@@Z	1008ac74
+1008d3f5	?DestroyItem@CBasePlayerItem@@QAEXXZ	1008ac78
+1008d41a	?DetonateUse@CGrenade@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	1008ac7c
+1008d456	?FallThink@CBasePlayerItem@@QAEXXZ	1008ac80
+1008d479	?Materialize@CBasePlayerAmmo@@QAEXXZ	1008ac84
+1008d49e	?Materialize@CBasePlayerItem@@QAEXXZ	1008ac88
+1008d4c3	?PlayerDeathThink@CBasePlayer@@QAEXXZ	1008ac8c
+1008d4e9	?SUB_CallUseToggle@CBaseEntity@@QAEXXZ	1008ac90
+1008d510	?SUB_Remove@CBaseEntity@@QAEXXZ	1008ac94
+1008d530	?addElement@?$Dar@D@vgui@@QAEXD@Z	1008ac98
+1008d552	?addElement@?$Dar@H@vgui@@QAEXH@Z	1008ac9c
+1008d574	?addElement@?$Dar@PAD@vgui@@QAEXPAD@Z	1008aca0
+1008d59a	?addElement@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXPAV?$Dar@D@2@@Z	1008aca4
+1008d5d8	?addElement@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXPAVActionSignal@2@@Z	1008aca8
+1008d620	?addElement@?$Dar@PAVButton@vgui@@@vgui@@QAEXPAVButton@2@@Z	1008acac
+1008d65c	?addElement@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXPAVChangeSignal@2@@Z	1008acb0
+1008d6a4	?addElement@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXPAVDesktopIcon@2@@Z	1008acb4
+1008d6ea	?addElement@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXPAVFocusChangeSignal@2@@Z	1008acb8
+1008d73c	?addElement@?$Dar@PAVFrame@vgui@@@vgui@@QAEXPAVFrame@2@@Z	1008acbc
+1008d776	?addElement@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXPAVFrameSignal@2@@Z	1008acc0
+1008d7bc	?addElement@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXPAVInputSignal@2@@Z	1008acc4
+1008d802	?addElement@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXPAVIntChangeSignal@2@@Z	1008acc8
+1008d850	?addElement@?$Dar@PAVLabel@vgui@@@vgui@@QAEXPAVLabel@2@@Z	1008accc
+1008d88a	?addElement@?$Dar@PAVPanel@vgui@@@vgui@@QAEXPAVPanel@2@@Z	1008acd0
+1008d8c4	?addElement@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXPAVRepaintSignal@2@@Z	1008acd4
+1008d90e	?addElement@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXPAVSurfaceBase@2@@Z	1008acd8
+1008d954	?addElement@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXPAVTickSignal@2@@Z	1008acdc
+1008d998	?addIntChangeSignal@ScrollBar2@vgui@@UAEXPAVIntChangeSignal@2@@Z	1008ace0
+1008d9d9	?addIntChangeSignal@Slider2@vgui@@UAEXPAVIntChangeSignal@2@@Z	1008ace4
+1008da17	?doButtonPressed@ScrollBar2@vgui@@UAEXH@Z	1008ace8
+1008da41	?ensureCapacity@?$Dar@D@vgui@@QAEXH@Z	1008acec
+1008da67	?ensureCapacity@?$Dar@H@vgui@@QAEXH@Z	1008acf0
+1008da8d	?ensureCapacity@?$Dar@PAD@vgui@@QAEXH@Z	1008acf4
+1008dab5	?ensureCapacity@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXH@Z	1008acf8
+1008daeb	?ensureCapacity@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXH@Z	1008acfc
+1008db26	?ensureCapacity@?$Dar@PAVButton@vgui@@@vgui@@QAEXH@Z	1008ad00
+1008db5b	?ensureCapacity@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXH@Z	1008ad04
+1008db96	?ensureCapacity@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXH@Z	1008ad08
+1008dbd0	?ensureCapacity@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXH@Z	1008ad0c
+1008dc10	?ensureCapacity@?$Dar@PAVFrame@vgui@@@vgui@@QAEXH@Z	1008ad10
+1008dc44	?ensureCapacity@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXH@Z	1008ad14
+1008dc7e	?ensureCapacity@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXH@Z	1008ad18
+1008dcb8	?ensureCapacity@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXH@Z	1008ad1c
+1008dcf6	?ensureCapacity@?$Dar@PAVLabel@vgui@@@vgui@@QAEXH@Z	1008ad20
+1008dd2a	?ensureCapacity@?$Dar@PAVPanel@vgui@@@vgui@@QAEXH@Z	1008ad24
+1008dd5e	?ensureCapacity@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXH@Z	1008ad28
+1008dd9a	?ensureCapacity@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXH@Z	1008ad2c
+1008ddd4	?ensureCapacity@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXH@Z	1008ad30
+1008de0d	?fireIntChangeSignal@ScrollBar2@vgui@@UAEXXZ	1008ad34
+1008de3a	?fireIntChangeSignal@Slider2@vgui@@MAEXXZ	1008ad38
+1008de64	?getButton@ScrollBar2@vgui@@UAEPAVButton@2@H@Z	1008ad3c
+1008de93	?getCount@?$Dar@D@vgui@@QAEHXZ	1008ad40
+1008deb2	?getCount@?$Dar@H@vgui@@QAEHXZ	1008ad44
+1008ded1	?getCount@?$Dar@PAD@vgui@@QAEHXZ	1008ad48
+1008def2	?getCount@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEHXZ	1008ad4c
+1008df21	?getCount@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEHXZ	1008ad50
+1008df55	?getCount@?$Dar@PAVButton@vgui@@@vgui@@QAEHXZ	1008ad54
+1008df83	?getCount@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEHXZ	1008ad58
+1008dfb7	?getCount@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEHXZ	1008ad5c
+1008dfea	?getCount@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEHXZ	1008ad60
+1008e023	?getCount@?$Dar@PAVFrame@vgui@@@vgui@@QAEHXZ	1008ad64
+1008e050	?getCount@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEHXZ	1008ad68
+1008e083	?getCount@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEHXZ	1008ad6c
+1008e0b6	?getCount@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEHXZ	1008ad70
+1008e0ed	?getCount@?$Dar@PAVLabel@vgui@@@vgui@@QAEHXZ	1008ad74
+1008e11a	?getCount@?$Dar@PAVPanel@vgui@@@vgui@@QAEHXZ	1008ad78
+1008e147	?getCount@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEHXZ	1008ad7c
+1008e17c	?getCount@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEHXZ	1008ad80
+1008e1af	?getCount@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEHXZ	1008ad84
+1008e1e1	?getNobPos@Slider2@vgui@@UAEXAAH0@Z	1008ad88
+1008e205	?getRange@Slider2@vgui@@UAEXAAH0@Z	1008ad8c
+1008e228	?getSlider@ScrollBar2@vgui@@UAEPAVSlider2@2@XZ	1008ad90
+1008e257	?getValue@ScrollBar2@vgui@@UAEHXZ	1008ad94
+1008e279	?getValue@Slider2@vgui@@UAEHXZ	1008ad98
+1008e298	?hasElement@?$Dar@D@vgui@@QAE_ND@Z	1008ad9c
+1008e2bb	?hasElement@?$Dar@H@vgui@@QAE_NH@Z	1008ada0
+1008e2de	?hasElement@?$Dar@PAD@vgui@@QAE_NPAD@Z	1008ada4
+1008e305	?hasElement@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAE_NPAV?$Dar@D@2@@Z	1008ada8
+1008e344	?hasElement@?$Dar@PAVActionSignal@vgui@@@vgui@@QAE_NPAVActionSignal@2@@Z	1008adac
+1008e38d	?hasElement@?$Dar@PAVButton@vgui@@@vgui@@QAE_NPAVButton@2@@Z	1008adb0
+1008e3ca	?hasElement@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAE_NPAVChangeSignal@2@@Z	1008adb4
+1008e413	?hasElement@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAE_NPAVDesktopIcon@2@@Z	1008adb8
+1008e45a	?hasElement@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAE_NPAVFocusChangeSignal@2@@Z	1008adbc
+1008e4ad	?hasElement@?$Dar@PAVFrame@vgui@@@vgui@@QAE_NPAVFrame@2@@Z	1008adc0
+1008e4e8	?hasElement@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAE_NPAVFrameSignal@2@@Z	1008adc4
+1008e52f	?hasElement@?$Dar@PAVInputSignal@vgui@@@vgui@@QAE_NPAVInputSignal@2@@Z	1008adc8
+1008e576	?hasElement@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAE_NPAVIntChangeSignal@2@@Z	1008adcc
+1008e5c5	?hasElement@?$Dar@PAVLabel@vgui@@@vgui@@QAE_NPAVLabel@2@@Z	1008add0
+1008e600	?hasElement@?$Dar@PAVPanel@vgui@@@vgui@@QAE_NPAVPanel@2@@Z	1008add4
+1008e63b	?hasElement@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAE_NPAVRepaintSignal@2@@Z	1008add8
+1008e686	?hasElement@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAE_NPAVSurfaceBase@2@@Z	1008addc
+1008e6cd	?hasElement@?$Dar@PAVTickSignal@vgui@@@vgui@@QAE_NPAVTickSignal@2@@Z	1008ade0
+1008e712	?hasFullRange@ScrollBar2@vgui@@UAE_NXZ	1008ade4
+1008e739	?hasFullRange@Slider2@vgui@@UAE_NXZ	1008ade8
+1008e75d	?insertElementAt@?$Dar@D@vgui@@QAEXDH@Z	1008adec
+1008e785	?insertElementAt@?$Dar@H@vgui@@QAEXHH@Z	1008adf0
+1008e7ad	?insertElementAt@?$Dar@PAD@vgui@@QAEXPADH@Z	1008adf4
+1008e7d9	?insertElementAt@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXPAV?$Dar@D@2@H@Z	1008adf8
+1008e81d	?insertElementAt@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXPAVActionSignal@2@H@Z	1008adfc
+1008e86b	?insertElementAt@?$Dar@PAVButton@vgui@@@vgui@@QAEXPAVButton@2@H@Z	1008ae00
+1008e8ad	?insertElementAt@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXPAVChangeSignal@2@H@Z	1008ae04
+1008e8fb	?insertElementAt@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXPAVDesktopIcon@2@H@Z	1008ae08
+1008e947	?insertElementAt@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXPAVFocusChangeSignal@2@H@Z	1008ae0c
+1008e99f	?insertElementAt@?$Dar@PAVFrame@vgui@@@vgui@@QAEXPAVFrame@2@H@Z	1008ae10
+1008e9df	?insertElementAt@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXPAVFrameSignal@2@H@Z	1008ae14
+1008ea2b	?insertElementAt@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXPAVInputSignal@2@H@Z	1008ae18
+1008ea77	?insertElementAt@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXPAVIntChangeSignal@2@H@Z	1008ae1c
+1008eacb	?insertElementAt@?$Dar@PAVLabel@vgui@@@vgui@@QAEXPAVLabel@2@H@Z	1008ae20
+1008eb0b	?insertElementAt@?$Dar@PAVPanel@vgui@@@vgui@@QAEXPAVPanel@2@H@Z	1008ae24
+1008eb4b	?insertElementAt@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXPAVRepaintSignal@2@H@Z	1008ae28
+1008eb9b	?insertElementAt@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXPAVSurfaceBase@2@H@Z	1008ae2c
+1008ebe7	?insertElementAt@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXPAVTickSignal@2@H@Z	1008ae30
+1008ec31	?isVertical@ScrollBar2@vgui@@UAE_NXZ	1008ae34
+1008ec56	?isVertical@Slider2@vgui@@UAE_NXZ	1008ae38
+1008ec78	?paintBackground@Slider2@vgui@@MAEXXZ	1008ae3c
+1008ec9e	?performLayout@ScrollBar2@vgui@@MAEXXZ	1008ae40
+1008ecc5	?privateCursorMoved@Slider2@vgui@@UAEXHHPAVPanel@2@@Z	1008ae44
+1008ecfb	?privateMousePressed@Slider2@vgui@@UAEXW4MouseCode@2@PAVPanel@2@@Z	1008ae48
+1008ed3e	?privateMouseReleased@Slider2@vgui@@UAEXW4MouseCode@2@PAVPanel@2@@Z	1008ae4c
+1008ed82	?putElement@?$Dar@D@vgui@@QAEXD@Z	1008ae50
+1008eda4	?putElement@?$Dar@H@vgui@@QAEXH@Z	1008ae54
+1008edc6	?putElement@?$Dar@PAD@vgui@@QAEXPAD@Z	1008ae58
+1008edec	?putElement@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXPAV?$Dar@D@2@@Z	1008ae5c
+1008ee2a	?putElement@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXPAVActionSignal@2@@Z	1008ae60
+1008ee72	?putElement@?$Dar@PAVButton@vgui@@@vgui@@QAEXPAVButton@2@@Z	1008ae64
+1008eeae	?putElement@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXPAVChangeSignal@2@@Z	1008ae68
+1008eef6	?putElement@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXPAVDesktopIcon@2@@Z	1008ae6c
+1008ef3c	?putElement@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXPAVFocusChangeSignal@2@@Z	1008ae70
+1008ef8e	?putElement@?$Dar@PAVFrame@vgui@@@vgui@@QAEXPAVFrame@2@@Z	1008ae74
+1008efc8	?putElement@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXPAVFrameSignal@2@@Z	1008ae78
+1008f00e	?putElement@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXPAVInputSignal@2@@Z	1008ae7c
+1008f054	?putElement@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXPAVIntChangeSignal@2@@Z	1008ae80
+1008f0a2	?putElement@?$Dar@PAVLabel@vgui@@@vgui@@QAEXPAVLabel@2@@Z	1008ae84
+1008f0dc	?putElement@?$Dar@PAVPanel@vgui@@@vgui@@QAEXPAVPanel@2@@Z	1008ae88
+1008f116	?putElement@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXPAVRepaintSignal@2@@Z	1008ae8c
+1008f160	?putElement@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXPAVSurfaceBase@2@@Z	1008ae90
+1008f1a6	?putElement@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXPAVTickSignal@2@@Z	1008ae94
+1008f1ea	?recomputeNobPosFromValue@Slider2@vgui@@EAEXXZ	1008ae98
+1008f219	?recomputeValueFromNobPos@Slider2@vgui@@EAEXXZ	1008ae9c
+1008f248	?removeAll@?$Dar@D@vgui@@QAEXXZ	1008aea0
+1008f268	?removeAll@?$Dar@H@vgui@@QAEXXZ	1008aea4
+1008f288	?removeAll@?$Dar@PAD@vgui@@QAEXXZ	1008aea8
+1008f2aa	?removeAll@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXXZ	1008aeac
+1008f2da	?removeAll@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXXZ	1008aeb0
+1008f30f	?removeAll@?$Dar@PAVButton@vgui@@@vgui@@QAEXXZ	1008aeb4
+1008f33e	?removeAll@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXXZ	1008aeb8
+1008f373	?removeAll@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXXZ	1008aebc
+1008f3a7	?removeAll@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXXZ	1008aec0
+1008f3e1	?removeAll@?$Dar@PAVFrame@vgui@@@vgui@@QAEXXZ	1008aec4
+1008f40f	?removeAll@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXXZ	1008aec8
+1008f443	?removeAll@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXXZ	1008aecc
+1008f477	?removeAll@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXXZ	1008aed0
+1008f4af	?removeAll@?$Dar@PAVLabel@vgui@@@vgui@@QAEXXZ	1008aed4
+1008f4dd	?removeAll@?$Dar@PAVPanel@vgui@@@vgui@@QAEXXZ	1008aed8
+1008f50b	?removeAll@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXXZ	1008aedc
+1008f541	?removeAll@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXXZ	1008aee0
+1008f575	?removeAll@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXXZ	1008aee4
+1008f5a8	?removeElement@?$Dar@D@vgui@@QAEXD@Z	1008aee8
+1008f5cd	?removeElement@?$Dar@H@vgui@@QAEXH@Z	1008aeec
+1008f5f2	?removeElement@?$Dar@PAD@vgui@@QAEXPAD@Z	1008aef0
+1008f61b	?removeElement@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXPAV?$Dar@D@2@@Z	1008aef4
+1008f65c	?removeElement@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXPAVActionSignal@2@@Z	1008aef8
+1008f6a7	?removeElement@?$Dar@PAVButton@vgui@@@vgui@@QAEXPAVButton@2@@Z	1008aefc
+1008f6e6	?removeElement@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXPAVChangeSignal@2@@Z	1008af00
+1008f731	?removeElement@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXPAVDesktopIcon@2@@Z	1008af04
+1008f77a	?removeElement@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXPAVFocusChangeSignal@2@@Z	1008af08
+1008f7cf	?removeElement@?$Dar@PAVFrame@vgui@@@vgui@@QAEXPAVFrame@2@@Z	1008af0c
+1008f80c	?removeElement@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXPAVFrameSignal@2@@Z	1008af10
+1008f855	?removeElement@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXPAVInputSignal@2@@Z	1008af14
+1008f89e	?removeElement@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXPAVIntChangeSignal@2@@Z	1008af18
+1008f8ef	?removeElement@?$Dar@PAVLabel@vgui@@@vgui@@QAEXPAVLabel@2@@Z	1008af1c
+1008f92c	?removeElement@?$Dar@PAVPanel@vgui@@@vgui@@QAEXPAVPanel@2@@Z	1008af20
+1008f969	?removeElement@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXPAVRepaintSignal@2@@Z	1008af24
+1008f9b6	?removeElement@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXPAVSurfaceBase@2@@Z	1008af28
+1008f9ff	?removeElement@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXPAVTickSignal@2@@Z	1008af2c
+1008fa46	?removeElementAt@?$Dar@D@vgui@@QAEXH@Z	1008af30
+1008fa6d	?removeElementAt@?$Dar@H@vgui@@QAEXH@Z	1008af34
+1008fa94	?removeElementAt@?$Dar@PAD@vgui@@QAEXH@Z	1008af38
+1008fabd	?removeElementAt@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXH@Z	1008af3c
+1008faf4	?removeElementAt@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXH@Z	1008af40
+1008fb30	?removeElementAt@?$Dar@PAVButton@vgui@@@vgui@@QAEXH@Z	1008af44
+1008fb66	?removeElementAt@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXH@Z	1008af48
+1008fba2	?removeElementAt@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXH@Z	1008af4c
+1008fbdd	?removeElementAt@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXH@Z	1008af50
+1008fc1e	?removeElementAt@?$Dar@PAVFrame@vgui@@@vgui@@QAEXH@Z	1008af54
+1008fc53	?removeElementAt@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXH@Z	1008af58
+1008fc8e	?removeElementAt@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXH@Z	1008af5c
+1008fcc9	?removeElementAt@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXH@Z	1008af60
+1008fd08	?removeElementAt@?$Dar@PAVLabel@vgui@@@vgui@@QAEXH@Z	1008af64
+1008fd3d	?removeElementAt@?$Dar@PAVPanel@vgui@@@vgui@@QAEXH@Z	1008af68
+1008fd72	?removeElementAt@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXH@Z	1008af6c
+1008fdaf	?removeElementAt@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXH@Z	1008af70
+1008fdea	?removeElementAt@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXH@Z	1008af74
+1008fe24	?setButton@ScrollBar2@vgui@@UAEXPAVButton@2@H@Z	1008af78
+1008fe54	?setButtonOffset@Slider2@vgui@@UAEXH@Z	1008af7c
+1008fe7b	?setButtonPressedScrollValue@ScrollBar2@vgui@@UAEXH@Z	1008af80
+1008feb1	?setCount@?$Dar@D@vgui@@QAEXH@Z	1008af84
+1008fed1	?setCount@?$Dar@H@vgui@@QAEXH@Z	1008af88
+1008fef1	?setCount@?$Dar@PAD@vgui@@QAEXH@Z	1008af8c
+1008ff13	?setCount@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXH@Z	1008af90
+1008ff43	?setCount@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXH@Z	1008af94
+1008ff78	?setCount@?$Dar@PAVButton@vgui@@@vgui@@QAEXH@Z	1008af98
+1008ffa7	?setCount@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXH@Z	1008af9c
+1008ffdc	?setCount@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXH@Z	1008afa0
+10090010	?setCount@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXH@Z	1008afa4
+1009004a	?setCount@?$Dar@PAVFrame@vgui@@@vgui@@QAEXH@Z	1008afa8
+10090078	?setCount@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXH@Z	1008afac
+100900ac	?setCount@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXH@Z	1008afb0
+100900e0	?setCount@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXH@Z	1008afb4
+10090118	?setCount@?$Dar@PAVLabel@vgui@@@vgui@@QAEXH@Z	1008afb8
+10090146	?setCount@?$Dar@PAVPanel@vgui@@@vgui@@QAEXH@Z	1008afbc
+10090174	?setCount@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXH@Z	1008afc0
+100901aa	?setCount@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXH@Z	1008afc4
+100901de	?setCount@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXH@Z	1008afc8
+10090211	?setElementAt@?$Dar@D@vgui@@QAEXDH@Z	1008afcc
+10090236	?setElementAt@?$Dar@H@vgui@@QAEXHH@Z	1008afd0
+1009025b	?setElementAt@?$Dar@PAD@vgui@@QAEXPADH@Z	1008afd4
+10090284	?setElementAt@?$Dar@PAV?$Dar@D@vgui@@@vgui@@QAEXPAV?$Dar@D@2@H@Z	1008afd8
+100902c5	?setElementAt@?$Dar@PAVActionSignal@vgui@@@vgui@@QAEXPAVActionSignal@2@H@Z	1008afdc
+10090310	?setElementAt@?$Dar@PAVButton@vgui@@@vgui@@QAEXPAVButton@2@H@Z	1008afe0
+1009034f	?setElementAt@?$Dar@PAVChangeSignal@vgui@@@vgui@@QAEXPAVChangeSignal@2@H@Z	1008afe4
+1009039a	?setElementAt@?$Dar@PAVDesktopIcon@vgui@@@vgui@@QAEXPAVDesktopIcon@2@H@Z	1008afe8
+100903e3	?setElementAt@?$Dar@PAVFocusChangeSignal@vgui@@@vgui@@QAEXPAVFocusChangeSignal@2@H@Z	1008afec
+10090438	?setElementAt@?$Dar@PAVFrame@vgui@@@vgui@@QAEXPAVFrame@2@H@Z	1008aff0
+10090475	?setElementAt@?$Dar@PAVFrameSignal@vgui@@@vgui@@QAEXPAVFrameSignal@2@H@Z	1008aff4
+100904be	?setElementAt@?$Dar@PAVInputSignal@vgui@@@vgui@@QAEXPAVInputSignal@2@H@Z	1008aff8
+10090507	?setElementAt@?$Dar@PAVIntChangeSignal@vgui@@@vgui@@QAEXPAVIntChangeSignal@2@H@Z	1008affc
+10090558	?setElementAt@?$Dar@PAVLabel@vgui@@@vgui@@QAEXPAVLabel@2@H@Z	1008b000
+10090595	?setElementAt@?$Dar@PAVPanel@vgui@@@vgui@@QAEXPAVPanel@2@H@Z	1008b004
+100905d2	?setElementAt@?$Dar@PAVRepaintSignal@vgui@@@vgui@@QAEXPAVRepaintSignal@2@H@Z	1008b008
+1009061f	?setElementAt@?$Dar@PAVSurfaceBase@vgui@@@vgui@@QAEXPAVSurfaceBase@2@H@Z	1008b00c
+10090668	?setElementAt@?$Dar@PAVTickSignal@vgui@@@vgui@@QAEXPAVTickSignal@2@H@Z	1008b010
+100906af	?setLineColor@LineBorder@vgui@@QAEXHHHH@Z	1008b014
+100906d9	?setRange@ScrollBar2@vgui@@UAEXHH@Z	1008b018
+100906fd	?setRange@Slider2@vgui@@UAEXHH@Z	1008b01c
+1009071e	?setRangeWindow@ScrollBar2@vgui@@UAEXH@Z	1008b020
+10090747	?setRangeWindow@Slider2@vgui@@UAEXH@Z	1008b024
+1009076d	?setRangeWindowEnabled@ScrollBar2@vgui@@UAEX_N@Z	1008b028
+1009079e	?setRangeWindowEnabled@Slider2@vgui@@UAEX_N@Z	1008b02c
+100907cc	?setSize@ScrollBar2@vgui@@UAEXHH@Z	1008b030
+100907ef	?setSize@Slider2@vgui@@UAEXHH@Z	1008b034
+1009080f	?setSlider@ScrollBar2@vgui@@UAEXPAVSlider2@2@@Z	1008b038
+1009083f	?setValue@ScrollBar2@vgui@@UAEXH@Z	1008b03c
+10090862	?setValue@Slider2@vgui@@UAEXH@Z	1008b040
+10090882	?validate@ScrollBar2@vgui@@UAEXXZ	1008b044
+100908a4	CAM_Think	1008b048
+100908ae	CL_CameraOffset	1008b04c
+100908be	CL_CreateMove	1008b050
+100908cc	CL_IsThirdPerson	1008b054
+100908dd	CreateInterface	1008b058
+100908ed	Demo_ReadBuffer	1008b05c
+100908fd	HUD_AddEntity	1008b060
+1009090b	HUD_ConnectionlessPacket	1008b064
+10090924	HUD_CreateEntities	1008b068
+10090937	HUD_DirectorEvent	1008b06c
+10090949	HUD_DrawNormalTriangles	1008b070
+10090961	HUD_DrawTransparentTriangles	1008b074
+1009097e	HUD_Frame	1008b078
+10090988	HUD_GetHullBounds	1008b07c
+1009099a	HUD_GetStudioModelInterface	1008b080
+100909b6	HUD_GetUserEntity	1008b084
+100909c8	HUD_Init	1008b088
+100909d1	HUD_Key_Event	1008b08c
+100909df	HUD_PlayerMove	1008b090
+100909ee	HUD_PlayerMoveInit	1008b094
+10090a01	HUD_PlayerMoveTexture	1008b098
+10090a17	HUD_PostRunCmd	1008b09c
+10090a26	HUD_ProcessPlayerState	1008b0a0
+10090a3d	HUD_Redraw	1008b0a4
+10090a48	HUD_Reset	1008b0a8
+10090a52	HUD_Shutdown	1008b0ac
+10090a5f	HUD_StudioEvent	1008b0b0
+10090a6f	HUD_TempEntUpdate	1008b0b4
+10090a81	HUD_TxferLocalOverrides	1008b0b8
+10090a99	HUD_TxferPredictionData	1008b0bc
+10090ab1	HUD_UpdateClientData	1008b0c0
+10090ac6	HUD_VidInit	1008b0c4
+10090ad2	HUD_VoiceStatus	1008b0c8
+10090ae2	IN_Accumulate	1008b0cc
+10090af0	IN_ActivateMouse	1008b0d0
+10090b01	IN_ClearStates	1008b0d4
+10090b10	IN_DeactivateMouse	1008b0d8
+10090b23	IN_MouseEvent	1008b0dc
+10090b31	Initialize	1008b0e0
+10090b3c	KB_Find	1008b0e4
+10090b44	V_CalcRefdef	1008b0e8
+10090b51	weapon_tsgun	1008b0ec
+100910d4	{shot%i	FUN_10001000
+100910dc	{splat%i	FUN_10001000
+100910e8	{bproof1	FUN_10001000
+100910f4	{break%i	FUN_10001000
+10091100	r_decals	10048763,FUN_100010e0
+1009110c	events/grenade.sc	100085a7,FUN_10003240
+10091120	events/draw.sc	10008593,FUN_10003240
+10091130	events/katana.sc	10008586,FUN_10003240
+10091144	events/knife.sc	10008568,FUN_10003240
+10091154	events/reload.sc	10008554,FUN_10003240
+10091168	events/coldcock.sc	100084f0,FUN_10003240
+1009117c	events/closecombat.sc	10008540,FUN_10003240
+10091194	events/pump.sc	1000852c,FUN_10003240
+100911a4	events/empty.sc	10008518,FUN_10003240
+100911b4	events/firelinked.sc	10008504,FUN_10003240
+100911cc	events/fire.sc	100084e1,FUN_10003240
+100911dc	cl:  	10003514
+100911e4	weapons/pistol-empty.wav	10042581,FUN_10003640
+10091204	weapons/ak47/fire.wav	FUN_100047d0
+1009121c	twohanded	FUN_100047d0,FUN_10004b20,FUN_10004e40,FUN_10005170,FUN_1000c030,FUN_1000c3b0,FUN_1000c730,FUN_1000cce0,FUN_1000d7f0,FUN_1000db70,FUN_1000ded0,FUN_1000e800,FUN_1000f110,FUN_1000fa20
+10091229	odels/w_ak47.mdl	FUN_100047d0
+1009123c	models/p_ak47.mdl	FUN_100047d0
+10091251	odels/v_ak47.mdl	FUN_100047d0
+10091264	models/556_shell.mdl	10042e32,FUN_100047d0,FUN_10004b20,FUN_10004e40,FUN_1000c030,FUN_1000c3b0,FUN_1000c730
+1009127c	sprites/weapons/ak47.spr	FUN_100047d0
+100912a0	weapons/aug/aug-fire-sil.wav	FUN_10004b20
+100912c0	weapons/aug/aug-fire.wav	FUN_10004b20
+100912dc	models/w_aug.mdl	FUN_10004b20
+100912f0	models/p_aug_sil.mdl	FUN_10004b20
+10091308	models/p_aug.mdl	FUN_10004b20
+1009131c	models/v_aug.mdl	FUN_10004b20
+10091330	sprites/weapons/aug.spr	FUN_10004b20
+10091348	STEYR-AUG	FUN_10004b20
+10091354	weapons/barrett/fire.wav	FUN_10004e40
+10091370	models/w_m82.mdl	FUN_10004e40
+10091384	models/p_m82.mdl	FUN_10004e40
+10091398	models/v_m82.mdl	FUN_10004e40
+100913ac	sprites/weapons/m82.spr	FUN_10004e40
+100913c4	Barrett M82A1	FUN_10004e40
+100913d4	weapons/m3/m3-pump.wav	FUN_10005170,FUN_1000d7f0
+100913ec	weapons/m3/m3-fire.wav	FUN_10005170
+10091404	models/w_m3.mdl	FUN_10005170
+10091414	models/p_m3.mdl	FUN_10005170
+10091424	models/v_m3.mdl	FUN_10005170
+10091434	models/shotgun_shell_blue.mdl	FUN_10005170
+10091454	sprites/weapons/m3.spr	FUN_10005170
+1009146c	Benelli M3	FUN_10005170
+10091478	weapons/beretta/fire-sil.wav	FUN_100054a0,FUN_100057b0
+10091498	weapons/beretta/fire.wav	FUN_100054a0,FUN_100057b0
+100914b4	onehanded	FUN_100054a0,FUN_10005b60,FUN_10005e70,FUN_100061e0,FUN_10006810,FUN_10006b10,FUN_1000d0f0,FUN_1000e1f0,FUN_1000e500,FUN_1000f440,FUN_1000f750,FUN_1000fd40
+100914c0	models/w_berettas.mdl	FUN_100054a0,FUN_100057b0
+100914d8	models/p_beretta_sil.mdl	FUN_100054a0
+100914f4	models/p_beretta.mdl	FUN_100054a0
+1009150c	models/v_beretta.mdl	FUN_100054a0
+10091524	models/9mm_shell.mdl	10042c4c,FUN_100054a0,FUN_100057b0,FUN_10005e70,FUN_10006810,FUN_10006b10,FUN_10006e20,FUN_1000cce0,FUN_1000d0f0,FUN_1000d440,FUN_1000db70,FUN_1000ded0,FUN_1000fd40,FUN_10010080
+1009153c	sprites/weapons/beretta.spr	FUN_100054a0
+10091558	Beretta 92F	FUN_100054a0
+10091565	kimbo	FUN_100057b0,FUN_100064e0,FUN_10006e20,FUN_1000d440,FUN_1000ee40,FUN_10010080
+1009156c	models/p_berettas_sil.mdl	FUN_100057b0
+10091588	models/p_berettas.mdl	FUN_100057b0
+100915a0	models/v_berettas.mdl	FUN_100057b0
+100915b8	sprites/weapons/berettas.spr	FUN_100057b0
+100915d8	Akimbo Berettas	FUN_100057b0
+100915e8	weapons/bull/fire01.wav	FUN_10005b60
+10091600	models/w_bull.mdl	FUN_10005b60
+10091614	models/p_bull.mdl	FUN_10005b60
+10091628	models/v_bull.mdl	FUN_10005b60
+1009163c	sprites/weapons/bull.spr	FUN_10005b60
+10091658	Raging Bull	FUN_10005b60
+10091664	weapons/deagle/fire-sil.wav	FUN_10005e70
+10091680	weapons/deagle/fire.wav	FUN_10005e70
+10091698	models/w_desert.mdl	FUN_10005e70
+100916ac	models/p_desert_sil.mdl	FUN_10005e70
+100916c4	models/p_desert.mdl	FUN_10005e70
+100916d8	models/v_desert.mdl	FUN_10005e70
+100916ec	sprites/weapons/desert.spr	FUN_10005e70
+10091708	Desert Eagle	FUN_10005e70
+10091718	models/w_knife.mdl	FUN_1000bd70
+1009172c	models/p_knife.mdl	FUN_1000bd70
+10091740	models/v_knife.mdl	FUN_1000bd70
+10091754	sprites/weapons/knife.spr	FUN_1000bd70
+10091770	weapons/fnh/fnh-fire-sil.wav	FUN_100061e0,FUN_100064e0
+10091790	weapons/fnh/fnh-fire.wav	FUN_100061e0,FUN_100064e0
+100917ac	models/w_fnh.mdl	FUN_100061e0,FUN_100064e0
+100917c0	models/p_fnh_sil.mdl	FUN_100061e0
+100917d8	models/p_fnh.mdl	FUN_100061e0
+100917ec	models/v_fnh.mdl	FUN_100061e0
+10091800	models/56_shell.mdl	FUN_100061e0,FUN_100064e0,FUN_1000e1f0
+10091814	sprites/weapons/fnh.spr	FUN_100061e0
+1009182c	Five-seveN	FUN_100061e0
+10091838	models/p_fnh_akimbo_sil.mdl	FUN_100064e0
+10091854	models/p_fnh_akimbo.mdl	FUN_100064e0
+1009186c	models/v_fnh_akimbo.mdl	FUN_100064e0
+10091884	sprites/weapons/fnh_akimbo.spr	FUN_100064e0
+100918a4	Akimbo Five-seveN	FUN_100064e0
+100918b8	weapons/glock/glock-fire-sil.wav	FUN_10006810
+100918dc	weapons/glock/glock-fire.wav	FUN_10006810
+100918fc	models/w_glock18.mdl	FUN_10006810,FUN_100083f0
+10091914	models/p_glock18_sil.mdl	FUN_10006810
+10091930	models/p_glock18.mdl	FUN_10006810
+10091948	models/v_glock18.mdl	FUN_10006810
+10091960	sprites/weapons/glock18.spr	FUN_10006810
+1009197d	lock-18	FUN_10006810
+10091988	weapons/glock22/glock22-fire-sil.wav	FUN_10006b10
+100919b0	weapons/glock22/glock22-fire.wav	FUN_10006b10
+100919d4	models/w_glock22.mdl	FUN_10006b10
+100919ec	models/p_glock22_sil.mdl	FUN_10006b10
+10091a08	models/p_glock22.mdl	FUN_10006b10
+10091a20	models/v_glock22.mdl	FUN_10006b10
+10091a38	sprites/weapons/glock22.spr	FUN_10006b10
+10091a55	lock-20C	FUN_10006b10
+10091a60	weapons/gold/gold-fire.wav	FUN_10006e20
+10091a7c	models/w_gold.mdl	FUN_10006e20
+10091a90	models/p_gold.mdl	FUN_10006e20
+10091aa4	models/v_gold.mdl	FUN_10006e20
+10091ab8	sprites/weapons/gold.spr	FUN_10006e20
+10091ad4	Golden Colts	FUN_10006e20
+10091ae5	.62 x 51mm	FUN_10007480
+10091af1	32Acp	FUN_10007480
+10091af8	.454 Casull	FUN_10007480
+10091b05	22 LR	FUN_10007480
+10091b0c	SHELLS	FUN_10007480
+10091b1d	.62 x 39mm	FUN_10007480
+10091b28	5.56 Nato	FUN_10007480
+10091b34	10mm AUTO	FUN_10007480
+10091b41	45Acp	FUN_10007480
+10091b49	.7 x 28	FUN_10007480
+10091b5d	 x 19mm	FUN_10007480
+10091b68	weapon_tsgun	FUN_100083f0
+10091b78	models/w_katana.mdl	FUN_1000bab0
+10091b8c	models/p_katana.mdl	FUN_1000bab0
+10091ba0	models/v_katana.mdl	FUN_1000bab0
+10091bb4	sprites/weapons/katana.spr	FUN_1000bab0
+10091bd0	Katana	FUN_1000bab0
+10091bd8	Combat Knife	FUN_1000bd70
+10091be8	weapons/m16/fire.wav	FUN_1000c030
+10091c00	models/w_m16.mdl	FUN_1000c030
+10091c14	models/p_m16.mdl	FUN_1000c030
+10091c28	models/v_m16.mdl	FUN_1000c030
+10091c3c	sprites/weapons/m16.spr	FUN_1000c030
+10091c5c	weapons/m4/m4-fire-sil.wav	FUN_1000c3b0
+10091c78	weapons/m4/m4-fire.wav	FUN_1000c3b0
+10091c90	models/w_m4.mdl	FUN_1000c3b0
+10091ca0	models/p_m4_sil.mdl	FUN_1000c3b0
+10091cb4	models/p_m4.mdl	FUN_1000c3b0
+10091cc4	models/v_m4.mdl	FUN_1000c3b0
+10091cd4	sprites/weapons/m4.spr	FUN_1000c3b0
+10091cf4	weapons/m60/m60-fire.wav	FUN_1000c730
+10091d10	models/w_m60.mdl	FUN_1000c730
+10091d24	models/p_m60.mdl	FUN_1000c730
+10091d38	models/v_m60.mdl	FUN_1000c730
+10091d4c	sprites/weapons/m60.spr	FUN_1000c730
+10091d6c	models/w_m61.mdl	FUN_1000ca40
+10091d80	models/p_m61.mdl	FUN_1000ca40
+10091d94	models/v_m61.mdl	FUN_1000ca40
+10091da8	sprites/weapons/m61.spr	FUN_1000ca40
+10091dc0	M61 Grenade	FUN_1000ca40
+10091dcc	weapons/ump/ump-fire-sil.wav	FUN_1000cce0
+10091dec	weapons/ump/ump-fire.wav	FUN_1000cce0
+10091e08	models/w_ump.mdl	FUN_1000cce0
+10091e1c	models/p_ump_sil.mdl	FUN_1000cce0
+10091e34	models/p_ump.mdl	FUN_1000cce0
+10091e48	models/v_ump.mdl	FUN_1000cce0
+10091e5c	sprites/weapons/ump.spr	FUN_1000cce0
+10091e78	models/v_melee.mdl	FUN_1000d000
+10091e8d	ung-fu	FUN_1000d000
+10091e94	weapons/mk23/mk23-fire-sil.wav	FUN_1000d0f0,FUN_1000d440
+10091eb4	weapons/mk23/mk23-fire.wav	FUN_1000d0f0,FUN_1000d440
+10091ed0	models/w_mk23.mdl	FUN_1000d0f0,FUN_1000d440
+10091ee4	models/p_mk23_sil.mdl	FUN_1000d0f0
+10091efc	models/p_mk23.mdl	FUN_1000d0f0
+10091f10	models/v_mk23.mdl	FUN_1000d0f0
+10091f24	sprites/weapons/mk23.spr	FUN_1000d0f0
+10091f41	OCOM-MK23	FUN_1000d0f0
+10091f4c	models/p_mk23_akimbo_sil.mdl	FUN_1000d440
+10091f6c	models/p_mk23_akimbo.mdl	FUN_1000d440
+10091f88	models/v_mk23_akimbo.mdl	FUN_1000d440
+10091fa4	sprites/weapons/mk23_akimbo.spr	FUN_1000d440
+10091fc5	kimbo MK23	FUN_1000d440
+10091fd0	weapons/mossberg/fire.wav	FUN_1000d7f0
+10091fec	models/w_mossberg.mdl	FUN_1000d7f0
+10092004	models/p_mossberg.mdl	FUN_1000d7f0
+1009201c	models/v_mossberg.mdl	FUN_1000d7f0
+10092034	models/shotgun_shell_gold.mdl	FUN_1000d7f0
+10092054	sprites/weapons/mossberg.spr	FUN_1000d7f0
+10092074	Mossberg 500	FUN_1000d7f0
+10092084	weapons/mp5k/mp5k-fire-sil.wav	FUN_1000db70
+100920a4	weapons/mp5k/mp5k-fire.wav	FUN_1000db70
+100920c0	models/w_mp5k.mdl	FUN_1000db70
+100920d4	models/p_mp5k_sil.mdl	FUN_1000db70
+100920ec	models/p_mp5k.mdl	FUN_1000db70
+10092100	models/v_mp5k.mdl	FUN_1000db70
+10092114	sprites/weapons/mp5k.spr	FUN_1000db70
+10092138	weapons/mp5sd/mp5sd-fire.wav	FUN_1000ded0
+10092158	models/w_mp5sd.mdl	FUN_1000ded0
+1009216c	models/p_mp5sd.mdl	FUN_1000ded0
+10092180	models/v_mp5sd.mdl	FUN_1000ded0
+10092194	sprites/weapons/mp5sd.spr	FUN_1000ded0
+100921b8	weapons/pdw/fire-sil.wav	FUN_1000e1f0
+100921d4	weapons/pdw/fire.wav	FUN_1000e1f0
+100921ec	models/w_pdw.mdl	FUN_1000e1f0
+10092200	models/p_pdw_sil.mdl	FUN_1000e1f0
+10092218	models/p_pdw.mdl	FUN_1000e1f0
+1009222c	models/v_pdw.mdl	FUN_1000e1f0
+10092240	sprites/weapons/pdw.spr	FUN_1000e1f0
+10092259	P7-PDW	FUN_1000e1f0
+10092260	weapons/ruger/fire.wav	FUN_1000e500
+10092278	models/w_ruger.mdl	FUN_1000e500
+1009228c	models/p_ruger.mdl	FUN_1000e500
+100922a0	models/v_ruger.mdl	FUN_1000e500
+100922b4	models/22_shell.mdl	FUN_1000e500,FUN_1000ee40,FUN_1000f750
+100922c8	sprites/weapons/ruger.spr	FUN_1000e500
+100922e5	uger-MK1	FUN_1000e500
+100922f0	weapons/sawedoff/fire.wav	FUN_1000e800
+1009230c	models/w_sawedoff.mdl	FUN_1000e800
+10092324	models/p_sawedoff.mdl	FUN_1000e800
+1009233c	models/v_sawedoff.mdl	FUN_1000e800
+10092354	sprites/weapons/sawedoff.spr	FUN_1000e800
+10092374	Sawed-off	FUN_1000e800
+10092380	models/w_sealknife.mdl	FUN_1000eb80
+10092398	models/p_sealknife.mdl	FUN_1000eb80
+100923b0	models/v_sealknife.mdl	FUN_1000eb80
+100923c8	sprites/weapons/sealknife.spr	FUN_1000eb80
+100923e8	Seal Knife	FUN_1000eb80
+100923f4	weapons/tmp/fire.wav	FUN_1000ee40,FUN_1000f750
+1009240c	models/w_skorpion.mdl	FUN_1000ee40,FUN_1000f750
+10092424	models/p_skorpion_ak.mdl	FUN_1000ee40
+10092440	models/v_skorpion_ak.mdl	FUN_1000ee40
+1009245c	sprites/weapons/skorpion_akimbo.spr	FUN_1000ee40
+10092480	Akimbo Skorpions	FUN_1000ee40
+10092494	weapons/spas12/spas12-pump.wav	FUN_1000f110
+100924b4	weapons/spas12/spas12-fire.wav	FUN_1000f110
+100924d4	models/w_spas12.mdl	FUN_1000f110
+100924e8	models/p_spas12.mdl	FUN_1000f110
+100924fc	models/v_spas12.mdl	FUN_1000f110
+10092510	models/shotgun_shell.mdl	10042a68,FUN_1000f110,FUN_1000fa20
+1009252c	sprites/weapons/spas12.spr	FUN_1000f110
+10092549	PAS-12	FUN_1000f110
+10092550	weapons/contender/fire.wav	FUN_1000f440
+1009256c	models/w_contender.mdl	FUN_1000f440
+10092584	models/p_contender.mdl	FUN_1000f440
+1009259c	models/v_contender.mdl	FUN_1000f440
+100925b4	sprites/weapons/contender.spr	FUN_1000f440
+100925d4	Contender G2	FUN_1000f440
+100925e4	weapons/tmp/fire-sil.wav	FUN_1000f750
+10092600	models/p_skorpion.mdl	FUN_1000f750
+10092618	models/v_skorpion.mdl	FUN_1000f750
+10092630	sprites/weapons/skorpion.spr	FUN_1000f750
+10092650	Skorpion	FUN_1000f750
+1009265c	weapons/usas/usas-fire.wav	FUN_1000fa20
+10092678	models/w_usas.mdl	FUN_1000fa20
+1009268c	models/p_usas.mdl	FUN_1000fa20
+100926a0	models/v_usas.mdl	FUN_1000fa20
+100926b4	sprites/weapons/usas12.spr	FUN_1000fa20
+100926d1	SAS-12	FUN_1000fa20
+100926d8	weapons/uzi/uzi-fire-sil.wav	FUN_1000fd40,FUN_10010080
+100926f8	weapons/uzi/uzi-fire.wav	FUN_1000fd40,FUN_10010080
+10092714	models/w_uzi.mdl	FUN_1000fd40,FUN_10010080
+10092728	models/p_uzi_sil.mdl	FUN_1000fd40
+10092740	models/p_uzi.mdl	FUN_1000fd40
+10092754	models/v_uzi.mdl	FUN_1000fd40
+10092768	sprites/weapons/uzi.spr	FUN_1000fd40
+10092781	ini-Uzi	FUN_1000fd40
+1009278c	models/p_uzi_akimbo_sil.mdl	FUN_10010080
+100927a8	models/p_uzi_akimbo.mdl	FUN_10010080
+100927c0	models/v_uzi_akimbo.mdl	FUN_10010080
+100927d8	sprites/weapons/uzi_akimbo.spr	FUN_10010080
+100927f8	Akimbo Mini-Uzi	FUN_10010080
+10092854	6 Full Load	10092850,FUN_10010bd0
+10092860	6 Buy Akimbo	1009284c,FUN_10010bd0
+10092870	6 Player Accessory	
+10092884	1 Buy	10092844,FUN_10010440,FUN_10010bd0
+1009288c	1 Use New Config	10092840,FUN_10011160
+100928a0	1 Use Last Config	1009283c
+100928b4	0 Cancel	10092838,FUN_10010440,FUN_10010630,FUN_100108b0,FUN_10010bd0
+100928c0	5 Other	10092834
+100928c8	4 Shotguns	10092830
+100928d4	3 Rifles	1009282c
+100928e0	2 SMGs	10092828,FUN_10010440
+100928e8	1 Handguns	10092824,FUN_10010440
+100928f4	7 Buy Random	10092820
+10092904	6 Load Config	1009281c
+10092914	5 Save Config	10092818
+10092924	4 Reset Config	10092814
+10092934	3 Remove Item	10092810
+10092944	2 Buy	1009280c
+1009294c	1 Empty Config	10092808,FUN_10011160
+1009295c	Stealth Shoes	10011541,10011546,100118ab,100118b0,FUN_10010630,FUN_10011a60,FUN_10036af0,FUN_100373c0,FUN_10038840
+1009296d	evlar	FUN_10010630,FUN_10011a60,FUN_10036af0,FUN_100373c0
+10092974	%i %s	FUN_10010630,FUN_100108b0,FUN_100373c0
+1009297c	%i Scope  %i	FUN_10010bd0
+1009298c	%i Flashlight  %i	FUN_10010bd0
+100929a0	%i Lasersight  %i	FUN_10010bd0
+100929b4	%i Silencer  %i	FUN_10010bd0
+100929c4	%s removed	1001154b
+100929d0	%s removed.	10011481
+100929dc	Config Reset	100113a2,100119a3
+100929ec	%s Removed	1001188e,100118b5
+100929f8	Free Slots : %i	FUN_10011a60
+10092a08	(Total: %i)	FUN_10011a60
+10092a14	Remain Cash : %i (Total: %i)	FUN_10011a60
+10092a34	Using new config.	FUN_10012050
+10092a48	Using last config.	FUN_10012050
+10092a5c	%i_%i 	FUN_10012050,FUN_10039400
+10092a7c	rst_cfg	FUN_10012050,FUN_10039400
+10092a84	No cash left!	FUN_10012050
+10092a94	Your config is empty!	FUN_10012050
+10092aac	gfx/vgui/320_arrowrt.tga	vgui::ScrollBar2::ScrollBar2
+10092ac8	gfx/vgui/320_arrowlt.tga	vgui::ScrollBar2::ScrollBar2
+10092ae4	gfx/vgui/arrowdown.tga	vgui::ScrollBar2::ScrollBar2
+10092afc	gfx/vgui/arrowup.tga	vgui::ScrollBar2::ScrollBar2
+10092b18	voice_ban.dt	10092b14,FUN_100171e0,FUN_10017300
+10092b2c	%s/%s	FUN_100171e0,FUN_10017300,FUN_1003a960,FUN_1005fb90
+10092b38	Ban %d: %2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x\n	1001762e
+10092b74	------------------------------\n	10017696
+10092b94	------- BANNED PLAYERS -------\n	10017669
+10092bb4	ReqState	10017ac9
+10092bc0	VoiceMask	10017ab2
+10092bcc	voice_showbanned	10017907
+10092be0	voice_clientdebug	100178f7,FUN_100180c0,FUN_10018360,FUN_10018780,FUN_10018830,FUN_10018900,FUN_10018cf0
+10092bf8	voice_modenable	100178e4,10019446,FUN_10018360
+10092c0c	sprites/voiceicon.spr	FUN_10017af0
+10092c24	scripts/voicemodel.txt	FUN_10017af0
+10092c3c	gfx/vgui/640_voiceblocked.tga	FUN_10017af0
+10092c5c	gfx/vgui/icntlk_squelch.tga	FUN_10017af0
+10092c78	gfx/vgui/640_speaker4.tga	FUN_10017af0
+10092c94	gfx/vgui/640_speaker3.tga	FUN_10017af0
+10092cb0	gfx/vgui/640_speaker2.tga	FUN_10017af0
+10092ccc	gfx/vgui/640_speaker1.tga	FUN_10017af0
+10092ce8	gfx/vgui/speaker4.tga	FUN_10017af0
+10092d00	gfx/vgui/icntlk_sv.tga	FUN_10017af0
+10092d18	gfx/vgui/icntlk_pl.tga	FUN_10017af0
+10092d30	%s   	FUN_100180c0
+10092d38	voice_modenable 1	100196a7,FUN_100180c0
+10092d4c	CVoiceStatus::UpdateSpeakerStatus: ent %d talking = %d\n	FUN_100180c0
+10092d84	CVoiceStatus::UpdateServerState: no change\n	FUN_10018360
+10092dbc	CVoiceStatus::UpdateServerState: Sending '%s'\n	FUN_10018360
+10092dec	VModEnable %d	FUN_10018360
+10092dfc	CVoiceStatus::UpdateServerState: pLevelName[0]==0\n	FUN_10018360
+10092e30	    - m_ServerBannedPlayers[%d] = %lu\n	FUN_10018780
+10092e58	    - m_AudiblePlayers[%d] = %lu\n	FUN_10018780
+10092e7c	CVoiceStatus::HandleVoiceMaskMsg\n	FUN_10018780
+10092ea0	CVoiceStatus::HandleReqStateMsg\n	FUN_10018830
+10092ec4	CVoiceStatus::SetPlayerBlockedState: setting player %d ban to %d\n	FUN_10018cf0
+10092f08	CVoiceStatus::SetPlayerBlockedState part 2\n	FUN_10018cf0
+10092f34	CVoiceStatus::SetPlayerBlockedState part 1\n	FUN_10018cf0
+10092f60	#Voice_Properties	10019526
+10092f74	#Menu_OK	10019494,FUN_1005bb90
+10092f80	Enable Voice In This Mod	1001941c
+10092f9c	gfx/vgui/checked.tga	10019410
+10092fb4	gfx/vgui/unchecked.tga	1001940b
+10092fcc	#Speaker_Volume	100193b3
+10092fdc	#Mic_Volume	10019356
+10092fe8	voice_modenable 0	100196b8
+10092ffc	ammo2	FUN_100197c0
+1009300c	weapon_s	FUN_100197c0
+10093018	weapon	FUN_100197c0
+10093020	zoom_autoaim	FUN_100197c0
+10093038	autoaim	FUN_100197c0
+10093040	sprites/%s.spr	FUN_100197c0,FUN_100206c0
+10093050	crosshair	FUN_100197c0
+1009305c	sprites/%s.txt	FUN_100197c0
+1009306c	hud_fastswitch	FUN_10019de0,FUN_1004f220,FUN_1004f500
+1009307c	hud_drawhistory_time	FUN_10019de0,FUN_1001a710,FUN_1001a7b0
+10093098	cancelselect	FUN_10019de0
+100930a8	AmmoX	FUN_10019de0
+100930b0	HideWeapon	FUN_10019de0
+100930bc	ItemPickup	FUN_10019de0
+100930c8	WeapPickup	FUN_10019de0
+100930d4	AmmoPickup	FUN_10019de0
+100930e0	WeaponList	FUN_10019de0
+100930ec	CurWeapon	FUN_10019de0
+100930f8	selection	FUN_10019f40
+10093104	bucket1	FUN_10019f40
+1009310c	escape	FUN_1001a4e0
+10093114	common/wpn_hudoff.wav	FUN_1001a4e0
+1009312c	SecAmmoIcon	1001a5f8
+10093138	SecAmmoVal	1001a5e8
+10093148	Battery	FUN_1001a880
+10093150	suit_full	FUN_1001a8c0
+1009315c	suit_empty	FUN_1001a8c0
+100935b3	?hud_deathnotice_time	
+100935d0	DeathMsg	1001afb0
+100935dc	d_skull	FUN_1001b000
+100935e4	d_tau cannon	FUN_1001b360
+100935f4	gauss	FUN_1001b360
+100935fc	d_gluon gun	FUN_1001b360
+10093610	 with 	FUN_1001b360
+10093618	 killed 	FUN_1001b360
+10093624	 killed his teammate 	FUN_1001b360
+1009363c	 killed self	FUN_1001b360
+1009364c	 died	FUN_1001b360
+10093660	 killed a 	FUN_1001b360
+1009366c	d_teammate	FUN_1001b360
+1009367c	Unknown demo buffer type, skipping.\n	Demo_ReadBuffer
+100936a8	color	FUN_1003a3c0
+100936b0	sprites/laserdot.spr	FUN_1003d600
+100936c8	flash_beam	FUN_1001c780
+100936d4	flash_full	FUN_1001c780
+100936e0	flash_empty	FUN_1001c780
+1009370c	Geiger	1001f458
+10093714	player/geiger%d.wav	1001f667
+10093758	Damage	1001f6f9,FUN_1001fb90
+10093760	Health	1001f6e9
+10093768	cross	FUN_1001f780
+10093770	dmg_bio	FUN_1001f780
+10093778	cl_lw	FUN_10020170
+10093780	hud_capturemouse	FUN_10020170
+10093794	default_fov	FUN_10020170
+100937a4	gl_fog_blue	FUN_10020170,FUN_10056c20
+100937b0	gl_fog_green	FUN_10020170,FUN_10056c20
+100937c0	gl_fog_red	FUN_10020170,FUN_10056c20
+100937d0	gl_fog_end	FUN_10020170,FUN_10056c20
+100937e4	gl_fog_start	FUN_10020170,FUN_10056c20
+100937f4	gl_fog	FUN_10020170,FUN_10056c20
+100937fc	zoom_sensitivity_ratio	FUN_10020170,FUN_10049570,FUN_10049760
+10093818	r_paintball	FUN_10020170
+10093824	hud_takesshots	FUN_10020170,FUN_10021aa0
+10093834	hud_classautokill	FUN_10020170,FUN_1005a460,FUN_1005ab10
+10093848	VGUIMenu	FUN_10020170
+10093854	AllowSpec	FUN_10020170
+10093860	Spectator	FUN_10020170,FUN_10064410
+1009386c	TeamInfo	FUN_10020170
+10093878	TeamScore	FUN_10020170
+10093884	ScoreInfo	FUN_10020170
+10093890	ServerName	FUN_10020170
+1009389c	RandomPC	FUN_10020170
+100938a8	BuildSt	FUN_10020170
+100938b8	Detpack	FUN_10020170
+100938c0	Feign	FUN_10020170
+100938c8	TeamNames	FUN_10020170
+100938d4	ValClass	FUN_10020170
+100938e0	togglebrowser	FUN_10020170
+100938f0	special	FUN_10020170
+100938f8	ForceCloseCommandMenu	FUN_10020170
+10093910	-commandmenu	FUN_10020170
+10093920	+commandmenu	FUN_10020170
+10093930	Concuss	FUN_10020170
+10093938	SetFOV	FUN_10020170
+10093940	InitHUD	FUN_10020170
+10093948	GameMode	FUN_10020170
+10093954	ResetHUD	FUN_10020170
+10093968	number_0	FUN_100206c0
+10093974	sprites/hud.txt	FUN_100206c0
+10093984	dmg_concuss	FUN_10021a40
+10093a70	sprites/%d_logo.spr	FUN_10021aa0
+10093a84	snapshot\n	FUN_10021aa0
+10093a94	got list\n	FUN_10021d90
+10093aa8	address	1005fe72,1006013f,FUN_10021e10,FUN_1005f220,FUN_1005fb90
+10093ab0	hostname	FUN_10021f60,FUN_1005f220,FUN_1005fb90
+10093abc	%s:%i	FUN_100224c0
+10093ad0	Master	FUN_100224c0
+10093ad8	-comm	FUN_100224c0
+10093ae0	woncomm.lst	FUN_100224c0
+10093aec	half-life.east.won.net	FUN_100224c0
+10093b04	SendRequest:  Unable to read master server addresses\n	FUN_100227f0
+10093b3c	usage:  specmode < modenumber >\n	10022c34
+10093b60	specmode only in HLTV mode available.\n	10022c1a
+10093b88	specmode	FUN_10022c70
+10093b94	cl_drawnames	FUN_10022c70
+10093ba4	origin	FUN_10022da0,FUN_10023720,FUN_10055d20
+10093bac	info_player_start	FUN_10022da0
+10093bc0	classname	FUN_10022da0,FUN_1003a3c0,FUN_10055d20,FUN_10055f90
+10093bcc	sprites/crosshairs.spr	FUN_10022fe0
+10093be4	sprites/camera.spr	FUN_10022fe0
+10093bf8	sprites/laserbeam.spr	FUN_10022fe0,FUN_1003d600
+10093c10	sprites/tile.spr	FUN_10022fe0
+10093c24	sprites/iplayerdead.spr	FUN_10022fe0
+10093c3c	sprites/iplayerred.spr	FUN_10022fe0
+10093c54	sprites/iplayerblue.spr	FUN_10022fe0
+10093c6c	sprites/iplayer.spr	FUN_10022fe0
+10093c80	CHudSpectator::DirectorEvent: unknown director command.\n	FUN_10023380
+10093cbc	respawn	FUN_10023450
+10093cc4	Invalid spectator mode.\n	FUN_100234d0
+10093ce0	%c#Spec_Mode%d	FUN_100234d0
+10093cf0	%c#Spec_Mode_Inset%d	FUN_100234d0
+10093d08	Error parsing overview file %s. (%s unkown)\n	FUN_10023720
+10093d38	Error parsing overview file %s. ( too many layers )\n	FUN_10023720
+10093d70	Error parsing overview file %s. (expected { )\n	FUN_10023720
+10093da0	height	FUN_10023720
+10093da8	image	FUN_10023720
+10093db0	layer	FUN_10023720
+10093db8	inset	FUN_10023720
+10093dc0	rotated	FUN_10023720
+10093dc8	global	FUN_10023720
+10093dd0	Couldn't open file %s. Using default values for overiew mode.\n	FUN_10023720
+10093e10	overviews/%s.txt	FUN_10023720
+10093e24	cam_command	FUN_10025320,FUN_10025370,FUN_1004fe00
+10093e30	c_mindistance	FUN_10025370
+10093e48	c_maxdistance	FUN_10025370
+10093e58	200.0	FUN_10025370
+10093e60	c_minyaw	FUN_10025370
+10093e6c	-135.0	FUN_10025370
+10093e74	c_maxyaw	FUN_10025370
+10093e80	135.0	FUN_10025370
+10093e88	c_minpitch	FUN_10025370
+10093e98	c_maxpitch	FUN_10025370
+10093eac	cam_contain	FUN_10025370
+10093eb8	cam_idealdist	FUN_10025370
+10093ecc	cam_idealpitch	FUN_10025370
+10093edc	cam_idealyaw	FUN_10025370
+10093eec	cam_snapto	FUN_10025370
+10093ef8	snapto	FUN_10025370
+10093f00	-camdistance	FUN_10025370
+10093f10	+camdistance	FUN_10025370
+10093f20	-cammousemove	FUN_10025370
+10093f30	+cammousemove	FUN_10025370
+10093f40	firstperson	FUN_10025370
+10093f4c	thirdperson	FUN_10025370
+10093f58	-camout	FUN_10025370
+10093f60	+camout	FUN_10025370
+10093f68	-camin	FUN_10025370
+10093f70	+camin	FUN_10025370
+10093f78	-camyawright	FUN_10025370
+10093f88	+camyawright	FUN_10025370
+10093f98	-camyawleft	FUN_10025370
+10093fa4	+camyawleft	FUN_10025370
+10093fb0	-campitchdown	FUN_10025370
+10093fc0	+campitchdown	FUN_10025370
+10093fd0	-campitchup	FUN_10025370
+10093fdc	+campitchup	FUN_10025370
+10093fe8	in_jlook	FUN_10025930
+10093ff4	in_mlook	FUN_10025930
+10094000	in_graph	FUN_10025930
+1009400c	Three keys down for a button '%c' '%c' '%c'!\n	FUN_100259a0
+10094044	+moveright	FUN_10026b30,HUD_Key_Event
+10094050	+moveleft	FUN_10026b30,HUD_Key_Event
+10094064	+forward	FUN_10026b30,HUD_Key_Event
+10094070	+reload	FUN_10026b30,HUD_Key_Event
+10094080	+attack2	FUN_10026b30,HUD_Key_Event
+1009408c	+attack	FUN_10026b30,HUD_Key_Event
+10094094	cl_showequipment	FUN_10026b30
+100940a8	cl_gore	FUN_10026b30
+100940b0	cl_motionblur	FUN_10026b30
+100940c0	cl_thirdtransparency	FUN_10026b30
+100940d8	cl_attackswitch	FUN_10026b30
+100940e8	cl_thirdperson	FUN_10026b30
+100940f8	cl_solidcross	FUN_10026b30
+10094108	cl_laser	FUN_10026b30
+10094114	cl_usepowerup	FUN_10026b30
+10094124	cl_thirdpersonswitch	FUN_10026b30
+1009413c	cl_wavedetail	FUN_10026b30
+1009414c	cl_shadow	FUN_10026b30
+1009415c	cl_realhud	FUN_10026b30
+10094168	nohud	FUN_10026b30
+10094170	cl_buykevlar	FUN_10026b30
+10094180	cl_lasercolor	FUN_10026b30
+10094194	hud_color	FUN_10026b30
+100941a0	150,175,255	FUN_10026b30
+100941ac	hud_b	FUN_10026b30
+100941b8	hud_g	FUN_10026b30
+100941c4	hud_r	FUN_10026b30
+100941d0	cl_camtype	FUN_10026b30
+100941dc	cam_up	FUN_10026b30
+100941e8	cam_right	FUN_10026b30
+100941f4	cam_back	FUN_10026b30
+10094204	cl_fx	FUN_10026b30
+1009420c	m_side	FUN_10026b30
+10094218	m_forward	FUN_10026b30
+10094224	m_yaw	FUN_10026b30
+1009422c	m_pitch	FUN_10026b30
+10094234	0.022	FUN_10026b30
+1009423c	cl_vsmoothing	FUN_10026b30,FUN_10067890
+10094254	cl_movespeedkey	FUN_10026b30
+10094268	cl_sidespeed	FUN_10026b30
+10094278	cl_backspeed	FUN_10026b30
+10094288	cl_forwardspeed	FUN_10026b30
+1009429c	cl_upspeed	FUN_10026b30
+100942ac	cl_pitchspeed	FUN_10026b30
+100942c0	cl_yawspeed	FUN_10026b30
+100942d0	cl_anglespeedkey	FUN_10026b30
+100942ec	lookspring	FUN_10026b30
+100942f8	lookstrafe	FUN_10026b30
+10094304	-break	FUN_10026b30
+1009430c	+break	FUN_10026b30
+10094314	-graph	FUN_10026b30
+1009431c	+graph	FUN_10026b30
+10094324	-showscores	FUN_10026b30
+10094330	+showscores	FUN_10026b30
+1009433c	-score	FUN_10026b30
+10094344	+score	FUN_10026b30
+1009434c	-alt2	FUN_10026b30
+10094354	-alt1	FUN_10026b30
+1009435c	+alt1	FUN_10026b30
+10094364	-reload	FUN_10026b30
+1009436c	-duck	FUN_10026b30
+10094374	+duck	FUN_10026b30
+1009437c	-jlook	FUN_10026b30
+10094384	+jlook	FUN_10026b30
+1009438c	-klook	FUN_10026b30
+10094394	+klook	FUN_10026b30
+1009439c	impulse	FUN_10026b30
+100943a4	-jump	FUN_10026b30
+100943bc	-attack2	FUN_10026b30
+100943c8	-attack	FUN_10026b30
+100943d0	-speed	FUN_10026b30
+100943d8	+speed	FUN_10026b30
+100943e0	-moveright	FUN_10026b30
+100943ec	-moveleft	FUN_10026b30
+100943f8	-lookdown	FUN_10026b30
+10094404	+lookdown	FUN_10026b30
+10094410	-lookup	FUN_10026b30
+10094418	+lookup	FUN_10026b30
+10094420	-back	FUN_10026b30
+10094428	-forward	FUN_10026b30
+10094434	-right	FUN_10026b30
+1009443c	+right	FUN_10026b30
+10094444	-left	FUN_10026b30
+1009444c	+left	FUN_10026b30
+10094454	-movedown	FUN_10026b30
+10094460	+movedown	FUN_10026b30
+1009446c	-moveup	FUN_10026b30
+10094474	+moveup	FUN_10026b30
+100944a4	-noforcemparms	FUN_100272d0
+100944b4	-noforcemaccel	FUN_100272d0
+100944c4	-noforcemspd	FUN_100272d0
+100944d4	-nomouse	FUN_100272d0
+100944e0	joystick found\n\n	FUN_10027960
+100944f4	joystick not found -- invalid joystick capabilities (%x)\n\n	FUN_10027960
+10094530	joystick not found -- no valid joysticks (%x)\n\n	FUN_10027960
+10094560	joystick not found -- driver not present\n\n	FUN_10027960
+1009458c	-nojoy	FUN_10027960
+10094594	\n%s configured\n\n	FUN_10027b00
+100945a8	joystick	FUN_10027b00,FUN_10028320
+100945b4	joyadvancedupdate	FUN_10028320
+100945c8	joywwhack2	FUN_10028320
+100945d4	joywwhack1	FUN_10028320
+100945e0	joyyawsensitivity	FUN_10028320
+100945f4	joypitchsensitivity	FUN_10028320
+1009460c	joysidesensitivity	FUN_10028320
+10094620	joyforwardsensitivity	FUN_10028320
+10094640	joyyawthreshold	FUN_10028320
+10094650	joypitchthreshold	FUN_10028320
+10094664	joysidethreshold	FUN_10028320
+10094678	joyforwardthreshold	FUN_10028320
+10094694	joyadvaxisv	FUN_10028320
+100946a0	joyadvaxisu	FUN_10028320
+100946ac	joyadvaxisr	FUN_10028320
+100946b8	joyadvaxisz	FUN_10028320
+100946c4	joyadvaxisy	FUN_10028320
+100946d0	joyadvaxisx	FUN_10028320
+100946dc	joyadvanced	FUN_10028320
+100946e8	joyname	FUN_10028320
+100946f0	m_accelmax	FUN_10028320
+100946fc	m_accelexp	FUN_10028320
+10094708	m_accel	FUN_10028320
+10094710	sensitivity	FUN_10028320
+10094720	m_filter	FUN_10028320
+1009472c	ShowMenu	FUN_100285a0
+10094738	menuselect %d\n	FUN_10028700
+1009474c	Custom	10094748
+10094754	GameTitle	10028918
+10094760	HudText	10028908
+10094768	title_life	FUN_10028940
+10094774	title_half	FUN_10028940
+10094780	GAMETITLE	FUN_10029610
+10094838	sound/materials.txt	FUN_1002a0a0
+1009484c	player/pl_step4.wav	FUN_1002a3a0
+10094860	player/pl_step2.wav	FUN_1002a3a0,FUN_10045df0
+10094874	player/pl_step3.wav	FUN_1002a3a0
+10094888	player/pl_step1.wav	FUN_1002a3a0,FUN_10045df0
+1009489c	player/pl_ladder4.wav	FUN_1002a3a0
+100948b4	player/pl_ladder2.wav	FUN_1002a3a0
+100948cc	player/pl_ladder3.wav	FUN_1002a3a0
+100948e4	player/pl_ladder1.wav	FUN_1002a3a0
+100948fc	player/pl_wade4.wav	FUN_1002a3a0,FUN_1002e030,FUN_10053780
+10094910	player/pl_wade3.wav	FUN_1002a3a0,FUN_1002e030,FUN_10053780
+10094924	player/pl_wade2.wav	FUN_1002a3a0,FUN_1002e030,FUN_10053780
+10094938	player/pl_wade1.wav	FUN_1002a3a0,FUN_1002e030,FUN_10053780
+1009494c	player/pl_slosh4.wav	FUN_1002a3a0,FUN_10044bf0,FUN_10045df0
+10094964	player/pl_slosh2.wav	FUN_1002a3a0,FUN_10044bf0,FUN_10045df0
+1009497c	player/pl_slosh3.wav	FUN_1002a3a0,FUN_10044bf0,FUN_10045df0
+10094994	player/pl_slosh1.wav	FUN_1002a3a0,FUN_10044bf0,FUN_10045df0
+100949ac	player/pl_tile5.wav	FUN_1002a3a0
+100949c0	player/pl_tile4.wav	FUN_1002a3a0,FUN_10045df0
+100949d4	player/pl_tile2.wav	FUN_1002a3a0,FUN_10045df0
+100949e8	player/pl_tile3.wav	FUN_1002a3a0,FUN_10045df0
+100949fc	player/pl_tile1.wav	FUN_1002a3a0,FUN_10045df0
+10094a10	player/pl_grate4.wav	FUN_1002a3a0,FUN_10045df0
+10094a28	player/pl_grate2.wav	FUN_1002a3a0
+10094a40	player/pl_grate3.wav	FUN_1002a3a0
+10094a58	player/pl_grate1.wav	FUN_1002a3a0,FUN_10045df0
+10094a70	player/pl_duct4.wav	FUN_1002a3a0
+10094a84	player/pl_duct2.wav	FUN_1002a3a0
+10094a98	player/pl_duct3.wav	FUN_1002a3a0
+10094aac	player/pl_duct1.wav	FUN_1002a3a0,FUN_10045df0
+10094ac0	player/pl_dirt4.wav	FUN_1002a3a0
+10094ad4	player/pl_dirt2.wav	FUN_1002a3a0,FUN_10045df0
+10094ae8	player/pl_dirt3.wav	FUN_1002a3a0,FUN_10045df0
+10094afc	player/pl_dirt1.wav	FUN_1002a3a0,FUN_10045df0
+10094b10	player/pl_metal4.wav	FUN_1002a3a0
+10094b28	player/pl_metal2.wav	FUN_1002a3a0,FUN_10045df0
+10094b40	player/pl_metal3.wav	FUN_1002a3a0
+10094b58	player/pl_metal1.wav	FUN_1002a3a0,FUN_10045df0
+10094b70	Too many entities were touched!\n	FUN_1002aff0
+10094b94	PM  Got a velocity too low on %i\n	FUN_1002b090
+10094bb8	PM  Got a velocity too high on %i\n	FUN_1002b090
+10094bdc	PM  Got a NaN origin on %i\n	FUN_1002b090
+10094bf8	PM  Got a NaN velocity %i\n	FUN_1002b090
+10094c18	player/pl_fallpain3.wav	FUN_1002de80
+10094c30	Bogus pmove player movetype %i on (%i) 0=cl 1=sv\n	FUN_1002e330
+10094c67	@hud_saytext_time	
+10094c7c	SayText	FUN_1002ea50
+10094c84	misc/talk.wav	FUN_1002ed00
+10094c98	StatusIcon	1002f0e8
+10094ca4	weapons/timer.wav	FUN_1002f210
+10094cb8	grenade	FUN_1002f210
+10094cc0	hud_centerid	1002f77f,1002f7d0,FUN_1002f3c0
+10094cd0	StatusValue	FUN_1002f3c0
+10094cdc	StatusText	FUN_1002f3c0
+10094ce9	*****	FUN_1002f480
+10094cf3	?r_drawentities	
+10094d04	developer	FUN_10030030
+10094d10	cl_himodels	FUN_10030030
+10094d1c	loading %s\n	1003084d
+10094d28	Bip01 Spine	10031579,10031582
+10094d34	Bip01 Dorso	1003153d,10031548
+10094d40	Too many attachments on %s\n	1003457c
+10094d5c	TextMsg	100348a8
+10094d64	Train	10034d08
+10094d6c	sprites/%d_train.spr	10034d4a
+10094d84	sprites/shotgun_pellets.spr	FUN_10035b50,FUN_1003dfa0,FUN_10040c20,FUN_10048f60
+10094da0	#Buy_SpecialPurpose	FUN_10036200
+10094db4	#Buy_Shotguns	FUN_10036200
+10094dc4	#Buy_Rifles	FUN_10036200
+10094dd1	Buy_SMGs	FUN_10036200
+10094ddc	#Buy_Handguns	FUN_10036200
+10094dec	%s\\tsbuylist.tsa	FUN_10036480
+10094e00	0 #Chg_Cancel	FUN_100367e0
+10094e10	2 #Chg_Join Mercenaries	FUN_100367e0
+10094e28	1 #Chg_Join Specialists	FUN_100367e0
+10094e40	#Chg_ChangeTeam	FUN_100367e0
+10094e54	#Buy_Sco	FUN_100368f0
+10094e60	#Buy_Fla	FUN_100368f0
+10094e6c	#Buy_Las	FUN_100368f0
+10094e7c	#Buy_Sil	FUN_100368f0
+10094e8c	#Buy_FreeSlots	FUN_10036af0
+10094e9c	#Buy_Total	FUN_10036af0
+10094ea8	#Buy_Total_CashBased	FUN_10036af0
+10094ec0	0 #Buy_GoBack	FUN_10037260,FUN_100373c0,FUN_100377d0,FUN_10037960,FUN_10037ba0,FUN_10037fe0
+10094ed0	#Buy_SlotAvailable	FUN_10037260
+10094ee4	#Buy_SlotEmpty	FUN_10037260
+10094ef4	#Buy_LoadEquipment	FUN_10037260
+10094f08	#Buy_SaveEquipment	FUN_10037260
+10094f1c	0 #Buy_Cancel	FUN_10037540
+10094f2c	7 #Buy_Random	FUN_10037540
+10094f3c	6 #Buy_LoadConfig	FUN_10037540
+10094f50	5 #Buy_SaveConfig	FUN_10037540
+10094f64	4 #Buy_ResetConfig	FUN_10037540
+10094f78	3 #Buy_RemoveItem	FUN_10037540
+10094f8c	2 #Buy_Buy	FUN_10037540
+10094f98	1 #Buy_UseNewConfig	FUN_10037540
+10094fac	1 #Buy_UseLastConfig	FUN_10037540
+10094fc4	1 #Buy_EmptyConfig	FUN_10037540
+10094fd8	6 #Buy_PlayerAccessory	FUN_100377d0
+10094ff0	%c %s	FUN_100377d0,FUN_10037960
+10094ff8	6 #Buy_FullLoad	FUN_10037ba0
+10095008	6 #Buy_Akimbo	FUN_10037ba0
+10095018	%i #HUD_Scope  %i	FUN_10037ba0
+1009502c	%i #HUD_Flashlight  %i	FUN_10037ba0
+10095044	%i #HUD_Lasersight  %i	FUN_10037ba0
+1009505c	%i #HUD_Silencer  %i	FUN_10037ba0
+10095074	1 #Buy_Buy	FUN_10037ba0
+10095080	%i Kevlar  %i	FUN_10037fe0
+10095090	%i Stealth Shoes  %i	FUN_10037fe0
+100950a8	#Buy_Slots	FUN_10038180
+100950b4	#Buy_Credits	FUN_10038180
+100950c4	chgteam %i	FUN_10038840
+100950d0	#Buy_Removed	FUN_10038840
+100950e0	#Buy_ConfigLoaded	FUN_10038840
+100950f4	#Buy_SavedConfig	FUN_10038840
+10095108	#Buy_ConfigReset	FUN_10038840
+1009511c	#Buy_UsingNewConfig	FUN_10039400
+10095130	#Buy_UsingLastConfig	FUN_10039400
+10095148	#Buy_NoCash	FUN_10039400
+10095154	#Buy_ConfigEmpty	FUN_10039400
+10095168	Sprite '%s' is not a valid sprite.\n	10039da9,10039fa7,FUN_1003ab40
+1009518c	color has bad value. Should be "r g b"\n	FUN_1003a3c0
+100951b4	%f %f %f	FUN_1003a3c0,FUN_10055d20,FUN_10055f90
+100951cc	CTS_CL_Emitter::ProcessEnts: error parsing entities\n	FUN_1003a5d0
+10095204	ts_fog	FUN_1003a5d0
+1009520c	CTS_CL_Emitter::ProcessEnts: found %s when expecting {\n	FUN_1003a5d0
+10095244	ts_emitter	FUN_1003a5d0
+10095250	ts_particle	FUN_1003a5d0
+1009525c	CTS_CL_Emitter::LoadEntityLump:  Couldn't allocate %i bytes\n	FUN_1003a860
+1009529c	CTS_CL_Emitter::LoadEntityLump:  Map [%s] has incorrect BSP version (%i should be %i).\n	FUN_1003a860
+100952f4	CTS_CL_Emitter::LoadEntityLump:  Could not read BSP header for map [%s].\n	FUN_1003a860
+10095340	sprites/flash.spr	FUN_1003b250
+10095354	sprites/laserbeamanim.spr	FUN_1003bb00
+10095370	models/generic_clip.mdl	1004305f
+10095388	weapons/generic_reload.wav	10042a2e
+100953a4	weapons/insert-shell.wav	10042901
+100953c0	player/block.wav	10043750
+100953d4	sprites/wood_smoke_add.spr	100436c0,10043bc5,FUN_10048f60
+100953f0	sprites/gun_smoke_add.spr	100436b3,10043bb8,FUN_10047130,FUN_100481b0,FUN_10048840,FUN_10048f60
+1009540c	player/closecombat.wav	1004360c,10043b13
+10095424	weapons/knife/knife_miss.wav	10044092
+10095444	weapons/knife/knife_hit.wav	1004403b
+10095460	sprites/scintille_metal.spr	10043f91,100445b7,FUN_100481b0,FUN_10048f60,FUN_1004bd50
+1009547c	weapons/katana/miss1.wav	10044644
+10095498	weapons/katana/miss.wav	1004463b
+100954b0	weapons/katana/hit1.wav	10044627,1004469f
+100954c8	weapons/katana/hit.wav	1004461e
+100954e0	debris/cement6.wav	FUN_10044bf0
+100954f4	debris/cement5.wav	FUN_10044bf0
+10095508	debris/cement4.wav	FUN_10044bf0
+1009551c	debris/cement3.wav	FUN_10044bf0
+10095530	debris/cement2.wav	FUN_10044bf0
+10095544	debris/cement1.wav	FUN_10044bf0
+10095558	debris/cement.wav	FUN_10044bf0
+1009556c	debris/glass3.wav	FUN_10044bf0,FUN_10045df0
+10095580	debris/glass2.wav	FUN_10044bf0,FUN_10045df0
+10095594	debris/glass1.wav	FUN_10044bf0,FUN_10045df0
+100955a8	debris/wood3.wav	FUN_10044bf0,FUN_10045df0
+100955bc	debris/wood2.wav	FUN_10044bf0,FUN_10045df0
+100955d0	debris/wood1.wav	FUN_10044bf0,FUN_10045df0
+100955e4	debris/metal5.wav	FUN_10044bf0
+100955f8	debris/metal4.wav	FUN_10044bf0
+1009560c	debris/metal3.wav	FUN_10044bf0
+10095620	debris/metal2.wav	FUN_10044bf0
+10095634	debris/metal1.wav	FUN_10044bf0
+10095648	debris/gravel4.wav	FUN_10044bf0
+1009565c	debris/gravel3.wav	FUN_10044bf0
+10095670	debris/gravel2.wav	FUN_10044bf0
+10095684	debris/gravel1.wav	FUN_10044bf0
+10095698	debris/ric1.wav	FUN_10044bf0
+100956a8	debris/ric5.wav	FUN_10044bf0
+100956b8	debris/ric4.wav	FUN_10044bf0
+100956c8	debris/ric3.wav	FUN_10044bf0
+100956d8	debris/ric2.wav	FUN_10044bf0
+100956e8	weapons/whizz%d.wav	FUN_100450c0
+100956fc	sprites/bullet_trail.spr	FUN_10046240
+10095718	sprites/ts_muzzleflash6.spr	FUN_100474b0
+10095734	sprites/ts_muzzleflash1h.spr	FUN_100474b0
+10095754	sprites/glassfrag.spr	FUN_10047cb0
+1009576c	sprites/grenade_asplode.spr	FUN_100481b0
+10095788	explo/explode4.wav	FUN_100481b0
+1009579c	explo/explode3.wav	FUN_100481b0
+100957b0	explo/explode2.wav	FUN_100481b0
+100957c4	explo/explode1.wav	FUN_100481b0
+100957d8	explo/explode.wav	FUN_100481b0
+100957ec	player/splat.wav	10048811
+10095800	{blood%i	10048724
+1009580c	sprites/bloodfrag2.spr	FUN_10048840
+10095824	sprites/debris_concrete3.spr	FUN_10048f60
+10095844	sprites/woodfrag.spr	FUN_10048f60
+1009585c	sprites/sparks.spr	FUN_100492b0
+10095870	TSFade	10049cee
+10095878	PlInfo	10049cde
+10095880	TSPSys	10049cce
+10095888	TSMBlur	10049cbe
+10095890	TSFlag	10049cae
+10095898	TSHVoice	10049c9e
+100958a4	TSBTime	10049c8e
+100958ac	SrvSett	10049c7b
+100958b4	TSPAward	10049c6b
+100958c0	TSFrags	10049c5b
+100958c8	TSSlowMo	10049c4b
+100958d4	PTakeDam	10049c3b
+100958e0	TSMessage	10049c2b
+100958ec	ShowObj	10049c1b
+100958f4	Objective	10049c0b
+10095900	RoundTime	10049bf8
+1009590c	PwUpTime	10049be8
+10095920	TSSpace	10049bc8
+10095928	TSCash	10049bb8
+10095930	TSState	10049ba8
+10095938	TSArmor	10049b98
+10095940	TSHealth	10049b88
+1009594c	sprites/player/flag.spr	FUN_10049d10
+10095964	sprites/player/movement.spr	FUN_10049d10
+10095980	sprites/player/kungfu.spr	FUN_10049d10
+1009599c	sprites/downarrow.spr	FUN_10049d10
+100959b4	sprites/uparrow.spr	FUN_10049d10
+100959c8	sprites/compass.spr	FUN_10049d10
+100959dc	sprites/cursor.spr	FUN_10049d10
+100959f0	sprites/player/kevlar.spr	FUN_10049d10
+10095a0c	sprites/player/health.spr	FUN_10049d10
+10095a28	sprites/player/prone.spr	FUN_10049d10
+10095a44	sprites/player/crouched.spr	FUN_10049d10
+10095a60	sprites/player/stand.spr	FUN_10049d10
+10095a7c	#Pwr_DoubleFireRate	FUN_1004a2e0
+10095a90	#Pwr_SlowPause	FUN_1004a2e0
+10095aa0	#Pwr_InfiniteAmmo	FUN_1004a2e0
+10095ab4	#Pwr_SlowMotion	FUN_1004a2e0
+10095ac4	#HUD_Credits	FUN_1004a3e0
+10095ad4	#HUD_FreeSlots	FUN_1004a3e0
+10095ae4	Take the Briefcase to the base!	FUN_1004b0e0
+10095b04	goslow.wav	FUN_1004bef0
+10095b10	misc/successful.wav	FUN_1004c180
+10095b24	misc/failed.wav	FUN_1004c180
+10095b38	invprev	1004cb0e
+10095b40	invnext	1004cafe
+10095b48	slot10	1004caee
+10095b50	slot9	1004cade
+10095b58	slot8	1004cacb
+10095b60	slot7	1004cabb
+10095b68	slot6	1004caab
+10095b70	slot5	1004ca9b
+10095b78	slot4	1004ca8b
+10095b80	slot3	1004ca7b
+10095b88	slot2	1004ca6b
+10095b90	slot1	1004ca5b
+10095b98	KFuPower	1004ca48
+10095ba4	CustomWP	1004ca38
+10095bb0	Wires	1004ca28
+10095bb8	NextStunt	1004ca18
+10095bc4	ActItems	1004ca08
+10095bd0	WStatus	1004c9f8
+10095bd8	ClipInfo	1004c9e8
+10095be4	WeaponInfo	1004c9d8
+10095bf0	sprites/wires/bwirecutted.spr	FUN_1004cb50
+10095c10	sprites/wires/gwirecutted.spr	FUN_1004cb50
+10095c30	sprites/wires/rwirecutted.spr	FUN_1004cb50
+10095c50	sprites/wires/bwire.spr	FUN_1004cb50
+10095c68	sprites/wires/gwire.spr	FUN_1004cb50
+10095c80	sprites/wires/rwire.spr	FUN_1004cb50
+10095c98	sprites/player/divestepb.spr	FUN_1004cb50
+10095cb8	sprites/player/divestepc.spr	FUN_1004cb50
+10095cd8	sprites/player/divestept.spr	FUN_1004cb50
+10095cf8	sprites/cross_t.spr	FUN_1004cb50
+10095d0c	sprites/cross2.spr	FUN_1004cb50
+10095d20	sprites/cross_e.spr	FUN_1004cb50
+10095d34	sprites/weapons/item_not_installed.spr	FUN_1004cb50
+10095d5c	sprites/weapons/item_installed.spr	FUN_1004cb50
+10095d80	sprites/weapons/kungfu.spr	FUN_1004cb50
+10095d9c	weapons/switch.wav	1004d3bc
+10095db0	drop_%i	1004d319
+10095db8	weapon_%i	1004d2b6,FUN_1004f220,FUN_1004f500
+10095dc4	sound/player/breathe2.wav	1004d17e,1004d223
+10095de0	sound/player/heartbeat1.wav	1004d020,1004d0c5
+10095dfc	usepowerup	1004cecf
+10095e08	lasclr_%i	1004ce33
+10095e14	Kung-Fu	FUN_1004d700
+10095e20	#HUD_FullAuto	FUN_1004d7e0
+10095e30	#HUD_FreeSemi	FUN_1004d7e0
+10095e40	#HUD_FreeFull	FUN_1004d7e0
+10095e50	#HUD_PumpAction	FUN_1004d7e0
+10095e60	#HUD_Burst	FUN_1004d7e0
+10095e6c	#HUD_SemiAuto	FUN_1004d7e0
+10095e80	#HUD_Scope	FUN_1004d7e0
+10095e8c	#HUD_Flashlight	FUN_1004d7e0
+10095e9c	#HUD_Lasersight	FUN_1004d7e0
+10095eac	#HUD_Silencer	FUN_1004d7e0
+10095ebc	%d/%d	FUN_1004e030
+10095ec4	cutwire_%i	FUN_1004f220
+10095ed0	weapon_0	FUN_1004f220
+10095edc	%i %f %f %f %f %i	FUN_1004fb50
+10095ef0	ERROR! Cannot initialize intensive indices!	FUN_100507e0
+10095f1c	ERROR! Cannot initialize Particle system!	FUN_100507e0
+10095f48	WARNING! cannot found %s\n	FUN_100509d0
+10095f68	sprites/quarterscope.spr	FUN_10054510
+10095f84	sprites/ombra.spr	FUN_10055760
+10095f98	spawnflags	FUN_10055d20,FUN_10055f90
+10095fa4	cameraradius	FUN_10055d20
+10095fb4	cameradensity	FUN_10055d20
+10095fc4	variancehigh	FUN_10055d20
+10095fd4	variancelow	FUN_10055d20
+10095fe0	ppehigh	FUN_10055d20
+10095fe8	ppelow	FUN_10055d20
+10095ff0	epshigh	FUN_10055d20
+10095ff8	epslow	FUN_10055d20
+10096000	particle	FUN_10055d20
+1009600c	target	FUN_10055f90
+10096014	targetname	FUN_10055f90
+10096020	stretchspeed	FUN_10055f90
+10096030	fadeintimehigh	FUN_10055f90
+10096040	fadeintimelow	FUN_10055f90
+10096050	windamounthigh	FUN_10055f90
+10096060	windamountlow	FUN_10055f90
+10096070	reactamounthigh	FUN_10055f90
+10096080	reactamountlow	FUN_10055f90
+10096090	termvelocityhigh	FUN_10055f90
+100960a4	termvelocitylow	FUN_10055f90
+100960b4	soundonemit	FUN_10055f90
+100960c0	followaxis has bad value. Should be "x y z"\n	FUN_10055f90
+100960f0	followaxis	FUN_10055f90
+100960fc	randomvelhigh has bad value. Should be "x y z"\n	FUN_10055f90
+1009612c	randomvelhigh	FUN_10055f90
+1009613c	randomvellow has bad value. Should be "x y z"\n	FUN_10055f90
+1009616c	randomvellow	FUN_10055f90
+1009617c	a_velocityhigh has bad value. Should be "x y z"\n	FUN_10055f90
+100961b0	a_velocityhigh	FUN_10055f90
+100961c0	a_velocitylow has bad value. Should be "x y z"\n	FUN_10055f90
+100961f0	a_velocitylow	FUN_10055f90
+10096200	velocityhigh has bad value. Should be "x y z"\n	FUN_10055f90
+10096230	velocityhigh	FUN_10055f90
+10096240	velocitylow has bad value. Should be "x y z"\n	FUN_10055f90
+10096270	velocitylow	FUN_10055f90
+1009627c	randomdeltahigh	FUN_10055f90
+1009628c	randomdeltalow	FUN_10055f90
+1009629c	frame_ratehigh	FUN_10055f90
+100962ac	frame_ratelow	FUN_10055f90
+100962bc	current_framehigh	FUN_10055f90
+100962d0	current_framelow	FUN_10055f90
+100962e4	scalespeedhigh	FUN_10055f90
+100962f4	scalespeedlow	FUN_10055f90
+10096304	p_radiushigh	FUN_10055f90
+10096314	p_radiuslow	FUN_10055f90
+10096320	fadespeedhigh	FUN_10055f90
+10096330	fadespeedlow	FUN_10055f90
+10096340	colorhigh	FUN_10055f90
+1009634c	colorlow	FUN_10055f90
+10096358	gravityhigh	FUN_10055f90
+10096364	gravitylow	FUN_10055f90
+10096370	lifehigh	FUN_10055f90
+1009637c	lifelow	FUN_10055f90
+10096384	oncollide	FUN_10055f90
+10096390	collide	FUN_10055f90
+10096398	follow_view	FUN_10055f90
+100963a4	sprite_trans	FUN_10055f90
+100963b4	sprite_name	FUN_10055f90
+100963c0	weapons/shell.wav	FUN_100569a0
+100963d4	weapons/sshell.wav	FUN_100569a0
+100963ee	HD#Menu_Cancel	
+10096400	Class Description not available.	FUN_10058880
+10096424	classes/short_%s.txt	FUN_10058880
+1009643c	#Title_CurrentlyOnYourTeam	FUN_10058880
+10096458	%sblue	FUN_10058880
+10096460	%sred	FUN_10058880
+10096468	#Title_%s	FUN_10058880
+10096474	#Title_SelectYourClass	FUN_10058880
+1009648c	Briefing Text	FUN_10058880,FUN_1005bb90,FUN_10064410,FUN_100655d0
+1009649c	Title Font	FUN_10058880,FUN_1005bb90,FUN_100655d0
+100964b8	arrowrt	100964b4
+100964c0	arrowlt	100964b0
+100964c8	arrowdn	100964ac
+100964d0	arrowup	100964a8
+100964d8	gfx/vgui/%s.tga	FUN_1005a010
+100964e8	%%d_%s	FUN_1005a070
+100964f0	     %s	FUN_1005a1f0
+100964f8	  %c  %s	FUN_1005a1f0
+10096534	bitmapfonts	FUN_1005c2a0
+10096540	gfx\\vgui\\fonts\\%d_%s.tga	FUN_1005c300
+1009655c	Default Scheme	FUN_1005c300
+1009656c	font scheme text file MUST start with a 'SchemeName'\n	FUN_1005c300
+100965a4	error parsing font scheme text file at scheme '%s' - expected '=', found '%s''\n	FUN_1005c300
+100965f4	error parsing font scheme text file at file start - expected '=', found '%s''\n	FUN_1005c300
+10096644	BorderColor	FUN_1005c300
+10096650	BgColorMousedown	FUN_1005c300
+10096664	FgColorMousedown	FUN_1005c300
+10096678	BgColorArmed	FUN_1005c300
+10096688	FgColorArmed	FUN_1005c300
+10096698	BgColor	FUN_1005c300
+100966a0	FgColor	FUN_1005c300
+100966a8	FontWeight	FUN_1005c300
+100966b4	FontSize	FUN_1005c300
+100966c0	FontName	FUN_1005c300
+100966cc	Arial	FUN_1005c300
+100966d4	SchemeName	FUN_1005c300
+100966e4	Unable to find *_textscheme.txt\n	FUN_1005c300
+10096708	_textscheme.txt	FUN_1005c300
+10096718	%s%d%s	FUN_1005caf0
+10096720	%d %d %d %d	FUN_1005cb80
+10096798	#LATENCY	
+100967a4	#DEATHS	
+100967ac	#SCORE	
+100967b4	Scoreboard Small Text	FUN_1005ce70,FUN_1005db70
+100967cc	Scoreboard Title Text	FUN_1005ce70,FUN_1005db70
+100967e4	THE ONE	FUN_1005db70
+100967ec	UNSTOPPABLE	FUN_1005db70
+100967f8	SPECIALIST	FUN_1005db70
+10096805	 KILLS	FUN_1005db70
+1009680d	 KILLS	FUN_1005db70
+1009681c	WAITING	FUN_1005db70
+1009682c	#Player_plural	FUN_1005db70
+1009683c	(%d %s)	FUN_1005db70
+10096844	#Player	FUN_1005db70
+1009684c	#Spectators	FUN_1005db70
+10096858	Scoreboard Text	FUN_1005db70,FUN_100607f0
+10096868	%c** %s %s\n	1005e7ad
+10096874	#No_longer_hear_that_player	1005e77f
+10096890	#Muted	1005e764
+10096898	%c** %s\n	1005e73d
+100968a4	#Unmuted	1005e714
+100968b0	Close	FUN_1005f220
+100968c0	Refresh	FUN_1005f220
+100968c8	Connect	FUN_1005f220
+100968d0	Latency	FUN_1005f220
+100968d8	current	FUN_1005f220,FUN_1005fb90
+100968e0	Current	FUN_1005f220
+100968f0	Server	FUN_1005f220
+100968f8	Address	FUN_1005f220
+10096900	Press 'Refresh' to search for servers...	FUN_1005fb90
+1009692c	Waiting for servers to respond...	FUN_1005fb90
+10096954	togglebrowser\n	1005fe96,1005fed0,10060163
+10096964	connect %s\n	1005fe80,1006014d
+10096a70	randompc	10096a34
+10096a7c	engineer	10096a30
+10096a94	hwguy	10096a24
+10096a9c	medic	10096a20
+10096aa4	demoman	10096a1c
+10096aac	soldier	10096a18
+10096ab4	sniper	10096a14
+10096abc	scout	10096a10,FUN_10061720
+10096ac4	civilian	10096a0c,10096a38,FUN_10058880
+10096ad0	#Random	10096a04
+10096ad8	#Engineer	10096a00
+10096aec	#Pyro	100969f8
+10096af4	#HWGuy	100969f4
+10096afc	#Medic	100969f0
+10096b04	#Demoman	100969ec
+10096b10	#Soldier	100969e8
+10096b1c	#Sniper	100969e4,FUN_10061720
+10096b24	#Scout	100969e0,FUN_100615a0,FUN_10061720
+10096b2c	#Civilian	100969dc,10096a08,FUN_10058880
+10096b38	CIVILIAN	100969d8
+10096b44	ENGINEER	100969d4
+10096b5c	HWGUY	100969c8
+10096b64	MEDIC	100969c4
+10096b6c	DEMOMAN	100969c0
+10096b74	SOLDIER	100969bc
+10096b7c	SNIPER	100969b8,FUN_10060c70
+10096b84	SCOUT	100969b4,FUN_10060c70
+10096b8c	arrow	FUN_10060530
+10096b94	CommandMenu Text	FUN_100607f0
+10096ba8	Primary Button Text	FUN_100607f0,FUN_10064410
+10096bbc	ForceCloseCommandMenu\n	10060a88
+10096be0	.PAVCException@@	
+10096bf4	Too many menus in commandmenu.txt past '%s'\n	FUN_10060c70
+10096c24	maps/%s.bsp	FUN_10060c70
+10096c3c	CUSTOM	FUN_10060c70
+10096c44	Error in Commandmenu.txt file after '%s'.\n	FUN_10060c70
+10096c70	file start	FUN_10060c70
+10096c7c	#DetpackSet_For50Seconds	FUN_10060c70
+10096c98	#DetpackSet_For20Seconds	FUN_10060c70
+10096cb4	#DetpackSet_For5Seconds	FUN_10060c70
+10096ccc	Unable to open commandmenu.txt\n	FUN_10060c70
+10096cec	commandmenu.txt	FUN_10060c70
+10096cfc	%s %d	FUN_100615a0
+10096d04	build	FUN_10061720
+10096d0c	!BUILDSTOP	FUN_10061720
+10096d18	detsentry	FUN_10061720
+10096d24	!DETONATESENTRY	FUN_10061720
+10096d34	detdispenser	FUN_10061720
+10096d44	!DETONATEDISPENSER	FUN_10061720
+10096d58	dismantle 2	FUN_10061720
+10096d64	!DISMANTLESENTRY	FUN_10061720
+10096d78	dismantle 1	FUN_10061720
+10096d84	!DISMANTLEDISPENSER	FUN_10061720
+10096d98	rotatesentry	FUN_10061720
+10096da8	!ROTATESENTRY	FUN_10061720
+10096db8	rotatesentry180	FUN_10061720
+10096dc8	!ROTATESENTRY180	FUN_10061720
+10096ddc	build 1	FUN_10061720
+10096de4	!BUILDDISPENSER	FUN_10061720
+10096df4	build 2	FUN_10061720
+10096dfc	!BUILDSENTRY	FUN_10061720
+10096e0c	!BUILD	FUN_10061720
+10096e14	detstop	FUN_10061720
+10096e1c	!DETPACKSTOP	FUN_10061720
+10096e2c	detstart 50	FUN_10061720
+10096e38	detstart 20	FUN_10061720
+10096e44	detstart 5	FUN_10061720
+10096e50	!DETPACKSTART	FUN_10061720
+10096e60	disguise %d	FUN_10061720
+10096e6c	Disguise	FUN_10061720
+10096e78	!DISGUISE	FUN_10061720
+10096e84	disguise_friendly	FUN_10061720
+10096e98	!DISGUISEFRIENDLY	FUN_10061720
+10096eac	disguise_enemy	FUN_10061720
+10096ebc	!DISGUISEENEMY	FUN_10061720
+10096ecc	!FEIGNSTOP	FUN_10061720
+10096ed8	sfeign	FUN_10061720
+10096ee0	!FEIGNSILENT	FUN_10061720
+10096ef0	feign	FUN_10061720
+10096f08	!SERVERINFO	FUN_10061720
+10096f14	!CLASSDESC	FUN_10061720
+10096f20	!MAPBRIEFING	FUN_10061720
+10096f30	!CHANGECLASS	FUN_10061720
+10096f40	jointeam 5	FUN_10061720
+10096f4c	Auto assign	FUN_10061720,FUN_100655d0
+10096f58	teamname	FUN_10061720
+10096f64	jointeam %d	FUN_10061720,FUN_100655d0
+10096f70	!CHANGETEAM	FUN_10061720
+10096f7c	_special	FUN_100637a0
+10096f88	#Directed %s	FUN_10063870
+10096f98	#Spec_Mode%d	FUN_10063870
+10096fa8	#Spec_Mode%d : %s	FUN_10063870
+10096fbc	#Spec_TSHelp%d	FUN_10063870
+10096fcc	#Spec_Only_Help	FUN_10063870
+10096fdc	classes/long_%s.txt	FUN_10063c00
+10096ff0	classes/long_civilian.txt	FUN_10063c00
+1009700c	#Title_civilian	FUN_10063c00
+1009701c	#Help_civilian	FUN_10063c00
+1009702c	#Title_engineer	FUN_10063c00
+1009703c	#Help_engineer	FUN_10063c00
+1009704c	#Title_spy	FUN_10063c00
+10097058	#Help_spy	FUN_10063c00
+10097064	#Title_pyro	FUN_10063c00
+10097070	#Help_pyro	FUN_10063c00
+1009707c	#Title_hwguy	FUN_10063c00
+1009708c	#Help_hwguy	FUN_10063c00
+10097098	#Title_medic	FUN_10063c00
+100970a8	#Help_medic	FUN_10063c00
+100970b4	#Title_demoman	FUN_10063c00
+100970c4	#Help_demoman	FUN_10063c00
+100970d4	#Title_soldier	FUN_10063c00
+100970e4	#Help_soldier	FUN_10063c00
+100970f4	#Title_sniper	FUN_10063c00
+10097104	#Help_sniper	FUN_10063c00
+10097114	#Title_scout	FUN_10063c00
+10097124	#Help_scout	FUN_10063c00
+10097140	Half-Life	FUN_10063c00
+1009714c	#Spec_Help_TSTitle	FUN_10064410
+10097160	jointeam 4	FUN_10064a20
+1009716c	jointeam 3	FUN_10064a20
+10097178	jointeam 2	FUN_10064a20
+10097184	jointeam 1	FUN_10064a20
+10097190	#Map_Description_not_available	FUN_100655d0
+100971b0	Select Team	FUN_100655d0
+100971bc	Team Info Text	FUN_100655d0
+100971cc	%s: %d Players (%d points)	10066254
+100971e8	%s: %d Player (%d points)	1006622e
+100972b0	v_ipitch_level	
+100972c4	v_iroll_level	
+100972d4	v_iyaw_level	
+100972e4	v_ipitch_cycle	
+100972f8	v_iroll_cycle	
+10097308	v_iyaw_cycle	
+10097318	cl_slowfade	FUN_10069e90
+10097324	cl_waterdist	FUN_10069e90
+10097338	cl_bobup	FUN_10069e90
+10097344	cl_bob	FUN_10069e90
+10097350	cl_bobcycle	FUN_10069e90
+1009735c	v_centerspeed	FUN_10069e90
+10097370	v_centermove	FUN_10069e90
+10097380	scr_ofsz	FUN_10069e90
+1009738c	scr_ofsy	FUN_10069e90
+10097398	scr_ofsx	FUN_10069e90
+100973a4	centerview	FUN_10069e90
+10097438	.?AVtype_info@@	
+10097d30	 \t-\r]	FUN_10070ee8
+100987b0		10003200,10004440,10017986,100179ba,100662b7,1008a480,Entry Point,FUN_100047d0,FUN_10004e40,FUN_10005170,FUN_10005b60,FUN_1000ab00,FUN_1000bab0,FUN_1000bd70,FUN_1000c030,FUN_1000c730,FUN_1000ca40,FUN_1000d7f0,FUN_1000e800,FUN_1000eb80,FUN_1000f110,FUN_1000f440,FUN_1000fa20,FUN_100158c0,FUN_10018fb0,FUN_100191b0,FUN_100349c0,FUN_100584a0,FUN_10058880,FUN_1005a0b0,FUN_1005a110,FUN_1005a500,FUN_1005a550,FUN_1005a860,FUN_1005bb90,FUN_1005c300,FUN_1005ce70,FUN_1005db70,FUN_1005ec40,FUN_1005f220,FUN_1005fb90,FUN_10060aa0,FUN_10060c70,FUN_100655d0,vgui::Label::Label,vgui::ScrollBar2::ScrollBar2
+ffdff1ac		
+ffdffc00		
