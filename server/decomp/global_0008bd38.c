@@ -5501,7 +5501,7 @@ void DispatchBlocked(edict_t *pentBlocked,edict_t *pentOther)
   return;
 }
 
-/* 000aaf18  DispatchSave  (260 bytes)
+/* 000aaf18  DispatchSave  (252 bytes)
  * void DispatchSave(edict_t * pent, SAVERESTOREDATA * pSaveData)
  */
 /* DispatchSave(edict_s *, saverestore_s *) */

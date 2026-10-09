@@ -35,7 +35,7 @@ undefined4 * FindGlobalEntity(int param_1,int param_2)
   return puVar4;
 }
 
-/* 000ab128  DispatchRestore  (1008 bytes)
+/* 000ab128  DispatchRestore  (997 bytes)
  * int DispatchRestore(edict_t * pent, SAVERESTOREDATA * pSaveData, int globalEntity)
  */
 /* DispatchRestore(edict_s *, saverestore_s *, int) */

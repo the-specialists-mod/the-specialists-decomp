@@ -282,7 +282,7 @@ vgui::Slider2::Slider2(Slider2 *this,int param_1,int param_2,int param_3,int par
   recomputeNobPosFromValue(this);
   pIVar4 = operator_new(8);
   if (pIVar4 != (InputSignal *)0x0) {
-    *(undefined ***)pIVar4 = &PTR_LAB_1007c564;
+    *(undefined ***)pIVar4 = &PTR_FUN_1007c564;
     *(Slider2 **)(pIVar4 + 4) = this;
     vgui::Panel::addInputSignal((Panel *)this,pIVar4);
     return this;

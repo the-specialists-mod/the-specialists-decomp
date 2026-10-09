@@ -2,7 +2,8 @@
 //   decomp/<Class>.c        every function, grouped by C++ namespace (unnamed ones in address chunks)
 //   functions.tsv           address, size, namespace, name, signature, callees, caller count, file
 //   strings.tsv             defined strings and the functions that reference them
-//   vtables.tsv             reconstructed vtables (GCC 2.95: via __tf type-info functions;
+//   vtables.tsv             reconstructed vtables; vptr_index = index used by decompiled this->vtable[N]
+//                           (GCC 2.95: via __tf type-info functions;
 //                           MSVC without RTTI: code-referenced runs of function pointers)
 //   data_symbols.tsv        named globals
 //   imports.tsv             external functions
@@ -234,7 +235,7 @@ public class ExportAll extends GhidraScript {
 
     private void writeVtables() throws Exception {
         try (Writer w = writer("vtables.tsv")) {
-            w.write("class\tvtable\tslot\ttarget\ttarget_name\n");
+            w.write("class\tvtable\tslot\ttarget\ttarget_name\tvptr_index\n");
             if (currentProgram.getExecutableFormat().contains("ELF")) gccVtables(w);
             else msvcVtables(w);
         }
@@ -269,7 +270,8 @@ public class ExportAll extends GhidraScript {
                 for (int slot = 0; ; slot++) {
                     Address target = readPtr(at.add(4 + 4L * slot));
                     if (!isCode(target)) break;
-                    w.write(e.getKey() + "\t" + start + "\t" + slot + "\t" + target + "\t" + tsv(nameAt(target)) + "\n");
+                    // The vptr points at [0] (= 0), [1] is __tf: decompiler vtable[N] is slot N-2.
+                    w.write(e.getKey() + "\t" + start + "\t" + slot + "\t" + target + "\t" + tsv(nameAt(target)) + "\t" + (slot + 2) + "\n");
                 }
             }
         }
@@ -297,7 +299,7 @@ public class ExportAll extends GhidraScript {
             if (slots.size() < 3) continue;
             n++;
             for (int i = 0; i < slots.size(); i++) {
-                w.write("vtbl_" + a + "\t" + a + "\t" + i + "\t" + slots.get(i) + "\t" + tsv(nameAt(slots.get(i))) + "\n");
+                w.write("vtbl_" + a + "\t" + a + "\t" + i + "\t" + slots.get(i) + "\t" + tsv(nameAt(slots.get(i))) + "\t" + i + "\n");
             }
         }
         println("vtables: " + n);

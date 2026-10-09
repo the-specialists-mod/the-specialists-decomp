@@ -1,6 +1,17 @@
 address	size	namespace	name	signature	callees	callers	file
 00066308	24		_init	int _init(EVP_PKEY_CTX * ctx)	__do_global_ctors_aux,call_gmon_start,frame_dummy	0	decomp/global_00066308.c
-00066320	12		FUN_00066320	undefined FUN_00066320()		0	decomp/unnamed_00066320.c
+00066320	12		FUN_00066320	undefined FUN_00066320()		11	decomp/unnamed_00066320.c
+00066a06	10		FUN_00066a06	undefined FUN_00066a06()	FUN_00066320	0	decomp/unnamed_00066320.c
+00067406	10		FUN_00067406	undefined FUN_00067406()	FUN_00066320	0	decomp/unnamed_00066320.c
+00067806	10		FUN_00067806	undefined FUN_00067806()	FUN_00066320	0	decomp/unnamed_00066320.c
+00067e06	10		FUN_00067e06	undefined FUN_00067e06()	FUN_00066320	0	decomp/unnamed_00066320.c
+00068006	10		FUN_00068006	undefined FUN_00068006()	FUN_00066320	0	decomp/unnamed_00066320.c
+00068906	10		FUN_00068906	undefined FUN_00068906()	FUN_00066320	0	decomp/unnamed_00066320.c
+00068e06	10		FUN_00068e06	undefined FUN_00068e06()	FUN_00066320	0	decomp/unnamed_00066320.c
+00069b06	10		FUN_00069b06	undefined FUN_00069b06()	FUN_00066320	0	decomp/unnamed_00066320.c
+00069e06	10		FUN_00069e06	undefined FUN_00069e06()	FUN_00066320	0	decomp/unnamed_00066320.c
+0006a006	10		FUN_0006a006	undefined FUN_0006a006()	FUN_00066320	0	decomp/unnamed_00066320.c
+0006a806	10		FUN_0006a806	undefined FUN_0006a806()	FUN_00066320	0	decomp/unnamed_00066320.c
 0006ac60	34		call_gmon_start	undefined call_gmon_start(void)	<EXTERNAL>::__gmon_start__	1	decomp/global_00066308.c
 0006ac90	4		gcc2_compiled.	undefined gcc2_compiled.(void)		2	decomp/global_00066308.c
 0006ac94	145		__do_global_dtors_aux	undefined __do_global_dtors_aux(void)	<EXTERNAL>::__cxa_finalize,__deregister_frame_info,gcc2_compiled.	1	decomp/global_00066308.c
@@ -874,12 +885,16 @@ address	size	namespace	name	signature	callees	callers	file
 000aae14	80		DispatchUse	void DispatchUse(edict_t * pentUsed, edict_t * pentOther)		0	decomp/global_0008bd38.c
 000aae64	116		DispatchThink	void DispatchThink(edict_t * pent)		0	decomp/global_0008bd38.c
 000aaed8	62		DispatchBlocked	void DispatchBlocked(edict_t * pentBlocked, edict_t * pentOther)		0	decomp/global_0008bd38.c
-000aaf18	260		DispatchSave	void DispatchSave(edict_t * pent, SAVERESTOREDATA * pSaveData)	CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer	0	decomp/global_0008bd38.c
+000aaf18	252		DispatchSave	void DispatchSave(edict_t * pent, SAVERESTOREDATA * pSaveData)	CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer	0	decomp/global_0008bd38.c
+000ab019	67		FUN_000ab019	undefined FUN_000ab019()	CSaveRestoreBuffer::~CSaveRestoreBuffer,__rethrow,terminate	0	decomp/unnamed_00066320.c
 000ab05c	201		FindGlobalEntity	undefined4 * FindGlobalEntity(int param_1, int param_2)	<EXTERNAL>::strcmp	0	decomp/global_000ab05c.c
-000ab128	1008		DispatchRestore	int DispatchRestore(edict_t * pent, SAVERESTOREDATA * pSaveData, int globalEntity)	<EXTERNAL>::strcmp,CBaseEntity::MakeDormant,CGlobalState::EntityAdd,CGlobalState::EntityFromTable,CGlobalState::EntityUpdate,CRestore::ReadEntVars,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer,FindGlobalEntity,UTIL_SetOrigin	0	decomp/global_000ab05c.c
+000ab128	997		DispatchRestore	int DispatchRestore(edict_t * pent, SAVERESTOREDATA * pSaveData, int globalEntity)	<EXTERNAL>::strcmp,CBaseEntity::MakeDormant,CGlobalState::EntityAdd,CGlobalState::EntityFromTable,CGlobalState::EntityUpdate,CRestore::ReadEntVars,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer,FindGlobalEntity,UTIL_SetOrigin	0	decomp/global_000ab05c.c
+000ab521	250		FUN_000ab521	undefined FUN_000ab521()	CSaveRestoreBuffer::~CSaveRestoreBuffer,__rethrow,terminate	0	decomp/unnamed_00066320.c
 000ab61c	54		DispatchObjectCollsionBox	void DispatchObjectCollsionBox(edict_t * pent)	SetObjectCollisionBox	0	decomp/global_000ab05c.c
 000ab654	81		SaveWriteFields	void SaveWriteFields(SAVERESTOREDATA * param_1, char * param_2, void * param_3, TYPEDESCRIPTION * param_4, int param_5)	CSave::WriteFields,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer	0	decomp/global_000ab05c.c
+000ab6ad	59		FUN_000ab6ad	undefined FUN_000ab6ad()	CSaveRestoreBuffer::~CSaveRestoreBuffer,__rethrow,terminate	0	decomp/unnamed_00066320.c
 000ab6e8	96		SaveReadFields	void SaveReadFields(SAVERESTOREDATA * param_1, char * param_2, void * param_3, TYPEDESCRIPTION * param_4, int param_5)	CRestore::ReadFields,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer	0	decomp/global_000ab05c.c
+000ab74d	59		FUN_000ab74d	undefined FUN_000ab74d()	CSaveRestoreBuffer::~CSaveRestoreBuffer,__rethrow,terminate	0	decomp/unnamed_00066320.c
 000ab788	40		OnFreeEntPrivateData	undefined OnFreeEntPrivateData(int param_1)		0	decomp/global_000ab05c.c
 000ab7b0	1		GameShutdown	undefined GameShutdown(void)		0	decomp/global_000ab05c.c
 000ab7b4	79		ShouldCollide	undefined4 ShouldCollide(int param_1, int param_2)		0	decomp/global_000ab05c.c
@@ -1178,7 +1193,7 @@ address	size	namespace	name	signature	callees	callers	file
 000bc4c4	1091	CGibShooter	ShootThink	undefined ShootThink(void)		0	decomp/CGibShooter.c
 000bc90c	33		env_shooter	undefined env_shooter(uint param_1)	GetClassPtr<CEnvShooter>	0	decomp/global_000ab05c.c
 000bc930	229	CEnvShooter	KeyValue	undefined KeyValue(int param_1)	<EXTERNAL>::__strtol_internal,<EXTERNAL>::strcmp,CGibShooter::KeyValue	0	decomp/CEnvShooter.c
-000bca44	75	CEnvShooter	Precache	undefined Precache(void)	CBreakable::MaterialSoundPrecache	0	decomp/CEnvShooter.c
+000bca44	75	CEnvShooter	Precache	undefined Precache(int * param_1)	CBreakable::MaterialSoundPrecache	0	decomp/CEnvShooter.c
 000bca90	274	CEnvShooter	CreateGib	CGib * CreateGib(void)	CGib::Spawn,GetClassPtr<CGib>	0	decomp/CEnvShooter.c
 000bcba4	33		test_effect	undefined test_effect(uint param_1)	GetClassPtr<CTestEffect>	0	decomp/global_000ab05c.c
 000bcbc8	18	CTestEffect	Spawn	undefined Spawn(void)		0	decomp/CTestEffect.c
@@ -2392,7 +2407,8 @@ address	size	namespace	name	signature	callees	callers	file
 000e8438	503	CChangeLevel	AddTransitionToList	undefined4 AddTransitionToList(char * param_1, uint param_2, char * param_3, char * param_4, int param_5)	<EXTERNAL>::strcmp,<EXTERNAL>::strcpy	0	decomp/CChangeLevel.c
 000e8634	37		BuildChangeList	undefined BuildChangeList(char * param_1, int param_2)	CChangeLevel::ChangeList	0	decomp/global_000cec9c.c
 000e865c	355	CChangeLevel	InTransitionVolume	undefined4 InTransitionVolume(int * param_1, undefined4 param_2)	<EXTERNAL>::strcmp,CBaseEntity::Intersects	0	decomp/CChangeLevel.c
-000e87c4	1177	CChangeLevel	ChangeList	uint ChangeList(char * param_1, int param_2)	CBaseEntity::IsDormant,CChangeLevel::AddTransitionToList,CChangeLevel::FindLandmark,CChangeLevel::InTransitionVolume,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::EntityFlagsSet,CSaveRestoreBuffer::EntityIndex,CSaveRestoreBuffer::~CSaveRestoreBuffer,GetClassPtr<CChangeLevel>	0	decomp/CChangeLevel.c
+000e87c4	1166	CChangeLevel	ChangeList	uint ChangeList(char * param_1, int param_2)	CBaseEntity::IsDormant,CChangeLevel::AddTransitionToList,CChangeLevel::FindLandmark,CChangeLevel::InTransitionVolume,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::EntityFlagsSet,CSaveRestoreBuffer::EntityIndex,CSaveRestoreBuffer::~CSaveRestoreBuffer,GetClassPtr<CChangeLevel>	0	decomp/CChangeLevel.c
+000e8c5d	70		FUN_000e8c5d	undefined FUN_000e8c5d()	CSaveRestoreBuffer::~CSaveRestoreBuffer,__rethrow,terminate	0	decomp/unnamed_00066320.c
 000e8ca4	300		NextLevel	undefined NextLevel(void)	<EXTERNAL>::strcpy,GetClassPtr<CChangeLevel>	0	decomp/global_000cec9c.c
 000e8dd4	33		func_ladder	undefined func_ladder(uint param_1)	GetClassPtr<CLadder>	0	decomp/global_000cec9c.c
 000e8df8	37	CLadder	KeyValue	undefined KeyValue(int param_1)	CBaseTrigger::KeyValue	0	decomp/CLadder.c
@@ -2745,7 +2761,9 @@ address	size	namespace	name	signature	callees	callers	file
 000f4258	80	CGlobalState	EntityUpdate	undefined EntityUpdate(int param_1, int param_2)	<EXTERNAL>::strcpy,CGlobalState::Find	0	decomp/CGlobalState.c
 000f42a8	65	CGlobalState	ClearStates	undefined ClearStates(void)	<EXTERNAL>::free,CGlobalState::Reset	0	decomp/CGlobalState.c
 000f42ec	64		SaveGlobalState	void SaveGlobalState(SAVERESTOREDATA * param_1)	CGlobalState::Save,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer	0	decomp/global_000f1168.c
+000f4331	59		FUN_000f4331	undefined FUN_000f4331()	CSaveRestoreBuffer::~CSaveRestoreBuffer,__rethrow,terminate	0	decomp/unnamed_00066320.c
 000f436c	80		RestoreGlobalState	void RestoreGlobalState(SAVERESTOREDATA * param_1)	CGlobalState::Restore,CSaveRestoreBuffer::CSaveRestoreBuffer,CSaveRestoreBuffer::~CSaveRestoreBuffer	0	decomp/global_000f1168.c
+000f43c1	59		FUN_000f43c1	undefined FUN_000f43c1()	CSaveRestoreBuffer::~CSaveRestoreBuffer,__rethrow,terminate	0	decomp/unnamed_00066320.c
 000f43fc	47		ResetGlobalState	void ResetGlobalState(void)	CGlobalState::ClearStates	0	decomp/global_000f1168.c
 000f442c	33		worldspawn	undefined worldspawn(uint param_1)	GetClassPtr<CWorld>	0	decomp/global_000f1168.c
 000f4450	76	CWorld	Spawn	undefined Spawn(void)		0	decomp/CWorld.c
@@ -2977,7 +2995,7 @@ address	size	namespace	name	signature	callees	callers	file
 00101d90	1114		throw_helper	int throw_helper(int * param_1, uint param_2, int * param_3, int * param_4)	<EXTERNAL>::abort,__frame_state_for,__i686.get_pc_thunk.bx,__terminate,__unwinding_cleanup,copy_reg,find_exception_handler,get_reg_addr,old_find_exception_handler	2	decomp/global_001012e0.c
 00102200	194		__throw	undefined8 __throw(void)	__frame_state_for,__i686.get_pc_thunk.bx,__terminate,eh_context_initialize,throw_helper	0	decomp/global_001012e0.c
 001022d0	206		__rethrow	undefined8 __rethrow(int param_1)	__frame_state_for,__i686.get_pc_thunk.bx,__terminate,eh_context_initialize,throw_helper	0	decomp/global_001012e0.c
-001023a0	72		decode_uleb128	byte.conflict * decode_uleb128(byte.conflict * param_1, uint * param_2)		4	decomp/global_001012e0.c
+001023a0	72		decode_uleb128	byte.conflict * decode_uleb128(byte.conflict * param_1, uint * param_2)		11	decomp/global_001012e0.c
 001023f0	77		decode_sleb128	byte.conflict * decode_sleb128(byte.conflict * param_1, uint * param_2)		2	decomp/global_001012e0.c
 00102440	285		fde_merge	undefined fde_merge(int * param_1, int * param_2)		1	decomp/global_001012e0.c
 00102570	4		__i686.get_pc_thunk.bx	undefined __i686.get_pc_thunk.bx(void)		13	decomp/global_001012e0.c
@@ -2994,8 +3012,23 @@ address	size	namespace	name	signature	callees	callers	file
 00102d20	376		frame_init	undefined frame_init(uint * param_1)	<EXTERNAL>::malloc,__i686.get_pc_thunk.bx,add_fdes,count_fdes,end_fde_sort	1	decomp/global_001012e0.c
 00102ea0	385		find_fde	int * find_fde(uint param_1)	<EXTERNAL>::pthread_mutex_lock,<EXTERNAL>::pthread_mutex_unlock,__i686.get_pc_thunk.bx,frame_init,search_fdes	1	decomp/global_001012e0.c
 00103030	221		extract_cie_info	byte.conflict * extract_cie_info(int param_1, int * param_2)	<EXTERNAL>::strlen,__i686.get_pc_thunk.bx,decode_sleb128,decode_uleb128	1	decomp/global_001012e0.c
-00103110	260		decode_stack_op	byte.conflict * decode_stack_op(byte.conflict * param_1, int param_2)	<EXTERNAL>::abort,__i686.get_pc_thunk.bx,decode_sleb128,decode_uleb128	0	decomp/global_001012e0.c
-00103220	206		execute_cfa_insn	ushort * execute_cfa_insn(ushort * param_1, undefined4 * param_2, int param_3, int * param_4)	<EXTERNAL>::abort,__i686.get_pc_thunk.bx,decode_uleb128	1	decomp/global_001012e0.c
+00103110	260		decode_stack_op	byte.conflict * decode_stack_op(byte.conflict * param_1, int param_2)	<EXTERNAL>::abort,__i686.get_pc_thunk.bx,decode_sleb128,decode_uleb128	1	decomp/global_001012e0.c
+00103220	133		execute_cfa_insn	ushort * execute_cfa_insn(ushort * param_1, undefined4 * param_2, int param_3, int * param_4)	__i686.get_pc_thunk.bx	1	decomp/global_001012e0.c
+001032ac	228		FUN_001032ac	undefined FUN_001032ac()		0	decomp/unnamed_00066320.c
+00103394	16		FUN_00103394	undefined FUN_00103394()		0	decomp/unnamed_00066320.c
+001033b0	10		FUN_001033b0	undefined FUN_001033b0()		0	decomp/unnamed_00066320.c
+001033dc	56		FUN_001033dc	undefined FUN_001033dc()	decode_uleb128	0	decomp/unnamed_00066320.c
+00103414	41		FUN_00103414	undefined FUN_00103414()	decode_uleb128	0	decomp/unnamed_00066320.c
+00103440	63		FUN_00103440	undefined FUN_00103440()	decode_uleb128	0	decomp/unnamed_00066320.c
+00103480	61		FUN_00103480	undefined FUN_00103480()	decode_uleb128	0	decomp/unnamed_00066320.c
+001034c0	37		FUN_001034c0	undefined FUN_001034c0()	decode_uleb128	0	decomp/unnamed_00066320.c
+00103514	91		FUN_00103514	undefined FUN_00103514()	decode_stack_op,decode_uleb128	0	decomp/unnamed_00066320.c
+00103574	39		FUN_00103574	undefined FUN_00103574()		0	decomp/unnamed_00066320.c
+001035a4	31		FUN_001035a4	undefined FUN_001035a4()	<EXTERNAL>::free	0	decomp/unnamed_00066320.c
+001035c4	61		FUN_001035c4	undefined FUN_001035c4()		0	decomp/unnamed_00066320.c
+00103604	30		FUN_00103604	undefined FUN_00103604()	decode_uleb128	0	decomp/unnamed_00066320.c
+00103624	69		FUN_00103624	undefined FUN_00103624()	decode_uleb128	0	decomp/unnamed_00066320.c
+00103675	11		FUN_00103675	undefined FUN_00103675()		0	decomp/unnamed_00066320.c
 00103680	587		__frame_state_for	undefined4 * __frame_state_for(uint param_1, undefined4 * param_2)	<EXTERNAL>::abort,<EXTERNAL>::memset,__i686.get_pc_thunk.bx,decode_uleb128,execute_cfa_insn,extract_cie_info,find_fde	0	decomp/global_001012e0.c
 001038d0	4		__i686.get_pc_thunk.bx	undefined __i686.get_pc_thunk.bx(void)		31	decomp/global_001012e0.c
 001038d4	57	type_info	~type_info	undefined ~type_info(uint param_1)	__builtin_delete,__i686.get_pc_thunk.bx	0	decomp/type_info.c
@@ -3039,8 +3072,9 @@ address	size	namespace	name	signature	callees	callers	file
 00104920	80	__class_type_info	~__class_type_info	undefined ~__class_type_info(uint param_1)	__builtin_delete,__i686.get_pc_thunk.bx,type_info::~type_info	0	decomp/__class_type_info.c
 00104970	68		__class_type_info_type_info_function	undefined4 * __class_type_info_type_info_function(void)	__i686.get_pc_thunk.bx,__rtti_si,__user_type_info_type_info_function	0	decomp/global_001012e0.c
 001049c0	75	__class_type_info	__class_type_info	undefined __class_type_info(undefined4 param_1, undefined4 param_2, undefined4 param_3)	__i686.get_pc_thunk.bx	0	decomp/__class_type_info.c
-00104a10	4		__i686.get_pc_thunk.bx	undefined __i686.get_pc_thunk.bx(void)		1	decomp/global_001012e0.c
-00104a14	171		__builtin_new	undefined __builtin_new(size_t param_1)	<EXTERNAL>::malloc,__cp_push_exception,__eh_alloc,__i686.get_pc_thunk.bx,__throw,bad_alloc_type_info_function	0	decomp/global_001012e0.c
+00104a10	4		__i686.get_pc_thunk.bx	undefined __i686.get_pc_thunk.bx(void)		2	decomp/global_001012e0.c
+00104a14	163		__builtin_new	undefined __builtin_new(size_t param_1)	<EXTERNAL>::malloc,__cp_push_exception,__eh_alloc,__i686.get_pc_thunk.bx,__throw,bad_alloc_type_info_function	0	decomp/global_001012e0.c
+00104b32	46		FUN_00104b32	undefined FUN_00104b32()	__check_eh_spec,__i686.get_pc_thunk.bx,bad_alloc_type_info_function,terminate	0	decomp/unnamed_00066320.c
 00104b60	4		__i686.get_pc_thunk.bx	undefined __i686.get_pc_thunk.bx(void)		1	decomp/global_001012e0.c
 00104b64	44		__builtin_delete	undefined __builtin_delete(void * param_1)	<EXTERNAL>::free,__i686.get_pc_thunk.bx	0	decomp/global_001012e0.c
 00104b90	4		__i686.get_pc_thunk.bx	undefined __i686.get_pc_thunk.bx(void)		24	decomp/global_001012e0.c

@@ -962,7 +962,7 @@ undefined8 __rethrow(int param_1)
 
 /* 001023a0  decode_uleb128  (72 bytes)
  * byte.conflict * decode_uleb128(byte.conflict * param_1, uint * param_2)
- * called by: __frame_state_for, decode_stack_op, execute_cfa_insn, extract_cie_info
+ * called by: FUN_001033dc, FUN_00103414, FUN_00103440, FUN_00103480, FUN_001034c0, FUN_00103514, FUN_00103604, FUN_00103624, __frame_state_for, decode_stack_op, extract_cie_info
  */
 byte_conflict * decode_uleb128(byte_conflict *param_1,uint *param_2)
 
@@ -1761,6 +1761,7 @@ byte_conflict * extract_cie_info(int param_1,int *param_2)
 
 /* 00103110  decode_stack_op  (260 bytes)
  * byte.conflict * decode_stack_op(byte.conflict * param_1, int param_2)
+ * called by: FUN_00103514
  */
 /* WARNING: Function: __i686.get_pc_thunk.bx replaced with injection: get_pc_thunk_bx */
 
@@ -1808,7 +1809,7 @@ LAB_001031cd:
   return pbVar2;
 }
 
-/* 00103220  execute_cfa_insn  (206 bytes)
+/* 00103220  execute_cfa_insn  (133 bytes)
  * ushort * execute_cfa_insn(ushort * param_1, undefined4 * param_2, int param_3, int * param_4)
  * called by: __frame_state_for
  */
@@ -1860,7 +1861,7 @@ LAB_001033db:
     break;
   case 1:
     iVar6 = *(int *)puVar5;
-    goto code_r0x001033b0;
+    goto FUN_001033b0;
   case 2:
     *param_4 = *param_4 + (uint)*(byte *)puVar5;
     puVar5 = param_1 + 1;
@@ -1871,7 +1872,7 @@ LAB_001033db:
     break;
   case 4:
     iVar6 = *param_4 + *(int *)puVar5;
-code_r0x001033b0:
+FUN_001033b0:
     *param_4 = iVar6;
     puVar5 = (ushort *)((int)param_1 + 5);
     break;
@@ -2227,7 +2228,7 @@ undefined4 * __class_type_info_type_info_function(void)
 
 /* 00104a10  __i686.get_pc_thunk.bx  (4 bytes)
  * undefined __i686.get_pc_thunk.bx(void)
- * called by: __builtin_new
+ * called by: FUN_00104b32, __builtin_new
  */
 /* WARNING: This is an inlined function */
 
@@ -2237,7 +2238,7 @@ void __i686_get_pc_thunk_bx(void)
   return;
 }
 
-/* 00104a14  __builtin_new  (171 bytes)
+/* 00104a14  __builtin_new  (163 bytes)
  * undefined __builtin_new(size_t param_1)
  */
 /* WARNING: Function: __i686.get_pc_thunk.bx replaced with injection: get_pc_thunk_bx */

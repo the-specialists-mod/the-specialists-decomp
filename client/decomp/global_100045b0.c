@@ -1813,7 +1813,7 @@ void __cdecl V_CalcRefdef(ref_params_t *pparams)
 
 /* 1006ad1c  __ftol  (39 bytes)
  * longlong __ftol(void)
- * called by: CAM_Think, FUN_10003830, FUN_10010440, FUN_10010630, FUN_100108b0, FUN_10010bd0, FUN_10011a60, FUN_10019180, FUN_1001a710, FUN_1001a7b0, FUN_1001b047, FUN_1001b360, ... (104 total)
+ * called by: CAM_Think, FUN_10003830, FUN_10010440, FUN_10010630, FUN_100108b0, FUN_10010bd0, FUN_10011a60, FUN_10019180, FUN_1001a710, FUN_1001a7b0, FUN_1001b047, FUN_1001b360, ... (136 total)
  */
 /* Library Function - Single Match
     __ftol
@@ -1846,7 +1846,7 @@ void __cdecl __exit(int _Code)
 
 /* 1006ae86  operator_new  (14 bytes)
  * void * operator_new(uint param_1)
- * called by: FUN_100174c0, FUN_1001c850, FUN_1001c900, FUN_100206c0, FUN_10021d90, FUN_10021e10, FUN_10022380, FUN_10022b80, FUN_100507e0, FUN_10058880, FUN_1005a170, FUN_1005a620, ... (53 total)
+ * called by: FUN_100174c0, FUN_100178c0, FUN_1001c850, FUN_1001c900, FUN_100206c0, FUN_10021d90, FUN_10021e10, FUN_10022380, FUN_10022b80, FUN_100507e0, FUN_10058880, FUN_1005a170, ... (54 total)
  */
 /* Library Function - Single Match
     void * __cdecl operator new(unsigned int)
@@ -1864,6 +1864,7 @@ void * __cdecl operator_new(uint param_1)
 
 /* 1006b28c  __global_unwind2  (32 bytes)
  * undefined __global_unwind2(PVOID param_1)
+ * called by: FUN_10072fe4
  */
 /* Library Function - Single Match
     __global_unwind2
@@ -1879,7 +1880,7 @@ void __cdecl __global_unwind2(PVOID param_1)
 
 /* 1006b2ce  __local_unwind2  (104 bytes)
  * undefined __local_unwind2(int param_1, int param_2)
- * called by: FUN_100730a1
+ * called by: FUN_1006e421, FUN_10072fe4, FUN_100730a1
  */
 /* Library Function - Single Match
     __local_unwind2
@@ -1893,12 +1894,12 @@ void __cdecl __local_unwind2(int param_1,int param_2)
   int iVar1;
   int iVar2;
   void *pvStack_1c;
-  undefined1 *puStack_18;
+  code *pcStack_18;
   undefined4 local_14;
   int iStack_10;
   
   iStack_10 = param_1;
-  puStack_18 = &LAB_1006b2ac;
+  pcStack_18 = FUN_1006b2ac;
   pvStack_1c = ExceptionList;
   ExceptionList = &pvStack_1c;
   while( true ) {
@@ -1931,7 +1932,7 @@ int __cdecl __abnormal_termination(void)
   int iVar1;
   
   iVar1 = 0;
-  if ((*(undefined1 **)((int)ExceptionList + 4) == &LAB_1006b2ac) &&
+  if ((*(code **)((int)ExceptionList + 4) == FUN_1006b2ac) &&
      (*(int *)((int)ExceptionList + 8) == *(int *)(*(int *)((int)ExceptionList + 0xc) + 0xc))) {
     iVar1 = 1;
   }
@@ -2108,7 +2109,7 @@ LAB_1006bddb:
 
 /* 1006be60  _strncat  (291 bytes)
  * char * _strncat(char * _Dest, char * _Source, size_t _Count)
- * called by: FUN_1001b360, FUN_10028760, FUN_10064f60
+ * called by: FUN_1001b360, FUN_10028760, FUN_10064f60, FUN_10066020
  */
 /* Library Function - Single Match
     _strncat
@@ -2218,7 +2219,7 @@ LAB_1006bf1a:
 
 /* 1006c05a  _rand  (34 bytes)
  * int _rand(void)
- * called by: FUN_10028d40
+ * called by: FUN_1001f4e0, FUN_10028d40
  */
 /* Library Function - Single Match
     _rand
@@ -2294,7 +2295,7 @@ int __cdecl _strncmp(char *_Str1,char *_Str2,size_t _MaxCount)
 
 /* 1006c1d8  _malloc  (18 bytes)
  * void * _malloc(size_t _Size)
- * called by: FUN_10020a40, FUN_10025740, FUN_100258c0, FUN_1003a860, FUN_100667e0, FUN_1006dcfb, FUN_1006dd71, FUN_1006edc6, FUN_1006f875, FUN_100730bc, FUN_10073175, FUN_100733c2, ... (20 total)
+ * called by: FUN_10020a40, FUN_10025740, FUN_100258c0, FUN_1003a860, FUN_100667e0, FUN_1006af75, FUN_1006dcfb, FUN_1006dd71, FUN_1006edc6, FUN_1006f875, FUN_100730bc, FUN_10073175, ... (21 total)
  */
 /* Library Function - Single Match
     _malloc
@@ -2391,7 +2392,7 @@ LAB_1006ce1d:
 
 /* 1006ce72  __amsg_exit  (48 bytes)
  * void __amsg_exit(int param_1)
- * called by: FUN_1006dcfb, FUN_1006e7e1, FUN_1006edc6, FUN_100730bc, FUN_10073175, FUN_100774cb, __fptrap
+ * called by: FUN_1006ad43, FUN_1006af75, FUN_1006dcfb, FUN_1006e7e1, FUN_1006e99f, FUN_1006edc6, FUN_100730bc, FUN_10073175, FUN_100774cb, __fptrap
  */
 /* Library Function - Single Match
     __amsg_exit

@@ -2,7 +2,7 @@
 
 /* 1005a740  CBasePlayerItem::AttemptToMaterialize  (1 bytes)
  * void AttemptToMaterialize(void)
- * called by: FUN_100083f0, FUN_10053430, FUN_100534c0, FUN_10053510
+ * called by: FUN_100083f0, FUN_10008aa0, FUN_10053430, FUN_100534c0, FUN_10053510
  */
 /* public: void __thiscall CBasePlayerItem::AttemptToMaterialize(void) */
 

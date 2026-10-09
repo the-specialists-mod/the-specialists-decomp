@@ -139,12 +139,12 @@ vgui::ScrollBar2::ScrollBar2
   Color local_1c [12];
   void *pvStack_10;
   void *pvStack_c;
-  undefined1 *local_8;
+  code *local_8;
   undefined4 uStack_4;
   
                     /* 0x153f0  74  ??0ScrollBar2@vgui@@QAE@HHHH_N@Z */
   uStack_4 = 0xffffffff;
-  local_8 = &LAB_10077802;
+  local_8 = FUN_10077802;
   pvStack_c = ExceptionList;
   ExceptionList = &pvStack_c;
   vgui::Panel::Panel((Panel *)this,param_1,param_2,param_3,param_4);
@@ -187,17 +187,17 @@ vgui::ScrollBar2::ScrollBar2
   *(undefined4 *)(this + 0xc0) = 0;
   if ((char)param_4 == '\0') {
     pSVar4 = operator_new(0xfc);
-    local_8 = (undefined1 *)0x3;
+    local_8 = (code *)0x3;
     if (pSVar4 == (Slider2 *)0x0) {
       pSVar4 = (Slider2 *)0x0;
     }
     else {
       pSVar4 = (Slider2 *)Slider2::Slider2(pSVar4,param_4,0,param_3 + param_4 * -2,param_4,false);
     }
-    local_8 = (undefined1 *)0xffffffff;
+    local_8 = (code *)0xffffffff;
     setSlider(this,pSVar4);
     pBVar5 = operator_new(0x134);
-    local_8 = (undefined1 *)0x4;
+    local_8 = (code *)0x4;
     if (pBVar5 == (Button *)0x0) {
       pBVar5 = (Button *)0x0;
     }
@@ -218,10 +218,10 @@ vgui::ScrollBar2::ScrollBar2
       }
       vgui::Panel::setBorder((Panel *)pBVar5,(Border *)(pBVar5 + 0xf0));
     }
-    local_8 = (undefined1 *)0xffffffff;
+    local_8 = (code *)0xffffffff;
     setButton(this,pBVar5,0);
     this_00 = operator_new(0x134);
-    local_8 = (undefined1 *)0x5;
+    local_8 = (code *)0x5;
     if (this_00 == (void *)0x0) {
       pBVar5 = (Button *)0x0;
     }
@@ -232,7 +232,7 @@ vgui::ScrollBar2::ScrollBar2
   }
   else {
     pSVar4 = operator_new(0xfc);
-    local_8 = (undefined1 *)0x0;
+    local_8 = (code *)0x0;
     if (pSVar4 == (Slider2 *)0x0) {
       pSVar4 = (Slider2 *)0x0;
     }
@@ -240,10 +240,10 @@ vgui::ScrollBar2::ScrollBar2
       pSVar4 = (Slider2 *)
                Slider2::Slider2(pSVar4,0,param_3 + -1,param_3,param_4 + param_3 * -2 + 2,true);
     }
-    local_8 = (undefined1 *)0xffffffff;
+    local_8 = (code *)0xffffffff;
     setSlider(this,pSVar4);
     pBVar5 = operator_new(0x134);
-    local_8 = (undefined1 *)0x1;
+    local_8 = (code *)0x1;
     if (pBVar5 == (Button *)0x0) {
       pBVar5 = (Button *)0x0;
     }
@@ -261,10 +261,10 @@ vgui::ScrollBar2::ScrollBar2
       vgui::Panel::setBorder((Panel *)pBVar5,(Border *)(pBVar5 + 0xf0));
       param_4 = uVar1;
     }
-    local_8 = (undefined1 *)0xffffffff;
+    local_8 = (code *)0xffffffff;
     setButton(this,pBVar5,0);
     pBVar5 = operator_new(0x134);
-    local_8 = (undefined1 *)0x2;
+    local_8 = (code *)0x2;
     if (pBVar5 == (Button *)0x0) {
       pBVar5 = (Button *)0x0;
     }
@@ -282,7 +282,7 @@ vgui::ScrollBar2::ScrollBar2
       vgui::Panel::setBorder((Panel *)pBVar5,(Border *)(pBVar5 + 0xf0));
     }
   }
-  local_8 = (undefined1 *)0xffffffff;
+  local_8 = (code *)0xffffffff;
   setButton(this,pBVar5,1);
   vgui::Panel::setPaintBorderEnabled((Panel *)this,true);
   vgui::Panel::setPaintBackgroundEnabled((Panel *)this,true);
@@ -433,7 +433,7 @@ LAB_10015c00:
     puVar1 = (undefined4 *)0x0;
   }
   else {
-    *puVar1 = &PTR_LAB_1007c318;
+    *puVar1 = &PTR_FUN_1007c318;
     puVar1[1] = this;
   }
   (**(code **)(**(int **)(this + 0xc4) + 0x208))(puVar1);
@@ -540,7 +540,7 @@ void __thiscall vgui::ScrollBar2::setButton(ScrollBar2 *this,Button *param_1,int
     puVar1 = (undefined4 *)0x0;
   }
   else {
-    *puVar1 = &PTR_LAB_1007c31c;
+    *puVar1 = &PTR_FUN_1007c31c;
     puVar1[1] = this;
     puVar1[2] = param_2;
   }
@@ -583,7 +583,7 @@ void __thiscall vgui::ScrollBar2::setSlider(ScrollBar2 *this,Slider2 *param_1)
     puVar1 = (undefined4 *)0x0;
   }
   else {
-    *puVar1 = &PTR_LAB_1007c318;
+    *puVar1 = &PTR_FUN_1007c318;
     puVar1[1] = this;
   }
   (**(code **)(**(int **)(this + 0xc4) + 0x208))(puVar1);

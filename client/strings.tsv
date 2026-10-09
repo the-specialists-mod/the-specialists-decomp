@@ -1199,26 +1199,26 @@ address	value	referenced_by
 100910dc	{splat%i	FUN_10001000
 100910e8	{bproof1	FUN_10001000
 100910f4	{break%i	FUN_10001000
-10091100	r_decals	10048763,FUN_100010e0
-1009110c	events/grenade.sc	100085a7,FUN_10003240
-10091120	events/draw.sc	10008593,FUN_10003240
-10091130	events/katana.sc	10008586,FUN_10003240
-10091144	events/knife.sc	10008568,FUN_10003240
-10091154	events/reload.sc	10008554,FUN_10003240
-10091168	events/coldcock.sc	100084f0,FUN_10003240
-1009117c	events/closecombat.sc	10008540,FUN_10003240
-10091194	events/pump.sc	1000852c,FUN_10003240
-100911a4	events/empty.sc	10008518,FUN_10003240
-100911b4	events/firelinked.sc	10008504,FUN_10003240
-100911cc	events/fire.sc	100084e1,FUN_10003240
-100911dc	cl:  	10003514
-100911e4	weapons/pistol-empty.wav	10042581,FUN_10003640
+10091100	r_decals	FUN_100010e0,FUN_10048710
+1009110c	events/grenade.sc	FUN_10003240,FUN_100084e0
+10091120	events/draw.sc	FUN_10003240,FUN_100084e0
+10091130	events/katana.sc	FUN_10003240,FUN_100084e0
+10091144	events/knife.sc	FUN_10003240,FUN_100084e0
+10091154	events/reload.sc	FUN_10003240,FUN_100084e0
+10091168	events/coldcock.sc	FUN_10003240,FUN_100084e0
+1009117c	events/closecombat.sc	FUN_10003240,FUN_100084e0
+10091194	events/pump.sc	FUN_10003240,FUN_100084e0
+100911a4	events/empty.sc	FUN_10003240,FUN_100084e0
+100911b4	events/firelinked.sc	FUN_10003240,FUN_100084e0
+100911cc	events/fire.sc	FUN_10003240,FUN_100084e0
+100911dc	cl:  	FUN_10003500
+100911e4	weapons/pistol-empty.wav	FUN_10003640,FUN_100424e0
 10091204	weapons/ak47/fire.wav	FUN_100047d0
 1009121c	twohanded	FUN_100047d0,FUN_10004b20,FUN_10004e40,FUN_10005170,FUN_1000c030,FUN_1000c3b0,FUN_1000c730,FUN_1000cce0,FUN_1000d7f0,FUN_1000db70,FUN_1000ded0,FUN_1000e800,FUN_1000f110,FUN_1000fa20
 10091229	odels/w_ak47.mdl	FUN_100047d0
 1009123c	models/p_ak47.mdl	FUN_100047d0
 10091251	odels/v_ak47.mdl	FUN_100047d0
-10091264	models/556_shell.mdl	10042e32,FUN_100047d0,FUN_10004b20,FUN_10004e40,FUN_1000c030,FUN_1000c3b0,FUN_1000c730
+10091264	models/556_shell.mdl	FUN_100047d0,FUN_10004b20,FUN_10004e40,FUN_1000c030,FUN_1000c3b0,FUN_1000c730,FUN_10042690
 1009127c	sprites/weapons/ak47.spr	FUN_100047d0
 100912a0	weapons/aug/aug-fire-sil.wav	FUN_10004b20
 100912c0	weapons/aug/aug-fire.wav	FUN_10004b20
@@ -1249,7 +1249,7 @@ address	value	referenced_by
 100914d8	models/p_beretta_sil.mdl	FUN_100054a0
 100914f4	models/p_beretta.mdl	FUN_100054a0
 1009150c	models/v_beretta.mdl	FUN_100054a0
-10091524	models/9mm_shell.mdl	10042c4c,FUN_100054a0,FUN_100057b0,FUN_10005e70,FUN_10006810,FUN_10006b10,FUN_10006e20,FUN_1000cce0,FUN_1000d0f0,FUN_1000d440,FUN_1000db70,FUN_1000ded0,FUN_1000fd40,FUN_10010080
+10091524	models/9mm_shell.mdl	FUN_100054a0,FUN_100057b0,FUN_10005e70,FUN_10006810,FUN_10006b10,FUN_10006e20,FUN_1000cce0,FUN_1000d0f0,FUN_1000d440,FUN_1000db70,FUN_1000ded0,FUN_1000fd40,FUN_10010080,FUN_10042690
 1009153c	sprites/weapons/beretta.spr	FUN_100054a0
 10091558	Beretta 92F	FUN_100054a0
 10091565	kimbo	FUN_100057b0,FUN_100064e0,FUN_10006e20,FUN_1000d440,FUN_1000ee40,FUN_10010080
@@ -1430,7 +1430,7 @@ address	value	referenced_by
 100924d4	models/w_spas12.mdl	FUN_1000f110
 100924e8	models/p_spas12.mdl	FUN_1000f110
 100924fc	models/v_spas12.mdl	FUN_1000f110
-10092510	models/shotgun_shell.mdl	10042a68,FUN_1000f110,FUN_1000fa20
+10092510	models/shotgun_shell.mdl	FUN_1000f110,FUN_1000fa20,FUN_10042690
 1009252c	sprites/weapons/spas12.spr	FUN_1000f110
 10092549	PAS-12	FUN_1000f110
 10092550	weapons/contender/fire.wav	FUN_1000f440
@@ -1482,17 +1482,17 @@ address	value	referenced_by
 10092934	3 Remove Item	10092810
 10092944	2 Buy	1009280c
 1009294c	1 Empty Config	10092808,FUN_10011160
-1009295c	Stealth Shoes	10011541,10011546,100118ab,100118b0,FUN_10010630,FUN_10011a60,FUN_10036af0,FUN_100373c0,FUN_10038840
+1009295c	Stealth Shoes	FUN_10010630,FUN_10011320,FUN_10011650,FUN_10011a60,FUN_10036af0,FUN_100373c0,FUN_10038840
 1009296d	evlar	FUN_10010630,FUN_10011a60,FUN_10036af0,FUN_100373c0
 10092974	%i %s	FUN_10010630,FUN_100108b0,FUN_100373c0
 1009297c	%i Scope  %i	FUN_10010bd0
 1009298c	%i Flashlight  %i	FUN_10010bd0
 100929a0	%i Lasersight  %i	FUN_10010bd0
 100929b4	%i Silencer  %i	FUN_10010bd0
-100929c4	%s removed	1001154b
-100929d0	%s removed.	10011481
-100929dc	Config Reset	100113a2,100119a3
-100929ec	%s Removed	1001188e,100118b5
+100929c4	%s removed	FUN_10011320
+100929d0	%s removed.	FUN_10011320
+100929dc	Config Reset	FUN_10011320,FUN_10011650
+100929ec	%s Removed	FUN_10011650
 100929f8	Free Slots : %i	FUN_10011a60
 10092a08	(Total: %i)	FUN_10011a60
 10092a14	Remain Cash : %i (Total: %i)	FUN_10011a60
@@ -1508,14 +1508,14 @@ address	value	referenced_by
 10092afc	gfx/vgui/arrowup.tga	vgui::ScrollBar2::ScrollBar2
 10092b18	voice_ban.dt	10092b14,FUN_100171e0,FUN_10017300
 10092b2c	%s/%s	FUN_100171e0,FUN_10017300,FUN_1003a960,FUN_1005fb90
-10092b38	Ban %d: %2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x\n	1001762e
-10092b74	------------------------------\n	10017696
-10092b94	------- BANNED PLAYERS -------\n	10017669
-10092bb4	ReqState	10017ac9
-10092bc0	VoiceMask	10017ab2
-10092bcc	voice_showbanned	10017907
-10092be0	voice_clientdebug	100178f7,FUN_100180c0,FUN_10018360,FUN_10018780,FUN_10018830,FUN_10018900,FUN_10018cf0
-10092bf8	voice_modenable	100178e4,10019446,FUN_10018360
+10092b38	Ban %d: %2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x%2x\n	FUN_100175c0
+10092b74	------------------------------\n	FUN_10017660
+10092b94	------- BANNED PLAYERS -------\n	FUN_10017660
+10092bb4	ReqState	FUN_100178c0
+10092bc0	VoiceMask	FUN_100178c0
+10092bcc	voice_showbanned	FUN_100178c0
+10092be0	voice_clientdebug	FUN_100178c0,FUN_100180c0,FUN_10018360,FUN_10018780,FUN_10018830,FUN_10018900,FUN_10018cf0
+10092bf8	voice_modenable	FUN_100178c0,FUN_10018360,FUN_100192d0
 10092c0c	sprites/voiceicon.spr	FUN_10017af0
 10092c24	scripts/voicemodel.txt	FUN_10017af0
 10092c3c	gfx/vgui/640_voiceblocked.tga	FUN_10017af0
@@ -1528,7 +1528,7 @@ address	value	referenced_by
 10092d00	gfx/vgui/icntlk_sv.tga	FUN_10017af0
 10092d18	gfx/vgui/icntlk_pl.tga	FUN_10017af0
 10092d30	%s   	FUN_100180c0
-10092d38	voice_modenable 1	100196a7,FUN_100180c0
+10092d38	voice_modenable 1	FUN_100180c0,FUN_10019690
 10092d4c	CVoiceStatus::UpdateSpeakerStatus: ent %d talking = %d\n	FUN_100180c0
 10092d84	CVoiceStatus::UpdateServerState: no change\n	FUN_10018360
 10092dbc	CVoiceStatus::UpdateServerState: Sending '%s'\n	FUN_10018360
@@ -1541,14 +1541,14 @@ address	value	referenced_by
 10092ec4	CVoiceStatus::SetPlayerBlockedState: setting player %d ban to %d\n	FUN_10018cf0
 10092f08	CVoiceStatus::SetPlayerBlockedState part 2\n	FUN_10018cf0
 10092f34	CVoiceStatus::SetPlayerBlockedState part 1\n	FUN_10018cf0
-10092f60	#Voice_Properties	10019526
-10092f74	#Menu_OK	10019494,FUN_1005bb90
-10092f80	Enable Voice In This Mod	1001941c
-10092f9c	gfx/vgui/checked.tga	10019410
-10092fb4	gfx/vgui/unchecked.tga	1001940b
-10092fcc	#Speaker_Volume	100193b3
-10092fdc	#Mic_Volume	10019356
-10092fe8	voice_modenable 0	100196b8
+10092f60	#Voice_Properties	FUN_100192d0
+10092f74	#Menu_OK	FUN_100192d0,FUN_1005bb90
+10092f80	Enable Voice In This Mod	FUN_100192d0
+10092f9c	gfx/vgui/checked.tga	FUN_100192d0
+10092fb4	gfx/vgui/unchecked.tga	FUN_100192d0
+10092fcc	#Speaker_Volume	FUN_100192d0
+10092fdc	#Mic_Volume	FUN_100192d0
+10092fe8	voice_modenable 0	FUN_10019690
 10092ffc	ammo2	FUN_100197c0
 1009300c	weapon_s	FUN_100197c0
 10093018	weapon	FUN_100197c0
@@ -1571,13 +1571,13 @@ address	value	referenced_by
 10093104	bucket1	FUN_10019f40
 1009310c	escape	FUN_1001a4e0
 10093114	common/wpn_hudoff.wav	FUN_1001a4e0
-1009312c	SecAmmoIcon	1001a5f8
-10093138	SecAmmoVal	1001a5e8
+1009312c	SecAmmoIcon	FUN_1001a5e0
+10093138	SecAmmoVal	FUN_1001a5e0
 10093148	Battery	FUN_1001a880
 10093150	suit_full	FUN_1001a8c0
 1009315c	suit_empty	FUN_1001a8c0
 100935b3	?hud_deathnotice_time	
-100935d0	DeathMsg	1001afb0
+100935d0	DeathMsg	FUN_1001afa0
 100935dc	d_skull	FUN_1001b000
 100935e4	d_tau cannon	FUN_1001b360
 100935f4	gauss	FUN_1001b360
@@ -1595,10 +1595,10 @@ address	value	referenced_by
 100936c8	flash_beam	FUN_1001c780
 100936d4	flash_full	FUN_1001c780
 100936e0	flash_empty	FUN_1001c780
-1009370c	Geiger	1001f458
-10093714	player/geiger%d.wav	1001f667
-10093758	Damage	1001f6f9,FUN_1001fb90
-10093760	Health	1001f6e9
+1009370c	Geiger	FUN_1001f450
+10093714	player/geiger%d.wav	FUN_1001f4e0
+10093758	Damage	FUN_1001f6e0,FUN_1001fb90
+10093760	Health	FUN_1001f6e0
 10093768	cross	FUN_1001f780
 10093770	dmg_bio	FUN_1001f780
 10093778	cl_lw	FUN_10020170
@@ -1643,7 +1643,7 @@ address	value	referenced_by
 10093a70	sprites/%d_logo.spr	FUN_10021aa0
 10093a84	snapshot\n	FUN_10021aa0
 10093a94	got list\n	FUN_10021d90
-10093aa8	address	1005fe72,1006013f,FUN_10021e10,FUN_1005f220,FUN_1005fb90
+10093aa8	address	FUN_10021e10,FUN_1005f220,FUN_1005fb90,FUN_1005fe50,FUN_100600b0
 10093ab0	hostname	FUN_10021f60,FUN_1005f220,FUN_1005fb90
 10093abc	%s:%i	FUN_100224c0
 10093ad0	Master	FUN_100224c0
@@ -1651,8 +1651,8 @@ address	value	referenced_by
 10093ae0	woncomm.lst	FUN_100224c0
 10093aec	half-life.east.won.net	FUN_100224c0
 10093b04	SendRequest:  Unable to read master server addresses\n	FUN_100227f0
-10093b3c	usage:  specmode < modenumber >\n	10022c34
-10093b60	specmode only in HLTV mode available.\n	10022c1a
+10093b3c	usage:  specmode < modenumber >\n	FUN_10022c10
+10093b60	specmode only in HLTV mode available.\n	FUN_10022c10
 10093b88	specmode	FUN_10022c70
 10093b94	cl_drawnames	FUN_10022c70
 10093ba4	origin	FUN_10022da0,FUN_10023720,FUN_10055d20
@@ -1846,8 +1846,8 @@ address	value	referenced_by
 1009472c	ShowMenu	FUN_100285a0
 10094738	menuselect %d\n	FUN_10028700
 1009474c	Custom	10094748
-10094754	GameTitle	10028918
-10094760	HudText	10028908
+10094754	GameTitle	FUN_10028900
+10094760	HudText	FUN_10028900
 10094768	title_life	FUN_10028940
 10094774	title_half	FUN_10028940
 10094780	GAMETITLE	FUN_10029610
@@ -1899,23 +1899,23 @@ address	value	referenced_by
 10094c67	@hud_saytext_time	
 10094c7c	SayText	FUN_1002ea50
 10094c84	misc/talk.wav	FUN_1002ed00
-10094c98	StatusIcon	1002f0e8
+10094c98	StatusIcon	FUN_1002f0e0
 10094ca4	weapons/timer.wav	FUN_1002f210
 10094cb8	grenade	FUN_1002f210
-10094cc0	hud_centerid	1002f77f,1002f7d0,FUN_1002f3c0
+10094cc0	hud_centerid	FUN_1002f3c0,FUN_1002f6f0
 10094cd0	StatusValue	FUN_1002f3c0
 10094cdc	StatusText	FUN_1002f3c0
 10094ce9	*****	FUN_1002f480
 10094cf3	?r_drawentities	
 10094d04	developer	FUN_10030030
 10094d10	cl_himodels	FUN_10030030
-10094d1c	loading %s\n	1003084d
-10094d28	Bip01 Spine	10031579,10031582
-10094d34	Bip01 Dorso	1003153d,10031548
-10094d40	Too many attachments on %s\n	1003457c
-10094d5c	TextMsg	100348a8
-10094d64	Train	10034d08
-10094d6c	sprites/%d_train.spr	10034d4a
+10094d1c	loading %s\n	FUN_100307e0
+10094d28	Bip01 Spine	FUN_10031080
+10094d34	Bip01 Dorso	FUN_10031080
+10094d40	Too many attachments on %s\n	FUN_10034560
+10094d5c	TextMsg	FUN_100348a0
+10094d64	Train	FUN_10034d00
+10094d6c	sprites/%d_train.spr	FUN_10034d40
 10094d84	sprites/shotgun_pellets.spr	FUN_10035b50,FUN_1003dfa0,FUN_10040c20,FUN_10048f60
 10094da0	#Buy_SpecialPurpose	FUN_10036200
 10094db4	#Buy_Shotguns	FUN_10036200
@@ -1971,7 +1971,7 @@ address	value	referenced_by
 10095130	#Buy_UsingLastConfig	FUN_10039400
 10095148	#Buy_NoCash	FUN_10039400
 10095154	#Buy_ConfigEmpty	FUN_10039400
-10095168	Sprite '%s' is not a valid sprite.\n	10039da9,10039fa7,FUN_1003ab40
+10095168	Sprite '%s' is not a valid sprite.\n	FUN_10039d50,FUN_10039f60,FUN_1003ab40
 1009518c	color has bad value. Should be "r g b"\n	FUN_1003a3c0
 100951b4	%f %f %f	FUN_1003a3c0,FUN_10055d20,FUN_10055f90
 100951cc	CTS_CL_Emitter::ProcessEnts: error parsing entities\n	FUN_1003a5d0
@@ -1984,20 +1984,20 @@ address	value	referenced_by
 100952f4	CTS_CL_Emitter::LoadEntityLump:  Could not read BSP header for map [%s].\n	FUN_1003a860
 10095340	sprites/flash.spr	FUN_1003b250
 10095354	sprites/laserbeamanim.spr	FUN_1003bb00
-10095370	models/generic_clip.mdl	1004305f
-10095388	weapons/generic_reload.wav	10042a2e
-100953a4	weapons/insert-shell.wav	10042901
-100953c0	player/block.wav	10043750
-100953d4	sprites/wood_smoke_add.spr	100436c0,10043bc5,FUN_10048f60
-100953f0	sprites/gun_smoke_add.spr	100436b3,10043bb8,FUN_10047130,FUN_100481b0,FUN_10048840,FUN_10048f60
-1009540c	player/closecombat.wav	1004360c,10043b13
-10095424	weapons/knife/knife_miss.wav	10044092
-10095444	weapons/knife/knife_hit.wav	1004403b
-10095460	sprites/scintille_metal.spr	10043f91,100445b7,FUN_100481b0,FUN_10048f60,FUN_1004bd50
-1009547c	weapons/katana/miss1.wav	10044644
-10095498	weapons/katana/miss.wav	1004463b
-100954b0	weapons/katana/hit1.wav	10044627,1004469f
-100954c8	weapons/katana/hit.wav	1004461e
+10095370	models/generic_clip.mdl	FUN_10042690
+10095388	weapons/generic_reload.wav	FUN_10042690
+100953a4	weapons/insert-shell.wav	FUN_10042690
+100953c0	player/block.wav	FUN_10043200
+100953d4	sprites/wood_smoke_add.spr	FUN_10043200,FUN_10043800,FUN_10048f60
+100953f0	sprites/gun_smoke_add.spr	FUN_10043200,FUN_10043800,FUN_10047130,FUN_100481b0,FUN_10048840,FUN_10048f60
+1009540c	player/closecombat.wav	FUN_10043200,FUN_10043800
+10095424	weapons/knife/knife_miss.wav	FUN_10043c90
+10095444	weapons/knife/knife_hit.wav	FUN_10043c90
+10095460	sprites/scintille_metal.spr	FUN_10043c90,FUN_10044230,FUN_100481b0,FUN_10048f60,FUN_1004bd50
+1009547c	weapons/katana/miss1.wav	FUN_10044230
+10095498	weapons/katana/miss.wav	FUN_10044230
+100954b0	weapons/katana/hit1.wav	FUN_10044230
+100954c8	weapons/katana/hit.wav	FUN_10044230
 100954e0	debris/cement6.wav	FUN_10044bf0
 100954f4	debris/cement5.wav	FUN_10044bf0
 10095508	debris/cement4.wav	FUN_10044bf0
@@ -2036,34 +2036,34 @@ address	value	referenced_by
 100957b0	explo/explode2.wav	FUN_100481b0
 100957c4	explo/explode1.wav	FUN_100481b0
 100957d8	explo/explode.wav	FUN_100481b0
-100957ec	player/splat.wav	10048811
-10095800	{blood%i	10048724
+100957ec	player/splat.wav	FUN_10048710
+10095800	{blood%i	FUN_10048710
 1009580c	sprites/bloodfrag2.spr	FUN_10048840
 10095824	sprites/debris_concrete3.spr	FUN_10048f60
 10095844	sprites/woodfrag.spr	FUN_10048f60
 1009585c	sprites/sparks.spr	FUN_100492b0
-10095870	TSFade	10049cee
-10095878	PlInfo	10049cde
-10095880	TSPSys	10049cce
-10095888	TSMBlur	10049cbe
-10095890	TSFlag	10049cae
-10095898	TSHVoice	10049c9e
-100958a4	TSBTime	10049c8e
-100958ac	SrvSett	10049c7b
-100958b4	TSPAward	10049c6b
-100958c0	TSFrags	10049c5b
-100958c8	TSSlowMo	10049c4b
-100958d4	PTakeDam	10049c3b
-100958e0	TSMessage	10049c2b
-100958ec	ShowObj	10049c1b
-100958f4	Objective	10049c0b
-10095900	RoundTime	10049bf8
-1009590c	PwUpTime	10049be8
-10095920	TSSpace	10049bc8
-10095928	TSCash	10049bb8
-10095930	TSState	10049ba8
-10095938	TSArmor	10049b98
-10095940	TSHealth	10049b88
+10095870	TSFade	FUN_10049b80
+10095878	PlInfo	FUN_10049b80
+10095880	TSPSys	FUN_10049b80
+10095888	TSMBlur	FUN_10049b80
+10095890	TSFlag	FUN_10049b80
+10095898	TSHVoice	FUN_10049b80
+100958a4	TSBTime	FUN_10049b80
+100958ac	SrvSett	FUN_10049b80
+100958b4	TSPAward	FUN_10049b80
+100958c0	TSFrags	FUN_10049b80
+100958c8	TSSlowMo	FUN_10049b80
+100958d4	PTakeDam	FUN_10049b80
+100958e0	TSMessage	FUN_10049b80
+100958ec	ShowObj	FUN_10049b80
+100958f4	Objective	FUN_10049b80
+10095900	RoundTime	FUN_10049b80
+1009590c	PwUpTime	FUN_10049b80
+10095920	TSSpace	FUN_10049b80
+10095928	TSCash	FUN_10049b80
+10095930	TSState	FUN_10049b80
+10095938	TSArmor	FUN_10049b80
+10095940	TSHealth	FUN_10049b80
 1009594c	sprites/player/flag.spr	FUN_10049d10
 10095964	sprites/player/movement.spr	FUN_10049d10
 10095980	sprites/player/kungfu.spr	FUN_10049d10
@@ -2086,26 +2086,26 @@ address	value	referenced_by
 10095b04	goslow.wav	FUN_1004bef0
 10095b10	misc/successful.wav	FUN_1004c180
 10095b24	misc/failed.wav	FUN_1004c180
-10095b38	invprev	1004cb0e
-10095b40	invnext	1004cafe
-10095b48	slot10	1004caee
-10095b50	slot9	1004cade
-10095b58	slot8	1004cacb
-10095b60	slot7	1004cabb
-10095b68	slot6	1004caab
-10095b70	slot5	1004ca9b
-10095b78	slot4	1004ca8b
-10095b80	slot3	1004ca7b
-10095b88	slot2	1004ca6b
-10095b90	slot1	1004ca5b
-10095b98	KFuPower	1004ca48
-10095ba4	CustomWP	1004ca38
-10095bb0	Wires	1004ca28
-10095bb8	NextStunt	1004ca18
-10095bc4	ActItems	1004ca08
-10095bd0	WStatus	1004c9f8
-10095bd8	ClipInfo	1004c9e8
-10095be4	WeaponInfo	1004c9d8
+10095b38	invprev	FUN_1004c9d0
+10095b40	invnext	FUN_1004c9d0
+10095b48	slot10	FUN_1004c9d0
+10095b50	slot9	FUN_1004c9d0
+10095b58	slot8	FUN_1004c9d0
+10095b60	slot7	FUN_1004c9d0
+10095b68	slot6	FUN_1004c9d0
+10095b70	slot5	FUN_1004c9d0
+10095b78	slot4	FUN_1004c9d0
+10095b80	slot3	FUN_1004c9d0
+10095b88	slot2	FUN_1004c9d0
+10095b90	slot1	FUN_1004c9d0
+10095b98	KFuPower	FUN_1004c9d0
+10095ba4	CustomWP	FUN_1004c9d0
+10095bb0	Wires	FUN_1004c9d0
+10095bb8	NextStunt	FUN_1004c9d0
+10095bc4	ActItems	FUN_1004c9d0
+10095bd0	WStatus	FUN_1004c9d0
+10095bd8	ClipInfo	FUN_1004c9d0
+10095be4	WeaponInfo	FUN_1004c9d0
 10095bf0	sprites/wires/bwirecutted.spr	FUN_1004cb50
 10095c10	sprites/wires/gwirecutted.spr	FUN_1004cb50
 10095c30	sprites/wires/rwirecutted.spr	FUN_1004cb50
@@ -2121,13 +2121,13 @@ address	value	referenced_by
 10095d34	sprites/weapons/item_not_installed.spr	FUN_1004cb50
 10095d5c	sprites/weapons/item_installed.spr	FUN_1004cb50
 10095d80	sprites/weapons/kungfu.spr	FUN_1004cb50
-10095d9c	weapons/switch.wav	1004d3bc
-10095db0	drop_%i	1004d319
-10095db8	weapon_%i	1004d2b6,FUN_1004f220,FUN_1004f500
-10095dc4	sound/player/breathe2.wav	1004d17e,1004d223
-10095de0	sound/player/heartbeat1.wav	1004d020,1004d0c5
-10095dfc	usepowerup	1004cecf
-10095e08	lasclr_%i	1004ce33
+10095d9c	weapons/switch.wav	FUN_1004ce10
+10095db0	drop_%i	FUN_1004ce10
+10095db8	weapon_%i	FUN_1004ce10,FUN_1004f220,FUN_1004f500
+10095dc4	sound/player/breathe2.wav	FUN_1004ce10
+10095de0	sound/player/heartbeat1.wav	FUN_1004ce10
+10095dfc	usepowerup	FUN_1004ce10
+10095e08	lasclr_%i	FUN_1004ce10
 10095e14	Kung-Fu	FUN_1004d700
 10095e20	#HUD_FullAuto	FUN_1004d7e0
 10095e30	#HUD_FreeSemi	FUN_1004d7e0
@@ -2265,11 +2265,11 @@ address	value	referenced_by
 10096844	#Player	FUN_1005db70
 1009684c	#Spectators	FUN_1005db70
 10096858	Scoreboard Text	FUN_1005db70,FUN_100607f0
-10096868	%c** %s %s\n	1005e7ad
-10096874	#No_longer_hear_that_player	1005e77f
-10096890	#Muted	1005e764
-10096898	%c** %s\n	1005e73d
-100968a4	#Unmuted	1005e714
+10096868	%c** %s %s\n	FUN_1005e660
+10096874	#No_longer_hear_that_player	FUN_1005e660
+10096890	#Muted	FUN_1005e660
+10096898	%c** %s\n	FUN_1005e660
+100968a4	#Unmuted	FUN_1005e660
 100968b0	Close	FUN_1005f220
 100968c0	Refresh	FUN_1005f220
 100968c8	Connect	FUN_1005f220
@@ -2280,8 +2280,8 @@ address	value	referenced_by
 100968f8	Address	FUN_1005f220
 10096900	Press 'Refresh' to search for servers...	FUN_1005fb90
 1009692c	Waiting for servers to respond...	FUN_1005fb90
-10096954	togglebrowser\n	1005fe96,1005fed0,10060163
-10096964	connect %s\n	1005fe80,1006014d
+10096954	togglebrowser\n	FUN_1005fe50,FUN_1005fed0,FUN_100600b0
+10096964	connect %s\n	FUN_1005fe50,FUN_100600b0
 10096a70	randompc	10096a34
 10096a7c	engineer	10096a30
 10096a94	hwguy	10096a24
@@ -2312,7 +2312,7 @@ address	value	referenced_by
 10096b8c	arrow	FUN_10060530
 10096b94	CommandMenu Text	FUN_100607f0
 10096ba8	Primary Button Text	FUN_100607f0,FUN_10064410
-10096bbc	ForceCloseCommandMenu\n	10060a88
+10096bbc	ForceCloseCommandMenu\n	FUN_10060a80
 10096be0	.PAVCException@@	
 10096bf4	Too many menus in commandmenu.txt past '%s'\n	FUN_10060c70
 10096c24	maps/%s.bsp	FUN_10060c70
@@ -2407,8 +2407,8 @@ address	value	referenced_by
 10097190	#Map_Description_not_available	FUN_100655d0
 100971b0	Select Team	FUN_100655d0
 100971bc	Team Info Text	FUN_100655d0
-100971cc	%s: %d Players (%d points)	10066254
-100971e8	%s: %d Player (%d points)	1006622e
+100971cc	%s: %d Players (%d points)	FUN_10066020
+100971e8	%s: %d Player (%d points)	FUN_10066020
 100972b0	v_ipitch_level	
 100972c4	v_iroll_level	
 100972d4	v_iyaw_level	
@@ -2428,6 +2428,6 @@ address	value	referenced_by
 100973a4	centerview	FUN_10069e90
 10097438	.?AVtype_info@@	
 10097d30	 \t-\r]	FUN_10070ee8
-100987b0		10003200,10004440,10017986,100179ba,100662b7,1008a480,Entry Point,FUN_100047d0,FUN_10004e40,FUN_10005170,FUN_10005b60,FUN_1000ab00,FUN_1000bab0,FUN_1000bd70,FUN_1000c030,FUN_1000c730,FUN_1000ca40,FUN_1000d7f0,FUN_1000e800,FUN_1000eb80,FUN_1000f110,FUN_1000f440,FUN_1000fa20,FUN_100158c0,FUN_10018fb0,FUN_100191b0,FUN_100349c0,FUN_100584a0,FUN_10058880,FUN_1005a0b0,FUN_1005a110,FUN_1005a500,FUN_1005a550,FUN_1005a860,FUN_1005bb90,FUN_1005c300,FUN_1005ce70,FUN_1005db70,FUN_1005ec40,FUN_1005f220,FUN_1005fb90,FUN_10060aa0,FUN_10060c70,FUN_100655d0,vgui::Label::Label,vgui::ScrollBar2::ScrollBar2
+100987b0		1008a480,Entry Point,FUN_10003200,FUN_10004440,FUN_100047d0,FUN_10004e40,FUN_10005170,FUN_10005b60,FUN_1000ab00,FUN_1000bab0,FUN_1000bd70,FUN_1000c030,FUN_1000c730,FUN_1000ca40,FUN_1000d7f0,FUN_1000e800,FUN_1000eb80,FUN_1000f110,FUN_1000f440,FUN_1000fa20,FUN_100158c0,FUN_100178c0,FUN_10018fb0,FUN_100191b0,FUN_100349c0,FUN_100584a0,FUN_10058880,FUN_1005a0b0,FUN_1005a110,FUN_1005a500,FUN_1005a550,FUN_1005a860,FUN_1005bb90,FUN_1005c300,FUN_1005ce70,FUN_1005db70,FUN_1005ec40,FUN_1005f220,FUN_1005fb90,FUN_10060aa0,FUN_10060c70,FUN_100655d0,FUN_10066020,vgui::Label::Label,vgui::ScrollBar2::ScrollBar2
 ffdff1ac		
 ffdffc00		

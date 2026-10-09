@@ -444,7 +444,7 @@ undefined4 CChangeLevel::InTransitionVolume(int *param_1,char *param_2)
   return local_14;
 }
 
-/* 000e87c4  CChangeLevel::ChangeList  (1177 bytes)
+/* 000e87c4  CChangeLevel::ChangeList  (1166 bytes)
  * uint ChangeList(char * param_1, int param_2)
  */
 /* CChangeLevel::ChangeList(LEVELLIST *, int) */

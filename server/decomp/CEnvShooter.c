@@ -50,18 +50,18 @@ void __thiscall CEnvShooter::KeyValue(CEnvShooter *this,int param_1)
 }
 
 /* 000bca44  CEnvShooter::Precache  (75 bytes)
- * undefined Precache(void)
+ * undefined Precache(int * param_1)
  */
 /* CEnvShooter::Precache(void) */
 
-void __thiscall CEnvShooter::Precache(CEnvShooter *this)
+void CEnvShooter::Precache(int *param_1)
 
 {
   int iVar1;
   
-  iVar1 = (*g_engfuncs.pfnPrecacheModel)(gpGlobals->pStringBase + this->pev->model);
-  *(int *)&this->field_0x78 = iVar1;
-  CBreakable::MaterialSoundPrecache(*(undefined4 *)&this->field_0x74);
+  iVar1 = (*g_engfuncs.pfnPrecacheModel)(gpGlobals->pStringBase + *(int *)(*param_1 + 0xb8));
+  param_1[0x1e] = iVar1;
+  CBreakable::MaterialSoundPrecache(param_1[0x1d]);
   return;
 }
 

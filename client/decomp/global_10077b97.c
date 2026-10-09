@@ -176,7 +176,7 @@ void Unwind_10077cbe(void)
 {
   int unaff_EBP;
   
-  FUN_1006cb4d(*(int *)(unaff_EBP + -0x30) + 0x274,0xe8,8,&LAB_1005eed0);
+  FUN_1006cb4d(*(int *)(unaff_EBP + -0x30) + 0x274,0xe8,8,FUN_1005eed0);
   return;
 }
 
@@ -212,7 +212,7 @@ void Unwind_10077d02(void)
 {
   int unaff_EBP;
   
-  FUN_1006cb4d(*(int *)(unaff_EBP + -0x30) + 0x4f0c,0xe8,0x250,&LAB_1005eed0);
+  FUN_1006cb4d(*(int *)(unaff_EBP + -0x30) + 0x4f0c,0xe8,0x250,FUN_1005eed0);
   return;
 }
 

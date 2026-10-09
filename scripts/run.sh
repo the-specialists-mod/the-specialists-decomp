@@ -27,13 +27,14 @@ run() { # <name> <binary>
     else
         rm -rf "$PROJECT_DIR/$name.gpr" "$PROJECT_DIR/$name.rep"
         mode=(-import "$bin" -overwrite -preScript ConfigureAnalysis.java
+              -postScript CreateMissingFunctions.java
               -postScript ApplyGoldSrcTypes.java "$TYPES/goldsrc_types_ghidra.h")
     fi
     "$GHIDRA" "$PROJECT_DIR" "$name" "${mode[@]}" \
         -scriptPath "$ROOT/scripts/ghidra" \
         -postScript ExportAll.java "$ROOT/$name" \
         > "$PROJECT_DIR/$name.log" 2>&1
-    grep -E "INFO .*(ExportAll|ApplyGoldSrcTypes|ConfigureAnalysis).*> |ERROR|Exception" "$PROJECT_DIR/$name.log" | tail -40
+    grep -E "INFO .*(ExportAll|ApplyGoldSrcTypes|ConfigureAnalysis|CreateMissingFunctions).*> |ERROR|Exception" "$PROJECT_DIR/$name.log" | tail -40
 }
 
 case "${1:-all}" in
