@@ -1,0 +1,228 @@
+class	methods	struct_size	note
+CBaseEntity	52		PlaceHolder Structure
+CFuncRotating	12	0x68	sizeof = 0x68 (from GetClassPtr)
+CPendulum	10	0x84	sizeof = 0x84 (from GetClassPtr)
+CMultiSource	8	0x1dc	sizeof = 0x1dc (from GetClassPtr)
+CBaseButton	14	0x128	sizeof = 0x128 (from GetClassPtr)
+CMomentaryRotButton	8	0x118	sizeof = 0x118 (from GetClassPtr)
+CEnvSpark	8	0x58	sizeof = 0x58 (from GetClassPtr)
+CGib	3		PlaceHolder Structure
+CBaseDoor	17	0x154	sizeof = 0x154 (from GetClassPtr)
+CBubbling	7	0x64	sizeof = 0x64 (from GetClassPtr)
+CBeam	9	0x54	sizeof = 0x54 (from GetClassPtr)
+CLightning	10	0x88	sizeof = 0x88 (from GetClassPtr)
+CLaser	10	0x68	sizeof = 0x68 (from GetClassPtr)
+CSprite	13	0x5c	sizeof = 0x5c (from GetClassPtr)
+CGibShooter	8	0x78	sizeof = 0x78 (from GetClassPtr)
+CTestEffect	3	0x128	sizeof = 0x128 (from GetClassPtr)
+CItemSoda	3	0x54	sizeof = 0x54 (from GetClassPtr)
+CEnvExplosion	6	0x158	sizeof = 0x158 (from GetClassPtr)
+CBreakable	16	0x108	sizeof = 0x108 (from GetClassPtr)
+CRecharge	8	0x104	sizeof = 0x104 (from GetClassPtr)
+CWallHealth	6	0x104	sizeof = 0x104 (from GetClassPtr)
+CItem	4		PlaceHolder Structure
+CBaseMonster	22		PlaceHolder Structure
+CFuncPlat	15	0x100	sizeof = 0x100 (from GetClassPtr)
+CFuncTrain	10	0x104	sizeof = 0x104 (from GetClassPtr)
+CFuncTrackTrain	16	0x9c	sizeof = 0x9c (from GetClassPtr)
+CFuncTrainControls	2	0x54	sizeof = 0x54 (from GetClassPtr)
+CFuncTrackChange	15	0x13c	sizeof = 0x13c (from GetClassPtr)
+CGunTarget	11	0x154	sizeof = 0x154 (from GetClassPtr)
+CRevertSaved	6	0x5c	sizeof = 0x5c (from GetClassPtr)
+CAmbientGeneric	8	0xc4	sizeof = 0xc4 (from GetClassPtr)
+CSpeaker	7	0x58	sizeof = 0x58 (from GetClassPtr)
+CBaseDelay	5	0x5c	sizeof = 0x5c (from GetClassPtr)
+CBaseToggle	12		PlaceHolder Structure
+CFrictionModifier	5	0x58	sizeof = 0x58 (from GetClassPtr)
+CMultiManager	8	0x17c	sizeof = 0x17c (from GetClassPtr)
+CTriggerHurt	2	0xf0	sizeof = 0xf0 (from GetClassPtr)
+CBaseTrigger	9	0xf0	sizeof = 0xf0 (from GetClassPtr)
+CChangeLevel	10	0x138	sizeof = 0x138 (from GetClassPtr)
+CTriggerSave	2	0xf0	sizeof = 0xf0 (from GetClassPtr)
+CTriggerEndSection	4	0xf0	sizeof = 0xf0 (from GetClassPtr)
+CTriggerGravity	2	0xf0	sizeof = 0xf0 (from GetClassPtr)
+CTriggerCamera	6	0x98	sizeof = 0x98 (from GetClassPtr)
+CTSEmitter	4	0x104	sizeof = 0x104 (from GetClassPtr)
+CTSTrigger	4	0xfc	sizeof = 0xfc (from GetClassPtr)
+CTSSlowMotion	8	0xf8	sizeof = 0xf8 (from GetClassPtr)
+CTSSlowMotionPoint	4	0xe8	sizeof = 0xe8 (from GetClassPtr)
+CTSDMHill	6	0x70	sizeof = 0x70 (from GetClassPtr)
+CTSMapGlobals	6	0x5c	sizeof = 0x5c (from GetClassPtr)
+CTSSellZone	3	0x58	sizeof = 0x58 (from GetClassPtr)
+CTSTimer	5	0x5c	sizeof = 0x5c (from GetClassPtr)
+CInfoBreakable	1	0x5c	sizeof = 0x5c (from GetClassPtr)
+CTSPhysicObject	4		PlaceHolder Structure
+CTSGrenade	2		PlaceHolder Structure
+CTSShrapnel	4	0x8c	sizeof = 0x8c (from GetClassPtr)
+CM61Grenade	5	0x84	sizeof = 0x84 (from GetClassPtr)
+CTSKnife	8	0x94	sizeof = 0x94 (from GetClassPtr)
+CTSBomb	10	0x78	sizeof = 0x78 (from GetClassPtr)
+CTSHack	7	0x70	sizeof = 0x70 (from GetClassPtr)
+CTSTeamEscape	7	0xe8	sizeof = 0xe8 (from GetClassPtr)
+CTSGroundAmmo	8	0x9c	sizeof = 0x9c (from GetClassPtr)
+CTSBriefcase	5		PlaceHolder Structure
+CBasePlayer	72	0xb78	sizeof = 0xb78 (from GetClassPtr)
+CTSPowerUp	11	0x8c	sizeof = 0x8c (from GetClassPtr)
+CTSFlag	11	0xa0	sizeof = 0xa0 (from GetClassPtr)
+CTSWorldGun	9	0xc8	sizeof = 0xc8 (from GetClassPtr)
+CTSAmmoPack	6	0x98	sizeof = 0x98 (from GetClassPtr)
+CTSGroundWeapon	9	0xa4	sizeof = 0xa4 (from GetClassPtr)
+CBasePlayerItem	12		PlaceHolder Structure
+CBasePlayerAmmo	2		PlaceHolder Structure
+CWeaponBox	10	0x170	sizeof = 0x170 (from GetClassPtr)
+CDecal	4	0x54	sizeof = 0x54 (from GetClassPtr)
+CAutoTrigger	6		
+CBaseDMStart	2	0x54	sizeof = 0x54 (from GetClassPtr)
+CBlood	3		
+CButtonTarget	4	0x54	sizeof = 0x54 (from GetClassPtr)
+CCorpse	1		
+CCyclerProbe	1		
+CCyclerSprite	8	0x60	sizeof = 0x60 (from GetClassPtr)
+CDeadHEV	3	0x154	sizeof = 0x154 (from GetClassPtr)
+CEnvBeverage	3		
+CEnvFunnel	3		
+CEnvGlobal	5		
+CEnvLight	2		
+CEnvShooter	3		
+CEnvSound	5		
+CFade	3		
+CFireAndDie	4		
+CFuncConveyor	3	0x54	sizeof = 0x54 (from GetClassPtr)
+CFuncIllusionary	2	0xf0	sizeof = 0xf0 (from GetClassPtr)
+CFuncMonsterClip	2		
+CFuncPlatRot	9	0x118	sizeof = 0x118 (from GetClassPtr)
+CFuncTankControls	6		
+CFuncTankGun	1	0xd4	sizeof = 0xd4 (from GetClassPtr)
+CFuncTankLaser	7	0xdc	sizeof = 0xdc (from GetClassPtr)
+CFuncTankMortar	2	0xd4	sizeof = 0xd4 (from GetClassPtr)
+CFuncTankRocket	2	0xd4	sizeof = 0xd4 (from GetClassPtr)
+CFuncTrackAuto	2		
+CFuncWall	2	0x54	sizeof = 0x54 (from GetClassPtr)
+CFuncWallToggle	3	0x54	sizeof = 0x54 (from GetClassPtr)
+CGameCounter	2	0x58	sizeof = 0x58 (from GetClassPtr)
+CGameCounterSet	1		
+CGameEnd	1		
+CGamePlayerEquip	3		
+CGamePlayerHurt	1	0x58	sizeof = 0x58 (from GetClassPtr)
+CGamePlayerTeam	2		
+CGamePlayerZone	4		
+CGameScore	2	0x58	sizeof = 0x58 (from GetClassPtr)
+CGameTeamMaster	5	0x60	sizeof = 0x60 (from GetClassPtr)
+CGameTeamSet	1		
+CGameText	4	0x80	sizeof = 0x80 (from GetClassPtr)
+CGenericCycler	1		
+CGlow	5		
+CHealthKit	3	0x54	sizeof = 0x54 (from GetClassPtr)
+CInfoIntermission	2		
+CItemAntidote	3		
+CItemBattery	3		
+CItemSecurity	3		
+CItemSuit	3	0x54	sizeof = 0x54 (from GetClassPtr)
+CLadder	3		
+CLight	5	0x5c	sizeof = 0x5c (from GetClassPtr)
+CMessage	4	0x54	sizeof = 0x54 (from GetClassPtr)
+CMomentaryDoor	6		
+CNullEntity	1		
+CPathCorner	4	0x58	sizeof = 0x58 (from GetClassPtr)
+CPathTrack	10	0x68	sizeof = 0x68 (from GetClassPtr)
+CPointEntity	1		
+CPushable	9	0x114	sizeof = 0x114 (from GetClassPtr)
+CRenderFxManager	1		
+CRotButton	1		
+CRotDoor	3		
+CShake	3		
+CShower	3		
+CSoundEnt	8	0x864	sizeof = 0x864 (from GetClassPtr)
+CStripWeapons	1		
+CTSBigPistolAmmo	1		
+CTSBigPistolWeapon	3	0xa4	sizeof = 0xa4 (from GetClassPtr)
+CTSCustomTarget	4	0x868	sizeof = 0x868 (from GetClassPtr)
+CTSDeadCorpse	2		
+CTSFog	1		
+CTSGrenadeWeapon	1		
+CTSGun	23	0xa00	sizeof = 0xa00 (from GetClassPtr)
+CTSKatanaWeapon	1		
+CTSKnifeWeapon	1		
+CTSMGWeapon	1		
+CTSModel	1		
+CTSObjectiveManager	5		
+CTSObjectivePointer	3		
+CTSParticle	2	0x214	sizeof = 0x214 (from GetClassPtr)
+CTSPlayerAmount	3		
+CTSRifleAmmo	1		
+CTSRifleWeapon	1		
+CTSSMGAmmo	1		
+CTSSMGWeapon	1		
+CTSScoreGiver	3		
+CTSShotgunAmmo	1		
+CTSShotgunWeapon	1		
+CTSSniperAmmo	1		
+CTSSniperWeapon	1		
+CTSSuperJump	1		
+CTSWinGiver	6	0x6c	sizeof = 0x6c (from GetClassPtr)
+CTSWind	2	0x60	sizeof = 0x60 (from GetClassPtr)
+CTargetCDAudio	4	0x54	sizeof = 0x54 (from GetClassPtr)
+CTriggerCDAudio	2	0xf0	sizeof = 0xf0 (from GetClassPtr)
+CTriggerChangeTarget	4	0x60	sizeof = 0x60 (from GetClassPtr)
+CTriggerCounter	1		
+CTriggerMonsterJump	3		
+CTriggerMultiple	1		
+CTriggerOnce	1		
+CTriggerPush	2		
+CTriggerRelay	4	0x60	sizeof = 0x60 (from GetClassPtr)
+CTriggerTeleport	1		
+CTriggerVolume	1		
+CWeaponCycler	5		
+CWorld	3	0x54	sizeof = 0x54 (from GetClassPtr)
+CWorldItem	2	0x58	sizeof = 0x58 (from GetClassPtr)
+CWreckage	5		
+CXenHair	3		
+CXenHull	2		
+CXenPLight	6	0x78	sizeof = 0x78 (from GetClassPtr)
+CXenSporeLarge	1		
+CXenSporeMed	1		
+CXenSporeSmall	1		
+CXenTree	9		
+CXenTreeTrigger	2		
+CCycler	8		PlaceHolder Class Structure
+CBasePlayerWeapon	18		PlaceHolder Class Structure
+CXenSpore	5		
+CFuncTank	12		PlaceHolder Class Structure
+CRuleEntity	5		PlaceHolder Class Structure
+CActAnimating	3		PlaceHolder Class Structure
+CBasePlatTrain	5		PlaceHolder Class Structure
+CRulePointEntity	1		
+CTSObjective	3		PlaceHolder Class Structure
+CRuleBrushEntity	1		
+CHalfLifeTeamplay	9		PlaceHolder Class Structure
+CSave	6		PlaceHolder Class Structure
+CTSGameRules	24		PlaceHolder Class Structure
+CHalfLifeMultiplay	11		PlaceHolder Class Structure
+CSaveRestoreBuffer	1		PlaceHolder Class Structure
+CTSSharedEmitter	2		PlaceHolder Class Structure
+CGlobalState	1		
+CVoiceGameMgr	2		PlaceHolder Class Structure
+CBaseSpectator	2		
+CTSAnimation	6		PlaceHolder Class Structure
+CGameRules	2		
+CBulletManager	2		PlaceHolder Class Structure
+CBaseAnimating	11		PlaceHolder Class Structure
+EHANDLE	3		PlaceHolder Class Structure
+CRestore	2		PlaceHolder Class Structure
+CTSStunt	3		
+CSound	1		
+Vector	5	0xc	
+CBot	4		PlaceHolder Class Structure
+CBotModuleAttack	6		
+CBotModuleBuy	1		
+CBotModuleVision	2		
+CBotModuleLookAround	2		
+CBotModuleStunt	1		
+CBotModulePowerUp	1		
+CBotModuleChat	1		
+CBotBrain	15		PlaceHolder Class Structure
+CBotStateDM	1		PlaceHolder Class Structure
+CBotStateTeamRounds	1		
+CBotStateObjective	1		
+CBotNav	5		PlaceHolder Class Structure
+CNodeGraph	16		PlaceHolder Class Structure

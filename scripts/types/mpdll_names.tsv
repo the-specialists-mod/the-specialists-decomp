@@ -1,0 +1,201 @@
+# Manual names for mp.dll functions the .so does not have (the bot AI). Applied by NameMsvcServer.java.
+# address<TAB>[Class::]name<TAB>comment
+# --- shared helpers the bot code calls (identified by body; HLSDK names) ---
+10008820	__vector_constructor_iterator	MSVC eh vector constructor iterator (array of member objects)
+1000c120	Vector::Vector	copy constructor
+1000e880	Vector::Vector	Vector(x, y, z)
+1000e8a0	Vector::operator+
+1000e8e0	Vector::operator*	Vector * float
+1000e920	Vector::Length
+10033670	CBasePlayer::IsOnLadder	pev->movetype == MOVETYPE_FLY
+10076250	UTIL_AngleMod	wrap to [0, 360)
+100762d0	UTIL_VecToAngles
+10076460	UTIL_FindEntityByString
+100764b0	UTIL_FindEntityByClassname
+100764f0	UTIL_PlayerByIndex
+10076530	UTIL_MakeVectors
+10076fb0	UTIL_TraceLine	(start, end, igmon, pentIgnore, ptr): ignore_monsters == 1 -> dont_ignore_monsters flag
+10077260	UTIL_VarArgs
+1007d310	__ftol
+1007d7fa	sprintf
+1007d84c	sscanf
+1007d9f0	strstr
+1007db4a	isspace
+1007e30f	fclose
+1007e38c	fgets
+1007e41f	fopen
+1007e432	fread
+1007e549	fwrite
+# --- bot module, node graph, and the shared code around it (docs/server/bots.md) ---
+1000e3f0	EHANDLE::Get	edict if serialnumber matches
+1000e450	EHANDLE::operator->	.so 0xab8e0; GET_PRIVATE(Get())
+1000f110	respawn	.so 0xace58; "reload\n" if not DM/coop else pl->Spawn()
+10026110	cmd_addbot	.so 0xc5520 is a stub; dll: dedicated check, "help" usage, 0x1006b7c0(argv1)
+100261a0	cmd_addcustombot	.so 0xc5550 stub; dll: 0x1006b590(argv1, argv2, atof(argv3))
+100263e0	cmd_restartround	.so 0xc5748; GameDLLInit order, calls CTSGameRules::ResetRestartRound
+10026540	cmd_weaponrestriction	.so 0xc58a0; GameDLLInit order, InitWeaponRestriction
+1002c370	CHalfLifeMultiplay::PlayerThink	.so 0xcfb60; vtable slot 18 (both rules classes)
+10032f30	TrainSpeed	.so 0xd8660; PreThink m_iTrain
+10033230	CBasePlayer::WaterMove	.so 0xd905c; PreThink call order
+100345d0	CBasePlayer::SelectItem	.so 0xdade4; ClientCommand "use", m_rgpPlayerItems 0x9e4
+100356f0	CBasePlayer::ItemPreFrame	.so 0xdc484; PreThink call order
+10035930	CBasePlayer::SetCustomDecalFrames	.so 0xdd488; pl+0xb2c (.so 0xb40)
+1003f6c0	CHalfLifeTeamplay::ChangePlayerTeam	.so 0xe488c; slot 53
+1003fe30	CHalfLifeTeamplay::PlayerRelationship	.so 0xe5278; slot 49
+10044a60	CTSAnimation::UpdateTimers	.so 0x6b37c; arg pl+0x278
+100470a0	CBulletManager::Reset	.so CBulletManager::Reset; TSGameRules+0x1864
+1004ab00	CTSPlayerAmount::ClientConnect	.so 0x72aec; count++ == target -> FireTargets/DelayedUse
+1004cb70	DoSpectacularNess	.so 0x76b48; RandomLong(0,100) <= clamp(spectacularness)
+1004df10	CTSGameRules::GetTeamsNum	.so 0x785a8; this = TSGameRules
+1004df30	CTSGameRules::InitObjectives	.so 0x785d8; ts_objective_manager, called from Init
+1004e530	CTSGameRules::SetObjective	.so 0x790b4; called from Init
+1004eca0	CTSGameRules::GetTeamIndex	.so 0x79b04; this = TSGameRules, -1 if none
+1004fa40	CTSGameRules::ClearObjectiveList	.so 0x7abdc; first call in SetObjective
+10054000	CTSGun::VKickback	shared: punchangle recoil only for FL_FAKECLIENT owners
+10054450	CTSGun::DropWeapon	.so 0x8094c (inferred from call graph)
+100548d0	CTSGun::GetBetterWeapon	.so 0x80f40; g_iWeaponPriority scan, SelectWeapon, vt[72]
+10054930	CTSGun::SelectWeapon	.so 0x80fb8; identical body
+10054d80	CTSGun::SwitchItems	.so 0x8155c; ClientCommand "useitems"
+10054e50	CTSGun::SwitchFireMode	.so 0x8169c; ClientCommand "firemode"
+100595f0	GetWeaponType	.so 0x8705c; id remap + info+0x348
+10060e60	CBasePlayer::ForceClientDllUpdate	.so 0x92594; ClientCommand "fullupdate"
+10061080	CBasePlayer::GiveSlowMul	slot 2: FixedSlowAmt(pev->fuser1) = max(fuser1,0.01); brain think gate > 0.1
+10061100	CBasePlayer::UpdatePlayerState	.so 0x92a08; stance byte pl+0x484 (.so 0x498)
+100614d0	CBasePlayer::CheckForWires	.so 0x92f08; PreThink, TSGameRules mode 3, +0.5 s
+10061670	CBasePlayer::SetPlayerSpeed	pl+0x53c = clamp(speed,0,330), SetClientMaxspeed
+10061710	CBasePlayer::GiveCash	.so 0x9310c; pl+0x52c clamp 0..30000
+10062010	CBasePlayer::ResetArmament	.so 0x93e88; zero pl+0x540..0x6ff
+10062030	CBasePlayer::AddItemToArmament	.so 0x93ea4; 32 x 12-byte at pl+0x580
+10062070	CBasePlayer::AddAmmoToArmament	.so 0x93ef4; int[16] at pl+0x540
+10062720	CBasePlayer::DropWeapon	.so 0x94900 (id, float); bot calls (-1 = current, 0.0)
+10063270	CBasePlayer::UpdatePowerUpState	.so 0x95748; PreThink order, CreatePowerUp
+10063420	CBasePlayer::UsePowerUp	.so 0x95980 (already named)
+10064370	CBasePlayer::SlowMotionFlow	.so 0x96bb0; PreThink order, PlayerByIndex loop
+100649b0	GetClassPtr<CBaseEntity>	.so 0x97298; alloc 0x54 = sizeof(CBaseEntity) in MSVC
+10067010	FixedSlowAmt	max(x, 0.01)
+10067030	InterpolateSlowMotion	.so 0x9910c; (frametime, &pev->fuser1, pl+0x154)
+10067f10	CBasePlayer::StopObserver	.so 0x99a14; identical body
+10068130	CBasePlayer::Observer_Idle	.so 0x99ca4; PreThink order
+100681a0	CBasePlayer::Observer_HandleButtons	.so 0x99d34; PreThink order
+10068440	CTSStunt::Play	.so 0x9a014; arg pl+0x4dc
+10069f90	CTSStunt::CheckForBreakables	.so 0x9bd9c; arg pl+0x4dc
+1006b360	BotPlayerByIndex	CBasePlayer* for edict i with FL_FAKECLIENT|FL_CLIENT, else NULL
+1006b3b0	BotSetup	ClientPutInServer equivalent: GetClassPtr<CBot>, isBot, skill, Spawn, infokeys model/team/cl_lw, ChangePlayerTeam, PlayerThink, ts_playeramount
+1006b590	BotCreateCustom	addcustombot core: model/skill/name, CreateFakeClient, netname
+1006b7c0	BotCreate	addbot core: arg=model, RandomFloat skill, bots.txt name, "botlearn 1" if no nodes
+1006b970	CBot::OnKill	PlayerKilled hook on killer bot: 10/101 queue offense chat with victim name
+1006ba00	CBot::Killed	vtable slot 22: CBasePlayer::Killed + 10/101 queue "killed" chat with killer name
+1006bac0	CBot::TraceAttack	vtable slot 19: CBasePlayer::TraceAttack + AimAt attacker origin if attacker IsPlayer
+1006bb40	CBot::Spawn	vtable slot 7: brain Reset, CBasePlayer::Spawn, random laser colour PlInfo
+1006bbc0	BotSayLine	random line from bot_say section (0 offense,1 freetime,2 killed) or ""
+1006bc00	BotLoadSay	parse bot_say.txt into g_botSay[3][256][64] (64 used per section)
+1006bee0	BotLoadFiles	parse bots.txt (name//skill), then BotLoadSay; called from CTSGameRules::Init
+1006c150	BotPickName	random unused bots.txt name (outward search), resets used flags when exhausted, applies per-name skill
+1006c240	GetClassPtr<CBot>	alloc 0x25f0, inlined CBot ctor (vtable 0x10094a9c, sub-object vptrs)
+1006c3b0	CBaseToggle::CBaseToggle	inlined base ctor: sets CBaseToggle vptr
+1006c3c0	CBotModuleAttack::ComputeAimOffset	skill-scaled +-8 jitter, head/body height
+1006c520	CBotModuleAttack::Think	module bit 4: tracking, target, cover goal, firing, close melee
+1006cbc0	CBotModuleAttack::FindCoverSpot	8 probes x 512u from random 45deg start; hidden spot or farthest visible
+1006cec0	CBotModuleAttack::SelectEnemy	nearest visible enemy, every RandomFloat(1,3) s
+1006cf90	BotCanStockHit	current weapon info+0x10 (cold-cock damage) > 0
+1006cfc0	BotHoldingMelee	kung fu (no status), knife (3) or katana (10)
+1006d010	CBotModuleAttack::FireWeapon	per weapon kind attack/reload/switch decisions
+1006d540	CBotModuleAttack::ReleaseAttack	PressButtons(ATTACK|ATTACK2, 0)
+1006d560	BotRandomAttachments	random silencer(>50)/laser(>50)/scope(>75) if allowed and not built-in (used by buy module)
+1006d630	CBotModuleBuy::Think	bit 0x10 (vtable 0x10094c30): rebuild armament (kevlar, knives/katana, pistol, SMG or rifle, ammo x10), clear bit 0x10
+1006dbf0	CBotModuleVision::Think	module bit 0x40 wrapper
+1006dc10	CBotModuleVision::Scan	visible alive players in FOV (0.5) -> enemies[16]/teammates[16]
+1006dde0	CBotModuleLookAround::Think	bit 0x80 (vtable 0x10094c20): every min(0.5/sm/sk,5) s look at FindLookPoint()
+1006dea0	CBotModuleLookAround::FindLookPoint	8 traces of 1024u (yaw RandomFloat(0,360)+45*i, pitch RandomFloat(-30,30)); first unobstructed end, else farthest
+1006e130	CBotModuleStunt::Think	bit 8 (vtable 0x10094c18): dive (IN_ALT1) 75% or double-jump flip 25%, get up from prone, then clear bit 8
+1006e280	CBotModulePowerUp::Think	bit 0x200 (vtable 0x10094c10): UsePowerUp when one is held and none active; clear bit when active
+1006e330	CBotModuleChat::Think	module bit 0x400: bottalk, emits queued/freetime line, re-arms 60..180*clamp(skill,.5,1) s
+1006e4b0	CBotBrain::ResetMsec	brain+0/4/8 = 0
+1006e4c0	BotArmamentEmpty	pl+0x580 == 0 (first armament entry empty) -> buy module
+1006e4e0	CBotBrain::SetIdealAngles	brain+0xc = angles
+1006e500	CBotBrain::UpdateView	turn pev->angles/v_angle toward ideal by frametime*turnRate, punch low-pass
+1006e6d0	CBotBrain::RunMove	msec estimate (450/frames per 0.5s, clamp 5..100) + pfnRunPlayerMove
+1006e7a0	BotSay	SayText "\x02name: text\n" MSG_ONE to every other IsNetClient player
+1006e900	CBotStateDM::Think	mode 0/1 strategy: combat/look bits, roam goal hill/powerup/spawnpoint
+1006ed00	CBotStateTeamRounds::Think	mode 2 strategy: roam goal = opposite team spawn points
+1006f0c0	CBotStateObjective::Think	mode 3+ strategy: no roam goals
+1006f2c0	CBotBrain::Reset	called by CBot::Spawn: zero timers/flags, chat freetime timer, nav reset, pick state by TS mode
+1006f410	CBotBrain::TestModules	m_activeModules & bits
+1006f420	CBotBrain::SetModules	m_activeModules = bits
+1006f430	CBotBrain::EnableModules	m_activeModules |= bits
+1006f450	CBotBrain::DisableModules	m_activeModules &= ~bits
+1006f470	CBotBrain::PressButtons	buttonExpire[i] = time+dur for each bit i<16 in mask
+1006f4b0	CBotBrain::UpdateButtons	m_buttons = bits whose expire time > now
+1006f500	CBotBrain::Think	per-frame driver: state, modules in fixed order, nav, button, RunMove
+1006f730	CBotBrain::NumVisibleEnemies	returns byte brain+0x1a08 (never written: always 0)
+1006f740	CBotBrain::LookAt	ideal angles toward target from GetGunPosition (pitch negated)
+1006f7f0	CBotBrain::SetMove	forwardmove/sidemove (brain+0x1a24/0x1a28)
+1006f810	CBotNav::Reset	nav sub-object (brain+0x28) reset incl. Vector[512] path buffer
+1006f8c0	CBotNav::RandomWanderPoint	RANDOM_LONG(1,16)*22 deg, RANDOM_LONG(1024,4096) units, trace end
+1006fa40	CBotNav::Replan	reset nav state, straight-to-goal flag or FindPathBetweenPoints or wander; returns 3
+1006fc00	CBotNav::Navigate	path following; 0 arrived, 1 failed/stuck, 2 in progress
+10070400	CBotNav::GetSteerPoint	24-unit forward + +-16 side traces, detour points (nav+0x4c)
+10070b40	VectorEquals	thiscall Vector==Vector (exact float compare)
+10070b80	UTIL_DebugBeam	TE_BEAMPOINTS a->b, lgtning.spr, green, life arg*0.1s; skips zero vectors
+10070cc0	UTIL_DebugNodeBeam	vertical 32-unit TE_BEAMPOINTS at a node
+10070dd0	CNodeGraph::StaticInit_thunk	CRT static-initializer thunk -> 0x10070de0
+10070de0	CNodeGraph::StaticInit	constructs g_NodeGraph
+10070df0	CNodeGraph::CNodeGraph	ctor: Reset(), returns this
+10070e00	CNodeGraph::Reset	count=0, zero nodes and link matrix
+10070e30	CNodeGraph::AddNode	(CNode*, int manual): spacing/air checks, append, LinkNewNode, debug beam+"(debug)%i nodes"
+10070ed0	CNodeGraph::IsInAir	non-ladder node with no floor within 72 units below -> reject
+10070f50	CNodeGraph::IsTooClose	any node within 8 (manual) / 32 (ladder) / 128 units
+10070fe0	CNodeGraph::IsGroundContinuous	floor within 72 below every 16-unit step of the segment (cdecl)
+100711e0	CNodeGraph::IsReachable	ladder shortcuts (2D<64, or 2D<160 && |dz|<32) else IsGroundContinuous
+10071410	CNodeGraph::LinkNewNode	trace (through func_door*) + IsReachable to every node, symmetric links
+100715f0	CNodeGraph::PushPath	push node index on path stack (max 512)
+10071620	CNodeGraph::PopPath	pop top of path stack (-1 if empty)
+10071650	CNodeGraph::ClearScratch	reset FindPath scratch (unused list, stack, g/h/f/closed)
+100716a0	CNodeGraph::FindPathBetweenPoints	nearest visible node to each point, then FindPath
+100717f0	CNodeGraph::FindPath	Dijkstra from start + greedy g/f walk back from goal; debug output for testpath
+10071cb0	CNodeGraph::Load	<gamedir>\maps\<map>.ndm "rb"; rejects count>=512
+10071e60	CNodeGraph::Save	TS\maps\<map>.ndm "wb"; skipped if count<=0
+10073a30	TSFoundRandomEntity	.so 0x9fa64; random of up to 32 by classname
+10073aa0	PlayerIsCheating	.so 0x9fae0; neighbour of TSFoundRandomEntity in both, sscanf
+10076d70	ClientPrint	.so 0xed16c; gmsgTextMsg MSG_ONE
+1007d337	atof	CRT
+1007d38e	atol	CRT
+1007d419	atoi	CRT
+1008f1b4	CHalfLifeMultiplay::vftable	62 slots; slot i == .so slot i
+1008ff10	CBaseEntity::vftable	set by GetClassPtr<CBaseEntity>
+10090fbc	CHalfLifeTeamplay::vftable	62 slots
+10094a9c	CBot::vftable	91 slots; overrides 7,19,22,49
+10094c08	CBotModuleChat::vftable	slot1 -> 0x1006e330 (bit 0x400)
+10094c28	CBotModuleVision::vftable	slot1 0x1006dbf0
+10094c38	CBotModuleAttack::vftable	slot0 0x10027e10 empty, slot1 Think
+10094c40	CBotStateObjective::vftable	1 slot -> 0x1006f0c0 (mode 3)
+10094c44	CBotStateTeamRounds::vftable	1 slot -> 0x1006ed00 (mode 2)
+10094c48	CBotStateDM::vftable	1 slot -> 0x1006e900 (modes 0/1)
+10094d60	k_flBotAimCone	(double)0.9f, |dot| threshold to fire
+10094d68	k_flBotCoverProbeDist	512.0
+10094d7c	k_flBotKnifeTimePerUnit	1/1900
+10094d88	k_flBotMsecNumerator	450.0
+1009ed98	cvar_botlearn	cvar_t botlearn "0.0" FCVAR_SERVER
+1009edf8	cvar_bottalk	cvar_t bottalk "1" FCVAR_SERVER
+1009ef00	cvar_botarmor	cvar_t botarmor "0" FCVAR_SERVER
+100a93c4	g_pCurrentBot	StartFrame: player currently thinking (inferred name)
+100ae480	g_pGameRules	CHalfLifeMultiplay or CHalfLifeTeamplay
+100ae484	g_teamplay	DecideGamePlay result, copied to TSGameRules byte 0
+100ae490	g_fGameOver	tested by PlayerThink/StartFrame
+100c0a48	TSGameRules	global CTSGameRules object; .so 0x1781a0
+100c0ab0	TSGameRules_team0_spawnClass	info_player_team spawn classname (team i at +i*0x8c)
+100c0ad0	TSGameRules_team0_fallbackClass	fallback spawn classname
+100d0384	g_iWeaponPriority	38 ints (ends 0x100d041c); .so g_iWeaponPriority
+100d0420	global_weapon_info	38 x 0x3dc s_weapon_info; .so 0x17db40
+100d9744	gmsgSayText	"SayText" user message id
+100d97e0	gmsgPlInfo	"PlInfo" (size 3) user message id
+100da9a0	g_botNetnames	char[33][64] static netname storage indexed by entindex
+100db1e0	g_botNames	char[64][64] names from bots.txt
+100dc1e0	g_botNameSkill	float[64] per-name skill (0 = none)
+100dc2e0	g_botNameCount	int, <= 64
+100dc2e4	g_botNameUsed	byte[64] used flags
+100dc324	g_botSay	char[3][256][64] bot_say lines (64 used per section)
+100e8324	g_botSayCount	int[3] offense/freetime/killed
+100e8330	g_NodeGraph	CNodeGraph global, 0x20600c bytes (count, nodes[512], links[512][512], FindPath scratch)
+102ee33c	g_sModelIndexLightning	"sprites/lgtning.spr" (debug beams)
+102ef3b8	g_flWeaponCheat	gates powerup/mj/cashala/weapon_/lasclr_ commands

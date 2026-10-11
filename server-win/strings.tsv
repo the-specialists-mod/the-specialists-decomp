@@ -1,0 +1,2626 @@
+address	value	referenced_by
+10095fe6	GAIsProcessorFeaturePresent	
+10096004	KERNEL32	FUN_1007eaaa
+10096010	e+000	FUN_1007ec32
+100960ee	null)	FUN_1007fbf7
+100960fd	null)	FUN_1007fbf7
+100961ac	runtime error 	
+100961c0	TLOSS error\r\n	
+100961d0	SING error\r\n	
+100961e0	DOMAIN error\r\n	
+100961f0	R6028\r\n- unable to initialize heap\r\n	
+10096218	R6027\r\n- not enough space for lowio initialization\r\n	
+10096250	R6026\r\n- not enough space for stdio initialization\r\n	
+10096288	R6025\r\n- pure virtual function call\r\n	
+100962b0	R6024\r\n- not enough space for _onexit/atexit table\r\n	
+100962e8	R6019\r\n- unable to open console device\r\n	
+10096314	R6018\r\n- unexpected heap error\r\n	
+10096338	R6017\r\n- unexpected multithread lock error\r\n	
+10096368	R6016\r\n- not enough space for thread data\r\n	
+10096394	\r\nabnormal program termination\r\n	
+100963b8	R6009\r\n- not enough space for environment\r\n	100a8b74,FUN_10085294
+100963e4	R6008\r\n- not enough space for arguments\r\n	
+10096410	R6002\r\n- floating point not loaded\r\n	
+10096438	Microsoft Visual C++ Runtime Library	FUN_10085294
+10096464	Runtime Error!\n\nProgram: 	FUN_10085294
+10096484	<program name unknown>	FUN_10085294
+1009649c	GetLastActivePopup	FUN_10087902
+100964b0	GetActiveWindow	FUN_10087902
+100964c0	MessageBoxA	FUN_10087902
+100964cc	user32.dll	FUN_10087902
+100964d8	1#QNAN	FUN_10087ceb
+100964e0	1#INF	FUN_10087ceb
+100964e8	1#IND	FUN_10087ceb
+100964f0	1#SNAN	FUN_10087ceb
+1009653c	floor	
+100965ac	H:mm:ss	100a8f78
+100965b4	dddd, MMMM dd, yyyy	100a8f74
+100965c8	M/d/yy	100a8f70
+100965d8	December	100a8f64
+100965e4	November	100a8f60
+100965f0	October	100a8f5c
+100965f8	September	100a8f58
+10096604	August	100a8f54
+1009661c	April	100a8f44
+10096624	March	100a8f40
+1009662c	February	100a8f3c
+10096638	January	100a8f38
+10096670	Saturday	100a8f04
+1009667c	Friday	100a8f00
+10096684	Thursday	100a8efc
+10096690	Wednesday	100a8ef8
+1009669c	Tuesday	100a8ef4
+100966a4	Monday	100a8ef0
+100966ac	Sunday	100a8eec
+100966d0	SunMonTueWedThuFriSat	
+100966e8	JanFebMarAprMayJunJulAugSepOctNovDec	
+10096aaa	LoadLibraryA	
+10096aba	GetProcAddress	
+10096aca	KERNEL32.dll	
+10096ada	RtlUnwind	
+10096ae6	InterlockedDecrement	
+10096afe	InterlockedIncrement	
+10096b16	HeapAlloc	
+10096b22	HeapFree	
+10096b2e	GetCommandLineA	
+10096b40	GetVersion	
+10096b4e	GetModuleHandleA	
+10096b62	GetCurrentThreadId	
+10096b78	TlsSetValue	
+10096b86	TlsAlloc	
+10096b92	TlsFree	
+10096b9c	SetLastError	
+10096bac	TlsGetValue	
+10096bba	GetLastError	
+10096bca	ExitProcess	
+10096bd8	TerminateProcess	
+10096bec	GetCurrentProcess	
+10096c00	HeapReAlloc	
+10096c0e	HeapSize	
+10096c1a	InitializeCriticalSection	
+10096c36	DeleteCriticalSection	
+10096c4e	EnterCriticalSection	
+10096c66	LeaveCriticalSection	
+10096c7e	WideCharToMultiByte	
+10096c94	MultiByteToWideChar	
+10096caa	LCMapStringA	
+10096cba	LCMapStringW	
+10096cca	GetStringTypeA	
+10096cdc	GetStringTypeW	
+10096cee	CloseHandle	
+10096cfc	ReadFile	
+10096d08	WriteFile	
+10096d14	SetFilePointer	
+10096d26	HeapDestroy	
+10096d34	HeapCreate	
+10096d42	VirtualFree	
+10096d50	VirtualAlloc	
+10096d60	IsBadWritePtr	
+10096d70	SetHandleCount	
+10096d82	GetStdHandle	
+10096d92	GetFileType	
+10096da0	GetStartupInfoA	
+10096db2	GetModuleFileNameA	
+10096dc8	FreeEnvironmentStringsA	
+10096de2	FreeEnvironmentStringsW	
+10096dfc	GetEnvironmentStrings	
+10096e14	GetEnvironmentStringsW	
+10096e2e	SetUnhandledExceptionFilter	
+10096e4c	IsBadReadPtr	
+10096e5c	IsBadCodePtr	
+10096e6c	GetCPInfo	
+10096e78	SetStdHandle	
+10096e88	FlushFileBuffers	
+10096e9c	CreateFileA	
+10096eaa	GetACP	
+10096eb4	GetOEMCP	
+10096ec0	RaiseException	
+10096ed2	SetEndOfFile	
+10097cdc	mp.dll	10096eec
+10097ce3	?AngularMoveDone@CBaseToggle@@QAEXXZ	10097490
+10097d08	?AnimateThink@CSprite@@QAEXXZ	10097494
+10097d26	?AnimateUntilDead@CSprite@@QAEXXZ	10097498
+10097d48	?AttemptToMaterialize@CBasePlayerItem@@QAEXXZ	1009749c
+10097d76	?BounceGibTouch@CGib@@QAEXPAVCBaseEntity@@@Z	100974a0
+10097da3	?BounceTouch@CM61Grenade@@UAEXPAVCBaseEntity@@@Z	100974a4
+10097dd4	?BounceTouch@CTSFlag@@QAEXPAVCBaseEntity@@@Z	100974a8
+10097e01	?BounceTouch@CTSGrenade@@UAEXPAVCBaseEntity@@@Z	100974ac
+10097e31	?BounceTouch@CTSKnife@@UAEXPAVCBaseEntity@@@Z	100974b0
+10097e5f	?BounceTouch@CTSShrapnel@@UAEXPAVCBaseEntity@@@Z	100974b4
+10097e90	?BounceTouch@CTSWorldGun@@QAEXPAVCBaseEntity@@@Z	100974b8
+10097ec1	?BreakTouch@CBreakable@@QAEXPAVCBaseEntity@@@Z	100974bc
+10097ef0	?ButtonBackHome@CBaseButton@@QAEXXZ	100974c0
+10097f14	?ButtonReturn@CBaseButton@@QAEXXZ	100974c4
+10097f36	?ButtonSpark@CBaseButton@@QAEXXZ	100974c8
+10097f57	?ButtonTouch@CBaseButton@@QAEXPAVCBaseEntity@@@Z	100974cc
+10097f88	?ButtonUse@CBaseButton@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	100974d0
+10097fc5	?CallGoDown@CFuncPlat@@QAEXXZ	100974d4
+10097fe3	?CallHitBottom@CFuncPlat@@QAEXXZ	100974d8
+10098004	?CallHitTop@CFuncPlat@@QAEXXZ	100974dc
+10098022	?CanThink@CItemSoda@@QAEXXZ	100974e0
+1009803e	?CanTouch@CItemSoda@@QAEXPAVCBaseEntity@@@Z	100974e4
+1009806a	?CaptureTouch@CTSBriefcase@@QAEXPAVCBaseEntity@@@Z	100974e8
+1009809d	?ChangeFriction@CFrictionModifier@@QAEXPAVCBaseEntity@@@Z	100974ec
+100980d7	?CorpseFallThink@CBaseMonster@@QAEXXZ	100974f0
+100980fd	?CounterUse@CBaseTrigger@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	100974f4
+1009813c	?DamageThink@CLightning@@QAEXXZ	100974f8
+1009815c	?DeadEnd@CFuncTrackTrain@@QAEXXZ	100974fc
+1009817d	?DefaultTouch@CBasePlayerAmmo@@QAEXPAVCBaseEntity@@@Z	10097500
+100981b3	?DefaultTouch@CBasePlayerItem@@QAEXPAVCBaseEntity@@@Z	10097504
+100981e9	?DelayThink@CBaseDelay@@QAEXXZ	10097508
+10098208	?DestroyItem@CBasePlayerItem@@QAEXXZ	1009750c
+1009822d	?Die@CBreakable@@QAEXXZ	10097510
+10098245	?DoorGoDown@CBaseDoor@@QAEXXZ	10097514
+10098263	?DoorGoUp@CBaseDoor@@QAEXXZ	10097518
+1009827f	?DoorHitBottom@CBaseDoor@@QAEXXZ	1009751c
+100982a0	?DoorHitTop@CBaseDoor@@QAEXXZ	10097520
+100982be	?DoorTouch@CBaseDoor@@QAEXPAVCBaseEntity@@@Z	10097524
+100982eb	?EndSectionTouch@CTriggerEndSection@@QAEXPAVCBaseEntity@@@Z	10097528
+10098327	?EndSectionUse@CTriggerEndSection@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	1009752c
+1009836f	?ExecuteChangeLevel@CChangeLevel@@QAEXXZ	10097530
+10098398	?ExpandThink@CSprite@@QAEXXZ	10097534
+100983b5	?Fall@CTSAmmoPack@@QAEXXZ	10097538
+100983cf	?Fall@CTSFlag@@QAEXXZ	1009753c
+100983e5	?Fall@CTSGroundAmmo@@QAEXXZ	10097540
+10098401	?Fall@CTSGroundWeapon@@QAEXXZ	10097544
+1009841f	?Fall@CTSPowerUp@@QAEXXZ	10097548
+10098438	?Fall@CTSWorldGun@@QAEXXZ	1009754c
+10098452	?FallThink@CBasePlayerItem@@QAEXXZ	10097550
+10098475	?Find@CFuncTrackChange@@QAEXXZ	10097554
+10098494	?Find@CFuncTrackTrain@@QAEXXZ	10097558
+100984b2	?Find@CFuncTrainControls@@QAEXXZ	1009755c
+100984d3	?FizzThink@CBubbling@@QAEXXZ	10097560
+100984f0	?FollowTarget@CTriggerCamera@@QAEXXZ	10097564
+10098515	GiveFnptrsToDll	10097720
+10098525	?GoDown@CFuncTrackChange@@UAEXXZ	10097568
+10098546	?GoUp@CFuncTrackChange@@UAEXXZ	1009756c
+10098565	?GravityTouch@CTriggerGravity@@QAEXPAVCBaseEntity@@@Z	10097570
+1009859b	?HurtTouch@CBaseTrigger@@QAEXPAVCBaseEntity@@@Z	10097574
+100985cb	?HurtTouch@CFuncRotating@@QAEXPAVCBaseEntity@@@Z	10097578
+100985fc	?InitThink@CTSEmitter@@QAEXXZ	1009757c
+1009861a	?ItemTouch@CItem@@QAEXPAVCBaseEntity@@@Z	10097580
+10098643	?Kill@CWeaponBox@@QAEXXZ	10097584
+1009865c	?LinearMoveDone@CBaseToggle@@QAEXXZ	10097588
+10098680	?LoadThink@CRevertSaved@@QAEXXZ	1009758c
+100986a0	?ManagerThink@CMultiManager@@QAEXXZ	10097590
+100986c4	?ManagerUse@CMultiManager@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097594
+10098704	?Materialize@CBasePlayerAmmo@@QAEXXZ	10097598
+10098729	?Materialize@CBasePlayerItem@@QAEXXZ	1009759c
+1009874e	?Materialize@CItem@@QAEXXZ	100975a0
+10098769	?MessageThink@CRevertSaved@@QAEXXZ	100975a4
+1009878c	?MultiTouch@CBaseTrigger@@QAEXPAVCBaseEntity@@@Z	100975a8
+100987bd	?MultiWaitOver@CBaseTrigger@@QAEXXZ	100975ac
+100987e1	?NearestPath@CFuncTrackTrain@@QAEXXZ	100975b0
+10098806	?Next@CFuncTrackTrain@@QAEXXZ	100975b4
+10098824	?Next@CFuncTrain@@QAEXXZ	100975b8
+1009883d	?Next@CGunTarget@@QAEXXZ	100975bc
+10098856	?Off@CMomentaryRotButton@@QAEXXZ	100975c0
+10098877	?Off@CRecharge@@QAEXXZ	100975c4
+1009888e	?Off@CWallHealth@@QAEXXZ	100975c8
+100988a7	?PendulumUse@CPendulum@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	100975cc
+100988e4	?PlatUse@CFuncPlat@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	100975d0
+1009891d	?PlayerDeathThink@CBasePlayer@@QAEXXZ	100975d4
+10098943	?RadiationThink@CTriggerHurt@@QAEXXZ	100975d8
+10098968	?RampThink@CAmbientGeneric@@QAEXXZ	100975dc
+1009898b	?Recharge@CRecharge@@QAEXXZ	100975e0
+100989a7	?Recharge@CWallHealth@@QAEXXZ	100975e4
+100989c5	?Register@CMultiSource@@QAEXXZ	100975e8
+100989e4	?RespawnThink@CInfoBreakable@@QAEXXZ	100975ec
+10098a09	?Return@CMomentaryRotButton@@QAEXXZ	100975f0
+10098a2d	?RopeTouch@CPendulum@@QAEXPAVCBaseEntity@@@Z	100975f4
+10098a5a	?Rotate@CFuncRotating@@QAEXXZ	100975f8
+10098a78	?RotatingUse@CFuncRotating@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	100975fc
+10098ab9	?SUB_CallUseToggle@CBaseEntity@@QAEXXZ	10097600
+10098ae0	?SUB_DoNothing@CBaseEntity@@QAEXXZ	10097604
+10098b03	?SUB_FadeOut@CBaseEntity@@QAEXXZ	10097608
+10098b24	?SUB_Remove@CBaseEntity@@QAEXXZ	1009760c
+10098b44	?SUB_StartFadeOut@CBaseEntity@@QAEXXZ	10097610
+10098b6a	?SaveTouch@CTriggerSave@@QAEXPAVCBaseEntity@@@Z	10097614
+10098b9a	?SellTouch@CTSSellZone@@QAEXPAVCBaseEntity@@@Z	10097618
+10098bc9	?ShootThink@CGibShooter@@QAEXXZ	1009761c
+10098be9	?Smoke@CEnvExplosion@@QAEXXZ	10097620
+10098c06	?SparkStart@CEnvSpark@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097624
+10098c42	?SparkStop@CEnvSpark@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097628
+10098c7d	?SparkThink@CEnvSpark@@QAEXXZ	1009762c
+10098c9b	?SpeakerThink@CSpeaker@@QAEXXZ	10097630
+10098cba	?SpinDown@CFuncRotating@@QAEXXZ	10097634
+10098cda	?SpinUp@CFuncRotating@@QAEXXZ	10097638
+10098cf8	?Start@CGunTarget@@QAEXXZ	1009763c
+10098d12	?StaticDecal@CDecal@@QAEXXZ	10097640
+10098d2e	?StickyGibTouch@CGib@@QAEXPAVCBaseEntity@@@Z	10097644
+10098d5b	?Stop@CPendulum@@QAEXXZ	10097648
+10098d73	?StrikeThink@CLaser@@QAEXXZ	1009764c
+10098d8f	?StrikeThink@CLightning@@QAEXXZ	10097650
+10098daf	?StrikeUse@CLightning@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097654
+10098deb	?Swing@CPendulum@@QAEXXZ	10097658
+10098e04	?TeleportTouch@CBaseTrigger@@QAEXPAVCBaseEntity@@@Z	1009765c
+10098e38	?TestThink@CTestEffect@@QAEXXZ	10097660
+10098e57	?ToggleUse@CAmbientGeneric@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097664
+10098e98	?ToggleUse@CBaseTrigger@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097668
+10098ed6	?ToggleUse@CLightning@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	1009766c
+10098f12	?ToggleUse@CSpeaker@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097670
+10098f4c	?TouchChangeLevel@CChangeLevel@@QAEXPAVCBaseEntity@@@Z	10097674
+10098f83	?TriggerAndWait@CBaseButton@@QAEXXZ	10097678
+10098fa7	?TriggerDecal@CDecal@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	1009767c
+10098fe2	?TriggerTouch@CBeam@@QAEXPAVCBaseEntity@@@Z	10097680
+1009900e	?UseChangeLevel@CChangeLevel@@QAEXPAVCBaseEntity@@0W4USE_TYPE@@M@Z	10097684
+10099051	?Wait@CFuncTrain@@QAEXXZ	10097688
+1009906a	?Wait@CGunTarget@@QAEXXZ	1009768c
+10099083	?WaitThink@CM61Grenade@@UAEXXZ	10097690
+100990a2	?WaitThink@CTSAmmoPack@@QAEXXZ	10097694
+100990c1	?WaitThink@CTSBomb@@QAEXXZ	10097698
+100990dc	?WaitThink@CTSDMHill@@QAEXXZ	1009769c
+100990f9	?WaitThink@CTSFlag@@UAEXXZ	100976a0
+10099114	?WaitThink@CTSGroundAmmo@@QAEXXZ	100976a4
+10099135	?WaitThink@CTSGroundWeapon@@QAEXXZ	100976a8
+10099158	?WaitThink@CTSHack@@QAEXXZ	100976ac
+10099173	?WaitThink@CTSKnife@@UAEXXZ	100976b0
+1009918f	?WaitThink@CTSMapGlobals@@QAEXXZ	100976b4
+100991b0	?WaitThink@CTSPhysicObject@@UAEXXZ	100976b8
+100991d3	?WaitThink@CTSPowerUp@@QAEXXZ	100976bc
+100991f1	?WaitThink@CTSShrapnel@@UAEXXZ	100976c0
+10099210	?WaitThink@CTSSlowMotion@@QAEXXZ	100976c4
+10099231	?WaitThink@CTSSlowMotionPoint@@QAEXXZ	100976c8
+10099257	?WaitThink@CTSTeamEscape@@QAEXXZ	100976cc
+10099278	?WaitThink@CTSTimer@@QAEXXZ	100976d0
+10099294	?WaitThink@CTSTrigger@@QAEXXZ	100976d4
+100992b2	?WaitThink@CTSWorldGun@@UAEXXZ	100976d8
+100992d1	?WaitTillLand@CGib@@QAEXXZ	100976dc
+100992ec	?WaitTouch@CTSAmmoPack@@QAEXPAVCBaseEntity@@@Z	100976e0
+1009931b	?WaitTouch@CTSDMHill@@QAEXPAVCBaseEntity@@@Z	100976e4
+10099348	?WaitTouch@CTSFlag@@QAEXPAVCBaseEntity@@@Z	100976e8
+10099373	?WaitTouch@CTSGroundAmmo@@QAEXPAVCBaseEntity@@@Z	100976ec
+100993a4	?WaitTouch@CTSGroundWeapon@@QAEXPAVCBaseEntity@@@Z	100976f0
+100993d7	?WaitTouch@CTSKnife@@QAEXPAVCBaseEntity@@@Z	100976f4
+10099403	?WaitTouch@CTSPowerUp@@QAEXPAVCBaseEntity@@@Z	100976f8
+10099431	?WaitTouch@CTSSlowMotion@@QAEXPAVCBaseEntity@@@Z	100976fc
+10099462	?WaitTouch@CTSTeamEscape@@QAEXPAVCBaseEntity@@@Z	10097700
+10099493	?WaitTouch@CTSTrigger@@QAEXPAVCBaseEntity@@@Z	10097704
+100994c1	?WaitTouch@CTSWorldGun@@QAEXPAVCBaseEntity@@@Z	10097708
+100994f0	CreateInterface	1009770c
+10099500	DelayedUse	10097710
+1009950b	GetEntityAPI	10097714
+10099518	GetEntityAPI2	10097718
+10099526	GetNewDLLFunctions	1009771c
+10099539	Server_GetBlendingInterface	10097724
+10099555	TSAmmoPack	10097728
+10099560	TSWorldGun	1009772c
+1009956b	ambient_generic	10097730
+1009957b	ammo_9mmAR	10097734
+10099586	ammo_ARgrenades	10097738
+10099596	ammo_buckshot	1009773c
+100995a4	ammo_crossbow	10097740
+100995b2	ammo_gaussclip	10097744
+100995c1	ammo_rpgclip	10097748
+100995ce	beam	1009774c
+100995d3	bodyque	10097750
+100995db	button_target	10097754
+100995e9	cycler	10097758
+100995f0	cycler_prdroid	1009775c
+100995ff	cycler_sprite	10097760
+1009960d	cycler_weapon	10097764
+1009961b	cycler_wreckage	10097768
+1009962b	deadcorpse	1009776c
+10099636	env_beam	10097770
+1009963f	env_beverage	10097774
+1009964c	env_blood	10097778
+10099656	env_bubbles	1009777c
+10099662	env_debris	10097780
+1009966d	env_explosion	10097784
+1009967b	env_fade	10097788
+10099684	env_funnel	1009778c
+1009968f	env_global	10097790
+1009969a	env_glow	10097794
+100996a3	env_laser	10097798
+100996ad	env_lightning	1009779c
+100996bb	env_message	100977a0
+100996c7	env_render	100977a4
+100996d2	env_shake	100977a8
+100996dc	env_shooter	100977ac
+100996e8	env_sound	100977b0
+100996f2	env_spark	100977b4
+100996fc	env_sprite	100977b8
+10099707	fireanddie	100977bc
+10099712	func_breakable	100977c0
+10099721	func_button	100977c4
+1009972d	func_conveyor	100977c8
+1009973b	func_door	100977cc
+10099745	func_door_rotating	100977d0
+10099758	func_friction	100977d4
+10099766	func_guntarget	100977d8
+10099775	func_healthcharger	100977dc
+10099788	func_illusionary	100977e0
+10099799	func_ladder	100977e4
+100997a5	func_monsterclip	100977e8
+100997b6	func_pendulum	100977ec
+100997c4	func_plat	100977f0
+100997ce	func_platrot	100977f4
+100997db	func_pushable	100977f8
+100997e9	func_recharge	100977fc
+100997f7	func_rot_button	10097800
+10099807	func_rotating	10097804
+10099815	func_tank	10097808
+1009981f	func_tankcontrols	1009780c
+10099831	func_tanklaser	10097810
+10099840	func_tankmortar	10097814
+10099850	func_tankrocket	10097818
+10099860	func_trackautochange	1009781c
+10099875	func_trackchange	10097820
+10099886	func_tracktrain	10097824
+10099896	func_train	10097828
+100998a1	func_traincontrols	1009782c
+100998b4	func_wall	10097830
+100998be	func_wall_toggle	10097834
+100998cf	func_water	10097838
+100998da	game_counter	1009783c
+100998e7	game_counter_set	10097840
+100998f8	game_end	10097844
+10099901	game_player_equip	10097848
+10099913	game_player_hurt	1009784c
+10099924	game_player_team	10097850
+10099935	game_score	10097854
+10099940	game_team_master	10097858
+10099951	game_team_set	1009785c
+1009995f	game_text	10097860
+10099969	game_zone_player	10097864
+1009997a	gibshooter	10097868
+10099985	info_breakable	1009786c
+10099994	info_intermission	10097870
+100999a6	info_landmark	10097874
+100999b4	info_null	10097878
+100999be	info_player_deathmatch	1009787c
+100999d5	info_player_start	10097880
+100999e7	info_player_team1	10097884
+100999f9	info_player_team2	10097888
+10099a0b	info_player_team3	1009788c
+10099a1d	info_player_team4	10097890
+10099a2f	info_target	10097894
+10099a3b	info_teleport_destination	10097898
+10099a55	infodecal	1009789c
+10099a5f	item_antidote	100978a0
+10099a6d	item_battery	100978a4
+10099a7a	item_healthkit	100978a8
+10099a89	item_longjump	100978ac
+10099a97	item_security	100978b0
+10099aa5	item_sodacan	100978b4
+10099ab2	item_suit	100978b8
+10099abc	knife	100978bc
+10099ac2	light	100978c0
+10099ac8	light_environment	100978c4
+10099ada	light_spot	100978c8
+10099ae5	m61_grenade	100978cc
+10099af1	momentary_door	100978d0
+10099b00	momentary_rot_button	100978d4
+10099b15	monster_hevsuit_dead	100978d8
+10099b2a	multi_manager	100978dc
+10099b38	multisource	100978e0
+10099b44	path_corner	100978e4
+10099b50	path_track	100978e8
+10099b5b	player	100978ec
+10099b62	player_loadsaved	100978f0
+10099b73	player_weaponstrip	100978f4
+10099b86	shrapnel	100978f8
+10099b8f	soundent	100978fc
+10099b98	spark_shower	10097900
+10099ba5	speaker	10097904
+10099bad	target_cdaudio	10097908
+10099bbc	test_effect	1009790c
+10099bc8	trigger	10097910
+10099bd0	trigger_auto	10097914
+10099bdd	trigger_autosave	10097918
+10099bee	trigger_camera	1009791c
+10099bfd	trigger_cdaudio	10097920
+10099c0d	trigger_changelevel	10097924
+10099c21	trigger_changetarget	10097928
+10099c36	trigger_counter	1009792c
+10099c46	trigger_endsection	10097930
+10099c59	trigger_gravity	10097934
+10099c69	trigger_hurt	10097938
+10099c76	trigger_monsterjump	1009793c
+10099c8a	trigger_multiple	10097940
+10099c9b	trigger_once	10097944
+10099ca8	trigger_push	10097948
+10099cb5	trigger_relay	1009794c
+10099cc3	trigger_teleport	10097950
+10099cd4	trigger_transition	10097954
+10099ce7	ts_bomb	10097958
+10099cef	ts_briefcase	1009795c
+10099cfc	ts_customtarget	10097960
+10099d0c	ts_dmhill	10097964
+10099d16	ts_emitter	10097968
+10099d21	ts_flag	1009796c
+10099d29	ts_fog	10097970
+10099d30	ts_groundammo	10097974
+10099d3e	ts_groundweapon	10097978
+10099d4e	ts_hack	1009797c
+10099d56	ts_mapglobals	10097980
+10099d64	ts_model	10097984
+10099d6d	ts_objective_manager	10097988
+10099d82	ts_objective_ptr	1009798c
+10099d93	ts_particle	10097990
+10099d9f	ts_playeramount	10097994
+10099daf	ts_powerup	10097998
+10099dba	ts_scoregiver	1009799c
+10099dc8	ts_sellzone	100979a0
+10099dd4	ts_slowmotion	100979a4
+10099de2	ts_slowmotionpoint	100979a8
+10099df5	ts_teamescape	100979ac
+10099e03	ts_timer	100979b0
+10099e0c	ts_trigger	100979b4
+10099e17	ts_wind	100979b8
+10099e1f	ts_wingiver	100979bc
+10099e2b	weapon_9MMAR	100979c0
+10099e38	weapon_crossbow	100979c4
+10099e48	weapon_egon	100979c8
+10099e54	weapon_gauss	100979cc
+10099e61	weapon_handgrenade	100979d0
+10099e74	weapon_hornetgun	100979d4
+10099e85	weapon_rpg	100979d8
+10099e90	weapon_satchel	100979dc
+10099e9f	weapon_shotgun	100979e0
+10099eae	weapon_snark	100979e4
+10099ebb	weapon_tsgun	100979e8
+10099ec8	weaponbox	100979ec
+10099ed2	world_items	100979f0
+10099ede	worldspawn	100979f4
+10099ee9	xen_hair	100979f8
+10099ef2	xen_hull	100979fc
+10099efb	xen_plantlight	10097a00
+10099f0a	xen_spore_large	10097a04
+10099f1a	xen_spore_medium	10097a08
+10099f2b	xen_spore_small	10097a0c
+10099f3b	xen_tree	10097a10
+10099f44	xen_ttrigger	10097a14
+1009a080	weapons/ak47/fire.wav	Write_ak47
+1009a098	twohanded	Write_ak47,Write_aug,Write_barrett,Write_benellim3,Write_m16,Write_m4,Write_m60,Write_mac10,Write_mossberg,Write_mp5k,Write_mp5sd,Write_sawedoff,Write_spas12,Write_usas12
+1009a0a5	odels/w_ak47.mdl	Write_ak47
+1009a0b8	models/p_ak47.mdl	Write_ak47
+1009a0cd	odels/v_ak47.mdl	Write_ak47
+1009a0e0	models/556_shell.mdl	Write_ak47,Write_aug,Write_barrett,Write_m16,Write_m4,Write_m60
+1009a0f8	sprites/weapons/ak47.spr	Write_ak47
+1009a11c	weapons/aug/aug-fire-sil.wav	Write_aug
+1009a13c	weapons/aug/aug-fire.wav	Write_aug
+1009a158	models/w_aug.mdl	Write_aug
+1009a16c	models/p_aug_sil.mdl	Write_aug
+1009a184	models/p_aug.mdl	Write_aug
+1009a198	models/v_aug.mdl	Write_aug
+1009a1ac	sprites/weapons/aug.spr	Write_aug
+1009a1c4	STEYR-AUG	Write_aug
+1009a1d0	weapons/barrett/fire.wav	Write_barrett
+1009a1ec	models/w_m82.mdl	Write_barrett
+1009a200	models/p_m82.mdl	Write_barrett
+1009a214	models/v_m82.mdl	Write_barrett
+1009a228	sprites/weapons/m82.spr	Write_barrett
+1009a240	Barrett M82A1	Write_barrett
+1009a250	weapons/m3/m3-pump.wav	Write_benellim3,Write_mossberg
+1009a268	weapons/m3/m3-fire.wav	Write_benellim3
+1009a280	models/w_m3.mdl	Write_benellim3
+1009a290	models/p_m3.mdl	Write_benellim3
+1009a2a0	models/v_m3.mdl	Write_benellim3
+1009a2b0	models/shotgun_shell_blue.mdl	Write_benellim3
+1009a2d0	sprites/weapons/m3.spr	Write_benellim3
+1009a2e8	Benelli M3	Write_benellim3
+1009a2f4	weapons/beretta/fire-sil.wav	Write_beretta,Write_beretta_akimbo
+1009a314	weapons/beretta/fire.wav	Write_beretta,Write_beretta_akimbo
+1009a330	onehanded	Write_beretta,Write_bull,Write_contender,Write_desert,Write_fnh,Write_glock18,Write_glock22,Write_mk23,Write_pdw,Write_ruger,Write_skorpion,Write_uzi
+1009a33c	models/w_berettas.mdl	Write_beretta,Write_beretta_akimbo
+1009a354	models/p_beretta_sil.mdl	Write_beretta
+1009a370	models/p_beretta.mdl	Write_beretta
+1009a388	models/v_beretta.mdl	Write_beretta
+1009a3a0	models/9mm_shell.mdl	Write_beretta,Write_beretta_akimbo,Write_desert,Write_glock18,Write_glock22,Write_gold,Write_mac10,Write_mk23,Write_mk23akimbo,Write_mp5k,Write_mp5sd,Write_uzi,Write_uzi_akimbo
+1009a3b8	sprites/weapons/beretta.spr	Write_beretta
+1009a3d4	Beretta 92F	Write_beretta
+1009a3e1	kimbo	CTSAnimation::Animate,FUN_100466f0,Write_beretta_akimbo,Write_fnhakimbo,Write_gold,Write_mk23akimbo,Write_skorpion_akimbo,Write_uzi_akimbo
+1009a3e8	models/p_berettas_sil.mdl	Write_beretta_akimbo
+1009a404	models/p_berettas.mdl	Write_beretta_akimbo
+1009a41c	models/v_berettas.mdl	Write_beretta_akimbo
+1009a434	sprites/weapons/berettas.spr	Write_beretta_akimbo
+1009a454	Akimbo Berettas	Write_beretta_akimbo
+1009a464	weapons/bull/fire01.wav	Write_bull
+1009a47c	models/w_bull.mdl	Write_bull
+1009a490	models/p_bull.mdl	Write_bull
+1009a4a4	models/v_bull.mdl	Write_bull
+1009a4b8	sprites/weapons/bull.spr	Write_bull
+1009a4d4	Raging Bull	Write_bull
+1009a4e0	weapons/deagle/fire-sil.wav	Write_desert
+1009a4fc	weapons/deagle/fire.wav	Write_desert
+1009a514	models/w_desert.mdl	Write_desert
+1009a528	models/p_desert_sil.mdl	Write_desert
+1009a540	models/p_desert.mdl	Write_desert
+1009a554	models/v_desert.mdl	Write_desert
+1009a568	sprites/weapons/desert.spr	Write_desert
+1009a584	Desert Eagle	Write_desert
+1009a594	models/w_knife.mdl	CTSKnife::Spawn,FUN_10003bf0
+1009a5a8	models/p_knife.mdl	FUN_10003bf0
+1009a5bc	models/v_knife.mdl	FUN_10003bf0
+1009a5d0	sprites/weapons/knife.spr	FUN_10003bf0
+1009a5ec	weapons/fnh/fnh-fire-sil.wav	Write_fnh,Write_fnhakimbo
+1009a60c	weapons/fnh/fnh-fire.wav	Write_fnh,Write_fnhakimbo
+1009a628	models/w_fnh.mdl	Write_fnh,Write_fnhakimbo
+1009a63c	models/p_fnh_sil.mdl	Write_fnh
+1009a654	models/p_fnh.mdl	Write_fnh
+1009a668	models/v_fnh.mdl	Write_fnh
+1009a67c	models/56_shell.mdl	Write_fnh,Write_fnhakimbo,Write_pdw
+1009a690	sprites/weapons/fnh.spr	Write_fnh
+1009a6a8	Five-seveN	Write_fnh
+1009a6b4	models/p_fnh_akimbo_sil.mdl	Write_fnhakimbo
+1009a6d0	models/p_fnh_akimbo.mdl	Write_fnhakimbo
+1009a6e8	models/v_fnh_akimbo.mdl	Write_fnhakimbo
+1009a700	sprites/weapons/fnh_akimbo.spr	Write_fnhakimbo
+1009a720	Akimbo Five-seveN	Write_fnhakimbo
+1009a734	weapons/glock/glock-fire-sil.wav	Write_glock18
+1009a758	weapons/glock/glock-fire.wav	Write_glock18
+1009a778	models/w_glock18.mdl	CTSGun::Spawn,Write_glock18
+1009a790	models/p_glock18_sil.mdl	Write_glock18
+1009a7ac	models/p_glock18.mdl	Write_glock18
+1009a7c4	models/v_glock18.mdl	Write_glock18
+1009a7dc	sprites/weapons/glock18.spr	Write_glock18
+1009a7f9	lock-18	Write_glock18
+1009a804	weapons/glock22/glock22-fire-sil.wav	Write_glock22
+1009a82c	weapons/glock22/glock22-fire.wav	Write_glock22
+1009a850	models/w_glock22.mdl	Write_glock22
+1009a868	models/p_glock22_sil.mdl	Write_glock22
+1009a884	models/p_glock22.mdl	Write_glock22
+1009a89c	models/v_glock22.mdl	Write_glock22
+1009a8b4	sprites/weapons/glock22.spr	Write_glock22
+1009a8d1	lock-20C	Write_glock22
+1009a8dc	weapons/gold/gold-fire.wav	Write_gold
+1009a8f8	models/w_gold.mdl	Write_gold
+1009a90c	models/p_gold.mdl	Write_gold
+1009a920	models/v_gold.mdl	Write_gold
+1009a934	sprites/weapons/gold.spr	Write_gold
+1009a950	Golden Colts	Write_gold
+1009a960	models/w_katana.mdl	CTSKnife::Spawn,Write_katana
+1009a974	models/p_katana.mdl	Write_katana
+1009a988	models/v_katana.mdl	Write_katana
+1009a99c	sprites/weapons/katana.spr	Write_katana
+1009a9b8	Katana	Write_katana
+1009a9c0	Combat Knife	FUN_10003bf0
+1009a9d0	weapons/m16/fire.wav	Write_m16
+1009a9e8	models/w_m16.mdl	Write_m16
+1009a9fc	models/p_m16.mdl	Write_m16
+1009aa10	models/v_m16.mdl	Write_m16
+1009aa24	sprites/weapons/m16.spr	Write_m16
+1009aa44	weapons/m4/m4-fire-sil.wav	Write_m4
+1009aa60	weapons/m4/m4-fire.wav	Write_m4
+1009aa78	models/w_m4.mdl	Write_m4
+1009aa88	models/p_m4_sil.mdl	Write_m4
+1009aa9c	models/p_m4.mdl	Write_m4
+1009aaac	models/v_m4.mdl	Write_m4
+1009aabc	sprites/weapons/m4.spr	Write_m4
+1009aadc	weapons/m60/m60-fire.wav	Write_m60
+1009aaf8	models/w_m60.mdl	Write_m60
+1009ab0c	models/p_m60.mdl	Write_m60
+1009ab20	models/v_m60.mdl	Write_m60
+1009ab34	sprites/weapons/m60.spr	Write_m60
+1009ab54	models/w_m61.mdl	CM61Grenade::Spawn,Write_m61
+1009ab68	models/p_m61.mdl	Write_m61
+1009ab7c	models/v_m61.mdl	Write_m61
+1009ab90	sprites/weapons/m61.spr	Write_m61
+1009aba8	M61 Grenade	CHalfLifeMultiplay::PlayerKilled,Write_m61
+1009abb4	weapons/ump/ump-fire-sil.wav	Write_mac10
+1009abd4	weapons/ump/ump-fire.wav	Write_mac10
+1009abf0	models/w_ump.mdl	Write_mac10
+1009ac04	models/p_ump_sil.mdl	Write_mac10
+1009ac1c	models/p_ump.mdl	Write_mac10
+1009ac30	models/v_ump.mdl	Write_mac10
+1009ac44	sprites/weapons/ump.spr	Write_mac10
+1009ac60	models/v_melee.mdl	Write_melee
+1009ac75	ung-fu	Write_melee
+1009ac7c	weapons/mk23/mk23-fire-sil.wav	Write_mk23,Write_mk23akimbo
+1009ac9c	weapons/mk23/mk23-fire.wav	Write_mk23,Write_mk23akimbo
+1009acb8	models/w_mk23.mdl	Write_mk23,Write_mk23akimbo
+1009accc	models/p_mk23_sil.mdl	Write_mk23
+1009ace4	models/p_mk23.mdl	Write_mk23
+1009acf8	models/v_mk23.mdl	Write_mk23
+1009ad0c	sprites/weapons/mk23.spr	Write_mk23
+1009ad29	OCOM-MK23	Write_mk23
+1009ad34	models/p_mk23_akimbo_sil.mdl	Write_mk23akimbo
+1009ad54	models/p_mk23_akimbo.mdl	Write_mk23akimbo
+1009ad70	models/v_mk23_akimbo.mdl	Write_mk23akimbo
+1009ad8c	sprites/weapons/mk23_akimbo.spr	Write_mk23akimbo
+1009adad	kimbo MK23	Write_mk23akimbo
+1009adb8	weapons/mossberg/fire.wav	Write_mossberg
+1009add4	models/w_mossberg.mdl	Write_mossberg
+1009adec	models/p_mossberg.mdl	Write_mossberg
+1009ae04	models/v_mossberg.mdl	Write_mossberg
+1009ae1c	models/shotgun_shell_gold.mdl	Write_mossberg
+1009ae3c	sprites/weapons/mossberg.spr	Write_mossberg
+1009ae5c	Mossberg 500	Write_mossberg
+1009ae6c	weapons/mp5k/mp5k-fire-sil.wav	Write_mp5k
+1009ae8c	weapons/mp5k/mp5k-fire.wav	Write_mp5k
+1009aea8	models/w_mp5k.mdl	Write_mp5k
+1009aebc	models/p_mp5k_sil.mdl	Write_mp5k
+1009aed4	models/p_mp5k.mdl	Write_mp5k
+1009aee8	models/v_mp5k.mdl	Write_mp5k
+1009aefc	sprites/weapons/mp5k.spr	Write_mp5k
+1009af20	weapons/mp5sd/mp5sd-fire.wav	Write_mp5sd
+1009af40	models/w_mp5sd.mdl	Write_mp5sd
+1009af54	models/p_mp5sd.mdl	Write_mp5sd
+1009af68	models/v_mp5sd.mdl	Write_mp5sd
+1009af7c	sprites/weapons/mp5sd.spr	Write_mp5sd
+1009afa0	weapons/pdw/fire-sil.wav	Write_pdw
+1009afbc	weapons/pdw/fire.wav	Write_pdw
+1009afd4	models/w_pdw.mdl	Write_pdw
+1009afe8	models/p_pdw_sil.mdl	Write_pdw
+1009b000	models/p_pdw.mdl	Write_pdw
+1009b014	models/v_pdw.mdl	Write_pdw
+1009b028	sprites/weapons/pdw.spr	Write_pdw
+1009b041	P7-PDW	Write_pdw
+1009b048	weapons/ruger/fire.wav	Write_ruger
+1009b060	models/w_ruger.mdl	Write_ruger
+1009b074	models/p_ruger.mdl	Write_ruger
+1009b088	models/v_ruger.mdl	Write_ruger
+1009b09c	models/22_shell.mdl	Write_ruger,Write_skorpion,Write_skorpion_akimbo
+1009b0b0	sprites/weapons/ruger.spr	Write_ruger
+1009b0cd	uger-MK1	Write_ruger
+1009b0d8	weapons/sawedoff/fire.wav	Write_sawedoff
+1009b0f4	models/w_sawedoff.mdl	Write_sawedoff
+1009b10c	models/p_sawedoff.mdl	Write_sawedoff
+1009b124	models/v_sawedoff.mdl	Write_sawedoff
+1009b13c	sprites/weapons/sawedoff.spr	Write_sawedoff
+1009b15c	Sawed-off	Write_sawedoff
+1009b168	models/w_sealknife.mdl	CTSKnife::Spawn,Write_sealknife
+1009b180	models/p_sealknife.mdl	Write_sealknife
+1009b198	models/v_sealknife.mdl	Write_sealknife
+1009b1b0	sprites/weapons/sealknife.spr	Write_sealknife
+1009b1d0	Seal Knife	Write_sealknife
+1009b1dc	weapons/tmp/fire.wav	Write_skorpion,Write_skorpion_akimbo
+1009b1f4	models/w_skorpion.mdl	Write_skorpion,Write_skorpion_akimbo
+1009b20c	models/p_skorpion_ak.mdl	Write_skorpion_akimbo
+1009b228	models/v_skorpion_ak.mdl	Write_skorpion_akimbo
+1009b244	sprites/weapons/skorpion_akimbo.spr	Write_skorpion_akimbo
+1009b268	Akimbo Skorpions	Write_skorpion_akimbo
+1009b27c	weapons/spas12/spas12-pump.wav	Write_spas12
+1009b29c	weapons/spas12/spas12-fire.wav	Write_spas12
+1009b2bc	models/w_spas12.mdl	Write_spas12
+1009b2d0	models/p_spas12.mdl	Write_spas12
+1009b2e4	models/v_spas12.mdl	Write_spas12
+1009b2f8	models/shotgun_shell.mdl	Write_spas12,Write_usas12
+1009b314	sprites/weapons/spas12.spr	Write_spas12
+1009b331	PAS-12	Write_spas12
+1009b338	weapons/contender/fire.wav	Write_contender
+1009b354	models/w_contender.mdl	Write_contender
+1009b36c	models/p_contender.mdl	Write_contender
+1009b384	models/v_contender.mdl	Write_contender
+1009b39c	sprites/weapons/contender.spr	Write_contender
+1009b3bc	Contender G2	Write_contender
+1009b3cc	weapons/tmp/fire-sil.wav	Write_skorpion
+1009b3e8	models/p_skorpion.mdl	Write_skorpion
+1009b400	models/v_skorpion.mdl	Write_skorpion
+1009b418	sprites/weapons/skorpion.spr	Write_skorpion
+1009b438	Skorpion	Write_skorpion
+1009b444	weapons/usas/usas-fire.wav	Write_usas12
+1009b460	models/w_usas.mdl	Write_usas12
+1009b474	models/p_usas.mdl	Write_usas12
+1009b488	models/v_usas.mdl	Write_usas12
+1009b49c	sprites/weapons/usas12.spr	Write_usas12
+1009b4b9	SAS-12	Write_usas12
+1009b4c0	weapons/uzi/uzi-fire-sil.wav	Write_uzi,Write_uzi_akimbo
+1009b4e0	weapons/uzi/uzi-fire.wav	Write_uzi,Write_uzi_akimbo
+1009b4fc	models/w_uzi.mdl	Write_uzi,Write_uzi_akimbo
+1009b510	models/p_uzi_sil.mdl	Write_uzi
+1009b528	models/p_uzi.mdl	Write_uzi
+1009b53c	models/v_uzi.mdl	Write_uzi
+1009b550	sprites/weapons/uzi.spr	Write_uzi
+1009b569	ini-Uzi	Write_uzi
+1009b574	models/p_uzi_akimbo_sil.mdl	Write_uzi_akimbo
+1009b590	models/p_uzi_akimbo.mdl	Write_uzi_akimbo
+1009b5a8	models/v_uzi_akimbo.mdl	Write_uzi_akimbo
+1009b5c0	sprites/weapons/uzi_akimbo.spr	Write_uzi_akimbo
+1009b5e0	Akimbo Mini-Uzi	Write_uzi_akimbo
+1009b640	m_fSequenceLoops	
+1009b654	m_fSequenceFinished	
+1009b668	m_flLastEventCheck	
+1009b67c	m_flGroundSpeed	
+1009b68c	m_flFrameRate	
+1009b69c	CBaseAnimating	CBaseAnimating::Restore,CBaseAnimating::Save
+1009b6ac	Gibbed monster is thinking!\n	CBaseAnimating::DispatchAnimEvents
+1009b940	ACT_FLINCH_RIGHTLEG	
+1009b954	ACT_FLINCH_LEFTLEG	
+1009b968	ACT_FLINCH_RIGHTARM	
+1009b97c	ACT_FLINCH_LEFTARM	
+1009b990	ACT_FLINCH_STOMACH	
+1009b9a4	ACT_FLINCH_CHEST	
+1009b9b8	ACT_FLINCH_HEAD	
+1009b9c8	ACT_DIE_BACKSHOT	
+1009b9dc	ACT_DIE_GUTSHOT	
+1009b9ec	ACT_DIE_CHESTSHOT	
+1009ba00	ACT_DIE_HEADSHOT	
+1009ba14	ACT_VICTORY_DANCE	
+1009ba28	ACT_RUN_SCARED	
+1009ba38	ACT_WALK_SCARED	
+1009ba48	ACT_COMBAT_IDLE	
+1009ba58	ACT_SPECIAL_ATTACK2	
+1009ba6c	ACT_SPECIAL_ATTACK1	
+1009ba80	ACT_EXCITED	
+1009ba8c	ACT_FEAR_DISPLAY	
+1009baa0	ACT_THREAT_DISPLAY	
+1009bab4	ACT_BITE	
+1009bac0	ACT_SNIFF	
+1009bacc	ACT_DETECT_SCENT	
+1009bae0	ACT_FLY_RIGHT	
+1009baf0	ACT_FLY_LEFT	
+1009bb00	ACT_GLIDE	
+1009bb0c	ACT_HOVER	
+1009bb18	ACT_RUN_HURT	
+1009bb28	ACT_WALK_HURT	
+1009bb38	ACT_IDLE_ANGRY	
+1009bb48	ACT_INSPECT_WALL	
+1009bb5c	ACT_INSPECT_FLOOR	
+1009bb70	ACT_SLEEP	
+1009bb7c	ACT_BARNACLE_CHEW	
+1009bb90	ACT_BARNACLE_CHOMP	
+1009bba4	ACT_BARNACLE_PULL	
+1009bbb8	ACT_BARNACLE_HIT	
+1009bbcc	ACT_DIEVIOLENT	
+1009bbdc	ACT_DIEFORWARD	
+1009bbec	ACT_DIEBACKWARD	
+1009bbfc	ACT_DIESIMPLE	
+1009bc0c	ACT_EAT	
+1009bc14	ACT_DISARM	
+1009bc20	ACT_ARM	
+1009bc28	ACT_RELOAD	
+1009bc34	ACT_MELEE_ATTACK2	
+1009bc48	ACT_MELEE_ATTACK1	
+1009bc5c	ACT_RANGE_ATTACK2	
+1009bc70	ACT_RANGE_ATTACK1	
+1009bc84	ACT_BIG_FLINCH	
+1009bc94	ACT_SMALL_FLINCH	
+1009bca8	ACT_COWER	
+1009bcb4	ACT_TWITCH	
+1009bcc0	ACT_SIGNAL3	
+1009bccc	ACT_SIGNAL2	
+1009bcd8	ACT_SIGNAL1	
+1009bce4	ACT_USE	
+1009bcec	ACT_STAND	
+1009bcf8	ACT_CROUCHIDLE	
+1009bd08	ACT_CROUCH	
+1009bd14	ACT_TURN_RIGHT	
+1009bd24	ACT_TURN_LEFT	
+1009bd34	ACT_ROLL_RIGHT	
+1009bd44	ACT_ROLL_LEFT	
+1009bd54	ACT_STRAFE_RIGHT	
+1009bd68	ACT_STRAFE_LEFT	
+1009bd78	ACT_LAND	
+1009bd84	ACT_FALL	
+1009bd90	ACT_LEAP	
+1009bd9c	ACT_HOP	
+1009bda4	ACT_SWIM	
+1009bdb0	ACT_FLY	
+1009bdb8	ACT_RUN	
+1009bdc0	ACT_WALK	
+1009bdcc	ACT_GUARD	
+1009bdd8	ACT_IDLE	
+1009bde4	SV_StudioSetupBones called.\n	
+1009bed8	m_start	
+1009bee0	m_center	
+1009beec	m_dampSpeed	
+1009bef8	m_maxSpeed	
+1009bf0c	m_time	
+1009bf14	m_distance	
+1009bf20	m_accel	
+1009bf28	m_sounds	
+1009bf34	m_pitch	
+1009bf3c	m_flVolume	
+1009bf48	m_flAttenuation	
+1009bf58	m_flFanFriction	
+1009bf70	showtriggers	CBaseTrigger::InitTrigger,CFuncMonsterClip::Spawn,CLadder::Precache
+1009bf80	CFuncRotating	CFuncRotating::Restore,CFuncRotating::Save
+1009bf90	sounds	CBaseButton::KeyValue,CFuncRotating::KeyValue,CFuncTrackTrain::KeyValue,CFuncTrain::KeyValue,CMomentaryRotButton::KeyValue,CWorld::KeyValue
+1009bf98	spawnorigin	CFuncRotating::KeyValue
+1009bfa4	Volume	CFuncRotating::KeyValue
+1009bfac	fanfriction	CFuncRotating::KeyValue
+1009bfb8	common/null.wav	ButtonSound,CBaseDoor::Precache,CBaseMonster::Killed,CBasePlatTrain::Precache,CFuncRotating::Precache,CMomentaryDoor::Precache,CWorld::Precache
+1009bfc8	fans/fan5.wav	CFuncRotating::Precache
+1009bfd8	fans/fan4.wav	CFuncRotating::Precache
+1009bfe8	fans/fan3.wav	CFuncRotating::Precache
+1009bff8	fans/fan2.wav	CFuncRotating::Precache
+1009c008	fans/fan1.wav	CFuncRotating::Precache
+1009c018	CPendulum	CPendulum::Restore,CPendulum::Save
+1009c02c	distance	CBaseToggle::KeyValue,CPendulum::KeyValue
+1009c038	Not a client\n	CPendulum::RopeTouch
+1009c1a8	m_flDelay	
+1009c1bc	m_returnSpeed	
+1009c1cc	m_direction	
+1009c1d8	m_lastUsed	
+1009c1e4	m_strChangeTarget	
+1009c1f8	m_bUnlockedSentence	
+1009c20c	m_bUnlockedSound	
+1009c220	m_bLockedSentence	
+1009c234	m_bLockedSound	
+1009c244	m_fRotating	
+1009c250	m_fStayPushed	
+1009c260	m_iTotal	
+1009c26c	m_rgTriggered	
+1009c27c	m_rgEntities	
+1009c28c	m_initialstate	
+1009c29c	m_triggermode	
+1009c2ac	m_globalstate	
+1009c2bc	CEnvGlobal	CEnvGlobal::Restore,CEnvGlobal::Save
+1009c2c8	initialstate	CEnvGlobal::KeyValue
+1009c2d8	triggermode	CEnvGlobal::KeyValue
+1009c2e4	globalstate	CAutoTrigger::KeyValue,CEnvGlobal::KeyValue,CMultiSource::KeyValue
+1009c2f0	CMultiSource	CMultiSource::Restore,CMultiSource::Save
+1009c318	killtarget	CBaseDelay::KeyValue,CEnvSpark::KeyValue,CMultiSource::KeyValue
+1009c324	height	CBasePlatTrain::KeyValue,CEnvSpark::KeyValue,CFuncTrackTrain::KeyValue,CMultiSource::KeyValue,CRecharge::KeyValue
+1009c32c	style	CEnvSpark::KeyValue,CLight::KeyValue,CMultiSource::KeyValue,CRecharge::KeyValue
+1009c334	Multisource %s enabled (%d inputs)\n	CMultiSource::Use
+1009c358	MultiSrc:Used by non member %s.\n	CMultiSource::Use
+1009c37c	classname	100a6814,CBaseSpectator::SpectatorImpulseCommand,CChangeLevel::ChangeList,CMultiSource::Register,EntvarsKeyvalue,UTIL_FindEntityByClassname
+1009c388	multi_manager	CMultiSource::Register
+1009c398	target	CMultiSource::Register,FUN_1000cd10
+1009c3a0	CBaseButton	CBaseButton::Restore,CBaseButton::Save
+1009c3c0	ECHEM	CBaseButton::Precache,CBaseDoor::Precache
+1009c3c8	EFIRE	CBaseButton::Precache,CBaseDoor::Precache
+1009c3f4	NCHEM	CBaseButton::Precache,CBaseDoor::Precache
+1009c3fc	NFIRE	CBaseButton::Precache,CBaseDoor::Precache
+1009c410	buttons/spark6.wav	CBaseButton::Precache,CBaseDoor::Precache,CBreakable::Precache,CBreakable::TraceAttack,CEnvSpark::Precache,ClientPrecache,DoSpark,TEXTURETYPE_PlaySound
+1009c424	buttons/spark5.wav	CBaseButton::Precache,CBaseDoor::Precache,CBreakable::Precache,CBreakable::TraceAttack,CEnvSpark::Precache,ClientPrecache,DoSpark,TEXTURETYPE_PlaySound
+1009c438	buttons/spark4.wav	CBaseButton::Precache,CEnvSpark::Precache,DoSpark
+1009c44c	buttons/spark3.wav	CBaseButton::Precache,CEnvSpark::Precache,DoSpark
+1009c460	buttons/spark2.wav	CBaseButton::Precache,CEnvSpark::Precache,DoSpark
+1009c474	buttons/spark1.wav	CBaseButton::Precache,CEnvSpark::Precache,DoSpark
+1009c488	unlocked_sentence	CBaseButton::KeyValue,CBaseDoor::KeyValue
+1009c49c	unlocked_sound	CBaseButton::KeyValue,CBaseDoor::KeyValue
+1009c4ac	locked_sentence	CBaseButton::KeyValue,CBaseDoor::KeyValue
+1009c4bc	locked_sound	CBaseButton::KeyValue,CBaseDoor::KeyValue
+1009c4cc	changetarget	CBaseButton::KeyValue,CChangeLevel::KeyValue
+1009c4dc	buttons/button9.wav	ButtonSound
+1009c4f0	buttons/lever5.wav	ButtonSound
+1009c504	buttons/lever4.wav	ButtonSound
+1009c518	buttons/lever3.wav	ButtonSound
+1009c52c	buttons/lever2.wav	ButtonSound
+1009c540	buttons/lever1.wav	ButtonSound
+1009c554	buttons/lightswitch2.wav	ButtonSound
+1009c570	buttons/latchunlocked1.wav	ButtonSound
+1009c58c	buttons/latchlocked1.wav	ButtonSound
+1009c5a8	buttons/button11.wav	ButtonSound,CFuncTrackChange::Precache,CFuncTrackChange::Use
+1009c5c0	buttons/button10.wav	ButtonSound
+1009c5d8	buttons/button8.wav	ButtonSound
+1009c5ec	buttons/button7.wav	ButtonSound
+1009c600	buttons/button6.wav	ButtonSound
+1009c614	buttons/button5.wav	ButtonSound
+1009c628	buttons/button4.wav	ButtonSound
+1009c63c	buttons/button3.wav	ButtonSound
+1009c650	buttons/button2.wav	ButtonSound
+1009c664	buttons/button1.wav	ButtonSound
+1009c678	player	CBaseButton::ButtonTouch,CBaseDoor::DoorTouch,CBasePlayer::Spawn,CBaseTrigger::ActivateMultiTrigger,CBaseTrigger::CounterUse,CChangeLevel::TouchChangeLevel,CRecharge::Use,CTSDMHill::WaitTouch,CTSGameRules::CheckVotes,FUN_1002e830,FUN_1004c4a0,Host_Say
+1009c680	multisource	CBaseButton::ButtonBackHome
+1009c68c	targetname	CBaseButton::ButtonBackHome,CBaseDelay::SUB_UseTargets,CBaseDoor::Blocked,CBaseEntity::GetNextTarget,CBaseTrigger::TeleportTouch,CChangeLevel::FindLandmark,CFuncTankControls::Think,CFuncTankLaser::GetLaser,CFuncTrackChange::Find,CFuncTrackTrain::Find,CFuncTrain::Activate,CFuncTrainControls::Find,CInfoIntermission::Think,CLightning::Activate,CPathTrack::Link,CRenderFxManager::Use,CTSObjectivePointer::Use,CTriggerCamera::Use,CTriggerChangeTarget::Use,FUN_1000cf50,FUN_100425e0,FireTargets,UTIL_FindEntityByTargetname,UTIL_IsMasterTriggered
+1009c698	CMomentaryRotButton	CMomentaryRotButton::Restore,CMomentaryRotButton::Save
+1009c6ac	returnspeed	CMomentaryRotButton::KeyValue
+1009c6b8	momentary_rot_button	FUN_1000cd10
+1009c6d0	CEnvSpark	CEnvSpark::Restore,CEnvSpark::Save
+1009c6dc	MaxDelay	CEnvSpark::KeyValue
+1009c810	m_pfnBlocked	
+1009c82c	m_pfnTouch	
+1009c838	m_pfnThink	
+1009c844	m_pGoalEnt	
+1009c850	GetNewDLLFunctions version mismatch; requested=%d ours=%d	GetNewDLLFunctions
+1009c88c	GetNewDLLFunctions called with null pNewFunctionTable	GetNewDLLFunctions
+1009c8c4	Dormant entity %s is thinking!!\n	pfnThink
+1009c8e8	ENTITY TABLE OR INDEX IS WRONG!!!!\n	pfnSave
+1009c90c	Global entity found %s, wrong class %s\n	FindGlobalEntity
+1009c934	globalname	100a6824,EntvarsKeyvalue,FindGlobalEntity
+1009c940	Global Entity %s (%s) not in table!!!\n	pfnRestore
+1009c968	ENTVARS	CBaseEntity::Restore,CBaseEntity::Save,pfnRestore
+1009c978	NULL Ent in Create!\n	CBaseEntity::Create
+1009c990	origin[0]	FUN_10011ae0
+1009c9b4	origin[1]	FUN_10011ae0
+1009c9d8	origin[2]	FUN_10011ae0
+1009c9fc	angles[0]	FUN_10011ae0
+1009ca20	angles[1]	FUN_10011ae0
+1009ca44	angles[2]	FUN_10011ae0
+1009ca68	origin[0]	FUN_10011cb0
+1009ca8c	origin[1]	FUN_10011cb0
+1009cab0	origin[2]	FUN_10011cb0
+1009cad8	origin[0]	FUN_10011dd0
+1009cafc	origin[1]	FUN_10011dd0
+1009cb20	origin[2]	FUN_10011dd0
+1009cb44	angles[0]	FUN_10011dd0
+1009cb68	angles[1]	FUN_10011dd0
+1009cb8c	angles[2]	FUN_10011dd0
+1009cbd4	sequence	FUN_10011dd0
+1009cbf8	animtime	FUN_10011dd0
+1009cc1c	models/player.mdl	CBasePlayer::Spawn,CDeadHEV::Spawn,ClientPrecache
+1009cc30	ts_playeramount	BotSetup,CTSPlayerAmount::Spawn,pfnClientConnect,pfnClientDisconnect
+1009cc40	- %s has left the game\n	pfnClientDisconnect
+1009cc58	reload\n	CRevertSaved::LoadThink,respawn
+1009cc64	"%s<%i><%s><%i>" %s "%s"\n	Host_Say
+1009cc88	"%s<%i><%s><%s>" %s "%s"\n	Host_Say
+1009cca4	model	BotSetup,CHalfLifeMultiplay::ClientDisconnected,CHalfLifeMultiplay::ClientUserInfoChanged,CHalfLifeMultiplay::InitHUD,CHalfLifeMultiplay::PlayerKilled,CHalfLifeTeamplay::ChangePlayerTeam,CHalfLifeTeamplay::ClientUserInfoChanged,CHalfLifeTeamplay::InitHUD,Host_Say,pfnClientUserInfoChanged
+1009ccac	Time left: %i:%02i\n	Host_Say
+1009ccc0	mp_timeleft	1009eb58,Host_Say
+1009cccc	timeleft	Host_Say
+1009ccdc	no kevlar	Host_Say
+1009cce8	with kevlar	Host_Say
+1009ccfc	%c%s: 	Host_Say
+1009cd04	%c(TEAM) %s: 	Host_Say
+1009cd18	%s %s	CHalfLifeMultiplay::PlayerKilled,Host_Say
+1009cd20	say_team	Host_Say,pfnClientCommand
+1009cd30	Unknown command: %s\n	pfnClientCommand
+1009cd48	fullupdate	pfnClientCommand
+1009cd5c	jointeam	pfnClientCommand
+1009cd68	changeteam	pfnClientCommand
+1009cd74	addnode	pfnClientCommand
+1009cd7c	savenodes	pfnClientCommand
+1009cd88	loadnodes	pfnClientCommand
+1009cd94	resetnodes	pfnClientCommand
+1009cda0	lastinv	pfnClientCommand
+1009cda8	useitems	pfnClientCommand
+1009cdb4	firemode	pfnClientCommand
+1009cdc0	usepowerup	pfnClientCommand
+1009cdd4	drop_	pfnClientCommand
+1009cddc	cutwire_	pfnClientCommand
+1009cdf0	%i_%i	pfnClientCommand
+1009ce04	lasclr_	pfnClientCommand
+1009ce0c	weapon_	CHalfLifeMultiplay::PlayerKilled,pfnClientCommand
+1009ce14	cashala	pfnClientCommand
+1009ce24	powerup	pfnClientCommand
+1009ce2c	testpath	pfnClientCommand
+1009ce38	You have to wait until the next round.	CBasePlayer::PreThink,pfnClientCommand
+1009ce60	respawn	pfnClientCommand
+1009ce6c	"fov" is "%d"\n	pfnClientCommand
+1009ce80	"%s<%i><%s><%i>" changed name to "%s"\n	pfnClientUserInfoChanged
+1009cea8	"%s<%i><%s><%s>" changed name to "%s"\n	pfnClientUserInfoChanged
+1009ced0	* %s changed name to %s\n	pfnClientUserInfoChanged
+1009cef4	Can't instance %s\n	pfnServerActivate
+1009cf08	monster_human_grunt	ClientPrecache
+1009cf1c	player/geiger1.wav	ClientPrecache
+1009cf30	player/geiger2.wav	ClientPrecache
+1009cf44	player/geiger3.wav	ClientPrecache
+1009cf58	player/geiger4.wav	ClientPrecache
+1009cf6c	player/geiger5.wav	ClientPrecache
+1009cf80	player/geiger6.wav	ClientPrecache
+1009cf94	common/wpn_denyselect.wav	ClientPrecache
+1009cfb0	common/wpn_select.wav	CBasePlayer::PlayerUse,ClientPrecache
+1009cfc8	common/wpn_moveselect.wav	ClientPrecache
+1009cfe4	common/wpn_hudon.wav	ClientPrecache
+1009cffc	common/wpn_hudoff.wav	ClientPrecache
+1009d014	player/pl_pain7.wav	ClientPrecache
+1009d028	player/pl_pain6.wav	ClientPrecache
+1009d03c	player/pl_pain5.wav	ClientPrecache
+1009d050	player/pl_pain4.wav	ClientPrecache
+1009d064	player/pl_pain2.wav	ClientPrecache
+1009d078	common/bodysplat.wav	CBaseMonster::GibMonster,CBasePlayer::PostThink,ClientPrecache
+1009d090	debris/glass3.wav	1009e234,ClientPrecache,TEXTURETYPE_PlaySound
+1009d0a4	debris/glass2.wav	1009e230,ClientPrecache,TEXTURETYPE_PlaySound
+1009d0b8	debris/glass1.wav	1009e22c,ClientPrecache,TEXTURETYPE_PlaySound
+1009d0cc	plats/train_use1.wav	CBasePlayer::PlayerUse,ClientPrecache
+1009d0e4	debris/wood3.wav	1009e1f8,ClientPrecache,TEXTURETYPE_PlaySound
+1009d0f8	debris/wood2.wav	1009e1f4,ClientPrecache,TEXTURETYPE_PlaySound
+1009d10c	debris/wood1.wav	1009e1f0,ClientPrecache,TEXTURETYPE_PlaySound
+1009d120	player/pl_wade4.wav	ClientPrecache,FUN_10036930,FUN_1003a1e0,FUN_100651b0
+1009d134	player/pl_wade3.wav	ClientPrecache,FUN_10036930,FUN_1003a1e0,FUN_100651b0
+1009d148	player/pl_wade2.wav	CBasePlayer::WaterMove,ClientPrecache,FUN_10036930,FUN_1003a1e0,FUN_100651b0
+1009d15c	player/pl_wade1.wav	CBasePlayer::WaterMove,ClientPrecache,FUN_10036930,FUN_1003a1e0,FUN_100651b0
+1009d170	player/pl_ladder4.wav	ClientPrecache,FUN_10036930
+1009d188	player/pl_ladder3.wav	ClientPrecache,FUN_10036930
+1009d1a0	player/pl_ladder2.wav	ClientPrecache,FUN_10036930
+1009d1b8	player/pl_ladder1.wav	ClientPrecache,FUN_10036930
+1009d1d0	player/pl_swim4.wav	CBasePlayer::WaterMove,ClientPrecache
+1009d1e4	player/pl_swim3.wav	CBasePlayer::WaterMove,ClientPrecache
+1009d1f8	player/pl_swim2.wav	CBasePlayer::WaterMove,ClientPrecache
+1009d20c	player/pl_swim1.wav	CBasePlayer::WaterMove,ClientPrecache
+1009d220	player/pl_tile5.wav	ClientPrecache,FUN_10036930
+1009d234	player/pl_tile4.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d248	player/pl_tile3.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d25c	player/pl_tile2.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d270	player/pl_tile1.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d284	player/pl_slosh4.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d29c	player/pl_slosh3.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d2b4	player/pl_slosh2.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d2cc	player/pl_slosh1.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d2e4	player/pl_grate4.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d2fc	player/pl_grate3.wav	ClientPrecache,FUN_10036930
+1009d314	player/pl_grate2.wav	ClientPrecache,FUN_10036930
+1009d32c	player/pl_grate1.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d344	player/pl_duct4.wav	ClientPrecache,FUN_10036930
+1009d358	player/pl_duct3.wav	ClientPrecache,FUN_10036930
+1009d36c	player/pl_duct2.wav	ClientPrecache,FUN_10036930
+1009d380	player/pl_duct1.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d394	player/pl_dirt4.wav	ClientPrecache,FUN_10036930
+1009d3a8	player/pl_dirt3.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d3bc	player/pl_dirt2.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d3d0	player/pl_dirt1.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d3e4	player/pl_metal4.wav	ClientPrecache,FUN_10036930
+1009d3fc	player/pl_metal3.wav	ClientPrecache,FUN_10036930
+1009d414	player/pl_metal2.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d42c	player/pl_metal1.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d444	player/pl_step4.wav	ClientPrecache,FUN_10036930
+1009d458	player/pl_step3.wav	ClientPrecache,FUN_10036930
+1009d46c	player/pl_step2.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d480	player/pl_step1.wav	ClientPrecache,FUN_10036930,TEXTURETYPE_PlaySound
+1009d494	player/pl_fallpain3.wav	ClientPrecache,FUN_1003a030
+1009d4ac	player/sprayer.wav	ClientPrecache,FUN_10034720
+1009d4c0	Half-Life	pfnGetGameDescription
+1009d4cc	Sys_Error: %s\n	pfnSys_Error
+1009d4dc	PlayerCustomization:  Unknown customization type!\n	pfnPlayerCustomization
+1009d510	PlayerCustomization:  NULL customization!\n	pfnPlayerCustomization
+1009d53c	PlayerCustomization:  Couldn't get player!\n	pfnPlayerCustomization
+1009d570	WorldGun	CBasePlayer::SlowMotionFlow,CTSSellZone::SellTouch,CTSWorldGun::CreateWeapon,CTSWorldGun::ShouldCollide,FUN_1004e9f0,TSExplosion,pfnAddToFullPack
+1009d57c	Player_Encode	pfnRegisterEncoders
+1009d58c	Custom_Encode	pfnRegisterEncoders
+1009d59c	Entity_Encode	pfnRegisterEncoders
+1009d5ac	Server is enforcing file consistency for %s\n	pfnInconsistentFile
+1009d5dc	mp_consistency	pfnInconsistentFile
+1009d5ec	models/hgibs.mdl	CGibShooter::CreateGib,CGibShooter::Precache,CWorld::Precache,FUN_100128f0,FUN_10012d30
+1009d600	models/germangibs.mdl	CWorld::Precache,FUN_100128f0,FUN_10012d30
+1009d618	models/agibs.mdl	CWorld::Precache,FUN_10012d30
+1009d62c	violence_agibs	CBaseMonster::GibMonster,FUN_10013620
+1009d63c	violence_hgibs	CBaseMonster::GibMonster,CGibShooter::CreateGib,FUN_10013620
+1009d64c	worldspawn	CGib::StickyGibTouch,CPushable::Touch,CTSKnife::BounceTouch,CTSShrapnel::BounceTouch
+1009d6e0	m_bStopSnd	
+1009d6ec	m_bMoveSnd	
+1009d6f8	m_bHealthValue	
+1009d708	CBaseDoor	CBaseDoor::Restore,CBaseDoor::Save
+1009d714	respawntime	1009ed38,CBaseDoor::KeyValue,CBreakable::KeyValue
+1009d720	doormaterial	CBaseDoor::KeyValue
+1009d730	maxdamage	CBaseDoor::KeyValue
+1009d73c	WaveHeight	CBaseDoor::KeyValue,CWorld::KeyValue
+1009d748	healthvalue	CBaseDoor::KeyValue,CMomentaryDoor::KeyValue
+1009d754	stopsnd	CBaseDoor::KeyValue,CBasePlatTrain::KeyValue,CMomentaryDoor::KeyValue
+1009d75c	movesnd	CBaseDoor::KeyValue,CBasePlatTrain::KeyValue,CMomentaryDoor::KeyValue
+1009d764	debris/bustceiling.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d77c	debris/bustconcrete1.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d798	debris/bustconcrete2.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d7b4	debris/bustflesh1.wav	CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d7cc	debris/bustflesh2.wav	CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d7e4	debris/bustmetal1.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d7fc	debris/bustmetal2.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d814	debris/bustcrate1.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d82c	debris/bustcrate2.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d844	debris/bustglass1.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d85c	debris/bustglass2.wav	CBaseDoor::Precache,CBaseDoor::TraceAttack,CBreakable::Die,CBreakable::Precache
+1009d874	func_water	CBaseDoor::TraceAttack
+1009d880	models/woodgibs.mdl	CBaseDoor::Precache,CBreakable::Precache
+1009d894	models/ceilinggibs.mdl	CBaseDoor::Precache,CBreakable::Precache
+1009d8ac	models/cindergibs.mdl	CBaseDoor::Precache,CBreakable::Precache
+1009d8c4	models/metalplategibs.mdl	CBaseDoor::Precache,CBreakable::Precache
+1009d8e0	models/glassgibs.mdl	CBaseDoor::Precache,CBreakable::Precache
+1009d8f8	models/computergibs.mdl	CBaseDoor::Precache,CBreakable::Precache
+1009d910	doors/doorstop8.wav	CBaseDoor::Precache
+1009d924	doors/doorstop7.wav	CBaseDoor::Precache
+1009d938	doors/doorstop6.wav	CBaseDoor::Precache
+1009d94c	doors/doorstop5.wav	CBaseDoor::Precache
+1009d960	doors/doorstop4.wav	CBaseDoor::Precache
+1009d974	doors/doorstop3.wav	CBaseDoor::Precache
+1009d988	doors/doorstop2.wav	CBaseDoor::Precache
+1009d99c	doors/doorstop1.wav	CBaseDoor::Precache
+1009d9b0	doors/doormove10.wav	CBaseDoor::Precache
+1009d9c8	doors/doormove9.wav	CBaseDoor::Precache
+1009d9dc	doors/doormove8.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009d9f0	doors/doormove7.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009da04	doors/doormove6.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009da18	doors/doormove5.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009da2c	doors/doormove4.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009da40	doors/doormove3.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009da54	doors/doormove2.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009da68	doors/doormove1.wav	CBaseDoor::Precache,CMomentaryDoor::Precache
+1009da7c	func_door_rotating	CBaseDoor::Blocked,CBaseDoor::DoorGoDown,CBaseDoor::DoorGoUp,CBotNav::GetSteerPoint,CNodeGraph::LinkNewNode
+1009da90	func_door	CBaseDoor::Blocked,CBotNav::GetSteerPoint,CNodeGraph::LinkNewNode
+1009da9c	CMomentaryDoor	CMomentaryDoor::Restore,CMomentaryDoor::Save
+1009dc90	m_flGibLife	CGibShooter::KeyValue
+1009dc9c	m_flVariance	CGibShooter::KeyValue
+1009dcac	m_flGibVelocity	
+1009dcbc	m_iGibModelIndex	
+1009dcd0	m_iGibMaterial	
+1009dce0	m_iGibCapacity	
+1009dcf8	m_maxFrame	
+1009dd04	m_lastTime	
+1009dd10	m_firePosition	
+1009dd20	m_pSprite	
+1009dd2c	m_radius	
+1009dd38	m_frameStart	
+1009dd48	m_iszSpriteName	
+1009dd58	m_spriteTexture	
+1009dd68	m_restrike	
+1009dd74	m_speed	
+1009dd7c	m_brightness	
+1009dd8c	m_noiseAmplitude	
+1009dda0	m_boltWidth	
+1009ddb4	m_iszEndEntity	
+1009ddc4	m_iszStartEntity	
+1009ddd8	m_active	
+1009dde4	m_state	
+1009ddec	m_frequency	
+1009ddf8	m_density	
+1009de04	CBubbling	CBubbling::Restore,CBubbling::Save
+1009de10	sprites/bubble.spr	CBubbling::Precache,W_Precache
+1009de24	current	CBubbling::KeyValue
+1009de2c	frequency	CBubbling::KeyValue,CShake::KeyValue,CTSWind::KeyValue
+1009de38	density	CBubbling::KeyValue
+1009de48	Firing targets!!!\n	CBeam::TriggerTouch
+1009de5c	CLightning	CLightning::Restore,CLightning::Save
+1009de68	damage	CBaseTrigger::KeyValue,CLaser::KeyValue,CLightning::KeyValue
+1009de70	Radius	CLightning::KeyValue
+1009de78	framestart	CLaser::KeyValue,CLightning::KeyValue
+1009de84	texture	CDecal::KeyValue,CLaser::KeyValue,CLightning::KeyValue
+1009de8c	StrikeTime	CLightning::KeyValue
+1009de98	TextureScroll	CLaser::KeyValue,CLightning::KeyValue
+1009dea8	NoiseAmplitude	CLaser::KeyValue,CLightning::KeyValue
+1009deb8	BoltWidth	CLightning::KeyValue
+1009decc	LightningEnd	CLightning::KeyValue
+1009dedc	LightningStart	CLightning::KeyValue
+1009deec	path_corner	FUN_10019c80
+1009def8	info_landmark	CChangeLevel::FindLandmark,FUN_10019c80
+1009df08	info_target	FUN_10019c80
+1009df14	env_beam: unknown entity "%s"\n	CLightning::StrikeThink
+1009df34	CLaser	CLaser::Restore,CLaser::Save
+1009df3c	EndSprite	CLaser::KeyValue
+1009df48	width	CLaser::KeyValue
+1009df50	LaserTarget	CLaser::KeyValue
+1009df5c	CGlow	CGlow::Restore,CGlow::Save
+1009df64	CSprite	CSprite::Restore,CSprite::Save
+1009df6c	env_sprite	CSprite::SpriteCreate
+1009df78	CGibShooter	CGibShooter::Restore,CGibShooter::Save
+1009df84	models/germanygibs.mdl	CGibShooter::Precache
+1009df9c	m_flVelocity	CGibShooter::KeyValue
+1009dfac	GibShooter Body is <= 1!\n	CGibShooter::CreateGib
+1009dfc8	shootsounds	CEnvShooter::KeyValue
+1009dfd4	shootmodel	CEnvShooter::KeyValue
+1009dfe0	sprites/lgtning.spr	CTestEffect::Precache,CTestEffect::TestThink,W_Precache
+1009dff4	amount	CBlood::KeyValue
+1009dffc	color	CBlood::KeyValue,CGameText::KeyValue
+1009e004	radius	CEnvSound::KeyValue,CShake::KeyValue,CTargetCDAudio::KeyValue
+1009e00c	duration	CFade::KeyValue,CRevertSaved::KeyValue,CShake::KeyValue,CTSSlowMotion::KeyValue,CTSTimer::KeyValue
+1009e018	amplitude	CShake::KeyValue
+1009e024	holdtime	CFade::KeyValue,CGameText::KeyValue,CRevertSaved::KeyValue
+1009e030	messageattenuation	CMessage::KeyValue
+1009e044	messagevolume	CMessage::KeyValue
+1009e054	messagesound	CMessage::KeyValue
+1009e064	sprites/flare6.spr	CEnvFunnel::Precache
+1009e078	weapons/g_bounce3.wav	CEnvBeverage::Precache,CItemSoda::CanThink
+1009e090	models/can.mdl	CEnvBeverage::Precache,CItemSoda::Spawn
+1009e0a0	item_sodacan	CEnvBeverage::Use
+1009e0d0	m_spriteScale	
+1009e0e0	m_iMagnitude	
+1009e0f0	models/grenade.mdl	CShower::Spawn,W_Precache
+1009e104	CEnvExplosion	CEnvExplosion::Restore,CEnvExplosion::Save
+1009e114	iMagnitude	CEnvExplosion::KeyValue,CFuncTankMortar::KeyValue,FUN_1001e460
+1009e120	spark_shower	CEnvExplosion::Use
+1009e134	env_explosion	FUN_1001e460
+1009e264	debris/pushbox3.wav	CPushable::Precache
+1009e278	debris/pushbox2.wav	1009e25c,CPushable::Precache
+1009e28c	debris/pushbox1.wav	1009e258,CPushable::Precache
+1009e2a0	m_soundTime	
+1009e2ac	debris/concrete3.wav	1009e228
+1009e2c4	debris/concrete2.wav	1009e224
+1009e2dc	debris/concrete1.wav	1009e220
+1009e2f4	debris/metal3.wav	1001eda2,1009e21c,TSPrecache
+1009e308	debris/metal2.wav	1001edaa,1009e218,TSPrecache
+1009e31c	debris/metal1.wav	1001ed9a,1009e214,TSPrecache
+1009e330	debris/flesh7.wav	1009e210
+1009e344	debris/flesh6.wav	1009e20c
+1009e358	debris/flesh5.wav	1009e208
+1009e36c	debris/flesh3.wav	1009e204
+1009e380	debris/flesh2.wav	1009e200
+1009e394	debris/flesh1.wav	1009e1fc
+1009e3a8	m_iszSpawnObject	
+1009e3bc	m_iszGibModel	
+1009e3cc	m_angle	
+1009e3d4	m_Explosion	
+1009e3e0	m_Material	
+1009e3ec	weapon_hornetgun	1009e19c
+1009e400	weapon_snark	1009e198
+1009e410	weapon_satchel	1009e194
+1009e420	weapon_tripmine	1009e190
+1009e430	weapon_handgrenade	1009e18c
+1009e444	ammo_gaussclip	1009e188
+1009e454	ammo_rpgclip	1009e184
+1009e464	weapon_rpg	1009e180
+1009e470	ammo_357	1009e17c
+1009e47c	weapon_357	1009e178
+1009e488	ammo_crossbow	1009e174
+1009e498	weapon_crossbow	1009e170
+1009e4a8	ammo_buckshot	1009e16c
+1009e4b8	weapon_shotgun	1009e168
+1009e4c8	ammo_ARgrenades	1009e164
+1009e4d8	ammo_9mmAR	1009e160
+1009e4e4	weapon_9mmAR	1009e15c
+1009e4f4	ammo_9mmclip	1009e158
+1009e504	weapon_9mmhandgun	1009e154
+1009e518	item_healthkit	1009e150
+1009e528	item_battery	1009e14c,CWorldItem::Spawn
+1009e53c	explodemagnitude	CBreakable::KeyValue
+1009e550	spawnobject	CBreakable::KeyValue
+1009e55c	gibmodel	CBreakable::KeyValue
+1009e568	shards	CBreakable::KeyValue
+1009e570	deadmodel	CBreakable::KeyValue
+1009e57c	respawntarget	CBreakable::KeyValue
+1009e58c	material	CBreakable::KeyValue
+1009e598	random	CBreakable::KeyValue
+1009e5a0	directed	CBreakable::KeyValue
+1009e5ac	explosion	CBreakable::KeyValue
+1009e5b8	CBreakable	CBreakable::Restore,CBreakable::Save
+1009e5c4	models/rockgibs.mdl	CBreakable::Precache
+1009e5d8	models/fleshgibs.mdl	CBreakable::Precache
+1009e5f0	CPushable	CPushable::Restore,CPushable::Save
+1009e5fc	buoyancy	CPushable::KeyValue
+1009e7e0	m_pTank	
+1009e7e8	m_laserTime	
+1009e7f4	m_pLaser	
+1009e800	m_iszMaster	
+1009e80c	m_iBulletDamage	
+1009e81c	m_flNextAttack	
+1009e82c	m_vecControllerUsePos	
+1009e844	m_pController	
+1009e854	m_spread	
+1009e860	m_sightOrigin	
+1009e870	m_bulletType	
+1009e880	m_iszSpriteFlash	
+1009e894	m_iszSpriteSmoke	
+1009e8a8	m_barrelPos	
+1009e8b4	m_maxRange	
+1009e8c0	m_minRange	
+1009e8cc	m_persist	
+1009e8d8	m_lastSightTime	
+1009e8e8	m_fireRate	
+1009e8f4	m_fireLast	
+1009e900	m_pitchTolerance	
+1009e914	m_pitchRange	
+1009e924	m_pitchRate	
+1009e930	m_pitchCenter	
+1009e940	m_yawTolerance	
+1009e950	m_yawRange	
+1009e95c	m_yawRate	
+1009e968	m_yawCenter	
+1009e974	CFuncTank	CFuncTank::Restore,CFuncTank::Save
+1009e980	master	CBaseDMStart::KeyValue,CBaseToggle::KeyValue,CFuncTank::KeyValue,CRuleEntity::KeyValue
+1009e988	maxRange	CFuncTank::KeyValue
+1009e994	minRange	CFuncTank::KeyValue
+1009e9a0	firespread	CFuncTank::KeyValue
+1009e9ac	bullet_damage	CFuncTank::KeyValue
+1009e9bc	bullet	CFuncTank::KeyValue
+1009e9c4	persistence	CFuncTank::KeyValue
+1009e9d0	rotatesound	CFuncTank::KeyValue
+1009e9dc	spriteflash	CFuncTank::KeyValue
+1009e9e8	spritesmoke	CFuncTank::KeyValue
+1009e9f4	spritescale	CFuncTank::KeyValue
+1009ea00	barrelz	CFuncTank::KeyValue
+1009ea08	barrely	CFuncTank::KeyValue
+1009ea10	barrel	CFuncTank::KeyValue
+1009ea18	firerate	CFuncTank::KeyValue
+1009ea24	pitchtolerance	CFuncTank::KeyValue
+1009ea34	pitchrate	CFuncTank::KeyValue
+1009ea40	pitchrange	CFuncTank::KeyValue
+1009ea4c	yawtolerance	CFuncTank::KeyValue
+1009ea5c	yawrange	CFuncTank::KeyValue
+1009ea68	yawrate	CFuncTank::KeyValue
+1009ea70	using TANK!\n	CFuncTank::StartControl
+1009ea80	stopped using TANK\n	CFuncTank::StopControl
+1009ea94	CFuncTankLaser	CFuncTankLaser::Restore,CFuncTankLaser::Save
+1009eaa4	Laser tank with no env_laser!\n	CFuncTankLaser::Activate
+1009eac4	laserentity	CFuncTankLaser::KeyValue
+1009ead0	env_laser	CFuncTankLaser::GetLaser
+1009eadc	rpg_rocket	CFuncTankRocket::Fire,CFuncTankRocket::Precache
+1009eae8	CFuncTankControls	CFuncTankControls::Restore,CFuncTankControls::Save
+1009eafc	No tank %s\n	CFuncTankControls::Think
+1009eb08	func_tank	CFuncTankControls::Think
+1009ef2c	Shotguns 	1009ef28,FUN_10026416
+1009ef38	Rifles 	1009ef24,FUN_10026416
+1009ef48	Pistols 	1009ef1c,FUN_10026416
+1009ef54	Knives 	1009ef18,FUN_10026416
+1009ef5c	Kung Fu 	
+1009ef68	botarmor	1009ef00
+1009ef74	dmgreport	CBasePlayer::ShootBulletsPlayer,CBasePlayer::TraceAttack,CTSKnife::BounceTouch,FUN_10047280
+1009ef80	banfortk	1009eed0
+1009ef8c	customweapons	1009eeb8
+1009ef9c	respawnnumber	
+1009efac	spectacularness	1009ee88
+1009efbc	lastmanstanding	1009ee70
+1009efd4	mp_theothers	1009ee58
+1009efe4	gordon	BotCreate,BotCreateCustom
+1009efec	mp_theone	1009ee40
+1009eff8	mp_theonemode	1009ee28
+1009f00c	weaponstay	1009ee10
+1009f018	bottalk	1009edf8
+1009f020	ammocount	1009ede0
+1009f02c	usecash	1009edc8
+1009f034	realbullet	1009edb0
+1009f040	botlearn	1009ed98
+1009f04c	nopowerup	1009ed80
+1009f05c	slowmatch	1009ed68
+1009f06c	damagemult	1009ed50
+1009f080	roundtime	1009ed20
+1009f08c	cashforlose	
+1009f098	10000	1009ecf4,CTSGameRules::TeamWin
+1009f0a0	cashforwin	
+1009f0b4	initial_cash	
+1009f0c8	mp_chattime	1009ecc0,CHalfLifeMultiplay::Think,FUN_1002c670
+1009f0d4	mp_allowmonsters	1009eca8
+1009f0e8	mp_defaultteam	1009ec90,CWorld::Precache
+1009f0f8	mp_teamoverride	1009ec78
+1009f108	mp_teammodels	1009ec60
+1009f118	hitman;gordon	1009ec4c,CHalfLifeTeamplay::CHalfLifeTeamplay
+1009f128	mp_teamlist	1009ec48
+1009f138	decalfrequency	1009ec30
+1009f148	mp_autocrosshair	1009ec18
+1009f15c	mp_forcerespawn	1009ec00
+1009f16c	mp_weaponstay	1009ebe8
+1009f17c	mp_falldamage	1009ebd0
+1009f18c	mp_friendlyfire	1009ebb8,CTSGameRules::CheckVotes
+1009f19c	mp_timelimit	1009eba0,CHalfLifeTeamplay::Think
+1009f1ac	mp_fraglimit	1009eb88
+1009f1bc	mp_teamplay	1009eb70,CTSGameRules::CheckVotes
+1009f1c8	mp_fragsleft	1009eb40
+1009f1dc	displaysoundlist	1009eb28,CSoundEnt::Initialize
+1009f1f0	Bots only in listen servers.\n	cmd_addbot,cmd_addcustombot
+1009f210	Usage: addbot [botname]\n	cmd_addbot
+1009f234	Usage: addcustombot [botname] [team] [skill]\n	cmd_addcustombot
+1009f264	Globalslow is off.\n	cmd_globalslow
+1009f278	Globalslow is at %.0f%%.\n	cmd_globalslow
+1009f294	Weapons allowed: %s\n	FUN_10026416
+1009f2ac	All weapons are restricted.\n	display_weaponrestriction
+1009f2cc	ERROR: specify a file!; example: "loadweapons weapons.txt"\n	cmd_loadweapons
+1009f308	ERROR: file doesn't exist!\n	cmd_loadweapons
+1009f324	ERROR: specify a file!; example: "saveweapons weapons.txt"\n	cmd_saveweapons
+1009f360	ERROR: unable to save!\n	cmd_saveweapons
+1009f378	exec skill.cfg\n	pfnGameInit
+1009f388	mp_footsteps	pfnGameInit
+1009f398	sv_aim	pfnGameInit
+1009f3a0	sv_gravity	CWorld::Precache,pfnGameInit
+1009f3ac	saveweapons	pfnGameInit
+1009f3b8	loadweapons	pfnGameInit
+1009f3c4	weaponrestriction	pfnGameInit
+1009f3d8	restartround	pfnGameInit
+1009f3e8	globalslow	pfnGameInit
+1009f3f4	addcustombot	pfnGameInit
+1009f404	addbot	pfnGameInit
+1009f40c	skill	CGameRules::RefreshSkillData
+1009f414	exec game.cfg\n	InstallGameRules
+1009f478	m_flSoundTime	
+1009f49c	m_iReactivate	
+1009f4ac	m_flNextCharge	
+1009f4bc	CRecharge	CRecharge::Restore,CRecharge::Save
+1009f4c8	dmdelay	CRecharge::KeyValue
+1009f4d0	items/suitchargeok1.wav	CBasePlayerAmmo::Materialize,CBasePlayerItem::Materialize,CItem::Materialize,CRecharge::Precache,CRecharge::Use,CWorld::Precache
+1009f4e8	items/suitchargeno1.wav	CRecharge::Precache,CRecharge::Use
+1009f500	items/suitcharge1.wav	CRecharge::Off,CRecharge::Precache,CRecharge::Use
+1009f568	m_flStartTime	
+1009f578	m_animate	
+1009f584	CCycler	CCycler::Restore,CCycler::Save
+1009f58c	models/prdroid.mdl	CCyclerProbe::Spawn
+1009f5a0	cycler at %.0f %.0f %0.f missing modelname	CCycler::GenericCyclerSpawn
+1009f5cc	cycler	CCycler::GenericCyclerSpawn
+1009f5d4	sequence: %d, frame %.0f\n	CCycler::TakeDamage
+1009f5f0	CCyclerSprite	CCyclerSprite::Restore,CCyclerSprite::Save
+1009f600	Sprite: %s\n	CCyclerSprite::Use
+1009f60c	CWreckage	CWreckage::Restore,CWreckage::Save
+1009f668	models/w_medkit.mdl	CHealthKit::Precache,CHealthKit::Spawn
+1009f67c	items/smallmedkit1.wav	CHealthKit::MyTouch,CHealthKit::Precache
+1009f694	CWallHealth	CWallHealth::Restore,CWallHealth::Save
+1009f6a0	items/medcharge4.wav	CWallHealth::Off,CWallHealth::Precache,CWallHealth::Use
+1009f6b8	items/medshotno1.wav	CWallHealth::Precache,CWallHealth::Use
+1009f6d0	items/medshot4.wav	CWallHealth::Precache,CWallHealth::Recharge,CWallHealth::Use
+1009f6ec	unable to create world_item %d\n	CWorldItem::Spawn
+1009f70c	item_suit	CWorldItem::Spawn,W_Precache
+1009f718	item_security	CWorldItem::Spawn
+1009f728	item_antidote	CWorldItem::Spawn
+1009f738	Item %s fell out of level at %f,%f,%f	CItem::Spawn
+1009f760	models/w_suit.mdl	CItemSuit::Precache,CItemSuit::Spawn
+1009f774	!HEV_AAx	CItemSuit::MyTouch
+1009f780	!HEV_A0	CItemSuit::MyTouch
+1009f788	models/w_battery.mdl	CItemBattery::Precache,CItemBattery::Spawn
+1009f7a0	items/gunpickup2.wav	CBasePlayer::PickUpWeapon,CBasePlayer::TakeFlag,CBasePlayerItem::DefaultTouch,CItemBattery::MyTouch,CItemBattery::Precache,CTSFlag::PlayerTakeFlag,CWeaponBox::Touch,CWorld::Precache,PlayerAddPowerUp
+1009f7b8	!HEV_%1dP	CItemBattery::MyTouch
+1009f7c4	models/w_antidote.mdl	CItemAntidote::Precache,CItemAntidote::Spawn
+1009f7dc	!HEV_DET4	CItemAntidote::MyTouch
+1009f7e8	models/w_security.mdl	CItemSecurity::Precache,CItemSecurity::Spawn
+1009f820	m_iszPattern	
+1009f830	m_iStyle	
+1009f83c	CLight	CLight::Restore,CLight::Save
+1009f844	pattern	CLight::KeyValue
+1009f84c	pitch	CAmbientGeneric::KeyValue,CLight::KeyValue
+1009f85c	sv_skycolor_b	CEnvLight::KeyValue
+1009f86c	sv_skycolor_g	CEnvLight::KeyValue
+1009f87c	sv_skycolor_r	CEnvLight::KeyValue
+1009f88c	%d %d %d %d\n	CEnvLight::KeyValue
+1009f89c	_light	CEnvLight::KeyValue
+1009f8a4	sv_skyvec_z	CEnvLight::Spawn
+1009f8b0	sv_skyvec_y	CEnvLight::Spawn
+1009f8bc	sv_skyvec_x	CEnvLight::Spawn
+1009f930	m_iszOutCount	
+1009f940	m_iszInCount	
+1009f950	m_iszOutTarget	
+1009f960	m_iszInTarget	
+1009f970	m_textParms	
+1009f97c	CRuleEntity	CRuleEntity::Restore,CRuleEntity::Save
+1009f988	points	CGameScore::KeyValue
+1009f990	CGameText	CGameText::Restore,CGameText::Save
+1009f9a4	fadeout	CAmbientGeneric::KeyValue,CGameText::KeyValue
+1009f9ac	fadein	CAmbientGeneric::KeyValue,CGameText::KeyValue
+1009f9b4	color2	CGameText::KeyValue
+1009f9bc	effect	CGameText::KeyValue
+1009f9cc	channel	CGameText::KeyValue
+1009f9d4	triggerstate	CAutoTrigger::KeyValue,CGameTeamMaster::KeyValue,CTriggerRelay::KeyValue
+1009f9e4	teamindex	CGameTeamMaster::KeyValue
+1009f9f0	CGamePlayerZone	CGamePlayerZone::Restore,CGamePlayerZone::Save
+1009fa00	outcount	CGamePlayerZone::KeyValue
+1009fa0c	incount	CGamePlayerZone::KeyValue
+1009fa14	outtarget	CGamePlayerZone::KeyValue
+1009fa20	intarget	CGamePlayerZone::KeyValue
+1009fa2c	game_team_master	CGamePlayerTeam::TargetTeamName
+1009fd50	%s can't assess %s\n	CBaseMonster::Look
+1009fd64	The Specialists (DM)	FUN_1002d170
+1009fd7c	The Specialists (Teamplay)	FUN_10040370
+1009fd98	The Specialists (The One)	FUN_1002d170,FUN_10040370
+1009fdb4	The Specialists (LMS)	FUN_1002d170,FUN_10040370
+1009fdcc	Executing listen server config file\n	CHalfLifeMultiplay::CHalfLifeMultiplay
+1009fdf4	lservercfgfile	CHalfLifeMultiplay::CHalfLifeMultiplay
+1009fe04	exec %s\n	CHalfLifeMultiplay::CHalfLifeMultiplay
+1009fe10	Executing dedicated server config file\n	CHalfLifeMultiplay::CHalfLifeMultiplay
+1009fe38	servercfgfile	CHalfLifeMultiplay::CHalfLifeMultiplay
+1009fe48	menuselect	FUN_1002ba80
+1009fe54	"%s<%i><%s><%i>" entered the game\n	CHalfLifeMultiplay::InitHUD
+1009fe78	"%s<%i><%s><%s>" entered the game\n	CHalfLifeMultiplay::InitHUD
+1009fe9c	%s has joined the game\n	CHalfLifeMultiplay::InitHUD
+1009feb4	unconnected	CHalfLifeMultiplay::InitHUD
+1009fec0	"%s<%i><%s><%i>" disconnected\n	CHalfLifeMultiplay::ClientDisconnected
+1009fee0	"%s<%i><%s><%s>" disconnected\n	CHalfLifeMultiplay::ClientDisconnected
+1009ff00	game_playerleave	CHalfLifeMultiplay::ClientDisconnected
+1009ff14	Skipping %s from mapcycle, not a valid map\n	ReloadMapCycleFile
+1009ff40	maxplayers	ReloadMapCycleFile
+1009ff4c	minplayers	ReloadMapCycleFile
+1009ff5c	RULES:  %s\n	CHalfLifeMultiplay::ChangeLevel
+1009ff68	PLAYER COUNT:  min %i max %i current %i\n	CHalfLifeMultiplay::ChangeLevel
+1009ff94	CHANGE LEVEL: %s\n	CHalfLifeMultiplay::ChangeLevel
+1009ffa8	nextmap	CHalfLifeMultiplay::ChangeLevel,CTSGameRules::CheckVotes
+1009ffb0	Unable to load map cycle file %s\n	CHalfLifeMultiplay::ChangeLevel
+1009ffd4	mapcyclefile	CHalfLifeMultiplay::ChangeLevel
+1009ffec	hostname	CHalfLifeMultiplay::SendMOTDToClient
+1009fff8	motdfile	CHalfLifeMultiplay::SendMOTDToClient
+100a0068	m_altName	
+100a0074	m_pprevious	
+100a0080	m_paltpath	
+100a0094	m_length	
+100a00a0	m_flWait	
+100a00ac	CPathCorner	CPathCorner::Restore,CPathCorner::Save
+100a00c0	CPathTrack	CPathTrack::Restore,CPathTrack::Save
+100a00cc	altpath	CPathTrack::KeyValue
+100a00d4	Dead end link %s\n	CPathTrack::Link
+100a00e8	Bad sequence of path_tracks from %s	CPathTrack::Nearest
+100a010c	path_track	CFuncTrackTrain::Find,CFuncTrackTrain::NearestPath,FUN_1002dcb0
+100a0328	m_targetState	
+100a0338	m_code	
+100a0340	m_trainName	
+100a034c	m_trackBottomName	
+100a0360	m_trackTopName	
+100a0370	m_train	
+100a0378	m_trackBottom	
+100a0388	m_trackTop	
+100a0394	m_oldSpeed	
+100a03a0	m_flBank	
+100a03ac	m_controlMaxs	
+100a03bc	m_controlMins	
+100a03cc	m_startSpeed	
+100a03e4	m_height	
+100a03f0	m_ppath	
+100a03f8	m_activated	
+100a0404	m_pevCurrentTarget	
+100a0418	targetbot	CFuncPlat::KeyValue
+100a0424	targettop	CFuncPlat::KeyValue
+100a0430	m_volume	
+100a043c	CBasePlatTrain	CBasePlatTrain::Restore,CBasePlatTrain::Save
+100a044c	volume	CBasePlatTrain::KeyValue,CFuncTrackTrain::KeyValue
+100a0454	rotation	CBasePlatTrain::KeyValue
+100a0460	plats/talkstop1.wav	CBasePlatTrain::Precache
+100a0474	plats/squeekstop1.wav	CBasePlatTrain::Precache
+100a048c	plats/railstop1.wav	CBasePlatTrain::Precache
+100a04a0	plats/rackstop1.wav	CBasePlatTrain::Precache
+100a04b4	plats/heavystop2.wav	CBasePlatTrain::Precache
+100a04cc	plats/freightstop1.wav	CBasePlatTrain::Precache
+100a04e4	plats/bigstop2.wav	CBasePlatTrain::Precache
+100a04f8	plats/bigstop1.wav	CBasePlatTrain::Precache
+100a050c	plats/talkmove2.wav	CBasePlatTrain::Precache
+100a0520	plats/talkmove1.wav	CBasePlatTrain::Precache
+100a0534	plats/squeekmove1.wav	CBasePlatTrain::Precache
+100a054c	plats/railmove1.wav	CBasePlatTrain::Precache
+100a0560	plats/rackmove1.wav	CBasePlatTrain::Precache
+100a0574	plats/heavymove1.wav	CBasePlatTrain::Precache
+100a058c	plats/freightmove2.wav	CBasePlatTrain::Precache
+100a05a4	plats/freightmove1.wav	CBasePlatTrain::Precache
+100a05bc	plats/elevmove3.wav	CBasePlatTrain::Precache
+100a05d0	plats/elevmove2.wav	CBasePlatTrain::Precache
+100a05e4	plats/elevmove1.wav	CBasePlatTrain::Precache
+100a05f8	plats/bigmove2.wav	CBasePlatTrain::Precache
+100a060c	plats/bigmove1.wav	CBasePlatTrain::Precache
+100a0620	CFuncPlat	CFuncPlat::Restore,CFuncPlat::Save
+100a062c	%s Blocked by %s\n	CFuncPlat::Blocked
+100a0640	CFuncPlatRot	CFuncPlatRot::Restore,CFuncPlatRot::Save
+100a0650	CFuncTrain	CFuncTrain::Restore,CFuncTrain::Save
+100a065c	Train %s speed to %4.2f\n	CFuncTrain::Next
+100a0678	FuncTrain with no target	CFuncTrackTrain::Spawn,CFuncTrain::Spawn
+100a0694	CFuncTrackTrain	CFuncTrackTrain::Restore,CFuncTrackTrain::Save
+100a06ac	startspeed	CFuncTrackTrain::KeyValue
+100a06b8	wheels	CFuncTrackTrain::KeyValue
+100a06c0	TRAIN(%s): Blocked by %s (dmg:%.2f)\n	CFuncTrackTrain::Blocked
+100a06e8	TRAIN(%s), speed to %.2f\n	CFuncTrackTrain::Use
+100a0704	plats/ttrain_brake1.wav	CFuncTrackTrain::Precache,CFuncTrackTrain::StopSound
+100a071c	plats/ttrain_start1.wav	CFuncTrackTrain::Precache,FUN_100300b0
+100a0734	TrackTrain %s speed to %4.2f\n	CFuncTrackTrain::Next
+100a0754	TRAIN(%s): Lost path\n	CFuncTrackTrain::Next
+100a076c	TRAIN(%s): Speed is 0\n	CFuncTrackTrain::Next
+100a0784	at %s\n	CFuncTrackTrain::DeadEnd
+100a078c	TRAIN(%s): Dead end 	CFuncTrackTrain::DeadEnd
+100a07a4	func_track_train must be on a path of path_track\n	CFuncTrackTrain::Find
+100a07d8	TRAIN: %s, Nearest track is %s\n	CFuncTrackTrain::NearestPath
+100a07f8	Can't find a nearby track !!!\n	CFuncTrackTrain::NearestPath
+100a0818	func_tracktrain	CFuncTrackAuto::Use,CFuncTrainControls::Find,FUN_10030fa0
+100a0828	events/train.sc	CFuncTrackTrain::Precache
+100a0838	plats/ttrain7.wav	CFuncTrackTrain::Precache
+100a084c	plats/ttrain6.wav	CFuncTrackTrain::Precache
+100a0860	plats/ttrain4.wav	CFuncTrackTrain::Precache
+100a0874	plats/ttrain3.wav	CFuncTrackTrain::Precache
+100a0888	plats/ttrain2.wav	CFuncTrackTrain::Precache
+100a089c	plats/ttrain1.wav	CFuncTrackTrain::Precache
+100a08b0	No train %s\n	CFuncTrainControls::Find
+100a08c0	CFuncTrackChange	CFuncTrackChange::Restore,CFuncTrackChange::Save
+100a08d4	bottomtrack	CFuncTrackChange::KeyValue
+100a08e0	toptrack	CFuncTrackChange::KeyValue
+100a08ec	train	CFuncTrackChange::KeyValue
+100a08f4	Can't find top track for track change! %s\n	CFuncTrackChange::Find
+100a0920	Can't find bottom track for track change! %s\n	CFuncTrackChange::Find
+100a0950	Can't find train for track change! %s\n	CFuncTrackChange::Find
+100a0978	CGunTarget	CGunTarget::Restore,CGunTarget::Save
+100a0c00	m_loadTime	
+100a0c0c	m_messageTime	
+100a0c1c	deadtable	100a0bdc
+100a0c28	deadstomach	100a0bd8
+100a0c34	deadsitting	100a0bd4
+100a0c40	deadback	100a0bd0
+100a0c6c	m_fInitHUD	
+100a0c78	m_fLongJump	
+100a0c84	m_iWeaponFlash	
+100a0c94	m_iExtraSoundTypes	
+100a0ca8	m_iWeaponVolume	
+100a0cb8	m_iTargetVolume	
+100a0cc8	m_flFallVelocity	
+100a0cdc	m_bitsHUDDamage	
+100a0cec	m_iTrain	
+100a0cf8	m_tSneaking	
+100a0d04	m_idrownrestored	
+100a0d18	m_idrowndmg	
+100a0d24	m_rgAmmo	
+100a0d30	m_pLastItem	
+100a0d3c	m_pActiveItem	
+100a0d4c	m_rgpPlayerItems	
+100a0d60	m_lastDamageAmount	
+100a0d74	m_rgflSuitNoRepeatTime	
+100a0d8c	m_rgiSuitNoRepeat	
+100a0da0	m_iSuitPlayNext	
+100a0db0	m_rgSuitPlayList	
+100a0dc4	m_flSuitUpdate	
+100a0dd4	m_flWallJumpTime	
+100a0de8	m_flDuckTime	
+100a0df8	m_flSwimTime	
+100a0e08	m_flTimeWeaponIdle	
+100a0e1c	m_flTimeStepSound	
+100a0e30	m_afPhysicsFlags	
+100a0e44	m_rgItems	
+100a0e50	m_afButtonReleased	
+100a0e64	m_afButtonPressed	
+100a0e78	m_afButtonLast	
+100a0e88	TSPSys	LinkUserMessages
+100a0e90	PlInfo	LinkUserMessages
+100a0e98	TSFrags	LinkUserMessages
+100a0ea0	PTakeDam	LinkUserMessages
+100a0eac	TSSlowMo	LinkUserMessages
+100a0eb8	TSMessage	LinkUserMessages
+100a0ec4	TSMBlur	LinkUserMessages
+100a0ecc	Spectator	LinkUserMessages
+100a0ed8	CustomWP	LinkUserMessages
+100a0ee4	TSFlag	LinkUserMessages
+100a0eec	TSHVoice	LinkUserMessages
+100a0ef8	TSBTime	LinkUserMessages
+100a0f00	TSPAward	LinkUserMessages
+100a0f0c	SrvSett	LinkUserMessages
+100a0f14	Wires	LinkUserMessages
+100a0f1c	ShowObj	LinkUserMessages
+100a0f24	Objective	LinkUserMessages
+100a0f30	RoundTime	LinkUserMessages
+100a0f3c	PwUpTime	LinkUserMessages
+100a0f50	NextStunt	LinkUserMessages
+100a0f5c	TSSpace	LinkUserMessages
+100a0f64	TSCash	LinkUserMessages
+100a0f6c	TSState	LinkUserMessages
+100a0f74	TSArmor	LinkUserMessages
+100a0f7c	TSHealth	LinkUserMessages
+100a0f88	KFuPower	LinkUserMessages
+100a0f94	ActItems	LinkUserMessages
+100a0fa0	WStatus	LinkUserMessages
+100a0fa8	ClipInfo	LinkUserMessages
+100a0fb4	WeaponInfo	LinkUserMessages
+100a0fc0	VGUIMenu	LinkUserMessages
+100a0fcc	TeamNames	LinkUserMessages
+100a0fd8	AmmoX	LinkUserMessages
+100a0fe0	TSFade	LinkUserMessages
+100a0fe8	ScreenFade	LinkUserMessages
+100a0ff4	ScreenShake	LinkUserMessages
+100a1000	ShowMenu	LinkUserMessages
+100a100c	SetFOV	LinkUserMessages
+100a1014	HideWeapon	LinkUserMessages
+100a1020	ItemPickup	LinkUserMessages
+100a102c	WeapPickup	LinkUserMessages
+100a1038	AmmoPickup	LinkUserMessages
+100a1044	ServerName	LinkUserMessages
+100a1058	GameMode	LinkUserMessages
+100a1064	TeamScore	LinkUserMessages
+100a1070	TeamInfo	LinkUserMessages
+100a107c	ScoreInfo	LinkUserMessages
+100a1088	DeathMsg	LinkUserMessages
+100a1094	GameTitle	LinkUserMessages
+100a10a0	InitHUD	LinkUserMessages
+100a10a8	ResetHUD	LinkUserMessages
+100a10b4	WeaponList	LinkUserMessages
+100a10c0	TextMsg	LinkUserMessages
+100a10c8	SayText	LinkUserMessages
+100a10d0	HudText	LinkUserMessages
+100a10d8	Train	LinkUserMessages
+100a10e0	Battery	LinkUserMessages
+100a10e8	Damage	LinkUserMessages
+100a10f0	Health	LinkUserMessages
+100a10f8	Geiger	LinkUserMessages
+100a1100	CurWeapon	LinkUserMessages
+100a110c	SelAmmo	LinkUserMessages
+100a1114	Hornets	CBasePlayer::TabulateAmmo
+100a111c	uranium	CBasePlayer::TabulateAmmo
+100a1124	rockets	CBasePlayer::TabulateAmmo
+100a112c	buckshot	CBasePlayer::TabulateAmmo
+100a1138	bolts	CBasePlayer::TabulateAmmo
+100a1140	ARgrenades	CBasePlayer::TabulateAmmo
+100a1154	!HEV_HEAL4	CBasePlayer::CheckTimeBasedDamage
+100a1164	Client lost reserved sound!\n	CBasePlayer::UpdatePlayerSound
+100a1184	**Graph Pointers Set!\n	CBasePlayer::Precache
+100a119c	**Graph pointers were not set!\n	CBasePlayer::Precache
+100a11bc	PLAYER	CBasePlayer::Restore,CBasePlayer::Save
+100a11cc	No Landmark:%s\n	CBasePlayer::Restore
+100a11dc	NULL Ent in GiveNamedItem!\n	CBasePlayer::GiveNamedItem
+100a1204	node_viewer_human	CBasePlayer::CheatImpulseCommands
+100a1218	node_viewer_large	CBasePlayer::CheatImpulseCommands
+100a122c	node_viewer_fly	CBasePlayer::CheatImpulseCommands
+100a123c	Texture: %s\n	CBasePlayer::CheatImpulseCommands
+100a124c	Globalname: %s\n	CBasePlayer::CheatImpulseCommands
+100a125c	Model: %s\n	CBasePlayer::CheatImpulseCommands
+100a1268	 - TargetName: No Targetname\n	CBasePlayer::CheatImpulseCommands
+100a1288	 - Targetname: %s\n	CBasePlayer::CheatImpulseCommands
+100a129c	Classname: %s	CBasePlayer::CheatImpulseCommands
+100a12ac	Player is silent\n	CBasePlayer::CheatImpulseCommands
+100a12c0	Player is audible\n	CBasePlayer::CheatImpulseCommands
+100a12dc	Dead hevsuit with bad pose\n	CDeadHEV::Spawn
+100a12f8	CRevertSaved	CRevertSaved::Restore,CRevertSaved::Save
+100a1308	loadtime	CRevertSaved::KeyValue
+100a1314	messagetime	CRevertSaved::KeyValue
+100a13cc	sound/materials.txt	FUN_10036630,TEXTURETYPE_LoadStandardMaterials
+100a13e0	Too many entities were touched!\n	PM_AddToTouched
+100a1404	PM  Got a velocity too low on %i\n	PM_CheckVelocity
+100a1428	PM  Got a velocity too high on %i\n	PM_CheckVelocity
+100a144c	PM  Got a NaN origin on %i\n	PM_CheckVelocity
+100a1468	PM  Got a NaN velocity %i\n	PM_CheckVelocity
+100a1488	Bogus pmove player movetype %i on (%i) 0=cl 1=sv\n	PM_PlayerMove
+100a14bc	The Specialists	CGameRules::GetGameDescription
+100a1fd0	m_preset	
+100a1fdc	m_flRoomtype	
+100a1fec	m_flRadius	
+100a2000	m_fLooping	
+100a200c	m_fActive	
+100a2018	CAmbientGeneric	CAmbientGeneric::Restore,CAmbientGeneric::Save
+100a2028	EMPTY AMBIENT AT: %f, %f, %f\n	CAmbientGeneric::Spawn
+100a2048	cspinup	CAmbientGeneric::KeyValue
+100a2050	lfomodvol	CAmbientGeneric::KeyValue
+100a205c	lfomodpitch	CAmbientGeneric::KeyValue
+100a2068	lforate	CAmbientGeneric::KeyValue
+100a2070	lfotype	CAmbientGeneric::KeyValue
+100a2078	volstart	CAmbientGeneric::KeyValue
+100a2084	spindown	CAmbientGeneric::KeyValue
+100a2090	spinup	CAmbientGeneric::KeyValue
+100a2098	pitchstart	CAmbientGeneric::KeyValue
+100a20a4	preset	CAmbientGeneric::KeyValue,CSpeaker::KeyValue
+100a20ac	CEnvSound	CEnvSound::Restore,CEnvSound::Save
+100a20b8	roomtype	CEnvSound::KeyValue
+100a20c4	No such sentence group %s\n	SENTENCEG_PlayRndSz
+100a20e0	Too many sentence groups in sentences.txt!\n	SENTENCEG_Init
+100a210c	Too many sentences in sentences.txt!\n	SENTENCEG_Init
+100a2134	Sentence %s longer than %d letters\n	SENTENCEG_Init
+100a2158	sound/sentences.txt	SENTENCEG_Init
+100a216c	Unable to find %s in sentences.txt\n	EMIT_SOUND_DYN
+100a2190	suitvolume	EMIT_GROUPID_SUIT,EMIT_SOUND_SUIT
+100a219c	sound/%s_materials.txt	TEXTURETYPE_LoadMapMaterials
+100a21b4	func_breakable	TEXTURETYPE_PlaySound
+100a21c4	weapons/bullet_hit2.wav	TEXTURETYPE_PlaySound,W_Precache
+100a21dc	weapons/bullet_hit1.wav	TEXTURETYPE_PlaySound,W_Precache
+100a21f4	CSpeaker	CSpeaker::Restore,CSpeaker::Save
+100a2200	SPEAKER with no Level/Sentence! at: %f, %f, %f\n	CSpeaker::Spawn
+100a2230	Level Design Error!\nSPEAKER has bad sentence group name: %s\n	CSpeaker::SpeakerThink
+100a2270	C3A2_	CSpeaker::SpeakerThink
+100a2278	C3A1_	CSpeaker::SpeakerThink
+100a2280	C2A5_	CSpeaker::SpeakerThink
+100a2288	C2A4_	CSpeaker::SpeakerThink
+100a2290	C2A3_	CSpeaker::SpeakerThink
+100a2298	C2A2_	CSpeaker::SpeakerThink
+100a22a0	C2A1_	CSpeaker::SpeakerThink
+100a22a8	C1A4_	CSpeaker::SpeakerThink
+100a22b0	C1A3_	CSpeaker::SpeakerThink
+100a22b8	C1A2_	CSpeaker::SpeakerThink
+100a22c0	C1A1_	CSpeaker::SpeakerThink
+100a22c8	C1A0_	CSpeaker::SpeakerThink
+100a22d0	Soundlist: %d / %d  (%d)\n	CSoundEnt::Think
+100a22ec	Free Sound List is full!\n	CSoundEnt::IAllocSound
+100a2308	Could not AllocSound() for InsertSound() (DLL)\n	CSoundEnt::InsertSound
+100a2338	Could not AllocSound() for Client Reserve! (DLL)\n	CSoundEnt::Initialize
+100a236c	Unknown Sound List Type!\n	CSoundEnt::ISoundsInList
+100a2388	SoundPointerForIndex() - Index < 0!\n	CSoundEnt::SoundPointerForIndex
+100a23b0	SoundPointerForIndex() - Index too large!\n	CSoundEnt::SoundPointerForIndex
+100a23dc	Could not find a spawn spot.\n	CBaseSpectator::SpectatorImpulseCommand
+100a23fc	info_player_deathmatch	CBaseSpectator::SpectatorImpulseCommand,CBotStateDM::Think,CTSGameRules::InitTeams,FUN_1004c380,FUN_1004c4a0,FUN_10066370
+100a2414	Unknown spectator impulse\n	CBaseSpectator::SpectatorImpulseCommand
+100a2580	m_bitsDamageInflict	
+100a2594	m_sMaster	
+100a25a0	m_vecFinalAngle	
+100a25b0	m_vecFinalDest	
+100a25c0	m_pfnCallWhenMoveDone	
+100a25d8	m_hActivator	
+100a25e8	m_flHeight	
+100a25f4	m_cTriggersLeft	
+100a2604	m_vecAngle2	
+100a2610	m_vecAngle1	
+100a261c	m_vecPosition2	
+100a262c	m_vecPosition1	
+100a263c	m_flTLength	
+100a2648	m_flTWidth	
+100a265c	m_flMoveDistance	
+100a2670	m_flActivateFinished	
+100a2688	m_toggle_state	
+100a2698	m_iszKillTarget	
+100a26a8	SUB_Remove called on entity with health > 0\n	CBaseEntity::SUB_Remove
+100a26d8	CBaseDelay	CBaseDelay::Restore,CBaseDelay::Save
+100a26e4	delay	CBaseDelay::KeyValue
+100a26ec	Found: %s, firing (%s)\n	FireTargets
+100a2704	Firing: (%s)\n	FireTargets
+100a2714	killing %s\n	CBaseDelay::SUB_UseTargets
+100a2720	KillTarget: %s\n	CBaseDelay::SUB_UseTargets
+100a2730	DelayedUse	CBaseDelay::SUB_UseTargets,CBreakable::BreakableRespawn,CTSPlayerAmount::ClientConnect,FUN_1004ac20
+100a273c	CBaseToggle	CBaseToggle::Restore,CBaseToggle::Save
+100a2754	* assigned to team %s\n	CHalfLifeTeamplay::InitHUD
+100a276c	* you are on team '%s'\n	CHalfLifeTeamplay::InitHUD
+100a2784	* Server limits teams to '%s'\n	CHalfLifeTeamplay::ClientUserInfoChanged
+100a27a4	* Can't change team to '%s'\n	CHalfLifeMultiplay::ClientUserInfoChanged,CHalfLifeTeamplay::ClientUserInfoChanged
+100a27c4	"%s<%i><%s><%s>" joined team "%s"\n	CHalfLifeTeamplay::ClientUserInfoChanged
+100a27e8	* %s has changed to team '%s'\n	CHalfLifeTeamplay::ClientUserInfoChanged
+100a2808	* Not allowed to change teams in this game!\n	CHalfLifeTeamplay::ClientUserInfoChanged
+100a2838	teammate	CHalfLifeTeamplay::DeathNotice
+100a29f8	m_deceleration	
+100a2a08	m_acceleration	
+100a2a18	m_initialSpeed	
+100a2a28	m_targetSpeed	
+100a2a38	m_moveDistance	
+100a2a48	m_flStopTime	
+100a2a58	m_flReturnTime	
+100a2a68	m_sPath	
+100a2a70	m_pentPath	
+100a2a7c	m_hTarget	
+100a2a88	m_hPlayer	
+100a2a94	m_iszNewTarget	CTriggerChangeTarget::KeyValue
+100a2aa4	m_changeTargetDelay	
+100a2ab8	m_changeTarget	
+100a2ac8	m_szLandmarkName	
+100a2adc	m_szMapName	
+100a2ae8	m_flTargetDelay	
+100a2af8	m_iTargetName	
+100a2b08	m_startTime	
+100a2b14	m_index	
+100a2b1c	m_cTargets	
+100a2b28	triggerType	
+100a2b34	m_frictionFraction	
+100a2b48	CFrictionModifier	CFrictionModifier::Restore,CFrictionModifier::Save
+100a2b5c	modifier	CFrictionModifier::KeyValue
+100a2b68	CAutoTrigger	CAutoTrigger::Restore,CAutoTrigger::Save
+100a2b78	CTriggerRelay	CTriggerRelay::Restore,CTriggerRelay::Save
+100a2b88	CMultiManager	CMultiManager::Restore,CMultiManager::Save
+100a2b98	damagetype	CBaseTrigger::KeyValue
+100a2ba4	count	CBaseTrigger::KeyValue
+100a2bac	TriggerCDAudio - Track %d out of range\n	PlayCDTrack
+100a2bd4	cd play %3d\n	PlayCDTrack
+100a2be4	cd pause\n	PlayCDTrack
+100a2bf0	func_pushable	CBaseTrigger::MultiTouch
+100a2c00	trigger_secret	CBaseTrigger::ActivateMultiTrigger
+100a2c10	Sequence completed!	CBaseTrigger::CounterUse
+100a2c24	Only 1 more to go...	CBaseTrigger::CounterUse
+100a2c3c	Only 2 more to go...	CBaseTrigger::CounterUse
+100a2c54	Only 3 more to go...	CBaseTrigger::CounterUse
+100a2c6c	There are more to go...	CBaseTrigger::CounterUse
+100a2c84	fireanddie	CFireAndDie::Spawn
+100a2c90	CChangeLevel	CChangeLevel::Restore,CChangeLevel::Save
+100a2ca0	changedelay	CChangeLevel::KeyValue
+100a2cac	Landmark name '%s' too long (32 chars)\n	CChangeLevel::KeyValue
+100a2cd4	landmark	CChangeLevel::KeyValue
+100a2ce0	Map name '%s' too long (32 chars)\n	CChangeLevel::KeyValue
+100a2d08	trigger_changelevel to %s doesn't have a landmark	CChangeLevel::Spawn
+100a2d3c	a trigger_changelevel doesn't have a map	CChangeLevel::Spawn
+100a2d68	Can't find landmark %s\n	CChangeLevel::FindLandmark
+100a2d80	CHANGE LEVEL: %s %s\n	CChangeLevel::ChangeLevelNow
+100a2d98	Player isn't in the transition volume %s, aborting\n	CChangeLevel::ChangeLevelNow
+100a2dcc	trigger_transition	FUN_100425e0
+100a2de0	Too many entities across a transition!	CChangeLevel::ChangeList
+100a2e08	trigger_changelevel	CChangeLevel::ChangeList
+100a2e1c	autosave\n	CTriggerSave::SaveTouch
+100a2e28	section	CTriggerEndSection::KeyValue
+100a2e30	CTriggerChangeTarget	CTriggerChangeTarget::Restore,CTriggerChangeTarget::Save
+100a2e48	CTriggerCamera	CTriggerCamera::Restore,CTriggerCamera::Save
+100a2e58	deceleration	CTriggerCamera::KeyValue
+100a2e68	acceleration	CTriggerCamera::KeyValue
+100a2e78	moveto	CTriggerCamera::KeyValue
+100a2e80	roll_f_high	CTSAnimation::CTSAnimation
+100a2e8d	oll_b	CTSAnimation::CTSAnimation
+100a2e95	oll_f	CTSAnimation::CTSAnimation
+100a2e9d	oll_r	CTSAnimation::CTSAnimation
+100a2ea5	oll_l	CTSAnimation::CTSAnimation
+100a2eac	dive_b_end	CTSAnimation::CTSAnimation
+100a2eb8	dive_f_end	CTSAnimation::CTSAnimation
+100a2ec4	dive_r_end	CTSAnimation::CTSAnimation
+100a2ed0	dive_l_end	CTSAnimation::CTSAnimation
+100a2edc	slide_b_end	CTSAnimation::CTSAnimation
+100a2ee8	slide_f_end	CTSAnimation::CTSAnimation
+100a2ef4	slide_r_end	CTSAnimation::CTSAnimation
+100a2f00	slide_l_end	CTSAnimation::CTSAnimation
+100a2f0c	slide_b_	CTSAnimation::CTSAnimation
+100a2f18	slide_f_	CTSAnimation::Animate,CTSAnimation::CTSAnimation
+100a2f24	slide_r_	CTSAnimation::CTSAnimation
+100a2f30	slide_l_	CTSAnimation::CTSAnimation
+100a2f3c	dive_b_	CTSAnimation::CTSAnimation
+100a2f45	ive_f_	CTSAnimation::CTSAnimation
+100a2f4c	dive_r_	CTSAnimation::CTSAnimation
+100a2f55	ive_l_	CTSAnimation::CTSAnimation
+100a2f5c	jump_forward_	CTSAnimation::CTSAnimation
+100a2f6c	jump_right_	CTSAnimation::CTSAnimation
+100a2f78	jump_left_	CTSAnimation::CTSAnimation
+100a2f84	combat_idle	CTSAnimation::Animate
+100a2f90	combat_idle_low	CTSAnimation::Animate
+100a2fa0	walk2	CTSAnimation::Animate
+100a2fb0	crawl	CTSAnimation::Animate
+100a2fb8	crouch_idle	CTSAnimation::Animate
+100a2fd4	crouch_aim_	CTSAnimation::Animate
+100a2fe0	duck_idle_	CTSAnimation::Animate
+100a2ff8	shoot_	CTSAnimation::Animate
+100a3000	crouch_shoot_	CTSAnimation::Animate
+100a3010	_shoot	CTSAnimation::Animate
+100a3018	morfy_jump_guns	CTSAnimation::Animate
+100a3028	morfy_jump	CTSAnimation::Animate
+100a3034	standard_jump	CTSAnimation::Animate
+100a3044	goduck	CTSAnimation::Animate
+100a304c	leg_die	CTSAnimation::Animate
+100a3054	die_back	CTSAnimation::Animate
+100a3060	die_spinback	CTSAnimation::Animate
+100a3070	forward_die	CTSAnimation::Animate
+100a307c	die_spin	CTSAnimation::Animate
+100a3088	normal_die1	CTSAnimation::Animate,FUN_10046640
+100a3094	normal_die2	CTSAnimation::Animate,FUN_10046640
+100a30a0	normal_die3	CTSAnimation::Animate,FUN_10046640
+100a30ac	_right	CTSAnimation::Animate
+100a30bc	slide_b_right	CTSAnimation::Animate
+100a30cc	slide_b_left	CTSAnimation::Animate
+100a30dc	bullettime	CTSAnimation::Animate
+100a30e8	walljump_climb	CTSAnimation::Animate
+100a30f8	walljump_end	CTSAnimation::Animate
+100a3108	wheel_l	CTSAnimation::Animate
+100a3110	wheel_r	CTSAnimation::Animate
+100a3118	wheel_b	CTSAnimation::Animate
+100a3120	wheel_f	CTSAnimation::Animate
+100a3128	lowwheel_r	CTSAnimation::Animate
+100a3134	lowwheel_l	CTSAnimation::Animate
+100a3140	lowwheel_f	CTSAnimation::Animate
+100a3154	relo_	CTSAnimation::Animate
+100a315c	grenade	CBasePlayer::SlowMotionFlow,CHalfLifeMultiplay::PlayerKilled,CM61Grenade::CreateGrenade,CTSAnimation::Animate,FUN_1004e9f0
+100a3164	stock_	CTSAnimation::HandleCloseCombat
+100a316c	superjump_land	CTSAnimation::HandleCloseCombat
+100a317c	kungfu_block	CTSAnimation::HandleCloseCombat
+100a318c	knife_block	CTSAnimation::HandleCloseCombat
+100a319c	katana_block	CTSAnimation::HandleCloseCombat
+100a31b0	katana_duck	CTSAnimation::HandleCloseCombat
+100a31bc	katana_air	CTSAnimation::HandleCloseCombat
+100a31c9	atana3	CTSAnimation::HandleCloseCombat
+100a31d1	atana2	CTSAnimation::HandleCloseCombat
+100a31d9	atana1	CTSAnimation::HandleCloseCombat
+100a31e0	knife_launch	CTSAnimation::HandleCloseCombat
+100a31f1	nife3	CTSAnimation::HandleCloseCombat
+100a31f9	nife2	CTSAnimation::HandleCloseCombat
+100a3201	nife1	CTSAnimation::HandleCloseCombat
+100a3208	uppercut	CTSAnimation::HandleCloseCombat
+100a3214	punchair	CTSAnimation::HandleCloseCombat
+100a3220	punchright	CTSAnimation::HandleCloseCombat
+100a322c	punchleft	CTSAnimation::HandleCloseCombat
+100a3238	duckkick	CTSAnimation::HandleCloseCombat
+100a3245	irkick2	CTSAnimation::HandleCloseCombat
+100a3250	airkick	CTSAnimation::HandleCloseCombat
+100a3258	backkick	CTSAnimation::HandleCloseCombat
+100a3264	sidekick	CTSAnimation::HandleCloseCombat
+100a3270	circspin	CTSAnimation::HandleCloseCombat
+100a327c	latback	CTSAnimation::HandleCloseCombat
+100a3284	circback	CTSAnimation::HandleCloseCombat
+100a3290	circkicklow	CTSAnimation::HandleCloseCombat
+100a329c	circkick	CTSAnimation::HandleCloseCombat
+100a32a8	circfront	CTSAnimation::HandleCloseCombat
+100a32b8	WARNING:cannot create bullet!\n	CBulletManager::FireBullet
+100a32d8	damage:%f\n	CBasePlayer::ShootBulletsPlayer,FUN_10047280
+100a32e4	damage(piercing):%f\n	CBasePlayer::ShootBulletsPlayer
+100a32fc	deadcorpse	FUN_100483e0,W_Precache
+100a3308	variance	CTSWind::KeyValue
+100a331c	Particles per emit <= 0! Should be greater then zero.\n	CTSEmitter::CheckValues
+100a3354	Emits per second <= 0! Should be greater then zero.\n	CTSEmitter::CheckValues
+100a338c	Too many particles! Particle limit is %d particles.\n	CTSParticle::Spawn
+100a33c4	ts_particle	CTSEmitter::InitThink,CTSParticle::Spawn
+100a33d0	Too many emitters! Emitter limit is %d emitters.\n	CTSEmitter::Spawn
+100a3404	ts_emitter	CTSEmitter::Spawn
+100a3410	ts_wind	CTSWind::Spawn
+100a3418	'%s' is definitely not a ts_particle.\n	CTSEmitter::InitThink
+100a3440	Particle '%s' does not exist!\n	CTSEmitter::InitThink
+100a34d0	player_at_a_time_num	
+100a34e8	player_respawn_num	
+100a34fc	nextcheck	CTSDMHill::KeyValue,CTSTrigger::KeyValue
+100a3508	fragseverycheckteam	
+100a351c	fragseverycheck	
+100a352c	slow_ammount	
+100a353c	allowedteam	CTSTrigger::KeyValue
+100a3548	attackerteam	CTSGroundWeapon::KeyValue,CTSSellZone::KeyValue,CTSTrigger::KeyValue,FUN_1005c340
+100a3558	ts_trigger	CTSTrigger::Spawn,W_Precache
+100a3564	CTSSlowMotion	CTSSlowMotion::Restore,CTSSlowMotion::Save
+100a357c	ts_slowmotion	CTSSlowMotion::Spawn,W_Precache
+100a358c	WARNING:cannot create slowmotion point!\n	CTSSlowMotionPoint::CreateSlowMotionPoint
+100a35b8	ts_slowmotionpoint	CTSSlowMotionPoint::Spawn,W_Precache
+100a35cc	CTSDMHill	CTSDMHill::Restore,CTSDMHill::Save
+100a35d8	fragamtteam	CTSDMHill::KeyValue
+100a35e4	fragamt	CTSDMHill::KeyValue
+100a35ec	ts_dmhill	CBotStateDM::Think,CTSDMHill::Spawn,W_Precache
+100a35f8	 ,%i frags for him	CTSDMHill::WaitTouch
+100a360c	 ,%i frags for they	CTSDMHill::WaitTouch
+100a3628	ts_model	CTSModel::Spawn,W_Precache
+100a3634	CTSMapGlobals	CTSMapGlobals::Restore,CTSMapGlobals::Save
+100a3644	ts_sellzone	CTSSellZone::Spawn
+100a3650	clients	CTSPlayerAmount::KeyValue
+100a3658	disconnecttarget	CTSPlayerAmount::KeyValue
+100a366c	connecttarget	CTSPlayerAmount::KeyValue
+100a367c	ts_timer	CTSTimer::Spawn
+100a3688	accumulate	CTSCustomTarget::KeyValue
+100a3694	triggermethod	CTSCustomTarget::KeyValue
+100a36a4	targets	CTSCustomTarget::KeyValue
+100a36ac	ts_customtarget	CTSCustomTarget::Spawn
+100a36bc	info_breakable	CBaseDoor::Spawn,CBreakable::Spawn,CRotDoor::Spawn
+100a36d0	info_player_start	CTSGameRules::InitTeams,FUN_1004c4a0
+100a36e4	weapons/knife/knife_hit.wav	CTSKnife::BounceTouch,CTSShrapnel::BounceTouch,CTSShrapnel::Precache,FUN_1004cc30,FUN_1004cd70,TSPrecache
+100a3700	player/kungfuhit.wav	CTSStunt::CheckForBreakables,FUN_1004cec0,FUN_10063920,FUN_10063eb0,TSPrecache
+100a3718	seal;merc	CTSGameRules::InitTeams
+100a3918	gordon;laurence	CTSGameRules::InitTeams
+100a3b18	agent	
+100a3d18	hitman;castor	
+100a3f18	ts_flag	CTSFlag::Spawn,CTSGameRules::InitTeams,CTSGameRules::RespawnEntities,TSPrecache
+100a3f20	ts_powerup	CBotStateDM::Think,CTSGameRules::RespawnEntities,CTSPowerUp::Spawn,FUN_10066370,W_Precache
+100a3f2c	ts_groundweapon	CTSGameRules::RespawnEntities,W_Precache
+100a3f3c	info_breakable	CTSGameRules::RespawnEntities
+100a3f4c	Defeat the opposite team	CTSGameRules::RestartRound
+100a3f68	ts_briefcase	CTSBriefcase::Spawn,FUN_1004da70
+100a3f78	Specialists;Mercenaries	CTSGameRules::InitTeams
+100a3f98	info_player_team%i	CTSGameRules::InitTeams
+100a3fac	Team%i	CTSGameRules::InitTeams
+100a3fb4	created team %s\n	CTSGameRules::SetTeamList
+100a3fc8	The ONE	CTSGameRules::SetTeamList
+100a3fd4	set model %s for team %s\n	CTSGameRules::SetTeamModelList
+100a3ff0	ts_objective_manager	CTSGameRules::InitObjectives,CTSObjectiveManager::Spawn,W_Precache
+100a4008	Restarting Round	CTSGameRules::ResetRestartRound
+100a401c	Round draw\n	CTSGameRules::TeamWin
+100a4028	Game Draw	CTSGameRules::TeamWin
+100a4034	Team "%s" scored "%d" with "%d" players\n	CTSGameRules::TeamWin
+100a4060	%s Win!	CTSGameRules::TeamWin
+100a4068	%s Score!	CTSGameRules::TeamWin
+100a4074	Waiting for other players.	CTSBriefcase::CaptureTouch,CTSGameRules::CheckDeads,CTSGameRules::TeamWin
+100a4090	This server has custom weapon damages (%.2f)	CTSGameRules::InitHUD
+100a40c0	This server has cheats enabled.	CTSGameRules::InitHUD
+100a40e0	%d men standing!	CTSGameRules::CheckDeads
+100a40f4	Round over	CTSGameRules::CheckDeads
+100a4100	Player "%s" triggered "last_man_standing"\n	CTSGameRules::CheckDeads
+100a412c	%s is the Last Man Standing! %i frags	CTSGameRules::CheckDeads
+100a4154	%s is an invalid map\n	CTSGameRules::PlayerVote
+100a416c	%s vote for map %s\n	CTSGameRules::PlayerVote
+100a4180	%s is the current map!\n	CTSGameRules::PlayerVote
+100a4198	No votes in progress.\n	CTSGameRules::PlayerVote
+100a41b0	(%i/%i) votes for %s\n	CTSGameRules::PlayerVote
+100a41c8	stats	CTSGameRules::PlayerVote
+100a41d0	Your votes are resetted.\n	CTSGameRules::PlayerVote
+100a41ec	reset	CTSGameRules::PlayerVote
+100a41f4	TeamPlay in DM maps disabled, wait next map.	CTSGameRules::CheckVotes
+100a4224	TeamPlay in DM maps enabled, wait next map.	CTSGameRules::CheckVotes
+100a4250	Friendly fire disabled.	CTSGameRules::CheckVotes
+100a4268	Friendly fire enabled.	CTSGameRules::CheckVotes
+100a4280	SlowMatch disabled.	CTSGameRules::CheckVotes
+100a4294	SlowMatch enabled.	CTSGameRules::CheckVotes
+100a42a8	mp_slowmatch	CTSGameRules::CheckVotes
+100a42b8	Player "%s" triggered "the_one"\n	CTSGameRules::SetPlayerTheOne
+100a42dc	%s is The One!	CTSGameRules::SetPlayerTheOne
+100a42ec	The One is dead.	CTSGameRules::TheOneIsDead
+100a4300	The One was killed by %s!	CTSGameRules::TheOneIsDead
+100a431c	weapons/grenbounce4.wav	CTSGrenade::BounceTouch,CTSGrenade::Precache
+100a4334	weapons/grenbounce3.wav	CTSGrenade::BounceTouch,CTSGrenade::Precache
+100a434c	weapons/grenbounce2.wav	CTSGrenade::BounceTouch,CTSGrenade::Precache
+100a4364	weapons/grenbounce1.wav	CTSGrenade::BounceTouch,CTSGrenade::Precache
+100a437c	shrapnel	CHalfLifeMultiplay::PlayerKilled,TSPrecache
+100a4388	models/shrapnel.mdl	CTSShrapnel::Precache,CTSShrapnel::Spawn
+100a439c	func_wall	CTSShrapnel::BounceTouch
+100a43a8	Throwing Combat Knife	CTSKnife::GetDescription
+100a43c0	Throwing Seal Knife	CTSKnife::GetDescription
+100a43d4	Throwing Katana	CTSKnife::GetDescription
+100a43e4	weapons/knife/knife_hitbody.wav	CTSKnife::BounceTouch,CTSStunt::CheckForBreakables,FUN_10057210,TSPrecache
+100a4404	(debug)%f\n	CTSKnife::BounceTouch
+100a4411	.62 x 51mm	compile_ammo_info
+100a441d	32Acp	compile_ammo_info
+100a4424	.454 Casull	compile_ammo_info
+100a4431	22 LR	compile_ammo_info
+100a4438	SHELLS	compile_ammo_info
+100a4449	.62 x 39mm	compile_ammo_info
+100a4454	5.56 Nato	compile_ammo_info
+100a4460	10mm AUTO	compile_ammo_info
+100a446d	45Acp	compile_ammo_info
+100a4475	.7 x 28	compile_ammo_info
+100a4489	 x 19mm	compile_ammo_info
+100a4494	weapon_tsgun	CTSGun::Spawn,FUN_10059810,W_Precache
+100a44a4	events/grenade.sc	CTSGun::Precache
+100a44b8	events/draw.sc	CTSGun::Precache
+100a44c8	events/katana.sc	CTSGun::Precache
+100a44dc	events/knife.sc	CTSGun::Precache
+100a44ec	events/reload.sc	CTSGun::Precache
+100a4500	events/closecombat.sc	CTSGun::Precache
+100a4518	events/pump.sc	CTSGun::Precache
+100a4528	events/empty.sc	CTSGun::Precache
+100a4538	events/firelinked.sc	CTSGun::Precache
+100a4550	events/coldcock.sc	CTSGun::Precache
+100a4564	events/fire.sc	CTSGun::Precache
+100a4574	weapons/switch.wav	CTSGun::SwitchItems,TSPrecache
+100a4588	player/kevlarhit.wav	CBasePlayer::TraceAttack,CTSGun::AlternateAttack,TSPrecache
+100a45a0	weapons/katana/hit-body.wav	CTSStunt::CheckForBreakables,FUN_10056740,TSPrecache
+100a45bc	weapons/katana/miss.wav	FUN_10056d80,TSPrecache
+100a45d4	weapons/knife/knife_miss.wav	FUN_10057210,TSPrecache
+100a45f4	game_player_equip	FUN_10059810
+100a4608	%i #TS_Frg #TS_FrgFr %s, %s	TSGetPointsForFrag
+100a4625	#TS_Stl	TSGetPointsForFrag
+100a4630	#TS_SlStl	TSGetPointsForFrag
+100a463d	& #TS_SlStl	TSGetPointsForFrag
+100a464c	#TS_StStl	TSGetPointsForFrag
+100a4658	Throwing	TSGetPointsForFrag
+100a4664	 & #TS_StStl	TSGetPointsForFrag
+100a4675	TS_KungFu	TSGetPointsForFrag
+100a4680	%s kicked for teamkilling\n	CHalfLifeMultiplay::PlayerKilled
+100a469c	kick #%i\n	CBasePlayer::PreThink,CHalfLifeMultiplay::PlayerKilled
+100a46a8	You have been kicked for teamkilling...\n	CHalfLifeMultiplay::PlayerKilled
+100a46d4	%s banned for teamkilling (%i minutes)\n	CHalfLifeMultiplay::PlayerKilled
+100a46fc	banid %i #%i kick\n	CHalfLifeMultiplay::PlayerKilled
+100a4710	You have been banned for teamkilling (%i minutes)...\n	CHalfLifeMultiplay::PlayerKilled
+100a4748	game_playerkill	CHalfLifeMultiplay::PlayerKilled
+100a4758	%s #TS_Killed %s #TS_OwnWeapon	CHalfLifeMultiplay::PlayerKilled
+100a4778	%s %s %i #TS_ConsKills	CHalfLifeMultiplay::PlayerKilled
+100a4790	#TS_KillSpree%i	CHalfLifeMultiplay::PlayerKilled
+100a47a0	%s #TS_Specialist	CHalfLifeMultiplay::PlayerKilled
+100a47b4	#TS_Unstoppable %s! %i #TS_ConsKills	CHalfLifeMultiplay::PlayerKilled
+100a47dc	#TS_SpreeKilled%i	CHalfLifeMultiplay::PlayerKilled
+100a47f0	%i #TS_Frg #TS_FrgFr %s, #TS_KilledTheSpecialist	CHalfLifeMultiplay::PlayerKilled
+100a4824	#TS_Doublefrag #TS_FrgFr %s!	CHalfLifeMultiplay::PlayerKilled
+100a4844	#TS_Coldcock #TS_FrgFr %s!	CHalfLifeMultiplay::PlayerKilled
+100a4860	#TS_KatanaKill #TS_FrgFr %s!	CHalfLifeMultiplay::PlayerKilled
+100a4880	#TS_KnifeKill #TS_FrgFr %s!	CHalfLifeMultiplay::PlayerKilled
+100a489c	#TS_Headshot #TS_FrgFr %s!	CHalfLifeMultiplay::PlayerKilled
+100a48b8	%s, #TS_SpecialistSuicide	CHalfLifeMultiplay::PlayerKilled
+100a48d4	game_playerdie	CHalfLifeMultiplay::PlayerKilled
+100a48e4	"%s<%i><%s><%i>" committed suicide with "%s" (world)\n	CHalfLifeMultiplay::PlayerKilled
+100a491c	"%s<%i><%s><%s>" committed suicide with "%s" (world)\n	CHalfLifeMultiplay::PlayerKilled
+100a4954	"%s<%i><%s><%i>" killed "%s<%i><%s><%i>" with "%s"%s%s%s%s%s%s%s%s\n	CHalfLifeMultiplay::PlayerKilled
+100a4998	"%s<%i><%s><%s>" killed "%s<%i><%s><%s>" with "%s"%s%s%s%s%s%s%s%s\n	CHalfLifeMultiplay::PlayerKilled
+100a49dc	 (victims_weapon)	CHalfLifeMultiplay::PlayerKilled
+100a49f0	 (killed_specialist)	CHalfLifeMultiplay::PlayerKilled
+100a4a08	 (double_kill)	CHalfLifeMultiplay::PlayerKilled
+100a4a18	 (diving)	CHalfLifeMultiplay::PlayerKilled
+100a4a24	 (sliding)	CHalfLifeMultiplay::PlayerKilled
+100a4a30	 (killed_the_one)	CHalfLifeMultiplay::PlayerKilled
+100a4a44	 (is_killer)	CHalfLifeMultiplay::PlayerKilled
+100a4a54	 (is_demolition)	CHalfLifeMultiplay::PlayerKilled
+100a4a68	 (is_specialist)	CHalfLifeMultiplay::PlayerKilled
+100a4a7c	 (is_unstoppable)	CHalfLifeMultiplay::PlayerKilled
+100a4a90	 (stopped_fury "%s")	CHalfLifeMultiplay::PlayerKilled
+100a4aa8	"%s<%i><%s><%i>" committed suicide with "%s"\n	CHalfLifeMultiplay::PlayerKilled
+100a4ad8	"%s<%i><%s><%s>" committed suicide with "%s"\n	CHalfLifeMultiplay::PlayerKilled
+100a4b08	Shrapnel	CHalfLifeMultiplay::PlayerKilled
+100a4b14	Throwing Knife	CHalfLifeMultiplay::PlayerKilled
+100a4b24	func_	CHalfLifeMultiplay::PlayerKilled
+100a4b2c	monster_	CHalfLifeMultiplay::PlayerKilled
+100a4b38	 Stock	CHalfLifeMultiplay::PlayerKilled
+100a4b40	Kung Fu	CHalfLifeMultiplay::PlayerKilled
+100a4b48	world	CHalfLifeMultiplay::PlayerKilled
+100a4b50	zombie	CHalfLifeMultiplay::IsValidTeam
+100a4b58	scientist	CHalfLifeMultiplay::IsValidTeam
+100a4b6c	recon	CHalfLifeMultiplay::IsValidTeam
+100a4b74	hgrunt	CHalfLifeMultiplay::IsValidTeam
+100a4b7c	helmet	CHalfLifeMultiplay::IsValidTeam
+100a4b94	barney	CHalfLifeMultiplay::IsValidTeam
+100a4b9c	* HLDM models not allowed.\n	CHalfLifeMultiplay::ClientUserInfoChanged
+100a4bb8	cl_lw	BotSetup,CHalfLifeMultiplay::ClientUserInfoChanged,PlayerIsCheating
+100a4d20	escape_percentage	
+100a4d34	hacksec	
+100a4d3c	cancutwire	
+100a4d48	defusesec	
+100a4d54	attacker_team	
+100a4d64	numberofcall	
+100a4d74	winnerteam	CTSWinGiver::KeyValue
+100a4d80	cash_for_loser	
+100a4d90	cash_for_winner	
+100a4da0	end_round_target	
+100a4db4	targets[7]	
+100a4dc0	targets[6]	
+100a4dcc	targets[5]	
+100a4dd8	targets[4]	
+100a4de4	targets[3]	
+100a4df0	targets[2]	
+100a4dfc	targets[1]	
+100a4e08	targets[0]	
+100a4e14	messages[3]	
+100a4e20	messages[2]	
+100a4e2c	messages[1]	
+100a4e38	messages[0]	
+100a4e44	CTSObjectiveManager	CTSObjectiveManager::Restore,CTSObjectiveManager::Save
+100a4e58	targetonmercdead	CTSObjectiveManager::KeyValue
+100a4e6c	targetonspecdead	CTSObjectiveManager::KeyValue
+100a4e80	targetontimeleft	CTSObjectiveManager::KeyValue
+100a4e94	messaged	CTSObjectiveManager::KeyValue
+100a4ea0	messagec	CTSObjectiveManager::KeyValue
+100a4eac	messageb	CTSObjectiveManager::KeyValue
+100a4eb8	messagea	CTSObjectiveManager::KeyValue
+100a4ec4	objptargeth	CTSObjectiveManager::KeyValue
+100a4ed0	objptargetg	CTSObjectiveManager::KeyValue
+100a4edc	objptargetf	CTSObjectiveManager::KeyValue
+100a4ee8	objptargete	CTSObjectiveManager::KeyValue
+100a4ef4	objptargetd	CTSObjectiveManager::KeyValue
+100a4f00	objptargetc	CTSObjectiveManager::KeyValue
+100a4f0c	objptargetb	CTSObjectiveManager::KeyValue
+100a4f18	objptargeta	CTSObjectiveManager::KeyValue
+100a4f24	objmsgall	CTSObjectivePointer::KeyValue
+100a4f33	msgteam4	CTSObjectivePointer::KeyValue
+100a4f3f	msgteam3	CTSObjectivePointer::KeyValue
+100a4f48	objmsgmerc	CTSObjectivePointer::KeyValue
+100a4f57	msgspec	CTSObjectivePointer::KeyValue
+100a4f60	ts_objective_ptr	CTSObjectivePointer::Spawn,W_Precache
+100a4f74	CTSWinGiver	CTSWinGiver::Restore,CTSWinGiver::Save
+100a4f80	callsnumber	CTSWinGiver::KeyValue
+100a4f8c	defeatcash	CTSWinGiver::KeyValue
+100a4f98	victorycash	CTSWinGiver::KeyValue
+100a4fa4	ts_wingiver	CTSWinGiver::Spawn,W_Precache
+100a4fb0	ts_scoregiver	CTSScoreGiver::Spawn
+100a4fc0	CTSObjective	CTSObjective::Restore,CTSObjective::Save
+100a4fd0	CTSBomb	CTSBomb::Restore,CTSBomb::Save
+100a4fd8	ts_bomb	CBasePlayer::CheckForWires,CBasePlayer::CutWire,CTSBomb::Spawn,W_Precache
+100a4fe0	misc/beep2.wav	CTSBomb::Precache,CTSBomb::WaitThink
+100a4ff0	%i seconds left	CTSBomb::Use,CTSHack::Use
+100a5000	cutwires	CTSBomb::KeyValue
+100a500c	defusetime	CTSBomb::KeyValue
+100a5018	CTSHack	CTSHack::Restore,CTSHack::Save
+100a5020	ts_hack	CTSHack::Spawn,W_Precache
+100a5028	misc/hacked.wav	CTSHack::Use,TSPrecache
+100a5038	misc/hacking.wav	CTSHack::Use,TSPrecache
+100a504c	hackingtime	CTSHack::KeyValue
+100a5058	CTSTeamEscape	CTSTeamEscape::Restore,CTSTeamEscape::Save
+100a5068	ts_teamescape	CTSTeamEscape::Spawn,W_Precache
+100a5078	escapepercentage	CTSTeamEscape::KeyValue
+100a508c	ownerteam	CTSBriefcase::KeyValue
+100a5098	contents	CTSBriefcase::KeyValue
+100a50a4	a flag	CTSBriefcase::Spawn
+100a50ac	%s captured the briefcase! %i #TS_Frg	CTSBriefcase::CaptureTouch
+100a50d4	"%s<%i><%s><%i>" triggered "captured_briefcase" (contents "%s")\n	CTSBriefcase::CaptureTouch
+100a5118	Couldn't alloc player sound slot!\n	CBasePlayer::Spawn
+100a513c	!HEV_HLTH1	CBasePlayer::TakeDamage
+100a5148	!HEV_DMG7	CBasePlayer::TakeDamage
+100a5154	!HEV_HLTH2	CBasePlayer::TakeDamage
+100a5160	!HEV_HLTH3	CBasePlayer::TakeDamage
+100a516c	!HEV_HEAL7	CBasePlayer::TakeDamage
+100a5178	!HEV_MED1	CBasePlayer::TakeDamage
+100a5184	!HEV_DET2	CBasePlayer::TakeDamage
+100a5190	!HEV_DET0	CBasePlayer::TakeDamage
+100a519c	!HEV_DET1	CBasePlayer::TakeDamage
+100a51a8	!HEV_DMG3	CBasePlayer::TakeDamage
+100a51b4	!HEV_DMG2	CBasePlayer::TakeDamage
+100a51c0	!HEV_DMG0	CBasePlayer::TakeDamage
+100a51cc	!HEV_DMG1	CBasePlayer::TakeDamage
+100a51d8	!HEV_DMG6	CBasePlayer::TakeDamage
+100a51e4	!HEV_DMG5	CBasePlayer::TakeDamage
+100a51f0	!HEV_DMG4	CBasePlayer::TakeDamage
+100a51fc	%s damaged %s (%f hp)\n	CBasePlayer::TraceAttack
+100a5214	player/pain2.wav	CBasePlayer::TraceAttack,TSPrecache
+100a5228	player/pain3.wav	CBasePlayer::TraceAttack,TSPrecache
+100a523c	player/pain4.wav	CBasePlayer::TraceAttack,TSPrecache
+100a5250	player/bodyhit4.wav	CBasePlayer::TraceAttack,TSPrecache
+100a5264	player/bodyhit3.wav	CBasePlayer::TraceAttack,TSPrecache
+100a5278	player/bodyhit2.wav	CBasePlayer::TraceAttack,TSPrecache
+100a528c	player/bodyhit1.wav	CBasePlayer::TraceAttack,TSPrecache
+100a52a0	player/headshot.wav	CBasePlayer::TraceAttack,TSPrecache
+100a52b4	player/headshot2.wav	CBasePlayer::TraceAttack,TSPrecache
+100a52cc	%s kicked.\n	CBasePlayer::PreThink
+100a52d8	You have been kicked for some reason...\n	CBasePlayer::PreThink
+100a5304	%i seconds left for respawn, press Fire to Play!	CBasePlayer::PreThink
+100a5338	Press Fire To Play!	CBasePlayer::PreThink
+100a534c	player/superjump-land.wav	CBasePlayer::PostThink,TSPrecache
+100a5368	game_playerspawn	CBasePlayer::UpdateClientData
+100a537c	game_playerjoin	CBasePlayer::UpdateClientData
+100a538c	"%s<%i><%s><%i>" triggered "dropped_briefcase" (contents "%s")\n	CBasePlayer::DropFlag
+100a53cc	"%s<%i><%s><%i>" triggered "aquired_briefcase" (contents "%s")\n	CBasePlayer::TakeFlag
+100a540c	%s picked up a briefcase containing %s!	CBasePlayer::TakeFlag
+100a5434	weapons/weapondrop.wav	CBasePlayer::DropWeapon,TSPrecache
+100a544c	weapons/items.wav	CBasePlayer::TakeArmor,FUN_100622f0,TSPrecache
+100a5460	items/9mmclip1.wav	CBasePlayer::BuyAmmo,CTSAmmoPack::WaitTouch,CTSGroundAmmo::WaitTouch,CTSGroundWeapon::GetWeapon,FUN_1007a3b0,FUN_1007a470,TSPrecache
+100a5474	You can't use Slow-Motion now!	CBasePlayer::UsePowerUp
+100a54b8	pwupduration	CTSPowerUp::KeyValue
+100a54c8	poweruptype	
+100a54d4	CTSPowerUp	CTSPowerUp::Restore,CTSPowerUp::Save
+100a54e0	pwupmult	CTSPowerUp::KeyValue
+100a54ec	pwuptype	CTSPowerUp::KeyValue
+100a54f8	WARNING:cannot create powerup!\n	CTSPowerUp::CreatePowerUp
+100a5518	models/powerup.mdl	CTSPowerUp::Precache,CTSPowerUp::Spawn
+100a552c	origin	CTSSharedEmitter::EmitterKeyValue
+100a5534	cameraradius	CTSSharedEmitter::EmitterKeyValue
+100a5544	cameradensity	CTSSharedEmitter::EmitterKeyValue
+100a5554	variancehigh	CTSSharedEmitter::EmitterKeyValue
+100a5564	%f %f %f	CTSSharedEmitter::EmitterKeyValue,CTSSharedEmitter::ParticleKeyValue
+100a5570	variancelow	CTSSharedEmitter::EmitterKeyValue
+100a557c	ppehigh	CTSSharedEmitter::EmitterKeyValue
+100a5584	ppelow	CTSSharedEmitter::EmitterKeyValue
+100a558c	epshigh	CTSSharedEmitter::EmitterKeyValue
+100a5594	epslow	CTSSharedEmitter::EmitterKeyValue
+100a559c	particle	CTSSharedEmitter::EmitterKeyValue
+100a55a8	stretchspeed	CTSSharedEmitter::ParticleKeyValue
+100a55b8	fadeintimehigh	CTSSharedEmitter::ParticleKeyValue
+100a55c8	fadeintimelow	CTSSharedEmitter::ParticleKeyValue
+100a55d8	windamounthigh	CTSSharedEmitter::ParticleKeyValue
+100a55e8	windamountlow	CTSSharedEmitter::ParticleKeyValue
+100a55f8	reactamounthigh	CTSSharedEmitter::ParticleKeyValue
+100a5608	reactamountlow	CTSSharedEmitter::ParticleKeyValue
+100a5618	termvelocityhigh	CTSSharedEmitter::ParticleKeyValue
+100a562c	termvelocitylow	CTSSharedEmitter::ParticleKeyValue
+100a563c	soundonemit	CTSSharedEmitter::ParticleKeyValue
+100a5648	followaxis has bad value. Should be "x y z"\n	CTSSharedEmitter::ParticleKeyValue
+100a5678	followaxis	CTSSharedEmitter::ParticleKeyValue
+100a5684	randomvelhigh has bad value. Should be "x y z"\n	CTSSharedEmitter::ParticleKeyValue
+100a56b4	randomvelhigh	CTSSharedEmitter::ParticleKeyValue
+100a56c4	randomvellow has bad value. Should be "x y z"\n	CTSSharedEmitter::ParticleKeyValue
+100a56f4	randomvellow	CTSSharedEmitter::ParticleKeyValue
+100a5704	a_velocityhigh has bad value. Should be "x y z"\n	CTSSharedEmitter::ParticleKeyValue
+100a5738	a_velocityhigh	CTSSharedEmitter::ParticleKeyValue
+100a5748	a_velocitylow has bad value. Should be "x y z"\n	CTSSharedEmitter::ParticleKeyValue
+100a5778	a_velocitylow	CTSSharedEmitter::ParticleKeyValue
+100a5788	velocityhigh has bad value. Should be "x y z"\n	CTSSharedEmitter::ParticleKeyValue
+100a57b8	velocityhigh	CTSSharedEmitter::ParticleKeyValue
+100a57c8	velocitylow has bad value. Should be "x y z"\n	CTSSharedEmitter::ParticleKeyValue
+100a57f8	velocitylow	CTSSharedEmitter::ParticleKeyValue
+100a5804	randomdeltahigh	CTSSharedEmitter::ParticleKeyValue
+100a5814	randomdeltalow	CTSSharedEmitter::ParticleKeyValue
+100a5824	frame_ratehigh	CTSSharedEmitter::ParticleKeyValue
+100a5834	frame_ratelow	CTSSharedEmitter::ParticleKeyValue
+100a5844	current_framehigh	CTSSharedEmitter::ParticleKeyValue
+100a5858	current_framelow	CTSSharedEmitter::ParticleKeyValue
+100a586c	scalespeedhigh	CTSSharedEmitter::ParticleKeyValue
+100a587c	scalespeedlow	CTSSharedEmitter::ParticleKeyValue
+100a588c	p_radiushigh	CTSSharedEmitter::ParticleKeyValue
+100a589c	p_radiuslow	CTSSharedEmitter::ParticleKeyValue
+100a58a8	fadespeedhigh	CTSSharedEmitter::ParticleKeyValue
+100a58b8	fadespeedlow	CTSSharedEmitter::ParticleKeyValue
+100a58c8	colorhigh	CTSSharedEmitter::ParticleKeyValue
+100a58d4	colorlow	CTSSharedEmitter::ParticleKeyValue
+100a58e0	gravityhigh	CTSSharedEmitter::ParticleKeyValue
+100a58ec	gravitylow	CTSSharedEmitter::ParticleKeyValue
+100a58f8	lifehigh	CTSSharedEmitter::ParticleKeyValue
+100a5904	lifelow	CTSSharedEmitter::ParticleKeyValue
+100a590c	oncollide	CTSSharedEmitter::ParticleKeyValue
+100a5918	collide	CTSSharedEmitter::ParticleKeyValue
+100a5920	follow_view	CTSSharedEmitter::ParticleKeyValue
+100a592c	sprite_trans	CTSSharedEmitter::ParticleKeyValue
+100a593c	sprite_name	CTSSharedEmitter::ParticleKeyValue
+100a5948	player/airwheel.wav	CTSStunt::Play,FUN_10068b80,FUN_10068dc0,FUN_1006aa30,TSPrecache
+100a595c	player/land.wav	CTSStunt::GoRoll,FUN_100689b0,FUN_10069800,FUN_10069910,FUN_10069a90,FUN_10069df0,TSPrecache
+100a596c	player/dive.wav	FUN_10069480,TSPrecache
+100a597c	player/closecombat.wav	FUN_1006a740,TSPrecache
+100a5994	%s connected with skill %f\n	BotSetup
+100a59b0	Could not find any free client slots. Try setting maxplayers to a higher value.\n	BotCreate,BotCreateCustom
+100a5a04	laurence	BotCreate,BotCreateCustom
+100a5a10	agent	BotCreate,BotCreateCustom
+100a5a18	castor	BotCreate,BotCreateCustom
+100a5a20	hitman	BotCreate,BotCreateCustom
+100a5a28	botlearn 1\n	BotCreate
+100a5a34	killed	BotLoadSay
+100a5a3c	freetime	BotLoadSay
+100a5a48	offense	BotLoadSay
+100a5a50	bot_say.txt	BotLoadSay
+100a5a68	bots.txt	BotLoadFiles
+100a5a78	(debug)%i nodes\n	CNodeGraph::AddNode
+100a5a94	path:%i	CNodeGraph::FindPath
+100a5a9c	(debug)%i passages\n	CNodeGraph::FindPath
+100a5ab0	(debug)arrived\n	CNodeGraph::FindPath
+100a5ac0	(debug)no node found\n	CNodeGraph::FindPath
+100a5ae1	maps\\	CNodeGraph::Load
+100a5aed	S\\maps\\	CNodeGraph::Save
+100a5af8	WARNING:cannot create flag!\n	CTSFlag::CreateFlag
+100a5b18	models/briefcase.mdl	CTSFlag::Precache,CTSFlag::Spawn
+100a5b30	items/weapondrop1.wav	CBasePlayerItem::FallThink,CTSFlag::BounceTouch,CTSFlag::Fall,CTSGroundAmmo::Fall,CTSWorldGun::BounceTouch,CTSWorldGun::Fall,W_Precache
+100a5b48	%s briefcase returned	CTSFlag::RespawnFlag
+100a5b60	%s returned the briefcase! %i #TS_Frg	CTSFlag::PlayerTakeFlag
+100a5b88	This server is using custom weapons.	InformClientsOnWeaponsParams
+100a5bb0	%i %f %f %f %f %i	SendWeaponParams
+100a5bc4	You need to run saveweapons again.\n	adjust_weapon_value
+100a5be8	weapons behaviour changed by %s\n	adjust_weapon_value
+100a5c0c	 %i %f %f %f %f %i 	adjust_weapon_value
+100a5c20	health_absorb	adjust_weapon_value
+100a5c38	armor_absorb	adjust_weapon_value
+100a5c48	%s%s%s	adjust_weapon_value,save_weapon_value
+100a5c50	weapons behaviour saved to %s\n	save_weapon_value
+100a5c70	//===========================================\n//Misc game variables\narmor_absorb %f\n	save_weapon_value
+100a5cc8	//%s\n%i %f %f %f %f %i\n\n	save_weapon_value
+100a5ce4	//===========================================\n//values are : |weapon id|accuracy|view kick|accuracy kick|damage|cost|\n\n//IMPORTANT:\n//-dont change weapon id!\n//-accuracy cant go under 0.001\n//-if you put an accuracy kick of 0 accuracy will not be scaled\n\n//If you want use different weapon settings use the 'customweapons' cvar.\n//Example: 'customweapons weapons_custom.txt'\n//===========================================\n\n	save_weapon_value
+100a5e90	weapons/katana/hit1.wav	TSPrecache
+100a5ea8	weapons/katana/hit.wav	TSPrecache
+100a5ec0	weapons/katana/miss1.wav	TSPrecache
+100a5edc	m61_grenade	TSPrecache
+100a5ee8	models/pellet.mdl	TSPrecache
+100a5efc	models/long_bullet.mdl	TSPrecache
+100a5f14	models/bullet.mdl	TSPrecache
+100a5f28	models/ammopack.mdl	CTSAmmoPack::Spawn,CTSGroundAmmo::Spawn,TSPrecache
+100a5f3c	models/generic_clip.mdl	TSPrecache
+100a5f54	explo/explode4.wav	TSPrecache
+100a5f68	explo/explode3.wav	TSPrecache
+100a5f7c	explo/explode2.wav	TSPrecache
+100a5f90	explo/explode1.wav	TSPrecache
+100a5fa4	explo/explode.wav	TSPrecache
+100a5fb8	weapons/generic_reload.wav	TSPrecache
+100a5fd4	weapons/draw.wav	CBasePlayerWeapon::DefaultDeploy,TSPrecache
+100a5fe8	weapons/whizz5.wav	TSPrecache
+100a5ffc	weapons/whizz4.wav	TSPrecache
+100a6010	weapons/whizz3.wav	TSPrecache
+100a6024	weapons/whizz2.wav	TSPrecache
+100a6038	weapons/whizz1.wav	TSPrecache
+100a604c	goslow.wav	TSPrecache
+100a6058	weapons/insert-shell.wav	TSPrecache
+100a6074	weapons/pistol-empty.wav	TSPrecache
+100a6090	weapons/sshell.wav	TSPrecache
+100a60a4	weapons/shell.wav	TSPrecache
+100a60b8	debris/metal5.wav	TSPrecache
+100a60cc	debris/metal4.wav	TSPrecache
+100a60e0	debris/gravel4.wav	TSPrecache
+100a60f4	debris/gravel3.wav	TSPrecache
+100a6108	debris/gravel2.wav	TSPrecache
+100a611c	debris/gravel1.wav	TSPrecache
+100a6130	debris/cement6.wav	TSPrecache
+100a6144	debris/cement5.wav	TSPrecache
+100a6158	debris/cement4.wav	TSPrecache
+100a616c	debris/cement3.wav	TSPrecache
+100a6180	debris/cement2.wav	TSPrecache
+100a6194	debris/cement1.wav	TSPrecache
+100a61a8	debris/cement.wav	TSPrecache
+100a61bc	debris/ric5.wav	TSPrecache
+100a61cc	debris/ric4.wav	TSPrecache
+100a61dc	debris/ric3.wav	TSPrecache
+100a61ec	debris/ric2.wav	TSPrecache
+100a61fc	debris/ric1.wav	TSPrecache
+100a620c	misc/gogogo.wav	TSPrecache
+100a621c	misc/successful.wav	TSPrecache
+100a6230	misc/failed.wav	TSPrecache
+100a6240	player/pain1.wav	TSPrecache
+100a6254	player/die3.wav	TSPrecache
+100a6264	player/die2.wav	TSPrecache
+100a6274	player/die1.wav	TSPrecache
+100a6284	player/die.wav	TSPrecache
+100a6294	player/splat.wav	TSPrecache
+100a62a8	player/block.wav	TSPrecache
+100a62bc	briefcase_idle	CBasePlayerWeapon::DefaultDeploy
+100a62cc	knife_idle	CBasePlayerWeapon::DefaultDeploy
+100a62d8	katana_idle	CBasePlayerWeapon::DefaultDeploy
+100a6318	extraclip	
+100a6324	tsweaponid	CTSGroundWeapon::KeyValue
+100a6330	WARNING:cannot create weapon!\n	CTSWorldGun::CreateWeapon
+100a6350	AmmoPack	CTSAmmoPack::CreateAmmoPack
+100a635c	WARNING:cannot create ammopack!\n	CTSAmmoPack::CreateAmmoPack
+100a6380	CTSGroundWeapon	CTSGroundWeapon::Restore,CTSGroundWeapon::Save
+100a6390	buyable	CTSGroundWeapon::KeyValue
+100a6398	wextraclip	CTSGroundWeapon::KeyValue
+100a63a4	wduration	CTSGroundAmmo::KeyValue,CTSGroundWeapon::KeyValue
+100a63b0	You don't have enough money for that weapon.	CTSGroundWeapon::GetWeapon
+100a63e0	Your team cannot buy this weapon.	CTSGroundWeapon::GetWeapon
+100a6db8	radsuit_finished	
+100a6dcc	pain_finished	
+100a6ddc	air_finished	
+100a6dec	speed	
+100a6e0c	noise	
+100a6e20	dmg_save	
+100a6e2c	dmg_take	
+100a6e38	message	
+100a6e40	netname	
+100a6e48	watertype	
+100a6e54	waterlevel	
+100a6e60	armorvalue	
+100a6e6c	armortype	
+100a6e78	teleport_time	
+100a6e88	max_health	
+100a6e94	colormap	
+100a6ea0	flags	
+100a6ea8	spawnflags	
+100a6eb4	groundentity	
+100a6ec4	owner	
+100a6ecc	aiment	
+100a6edc	dmg_inflictor	
+100a6eec	chain	
+100a6ef4	impulse	
+100a6efc	button	
+100a6f04	view_ofs	
+100a6f10	deadflag	
+100a6f1c	takedamage	
+100a6f28	weapons	
+100a6f30	frags	
+100a6f38	health	
+100a6f40	renderfx	
+100a6f4c	rendercolor	
+100a6f58	renderamt	
+100a6f64	rendermode	
+100a6f70	blending	
+100a6f7c	controller	
+100a6f88	framerate	
+100a6f94	animtime	
+100a6fa0	sequence	
+100a6fac	scale	
+100a6fb4	frame	
+100a6fbc	light_level	
+100a6fc8	friction	
+100a6fd4	gravity	
+100a6fdc	effects	
+100a6fec	movetype	
+100a6ff8	solid	
+100a7000	nextthink	
+100a700c	ltime	
+100a7034	weaponmodel	
+100a7040	viewmodel	
+100a704c	modelindex	
+100a7058	yaw_speed	
+100a7064	ideal_yaw	
+100a7070	pitch_speed	
+100a707c	idealpitch	
+100a7088	fixangle	
+100a7094	v_angle	
+100a709c	punchangle	
+100a70a8	avelocity	
+100a70b4	angles	
+100a70bc	movedir	
+100a70c4	basevelocity	
+100a70d4	velocity	
+100a70e0	oldorigin	
+100a70ec	Master was null or not a master!\n	UTIL_IsMasterTriggered
+100a7110	violence_ablood	UTIL_ShouldShowBlood
+100a7120	violence_hblood	UTIL_ShouldShowBlood
+100a7130	NULL Ent in UTIL_PrecacheOther\n	UTIL_PrecacheOther
+100a7150	CSaveRestoreBuffer :: TokenHash() is COMPLETELY FULL!	CSaveRestoreBuffer::TokenHash
+100a7188	Invalid function pointer in entity!	CSave::WriteFunction
+100a71ac	Bad field in entity!!\n	EntvarsKeyvalue
+100a71c4	Bad field type\n	CSave::WriteFields,FUN_100788e0
+100a71d4	Can't save more than %d entities in an array!!!\n	CSave::WriteFields
+100a7208	CSave :: BufferHeader() size parameter exceeds 'short'!	CSave::BufferHeader
+100a7240	Save/Restore overflow!	CSave::BufferData
+100a7258	Restore overflow!	FUN_10078e10
+100a729c	sv_alltalk	100a7288,CVoiceGameMgr::Init,FUN_10079330
+100a72a8	voice_serverdebug	100a7270,CVoiceGameMgr::Init
+100a72bc	ReqState	CVoiceGameMgr::Init
+100a72c8	VoiceMask	CVoiceGameMgr::Init
+100a72d4	sprites/voiceicon.spr	CVoiceGameMgr::Init
+100a72ec	CVoiceGameMgr::ClientCommand: cmd %s from invalid client (%d)\n	CVoiceGameMgr::ClientCommand
+100a732c	CVoiceGameMgr::ClientCommand: VModEnable (%d)\n	CVoiceGameMgr::ClientCommand
+100a735c	VModEnable	CVoiceGameMgr::ClientCommand
+100a7368	CVoiceGameMgr::ClientCommand: invalid index (%d)\n	CVoiceGameMgr::ClientCommand
+100a739c	CVoiceGameMgr::ClientCommand: vban (0x%x) from %d\n	CVoiceGameMgr::ClientCommand
+100a74c8	m_cAmmoTypes	
+100a74e4	m_iDefaultAmmo	
+100a74fc	m_iSecondaryAmmoType	
+100a7514	m_iPrimaryAmmoType	
+100a7528	m_flNextSecondaryAttack	
+100a7540	m_flNextPrimaryAttack	
+100a7568	m_pPlayer	
+100a7574	sprites/laserbeam.spr	100a73e0,W_Precache
+100a758c	MaxAmmoCarry() doesn't recognize '%s'!\n	MaxAmmoCarry
+100a75b4	NULL Ent in UTIL_PrecacheOtherWeapon\n	UTIL_PrecacheOtherWeapon
+100a75dc	weapons/grenade_hit3.wav	W_Precache
+100a75f8	weapons/grenade_hit2.wav	W_Precache
+100a7614	weapons/grenade_hit1.wav	W_Precache
+100a7630	weapons/debris3.wav	W_Precache
+100a7644	weapons/debris2.wav	W_Precache
+100a7658	weapons/debris1.wav	W_Precache
+100a766c	sprites/explode1.spr	W_Precache
+100a7684	sprites/laserdot.spr	W_Precache
+100a769c	sprites/blood.spr	W_Precache
+100a76b0	sprites/bloodspray.spr	W_Precache
+100a76c8	sprites/steam1.spr	W_Precache
+100a76dc	sprites/WXplo1.spr	W_Precache
+100a76f0	sprites/zerogxplode.spr	W_Precache
+100a7708	ts_mapglobals	W_Precache
+100a7718	CBasePlayerItem	CBasePlayerItem::Restore,CBasePlayerItem::Save
+100a7728	CBasePlayerWeapon	CBasePlayerWeapon::Restore,CBasePlayerWeapon::Save
+100a773c	Respawn failed to create %s!\n	CBasePlayerItem::Respawn
+100a775c	weapons/357_cock1.wav	CBasePlayerWeapon::PlayEmptySound
+100a7774	CWeaponBox	CWeaponBox::Restore,CWeaponBox::Save
+100a7780	models/w_weaponbox.mdl	CWeaponBox::Precache,CWeaponBox::Spawn
+100a7798	WeaponBox too full! only %d ammotypes allowed\n	CWeaponBox::KeyValue
+100a77c8	NULL String in PackAmmo!\n	CWeaponBox::PackAmmo
+100a77e4	out of named ammo slots\n	CWeaponBox::GiveAmmo
+100a79a0	state	
+100a79a8	levelName	
+100a79b4	m_listCount	
+100a79d0	{mommablob	
+100a79dc	{smscorch3	
+100a79e8	{smscorch2	
+100a79f4	{smscorch1	
+100a7a00	{gargstomp	
+100a7a40	{bigshot3	
+100a7a4c	{bigshot2	
+100a7a58	{bigshot1	
+100a7b6c	{shot2	100a7808,CWorld::Precache
+100a7b74	{shot1	100a7800,CWorld::Precache
+100a7b7c	Can't find decal %s\n	CDecal::KeyValue
+100a7b94	%s: %s (%s)\n	CGlobalState::DumpGlobals
+100a7ba4	-- Globals --\n	CGlobalState::DumpGlobals
+100a7bbc	GLOBAL	FUN_1007b1f0,FUN_1007b260
+100a7bc4	sv_cheats	CWorld::Spawn
+100a7bd0	v_dark	CWorld::Precache
+100a7bd8	env_message	CWorld::Precache
+100a7be4	Chapter title: %s\n	CWorld::Precache
+100a7bf8	sv_zmax	CWorld::Precache
+100a7c00	\n*Graph Loaded!\n	CWorld::Precache
+100a7c14	*Error opening .NOD file\n	CWorld::Precache
+100a7c30	mmnnmmnnnmmnn	CWorld::Precache
+100a7c40	abcdefghijklmnopqrrqponmlkjihgfedcba	CWorld::Precache
+100a7c68	mmamammmmammamamaaamammma	CWorld::Precache
+100a7c84	aaaaaaaazzzzzzzz	CWorld::Precache
+100a7c98	mmmaaammmaaammmabcdefaaaammmmabcdefmmmaaaa	CWorld::Precache
+100a7cc4	mmmaaaabcdefgmmmmaaaammmaamm	CWorld::Precache
+100a7ce4	nmonqnmomnmomomno	CWorld::Precache
+100a7cf8	jklmnopqrstuvwxyzyxwvutsrqponmlkj	CWorld::Precache
+100a7d1c	mamamamamama	CWorld::Precache
+100a7d2c	mmmmmaaaaammmmmaaaaaabcdefgabcdefg	CWorld::Precache
+100a7d50	abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba	CWorld::Precache
+100a7d84	mmnmmommommnonmmonqnmmo	CWorld::Precache
+100a7d9c	sv_language	CWorld::Precache
+100a7da8	common/bodydrop4.wav	CWorld::Precache
+100a7dc0	common/bodydrop3.wav	CWorld::Precache
+100a7dd8	**COULD NOT CREATE SOUNDENT**\n	CWorld::Precache
+100a7df8	room_type	CWorld::Precache
+100a7e04	sv_stepsize	CWorld::Precache
+100a7e18	bodyque	FUN_1007b870
+100a7e20	teammodels	CWorld::KeyValue
+100a7e2c	gamemode	CWorld::KeyValue
+100a7e38	defaultteam	CWorld::KeyValue
+100a7e44	mapteams	CWorld::KeyValue
+100a7e50	gametitle	CWorld::KeyValue
+100a7e5c	sv_newunit	CWorld::KeyValue
+100a7e68	newunit	CWorld::KeyValue
+100a7e70	startdark	CWorld::KeyValue
+100a7e7c	chaptertitle	CWorld::KeyValue
+100a7e8c	MaxRange	CWorld::KeyValue
+100a7e98	sv_wateramp	CWorld::KeyValue
+100a7ea4	sv_skyname	CWorld::KeyValue
+100a7eb0	skyname	CWorld::KeyValue
+100a7f08	models/fungus(large).mdl	100a7f04
+100a7f24	models/fungus.mdl	100a7f00
+100a7f38	models/fungus(small).mdl	100a7efc
+100a7f54	zombie/claw_miss2.wav	100a7ef8,CXenTree::Precache
+100a7f6c	zombie/claw_miss1.wav	100a7ef4,CXenTree::Precache
+100a7f84	zombie/claw_strike3.wav	
+100a7f9c	zombie/claw_strike2.wav	100a7eec,CXenTree::Precache
+100a7fb4	zombie/claw_strike1.wav	100a7ee8,CXenTree::Precache
+100a7fcc	m_pTrigger	
+100a7fe0	m_Activity	
+100a7fec	CActAnimating	CActAnimating::Restore,CActAnimating::Save
+100a7ffc	CXenPLight	CXenPLight::Restore,CXenPLight::Save
+100a8008	sprites/flare3.spr	CXenPLight::Precache,CXenPLight::Spawn,CXenTree::Precache
+100a801c	models/light.mdl	CXenPLight::Precache,CXenPLight::Spawn
+100a8030	models/hair.mdl	CXenHair::Precache,CXenHair::Spawn
+100a8040	xen_ttrigger	CXenTreeTrigger::TriggerCreate
+100a8050	CXenTree	CXenTree::Restore,CXenTree::Save
+100a805c	models/tree.mdl	CXenTree::Precache,CXenTree::Spawn
+100a806c	monster_bigmomma	CXenTree::Touch
+100a8080	xen_hull	CXenHull::CreateHull
+100a8370	 \t-\r]	FUN_10080401
+ffdff1ac		
+ffdffc00		

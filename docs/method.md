@@ -1,16 +1,17 @@
 # How the decompilation was made
 
-Everything in `server/` and `client/` comes from `scripts/run.sh`. It runs headless Ghidra 12.1.2
+Everything in `server/`, `client/` and `server-win/` comes from `scripts/run.sh`. It runs headless Ghidra 12.1.2
 (`/opt/ghidra/support/analyzeHeadless`) on the original binaries. No GUI steps, no manual renames.
 Rerun it after improving a script and the whole export updates consistently.
 
 ```sh
 scripts/run.sh all            # ~1.5 min: SDK types, import + analysis, typing, export
-scripts/run.sh server         # one binary only
+scripts/run.sh server         # one binary only (server, client, or mpdll)
 EXPORT_ONLY=1 scripts/run.sh  # skip import/analysis, just re-export from the saved databases
 ```
 
-Environment variables: `TS_DIR` (default `../ts`), `FWGS_DIR` (default `../xash3d-fwgs`),
+Environment variables: `TS_DIR` (default `../ts_original`, a stock TS 3.0 with `dlls/ts_i386.so`,
+`dlls/mp.dll` and `cl_dlls/client.dll`), `FWGS_DIR` (default `../xash3d-fwgs`),
 `GHIDRA`, and `PROJECT_DIR` (default `../ghidra/ts30`). The Ghidra databases stay out of git.
 Open them in the GUI (`ghidra` → File → Open Project → `ghidra/ts30/server.gpr`) to browse
 interactively. The GhidraMCP bridge works once the GUI is running.
@@ -25,6 +26,7 @@ interactively. The GhidraMCP bridge works once the GUI is running.
 | 4 | Ghidra auto-analysis | Default analyzers, plus Decompiler Parameter ID. |
 | 4b | `CreateMissingFunctions.java` (post) | Creates functions at code addresses that instructions or data tables reference but analysis left as bare code. These are mostly client callbacks passed to `pfnAddCommand`/`pfnHookUserMsg`/`pfnHookEvent`, plus vtable entries. It adds about 650 decompiled client functions (1,620 → 2,271) and about 35 server functions. A data word only counts if it points at existing code, or at bytes that disassemble cleanly up to a RET/JMP. |
 | 5 | `ApplyGoldSrcTypes.java` (post) | Parses the SDK header into the program and types the engine interface globals, the `DLL_FUNCTIONS` table and its 50 callbacks, the client's exported entry points, and the server's entity class layouts. |
+| 5b | `NameMsvcServer.java` (post, `mpdll` only) | Names `mp.dll` from the `.so` export (`server/*.tsv`): classname exports → `GetClassPtr<X>`, class sizes and vtables (the last `mov [esi], vtbl` of the inlined constructor); `.so` vtable slots → virtual method names (slot *i* is the same method in both builds, checked against the 47 virtual methods the save/restore exports name); base-class vtables by slot-name match; functions that are the only user of a string in both builds; then call-graph propagation (a matched pair with exactly one unmatched callee or caller on each side, sizes within 2×). Finally the hand-made `scripts/types/mpdll_names.tsv` (the bot AI). |
 | 6 | `ExportAll.java` (post) | Decompiles every function in parallel and writes the TSV indexes. |
 
 ## Output format
@@ -47,7 +49,8 @@ interactively. The GhidraMCP bridge works once the GUI is running.
   **Ghidra address = `objdump`/`nm` address + 0x10000**. Every address in `server/` and in the
   docs is a Ghidra address. To read raw data, subtract `0x10000`:
   `objdump -s -j .rodata --start-address=$((0xADDR - 0x10000)) ts_i386.so`.
-* **Client (`client.dll`):** image base `0x10000000`. Ghidra and `objdump` addresses are the same.
+* **Client (`client.dll`) and Windows server (`mp.dll`):** image base `0x10000000`. Ghidra and
+  `objdump` addresses are the same.
 
 ## What the typing gives you
 
@@ -74,7 +77,7 @@ interactively. The GhidraMCP bridge works once the GUI is running.
 * **The vtable pointer is at `+0x60`, not `+0`**: GCC 2.x puts it after the data members of the
   first class that declares virtual functions (`CBaseEntity`). The Windows `mp.dll` and
   `client.dll` (MSVC) put it at `+0`, so `pev` is at `+4` there. Offsets for the same member differ
-  between the Linux and Windows builds.
+  between the Linux and Windows builds (rule in bots.md §14.1).
 * **Vtables** have no symbols. With vtable thunks, a vtable is `[0] = 0`, `[1] = &__tf<Class>`
   (type-info function), `[2..]` = virtual functions. `ExportAll` finds every `__tf` function and
   scans `.data` for `0, &__tf` pairs. The object's vptr points at entry `[0]`, so the
@@ -109,5 +112,11 @@ interactively. The GhidraMCP bridge works once the GUI is running.
   `CashBased`, section references), not exhaustively re-verified. "(inferred)" marks weaker claims.
 * Class member offsets past `pev`/`vtable` aren't typed in the databases. They're documented in
   `docs/server/*.md`.
-* `mp.dll` (the Windows server, stripped, MSVC layout) isn't exported. The Linux `.so` has symbols
-  and is the better source. `mp.dll` matters only for Windows-specific offsets.
+* `mp.dll` (the Windows server) is exported to `server-win/`, but 816 of its 2,677 functions are
+  still unnamed (shared code the matcher couldn't pair). For shared code, read the `.so`; use
+  `mp.dll` for the bot AI (`docs/server/bots.md`) and Windows offsets. Auto-names in `mp.dll` can be
+  misleading where MSVC folded identical functions (`/OPT:ICF`): one body such as `return 0` or an
+  empty method stands for many methods and carries one of their names (bots.md §14.5.9).
+* `mp.dll` member offsets are not the `.so`'s: MSVC stores member-function pointers in 4 bytes, GCC
+  2.95 in 8, so `CBaseEntity` is 0x54 vs 0x64, `CBasePlayer` members sit at .so − 0x14 and `CTSGun`
+  members at .so − 0x10 (bots.md §14.1).

@@ -14,9 +14,15 @@ constants, and data layouts.
 |---|---|---|---|---|
 | Server (Linux) | `ts/dlls/ts_i386.so` | GCC 2.95, PIC | Full C++ symbols (GNU v2 mangling) | `b4040467…86d1e8` |
 | Client (Windows) | `ts/cl_dlls/client.dll` | MSVC (2007) | Exports only, no RTTI | `1811bd4f…8f1fdd` |
-| Server (Windows) | `ts/dlls/mp.dll` | MSVC | Stripped. **Not exported**: the `.so` covers the same code with names. | `df7d1f20…7580d0` |
+| Server (Windows) | `ts/dlls/mp.dll` | MSVC | Exports only, no RTTI. Names recovered from the `.so` (see below). **The only build with the bot AI.** | `df7d1f20…7580d0` |
 
 The binaries aren't in this repo. Point `TS_DIR` at a TS 3.0 install to regenerate.
+
+`mp.dll` has no symbols beyond its exports, so `NameMsvcServer.java` borrows them from the `.so`
+export: classname exports give 175 classes and their vtables, the `.so` vtables name 745 virtual
+methods slot by slot, unique strings and call-graph propagation name 350 more, and
+`scripts/types/mpdll_names.tsv` names the bot code (which the `.so` doesn't have). MSVC member
+offsets differ from the `.so`'s (`docs/server/bots.md` §14.1).
 
 ## Layout
 
@@ -28,20 +34,23 @@ docs/                     written analysis (start here)
   rust-recreation.md      how it all maps onto the Rust workspace, in build order
 server/                   ts_i386.so export: 3,158 functions (35 unnamed), 197 entity class layouts, 226 vtables
 client/                   client.dll export: 2,271 functions (1,880 unnamed), 142 heuristic vtables
+server-win/               mp.dll export: 2,677 functions (816 unnamed), 181 named vtables, the bot AI
   decomp/*.c              Ghidra C, grouped by class (server) or address range (client)
   functions.tsv           index: address, size, class, name, signature, callees, callers, file
   strings.tsv             strings with their referencing functions
   vtables.tsv  classes.tsv  data_symbols.tsv  imports.tsv
 scripts/
   run.sh                  regenerate everything (headless Ghidra 12.1.2)
-  ghidra/*.java           ConfigureAnalysis, CreateMissingFunctions, ApplyGoldSrcTypes, ExportAll
+  ghidra/*.java           ConfigureAnalysis, CreateMissingFunctions, ApplyGoldSrcTypes, NameMsvcServer, ExportAll
+  types/mpdll_names.tsv   hand-made names for mp.dll (bot AI and the shared code it calls)
+  ndm.py                  parser/validator for the bots' maps/*.ndm node graphs
   types/                  GoldSrc SDK header (from FWGS) preprocessed for i386
 ```
 
 ## Reading the code
 
 * Addresses are Ghidra addresses. **For the server, subtract `0x10000` to get `objdump`/`nm`
-  addresses.** Client addresses are the same in both.
+  addresses.** Client and `mp.dll` addresses are the same in both.
 * Engine calls are typed: `(*g_engfuncs.pfnMessageBegin)(…)` on the server,
   `gEngfuncs.pTriAPI->…` on the client.
 * Server entity objects: `pev` is at `+0x00`, and the vtable pointer is at **`+0x60`** (GCC 2.95).
@@ -53,11 +62,11 @@ scripts/
 ## Regenerating
 
 ```sh
-TS_DIR=/path/to/ts FWGS_DIR=/path/to/xash3d-fwgs scripts/run.sh all
+TS_DIR=/path/to/ts FWGS_DIR=/path/to/xash3d-fwgs scripts/run.sh all   # or server|client|mpdll
 ```
 
 You need Ghidra 12.x at `/opt/ghidra` (or set `GHIDRA`), plus `clang` and `python3`. A full run
-takes about 1.5 minutes on 24 cores. See [docs/method.md](docs/method.md).
+takes about 3 minutes on 24 cores (`mpdll` runs after `server`, whose export it reads). See [docs/method.md](docs/method.md).
 
 ## Documentation index
 

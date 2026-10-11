@@ -34,6 +34,8 @@ public class ApplyGoldSrcTypes extends GhidraScript {
 
         if (currentProgram.getExecutableFormat().contains("ELF")) {
             server();
+        } else if (symbol("GiveFnptrsToDll") != null) {
+            windowsServer();
         } else {
             client();
         }
@@ -262,6 +264,54 @@ public class ApplyGoldSrcTypes extends GhidraScript {
         if (dest != null) {
             DataType t = type("cl_enginefunc_t");
             applyData(dest, dwords > 0 ? fit(t, (int) dwords * 4) : t, "gEngfuncs");
+        }
+    }
+
+    /**
+     * mp.dll (MSVC, stripped): the globals have no symbols, so find them from the exports.
+     * GiveFnptrsToDll is `mov ecx, N; mov edi, g_engfuncs; rep movsd; mov [gpGlobals], eax`,
+     * GetEntityAPI is `mov ecx, 50; mov esi, gFunctionTable; rep movsd`, and GetNewDLLFunctions
+     * copies three dwords out of gNewDLLFunctions with `mov eax, [table]`.
+     */
+    private void windowsServer() throws Exception {
+        Function give = getFunctionAt(symbol("GiveFnptrsToDll"));
+        Address eng = null, globals = null;
+        long dwords = 0;
+        for (Instruction ins : currentProgram.getListing().getInstructions(give.getBody(), true)) {
+            String m = ins.getMnemonicString();
+            if (m.equals("MOV") && ins.getScalar(1) != null) {
+                String reg = ins.getDefaultOperandRepresentation(0);
+                if (reg.equals("EDI")) eng = toAddr(ins.getScalar(1).getUnsignedValue());
+                if (reg.equals("ECX")) dwords = ins.getScalar(1).getUnsignedValue();
+            } else if (m.equals("MOV") && ins.getDefaultOperandRepresentation(1).equals("EAX")) {
+                for (Reference r : ins.getReferencesFrom()) if (r.getReferenceType().isWrite()) globals = r.getToAddress();
+            }
+        }
+        if (eng != null) applyData(eng, fit(type("enginefuncs_t"), (int) dwords * 4), "g_engfuncs");
+        if (globals != null) applyData(globals, new PointerDataType(type("globalvars_t")), "gpGlobals");
+
+        Address ft = null;
+        for (Instruction ins : currentProgram.getListing().getInstructions(getFunctionAt(symbol("GetEntityAPI")).getBody(), true)) {
+            if (ins.getMnemonicString().equals("MOV") && ins.getDefaultOperandRepresentation(0).equals("ESI") && ins.getScalar(1) != null) {
+                ft = toAddr(ins.getScalar(1).getUnsignedValue());
+            }
+        }
+        if (ft != null) {
+            Structure st = struct("DLL_FUNCTIONS");
+            applyData(ft, st, "gFunctionTable");
+            typeFunctionTable(ft, st, true);
+        }
+        Address nft = null;
+        for (Instruction ins : currentProgram.getListing().getInstructions(getFunctionAt(symbol("GetNewDLLFunctions")).getBody(), true)) {
+            if (nft != null) break;
+            if (!ins.getMnemonicString().equals("MOV") || !ins.getDefaultOperandRepresentation(0).equals("EAX")) continue;
+            for (Reference r : ins.getReferencesFrom()) if (r.getReferenceType().isRead()) nft = r.getToAddress();
+        }
+        if (nft != null) {
+            // TS copies only the first three callbacks (OnFreeEntPrivateData, GameShutdown, ShouldCollide).
+            Structure st = (Structure) fit(struct("NEW_DLL_FUNCTIONS"), 12);
+            applyData(nft, st, "gNewDLLFunctions");
+            typeFunctionTable(nft, st, true);
         }
     }
 }

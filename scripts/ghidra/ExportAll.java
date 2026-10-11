@@ -4,7 +4,8 @@
 //   strings.tsv             defined strings and the functions that reference them
 //   vtables.tsv             reconstructed vtables; vptr_index = index used by decompiled this->vtable[N]
 //                           (GCC 2.95: via __tf type-info functions;
-//                           MSVC without RTTI: code-referenced runs of function pointers)
+//                           MSVC without RTTI: code-referenced runs of function pointers, named
+//                           where NameMsvcServer recovered the class)
 //   data_symbols.tsv        named globals
 //   imports.tsv             external functions
 //   classes.tsv             C++ classes, method counts, and struct sizes (exact where known)
@@ -298,8 +299,11 @@ public class ExportAll extends GhidraScript {
             }
             if (slots.size() < 3) continue;
             n++;
+            // NameMsvcServer labels recovered vtables `Class::vftable`.
+            Symbol vs = getSymbolAt(a);
+            String cls = vs != null && vs.getName().equals("vftable") ? vs.getParentNamespace().getName(true) : "vtbl_" + a;
             for (int i = 0; i < slots.size(); i++) {
-                w.write("vtbl_" + a + "\t" + a + "\t" + i + "\t" + slots.get(i) + "\t" + tsv(nameAt(slots.get(i))) + "\t" + i + "\n");
+                w.write(cls + "\t" + a + "\t" + i + "\t" + slots.get(i) + "\t" + tsv(nameAt(slots.get(i))) + "\t" + i + "\n");
             }
         }
         println("vtables: " + n);

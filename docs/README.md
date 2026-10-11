@@ -1,8 +1,8 @@
 # Documentation index
 
 Start with [rust-recreation.md](rust-recreation.md) for the plan, then read the subsystem docs as
-you build each part. Every claim cites a Ghidra address. Look the address up in `../server/functions.tsv` or
-`../client/functions.tsv` to find the decompiled function. "(inferred)" marks conclusions drawn
+you build each part. Every claim cites a Ghidra address. Look the address up in `../server/functions.tsv`,
+`../client/functions.tsv` or (for `bots.md`) `../server-win/functions.tsv` to find the decompiled function. "(inferred)" marks conclusions drawn
 from behaviour rather than from a symbol or string.
 
 | Doc | Covers |
@@ -14,6 +14,8 @@ from behaviour rather than from a symbol or string.
 | [server/player-movement.md](server/player-movement.md) | TS `pm_shared` changes, the `iuser4` stunt bitfield, dives/flips/wall jumps, the `fuser1` time scale, kung fu, slow-mo power-ups, damage/armour/fall damage, `CBasePlayer` member offsets |
 | [server/weapons.md](server/weapons.md) | The 38-weapon and 16-ammo stat tables (decoded), the single-`CTSGun` design, fire modes and akimbo, spread/recoil, damage falloff and penetration, `CBulletManager`, grenades/knives, events, buying, TOML schema |
 | [server/gamerules-entities.md](server/gamerules-entities.md) | Game modes (DM/TDM/LMS/The One), the static `TSGameRules` helper, kill scoring and spawn selection, objectives (mostly dead in 3.0), power-ups, TS map entities with a reconstructed FGD |
+| **Server** (`mp.dll`, Windows) | |
+| [server/bots.md](server/bots.md) | The bot AI, which only the Windows server has: `addbot`/`addcustombot`, `bots.txt`/`bot_say.txt`, the `CBot` entity and its brain (strategy states, seven behaviour modules, button timers, view turning, `RunPlayerMove`), vision, aiming with skill, fire control, loadouts, stunts, chat, the node graph (learning, `FindPath`, navigation) and the `.ndm` format, cvars, every random call; plus the `mp.dll` ↔ `ts_i386.so` member-offset rule |
 | **Client** (`client.dll`) | |
 | [client/architecture-hud.md](client/architecture-hud.md) | Exports, 107 cvars, 93 commands, 76 message hooks with payloads, the HUD manager and its 17 elements, input and TS buttons, the anti-script gate, the immediate-mode buy menu, scoreboard overflow |
 | [client/rendering-effects-prediction.md](client/rendering-effects-prediction.md) | Studio renderer (torso/legs split), 11 event handlers, the TS particle system and BSP-lump emitters, `V_CalcRefdef` (recoil, slow-mo tint), motion-blur ghosts, client pmove and weapon prediction |
@@ -35,3 +37,6 @@ from behaviour rather than from a symbol or string.
   and the Rust port can revive them behind cvars.
 * **Map particles and fog are client-only.** The client parses them from the BSP entity lump; the
   server deletes them.
+* **Bots exist only in the Windows server.** `mp.dll` has a complete waypoint bot (listen servers
+  only); the Linux `.so` keeps just the commands and cvars. The bots learn a node graph from
+  players' positions (`botlearn`) and ship it as `maps/<map>.ndm`.

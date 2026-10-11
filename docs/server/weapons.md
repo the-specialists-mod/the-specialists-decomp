@@ -315,7 +315,8 @@ clamped at −1.0; the others at −0.001.
 ### 4.2 Input flow
 
 `CBasePlayerWeapon::ItemPostFrame` `0xa03d4` checks, in order: IN_ATTACK2 → `SecondaryAttack`, then
-IN_ATTACK → `PrimaryAttack`, then IN_ALT1 (`0x4000`) → `AlternateAttack` (the stock hit), then
+IN_ATTACK → `PrimaryAttack`, then button `0x40` (`IN_CANCEL` in the SDK; the client's `+alt2`,
+architecture-hud §5.1) → `AlternateAttack` (the stock hit), then
 IN_RELOAD → `Reload`, then `WeaponIdle`. It also completes a magazine reload once
 `m_flNextAttack` (`pl+0x12c`) expires: it moves `min(clip_size − clip, reserve)` rounds and, for
 akimbo, splits the clip into left = clip/2 and right = rest.
@@ -542,7 +543,7 @@ So in slow motion, bullets are visible, dodgeable objects travelling at `velocit
 
 | Attack | Function | Reach / hull | Damage | Timing | Notes |
 |---|---|---|---|---|---|
-| Stock hit (IN_ALT1) | `ColdCock` `0x81dd0` → `CBasePlayer::ColdCockAttack` | 35 u ahead, hull 3 | `info+0x10` (×2/3 while stunting) | 0.725 s (1.0875 stunting); idle 2 s | kevlar sound on hit; event `coldcock.sc`. Only weapons with `stock` > 0 |
+| Stock hit (button 0x40, `+alt2`) | `ColdCock` `0x81dd0` → `CBasePlayer::ColdCockAttack` | 35 u ahead, hull 3 | `info+0x10` (×2/3 while stunting) | 0.725 s (1.0875 stunting); idle 2 s | kevlar sound on hit; event `coldcock.sc`. Only weapons with `stock` > 0 |
 | Knife slash | `KnifeFire` `0x84044` | `CheckHull` 35 u | `info.damage × GetMeleeMultiplier()` (×2/3 stunting); bits `0x1004` | `info.rate` (×1.5 stunting) | `VictimKnifeHold` can block; on a miss `pl+0x79c = rate·0.25` (melee lunge) |
 | Knife throw | `KnifeFire` (secondary) → `CTSKnife::CreateKnife` `0x7d9e4` | eye + 32 fwd + 1 right, v = fwd·1900 | combat **100**, seal **50**, katana **150**; bits `0x8001000` (can headshot) | | one fewer in the stack; at 0, drops the weapon; frees `info+0xd0` slots |
 | Katana | `KatanaFire` `0x833f0` | 15–17 u + hull | 50 base; 35 while stunting; 55 backward/back-pedal attack (×`GetMeleeMultiplier`); bits `0x1080` | ~0.7–1.1 s per variant (inferred) | 4 swing variants (stunt, backward, airborne, alternating ground swings); `VictimKatanaHold` blocks |

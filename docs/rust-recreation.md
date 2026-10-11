@@ -112,12 +112,28 @@ Each step is playable. **S** = server crate, **C** = client crate, **Sh** = `sha
 19. Optional: third-person and stunt camera, laser beams and dots, motion-blur "ghosts" (renderfx 17),
     shadows, client slow-mo bullets with trails.
 
+### Phase E: bots
+
+20. **S bots** ([bots](server/bots.md)). TS's own AI, in this order:
+    * The node graph (§11): `.ndm` load/save, `AddNode`/linking, `FindPath` (Dijkstra plus the
+      greedy walk, quirks included), `FindPathBetweenPoints`. Pure code, unit-tested against the
+      shipped `.ndm` files and `scripts/ndm.py`'s `FindPath` replica.
+    * Creation (§2–4): `addbot`/`addcustombot` argument semantics, `bots.txt` name picking and
+      `Name//skill`, `BotSetup` instead of `ClientPutInServer`, the `CBot` overrides
+      (`Spawn` laser colour, `TraceAttack` look-at, `Killed` chat, `IsNetClient` = false).
+    * The brain (§5): button hold timers, module mask and order, `UpdateView` turning, `RunMove`
+      with the 450/frames msec. Then the DM state (§6), vision (§7), attack (§8), and the other
+      modules (§9): buy, respawn, stunt, look around, power-up, chat (§10).
+    * Learning (`botlearn` in `PreThink`) and the node commands (§11.2–11.3).
+    * Keep every random draw in TS's order (§13). TS only runs bots on listen servers; dedicated
+      servers need a port cvar (or the port's existing quota bots).
+
 ## 3. Crate placement
 
 | Crate | Gets |
 |---|---|
 | `shared` | `pm` (TS port), `weapons` (tables + `CTSGun` state machine + spread/pellets + timers), `protocol` (every message, `iuser4` bit names, `fuser1` semantics), `damage` (hitgroup multipliers and falloff, as pure functions), slot/speed formula |
-| `server` | entities (TS + stock map entities + remaps), game rules, `CTSStunt`/animation, hit resolution and penetration, `CBulletManager`, slow-mo propagation, cvars (37) and commands (27 client + 7 server) |
+| `server` | entities (TS + stock map entities + remaps), game rules, bots (brain, states, modules, node graph navigation), `CTSStunt`/animation, hit resolution and penetration, `CBulletManager`, slow-mo propagation, cvars (37) and commands (27 client + 7 server) |
 | `client` | input (`IN_ALT1`, `cl_attackswitch`, anti-script gate optional), HUD and menus, events, view, renderer, particles, slow-mo presentation, cvars (107) and commands (93) |
 | `goldsrc` | message reader/writer generated from `shared::protocol`, BSP entity-lump parser (client), TriAPI font renderer |
 
@@ -133,6 +149,7 @@ The docs list bugs found in the binaries. Decide each one on purpose:
 | `default_fov` forced to 80 after registration | Fix (honour the cvar) |
 | `weapon_9MMAR` exported instead of `weapon_9mmAR` (HL maps don't resolve) | Fix (export both) |
 | `ts/delta.lst` missing commas, lists unused `team` | Fix |
+| Bots: `fabs` aim cone fires backwards, dead enemy kept as target, cover cache stores the enemy origin, `FindPath` backtrack pops the current node, `Load` rejects 512 nodes, `savenodes`/`loadnodes` use different paths, unprotected node commands (bots §15) | Keep the AI quirks for parity; fix the file-path and access-check ones behind port cvars |
 | `winnerteam` off by one for teams 3/4, `ts_timer` "Loop" flag ignored | Fix, but check map compatibility |
 | Sound pitch `100 − ts·(−300)` (400 at normal speed) | Verify in game before deciding |
 | Blocks work from any direction (no facing check) | Keep for parity, or put behind a cvar |
@@ -144,4 +161,5 @@ The docs list bugs found in the binaries. Decide each one on purpose:
 * Pellet radial distribution `1−r³` (weapons §8.5).
 * Katana damage/delay variants (weapons §8.5).
 * Whether the client adds a laser accuracy bonus (weapons §8.5).
+* Whether fake clients survive `changelevel` with their `CBot` data, and whether `SetClientKeyValue` on a bot triggers `ClientUserInfoChanged` (bots §15). Check with TS under Wine.
 * Recoil via `cl_viewangles` copy-back was confirmed on FWGS only, not on Steam GoldSrc (rendering §6).
