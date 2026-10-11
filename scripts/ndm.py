@@ -123,7 +123,7 @@ def find_path(g, start, goal, debug=False):
                 hit_start = True
                 break
             if F[j] == 0:
-                H[j] = ftol(f32(dist3(g.org(goal), g.org(j))))
+                H[j] = ftol(dist3(g.org(goal), g.org(j)))  # fsqrt straight into __ftol (0x100719eb), no float store
                 F[j] = H[j] + G[j]
             if G[j] < bg and F[j] < bf:
                 bg, bf, bi = G[j], F[j], j
