@@ -1,0 +1,312 @@
+/* mp.dll - CRecharge (9 functions). Ghidra decompiler output; see functions.tsv for the index. */
+
+/* 1001f500  CRecharge::Save  (48 bytes)
+ * undefined Save()
+ */
+void __thiscall CRecharge::Save(CBaseEntity *param_1,CSave *param_2)
+
+{
+  int iVar1;
+  
+  iVar1 = CBaseEntity::Save(param_1,param_2);
+  if (iVar1 == 0) {
+    return;
+  }
+  CSave::WriteFields(param_2,(byte_conflict *)s_CRecharge_1009419c,(int)param_1,0x10094108,5);
+  return;
+}
+
+/* 1001f530  CRecharge::Restore  (48 bytes)
+ * undefined Restore()
+ */
+void __thiscall CRecharge::Restore(CBaseEntity *param_1,CRestore *param_2)
+
+{
+  int iVar1;
+  
+  iVar1 = CBaseEntity::Restore(param_1,param_2);
+  if (iVar1 == 0) {
+    return;
+  }
+  CRestore::ReadFields(param_2,(byte_conflict *)s_CRecharge_1009419c,(int)param_1,0x10094108,5);
+  return;
+}
+
+/* 1001f570  CRecharge::KeyValue  (168 bytes)
+ * undefined KeyValue(int param_1)
+ */
+void __thiscall CRecharge::KeyValue(CRecharge *this,int param_1)
+
+{
+  undefined4 uVar1;
+  int iVar2;
+  char *pcVar3;
+  char *pcVar4;
+  char *pcVar5;
+  bool bVar6;
+  
+  pcVar4 = *(char **)(param_1 + 4);
+  iVar2 = 6;
+  bVar6 = true;
+  pcVar3 = pcVar4;
+  pcVar5 = s_style_10091284;
+  do {
+    if (iVar2 == 0) break;
+    iVar2 = iVar2 + -1;
+    bVar6 = *pcVar3 == *pcVar5;
+    pcVar3 = pcVar3 + 1;
+    pcVar5 = pcVar5 + 1;
+  } while (bVar6);
+  if (!bVar6) {
+    iVar2 = 7;
+    bVar6 = true;
+    pcVar3 = pcVar4;
+    pcVar5 = s_height_1009127c;
+    do {
+      if (iVar2 == 0) break;
+      iVar2 = iVar2 + -1;
+      bVar6 = *pcVar3 == *pcVar5;
+      pcVar3 = pcVar3 + 1;
+      pcVar5 = pcVar5 + 1;
+    } while (bVar6);
+    if (!bVar6) {
+      iVar2 = 7;
+      bVar6 = true;
+      pcVar3 = pcVar4;
+      pcVar5 = &DAT_10091268;
+      do {
+        if (iVar2 == 0) break;
+        iVar2 = iVar2 + -1;
+        bVar6 = *pcVar3 == *pcVar5;
+        pcVar3 = pcVar3 + 1;
+        pcVar5 = pcVar5 + 1;
+      } while (bVar6);
+      if (!bVar6) {
+        iVar2 = 7;
+        bVar6 = true;
+        pcVar3 = pcVar4;
+        pcVar5 = &DAT_10091260;
+        do {
+          if (iVar2 == 0) break;
+          iVar2 = iVar2 + -1;
+          bVar6 = *pcVar3 == *pcVar5;
+          pcVar3 = pcVar3 + 1;
+          pcVar5 = pcVar5 + 1;
+        } while (bVar6);
+        if (!bVar6) {
+          iVar2 = 7;
+          bVar6 = true;
+          pcVar3 = pcVar4;
+          pcVar5 = &DAT_10091258;
+          do {
+            if (iVar2 == 0) break;
+            iVar2 = iVar2 + -1;
+            bVar6 = *pcVar3 == *pcVar5;
+            pcVar3 = pcVar3 + 1;
+            pcVar5 = pcVar5 + 1;
+          } while (bVar6);
+          if (!bVar6) {
+            iVar2 = 8;
+            bVar6 = true;
+            pcVar3 = s_dmdelay_100941a8;
+            do {
+              if (iVar2 == 0) break;
+              iVar2 = iVar2 + -1;
+              bVar6 = *pcVar4 == *pcVar3;
+              pcVar4 = pcVar4 + 1;
+              pcVar3 = pcVar3 + 1;
+            } while (bVar6);
+            if (!bVar6) {
+              CBaseToggle::KeyValue((CBaseToggle *)this,param_1);
+              return;
+            }
+            uVar1 = FUN_1006e1dd(*(void **)(param_1 + 8),*(void **)(param_1 + 8));
+            *(undefined4 *)&this->field_0xf4 = uVar1;
+          }
+        }
+      }
+    }
+  }
+  *(undefined4 *)(param_1 + 0xc) = 1;
+  return;
+}
+
+/* 1001f620  CRecharge::Spawn  (144 bytes)
+ * undefined Spawn(int * param_1)
+ */
+void __fastcall CRecharge::Spawn(int *param_1)
+
+{
+  longlong lVar1;
+  
+  (**(code **)(*param_1 + 0x10))();
+  *(undefined4 *)(param_1[1] + 0x10c) = 4;
+  *(undefined4 *)(param_1[1] + 0x108) = 7;
+  FUN_100679a0();
+  FUN_10067970();
+  (*g_engfuncs.pfnSetModel)
+            (*(edict_t **)(param_1[1] + 0x208),gpGlobals->pStringBase + *(int *)(param_1[1] + 0xb8))
+  ;
+  lVar1 = __ftol();
+  param_1[0x3e] = (int)lVar1;
+  *(undefined4 *)(param_1[1] + 0x130) = 0;
+  return;
+}
+
+/* 1001f6b0  CRecharge::Precache  (37 bytes)
+ * undefined Precache()
+ */
+void CRecharge::Precache(void)
+
+{
+  (*g_engfuncs.pfnPrecacheSound)(s_items_suitcharge1_wav_100941e0);
+  (*g_engfuncs.pfnPrecacheSound)(s_items_suitchargeno1_wav_100941c8);
+  (*g_engfuncs.pfnPrecacheSound)(s_items_suitchargeok1_wav_100941b0);
+  return;
+}
+
+/* 1001f6e0  CRecharge::Use  (589 bytes)
+ * undefined Use()
+ */
+void __thiscall CRecharge::Use(CRecharge *param_1,int param_2)
+
+{
+  undefined1 *this;
+  edict_t *this_00;
+  int *piVar1;
+  int iVar2;
+  char *pcVar3;
+  char *pcVar4;
+  bool bVar5;
+  
+  iVar2 = 7;
+  bVar5 = true;
+  pcVar3 = gpGlobals->pStringBase + **(int **)(param_2 + 4);
+  pcVar4 = s_player_100915d0;
+  do {
+    if (iVar2 == 0) break;
+    iVar2 = iVar2 + -1;
+    bVar5 = *pcVar3 == *pcVar4;
+    pcVar3 = pcVar3 + 1;
+    pcVar4 = pcVar4 + 1;
+  } while (bVar5);
+  if (!bVar5) {
+    return;
+  }
+  if (*(int *)&param_1->field_0xf8 < 1) {
+    param_1->pev->frame = 1.0;
+    Off(param_1);
+    if (*(int *)&param_1->field_0xf8 < 1) goto LAB_1001f8e2;
+  }
+  if (*(int *)(*(int *)(param_2 + 4) + 0x168) < 0) {
+    param_1->pev->nextthink = param_1->pev->ltime + 0.25;
+    *(code **)&param_1->field_0x10 = Off;
+    if (gpGlobals->time <= *(float *)&param_1->field_0xf0) {
+      return;
+    }
+    this = &param_1->field_0xc4;
+    EHANDLE::operator=((EHANDLE *)this,param_2);
+    piVar1 = (int *)FUN_1000c220((uint *)this);
+    iVar2 = (**(code **)(*piVar1 + 0xa8))();
+    if (iVar2 == 0) {
+      return;
+    }
+    if (*(int *)&param_1->field_0xfc == 0) {
+      *(undefined4 *)&param_1->field_0xfc = 1;
+      this_00 = param_1->pev->pContainingEntity;
+      EMIT_SOUND_DYN(this_00,this_00,3,s_items_suitchargeok1_wav_100941b0,0x3f59999a,0x3f4ccccd,0,
+                     100);
+      *(float *)&param_1->field_0x100 = gpGlobals->time + 0.56;
+    }
+    if ((*(int *)&param_1->field_0xfc == 1) &&
+       (*(float *)&param_1->field_0x100 < gpGlobals->time !=
+        (*(float *)&param_1->field_0x100 == gpGlobals->time))) {
+      *(undefined4 *)&param_1->field_0xfc = 2;
+      EMIT_SOUND_DYN(param_1->pev,param_1->pev->pContainingEntity,6,s_items_suitcharge1_wav_100941e0
+                     ,0x3f59999a,0x3f4ccccd,0,100);
+    }
+    iVar2 = FUN_1000c220((uint *)this);
+    if (*(float *)(*(int *)(iVar2 + 4) + 0x1bc) < 100.0) {
+      *(int *)&param_1->field_0xf8 = *(int *)&param_1->field_0xf8 + -1;
+      iVar2 = FUN_1000c220((uint *)this);
+      *(float *)(*(int *)(iVar2 + 4) + 0x1bc) = *(float *)(*(int *)(iVar2 + 4) + 0x1bc) + 1.0;
+      iVar2 = FUN_1000c220((uint *)this);
+      if (100.0 < *(float *)(*(int *)(iVar2 + 4) + 0x1bc)) {
+        iVar2 = FUN_1000c220((uint *)this);
+        *(undefined4 *)(*(int *)(iVar2 + 4) + 0x1bc) = 0x42c80000;
+      }
+    }
+    *(float *)&param_1->field_0xf0 = gpGlobals->time + 0.1;
+    return;
+  }
+LAB_1001f8e2:
+  if (*(float *)&param_1->field_0x100 < gpGlobals->time !=
+      (*(float *)&param_1->field_0x100 == gpGlobals->time)) {
+    *(float *)&param_1->field_0x100 = gpGlobals->time + 0.62;
+    EMIT_SOUND_DYN(param_1->pev,param_1->pev->pContainingEntity,3,s_items_suitchargeno1_wav_100941c8
+                   ,0x3f59999a,0x3f4ccccd,0,100);
+  }
+  return;
+}
+
+/* 1001f930  CRecharge::Recharge  (42 bytes)
+ * void Recharge(void)
+ */
+/* public: void __thiscall CRecharge::Recharge(void) */
+
+void __thiscall CRecharge::Recharge(CRecharge *this)
+
+{
+  longlong lVar1;
+  
+                    /* 0x1f930  81  ?Recharge@CRecharge@@QAEXXZ */
+  lVar1 = __ftol();
+  *(int *)&this->field_0xf8 = (int)lVar1;
+  this->pev->frame = 0.0;
+  *(code **)&this->field_0x10 = CBaseEntity::SUB_DoNothing;
+  return;
+}
+
+/* 1001f960  CRecharge::Off  (138 bytes)
+ * void Off(void)
+ * called by: CRecharge::Use
+ */
+/* public: void __thiscall CRecharge::Off(void) */
+
+void __thiscall CRecharge::Off(CRecharge *this)
+
+{
+  edict_t *this_00;
+  int iVar1;
+  longlong lVar2;
+  
+                    /* 0x1f960  74  ?Off@CRecharge@@QAEXXZ */
+  if (1 < *(int *)&this->field_0xfc) {
+    this_00 = this->pev->pContainingEntity;
+    EMIT_SOUND_DYN(this_00,this_00,6,s_items_suitcharge1_wav_100941e0,0,0,0x20,100);
+  }
+  *(undefined4 *)&this->field_0xfc = 0;
+  if (*(int *)&this->field_0xf8 == 0) {
+    (**(code **)(*DAT_1009f494 + 0xb8))();
+    lVar2 = __ftol();
+    iVar1 = (int)lVar2;
+    *(int *)&this->field_0xf4 = iVar1;
+    if (0 < iVar1) {
+      this->pev->nextthink = (float)iVar1 + this->pev->ltime;
+      *(code **)&this->field_0x10 = Recharge;
+      return;
+    }
+  }
+  *(code **)&this->field_0x10 = CBaseEntity::SUB_DoNothing;
+  return;
+}
+
+/* 1001fa40  CRecharge::ObjectCaps  (6 bytes)
+ * undefined ObjectCaps()
+ */
+undefined4 CRecharge::ObjectCaps(void)
+
+{
+  return 0x10;
+}
+

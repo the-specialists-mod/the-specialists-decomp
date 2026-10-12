@@ -1,0 +1,189 @@
+class	methods	struct_size	note
+CException	0		
+type_info	2		PlaceHolder Class Structure
+vgui::Scheme	2		PlaceHolder Class Structure
+vgui::Color	2		PlaceHolder Class Structure
+vgui::Panel	2		PlaceHolder Structure
+vgui::Label	3		PlaceHolder Structure
+vgui::Image	2		PlaceHolder Class Structure
+vgui::Border	2		PlaceHolder Class Structure
+vgui::LineBorder	3		PlaceHolder Class Structure
+vgui::ImagePanel	3		PlaceHolder Class Structure
+vgui::Bitmap	2		PlaceHolder Class Structure
+vgui::BitmapTGA	2		PlaceHolder Class Structure
+vgui::InputSignal	3		PlaceHolder Structure
+vgui::Button	2		PlaceHolder Class Structure
+CBaseEntity	2		PlaceHolder Class Structure
+CBaseDelay	0		
+CBaseAnimating	0		
+CBaseToggle	0		
+CBaseMonster	1		PlaceHolder Class Structure
+CBasePlayer	1		PlaceHolder Class Structure
+CBasePlayerItem	5		PlaceHolder Class Structure
+CBasePlayerWeapon	0		
+CTSGun	0		
+IPainterCallback	0		
+vgui::ActionSignal	3		PlaceHolder Structure
+CTSBuyMenu	0		
+CTSMenuPanel	0		
+vgui::Cursor	2		PlaceHolder Class Structure
+vgui::Frame	2		PlaceHolder Structure
+vgui::SurfaceBase	2		PlaceHolder Class Structure
+vgui::Surface	3		PlaceHolder Class Structure
+vgui::Layout	2		PlaceHolder Class Structure
+vgui::BorderLayout	2		PlaceHolder Class Structure
+vgui::MenuSeparator	2		PlaceHolder Class Structure
+vgui::TextPanel	2		PlaceHolder Class Structure
+vgui::LoweredBorder	2		PlaceHolder Class Structure
+vgui::Font	2		PlaceHolder Class Structure
+vgui::App	2		PlaceHolder Class Structure
+vgui::BuildGroup	2		PlaceHolder Class Structure
+vgui::InputStream	3		PlaceHolder Class Structure
+vgui::FileInputStream	2		PlaceHolder Class Structure
+vgui::DesktopIcon	2		PlaceHolder Class Structure
+vgui::MiniApp	2		PlaceHolder Class Structure
+vgui::ScrollPanel	2		PlaceHolder Class Structure
+vgui::ScrollBar	2		PlaceHolder Class Structure
+vgui::Slider	2		PlaceHolder Class Structure
+vgui::ScrollBar2	21		PlaceHolder Class Structure
+ScrollBarButton	0		
+vgui::IntChangeSignal	3		PlaceHolder Structure
+vgui::Slider2	22		PlaceHolder Class Structure
+vgui::CDefaultInputSignal	0		
+CHudBase	0		
+CVoiceStatus	0		
+vgui::TextImage	2		PlaceHolder Class Structure
+CVoiceTweakOKButton	0		
+vgui::ICheckButton2Handler	0		
+CTransparentPanel	0		
+CMenuPanel	0		
+CVoiceVGUITweakDlg	0		
+CHudAmmo	0		
+CHudHealth	0		
+CHudGeiger	0		
+CHudBattery	0		
+CHudTrain	0		
+CHudFlashlight	0		
+CHudMessage	0		
+CHudStatusBar	0		
+CHudDeathNotice	0		
+CHudSayText	0		
+CHudMenu	0		
+CHudAmmoSecondary	0		
+CHudTextMessage	0		
+CHudStatusIcons	0		
+CHudSpectator	0		
+CHudTSWeapons	0		
+CHudTSPlayer	0		
+CStudioModelRenderer	0		
+CGameStudioModelRenderer	0		
+IVoiceStatusHelper	0		
+CHLVoiceStatusHelper	0		
+vgui::TablePanel	2		PlaceHolder Class Structure
+vgui::HeaderPanel	2		PlaceHolder Class Structure
+vgui::TextGrid	2		PlaceHolder Class Structure
+vgui::CCheckButton2	0		
+CClassMenuPanel	0		
+CMenuHandler_StringCommand	0		
+CMenuHandler_StringCommandClassSelect	0		
+CMenuHandler_TextWindow	0		
+CHandler_MenuButtonOver	0		
+CommandButton	0		
+ClassButton	0		
+ConsolePanel	0		
+vgui::TextEntry	2		PlaceHolder Class Structure
+vgui::EtchedBorder	2		PlaceHolder Class Structure
+ControlConfigPanel	0		
+vgui::DataInputStream	2		PlaceHolder Class Structure
+CImageLabel	0		
+CTFScrollButton	0		
+CTFScrollPanel	0		
+CHandler_ButtonHighlight	0		
+CHandler_CommandButtonHighlight	0		
+CTFSlider	0		
+vgui::CGrid	0		
+vgui::CListBox	0		
+vgui::CListBox::ListBoxSignal	0		
+MemoryInputStream	0		
+CMessageWindowPanel	0		
+vgui::StackLayout	2		PlaceHolder Class Structure
+CSchemeManager	0		
+ScorePanel	0		
+ScorePanel::HitTestPanel	0		
+CLabelHeader	0		
+CTextImage2	0		
+ServerBrowser	0		
+CSBLabel	0		
+LabelSortInputHandler	0		
+TeamFortressViewport	0		
+CViewPortInputHandler	0		
+CCommandMenu	0		
+CMenuHandler_StringCommandWatch	0		
+CMenuHandler_PopupSubMenuInput	0		
+TeamButton	0		
+FeignButton	0		
+DisguiseButton	0		
+DetpackButton	0		
+BuildButton	0		
+MapButton	0		
+TeamOnlyCommandButton	0		
+CTeamMenuPanel	0		
+CTSBuyMenuButton	0		
+vgui::Dar<vgui::RepaintSignal*>	15		PlaceHolder Structure
+vgui::Dar<vgui::FocusChangeSignal*>	15		PlaceHolder Structure
+vgui::Dar<vgui::IntChangeSignal*>	15		PlaceHolder Structure
+vgui::Dar<vgui::Label*>	15		PlaceHolder Structure
+vgui::Dar<vgui::ChangeSignal*>	15		PlaceHolder Structure
+vgui::Dar<char>	15		PlaceHolder Structure
+vgui::Dar<char*>	15		PlaceHolder Structure
+vgui::Dar<vgui::InputSignal*>	15		PlaceHolder Structure
+vgui::Dar<vgui::Frame*>	15		PlaceHolder Structure
+vgui::Dar<vgui::Button*>	15		PlaceHolder Structure
+vgui::Dar<int>	15		PlaceHolder Structure
+vgui::Dar<vgui::TickSignal*>	15		PlaceHolder Structure
+vgui::Dar<vgui::ActionSignal*>	15		PlaceHolder Structure
+vgui::Dar<vgui::DesktopIcon*>	15		PlaceHolder Structure
+vgui::Dar<vgui::Dar<char>*>	15		PlaceHolder Structure
+vgui::Dar<vgui::SurfaceBase*>	15		PlaceHolder Structure
+vgui::Dar<vgui::Panel*>	15		PlaceHolder Structure
+vgui::Dar<vgui::FrameSignal*>	15		PlaceHolder Structure
+CBasePlayerAmmo	2		PlaceHolder Structure
+vgui::String	1		PlaceHolder Structure
+CGrenade	1		PlaceHolder Structure
+VGUI.DLL::vgui::Panel	0		PlaceHolder Structure
+VGUI.DLL::vgui::Label	0		PlaceHolder Structure
+VGUI.DLL::vgui::Image	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Border	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Color	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::LineBorder	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::ImagePanel	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Bitmap	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::BitmapTGA	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Button	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Cursor	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Frame	0		PlaceHolder Structure
+VGUI.DLL::vgui::SurfaceBase	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Surface	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Layout	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::BorderLayout	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::MenuSeparator	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::TextPanel	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::LoweredBorder	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Font	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::App	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::BuildGroup	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::FileInputStream	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::DesktopIcon	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::MiniApp	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::ScrollPanel	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::ScrollBar	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Slider	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::TextImage	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::TablePanel	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::HeaderPanel	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::TextGrid	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::TextEntry	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::EtchedBorder	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::DataInputStream	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::StackLayout	0		PlaceHolder Class Structure
+VGUI.DLL::vgui::Scheme	0		PlaceHolder Class Structure

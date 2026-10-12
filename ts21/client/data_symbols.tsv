@@ -1,0 +1,359 @@
+address	name	type	section
+1026710c	??_7Scheme@vgui@@6B@	undefined *	.rdata
+1026710c	Ordinal_199	undefined *	.rdata
+1026710c	vgui::Scheme::`vftable'	undefined *	.rdata
+10267130	??_7Color@vgui@@6B@	undefined *	.rdata
+10267130	Ordinal_177	undefined *	.rdata
+10267130	vgui::Color::`vftable'	undefined *	.rdata
+10267154	??_7Panel@vgui@@6B@	undefined *	.rdata
+10267154	Ordinal_198	undefined *	.rdata
+10267154	vgui::Panel::`vftable'	undefined *	.rdata
+10267428	??_C@_00A@?$AA@	TerminatedCString	.rdata
+10267428	Ordinal_215	TerminatedCString	.rdata
+10267428	s_	TerminatedCString	.rdata
+10267434	??_7Label@vgui@@6B@	undefined *	.rdata
+10267434	Ordinal_192	undefined *	.rdata
+10267434	vgui::Label::`vftable'	undefined *	.rdata
+102676d4	??_7Image@vgui@@6B@	undefined *	.rdata
+102676d4	Ordinal_187	undefined *	.rdata
+102676d4	vgui::Image::`vftable'	undefined *	.rdata
+1026776c	??_7Border@vgui@@6B@	undefined *	.rdata
+1026776c	Ordinal_173	undefined *	.rdata
+1026776c	vgui::Border::`vftable'	undefined *	.rdata
+102678b4	??_7LineBorder@vgui@@6B@	undefined *	.rdata
+102678b4	Ordinal_194	undefined *	.rdata
+102678b4	vgui::LineBorder::`vftable'	undefined *	.rdata
+1026793c	??_7ImagePanel@vgui@@6B@	undefined *	.rdata
+1026793c	Ordinal_188	undefined *	.rdata
+1026793c	vgui::ImagePanel::`vftable'	undefined *	.rdata
+10267bac	??_7Bitmap@vgui@@6B@	undefined *	.rdata
+10267bac	Ordinal_171	undefined *	.rdata
+10267bac	vgui::Bitmap::`vftable'	undefined *	.rdata
+10267c2c	??_7BitmapTGA@vgui@@6B@	undefined *	.rdata
+10267c2c	Ordinal_172	undefined *	.rdata
+10267c2c	vgui::BitmapTGA::`vftable'	undefined *	.rdata
+10267cb0	??_7InputSignal@vgui@@6B@	undefined *	.rdata
+10267cb0	Ordinal_189	undefined *	.rdata
+10267cb0	vgui::InputSignal::`vftable'	undefined *	.rdata
+10267cec	??_7Button@vgui@@6B@	undefined *	.rdata
+10267cec	Ordinal_176	undefined *	.rdata
+10267cec	vgui::Button::`vftable'	undefined *	.rdata
+1026b198	??_7Cursor@vgui@@6B@	undefined *	.rdata
+1026b198	Ordinal_178	undefined *	.rdata
+1026b198	vgui::Cursor::`vftable'	undefined *	.rdata
+1026b1b4	??_7Frame@vgui@@6B@	undefined *	.rdata
+1026b1b4	Ordinal_185	undefined *	.rdata
+1026b1b4	vgui::Frame::`vftable'	undefined *	.rdata
+1026b47c	??_7SurfaceBase@vgui@@6B@	undefined *	.rdata
+1026b47c	Ordinal_207	undefined *	.rdata
+1026b47c	vgui::SurfaceBase::`vftable'	undefined *	.rdata
+1026b524	??_7Surface@vgui@@6B@	undefined *	.rdata
+1026b524	Ordinal_206	undefined *	.rdata
+1026b524	vgui::Surface::`vftable'	undefined *	.rdata
+1026b5d8	??_7Layout@vgui@@6B@	pointer	.rdata
+1026b5d8	Ordinal_193	pointer	.rdata
+1026b5d8	vgui::Layout::`vftable'	pointer	.rdata
+1026b5e4	??_7BorderLayout@vgui@@6B@	pointer	.rdata
+1026b5e4	Ordinal_174	pointer	.rdata
+1026b5e4	vgui::BorderLayout::`vftable'	pointer	.rdata
+1026b5f4	??_7ActionSignal@vgui@@6B@	pointer	.rdata
+1026b5f4	Ordinal_169	pointer	.rdata
+1026b5f4	vgui::ActionSignal::`vftable'	pointer	.rdata
+1026b604	??_7MenuSeparator@vgui@@6B@	undefined *	.rdata
+1026b604	Ordinal_196	undefined *	.rdata
+1026b604	vgui::MenuSeparator::`vftable'	undefined *	.rdata
+1026b8a4	??_7TextPanel@vgui@@6B@	undefined *	.rdata
+1026b8a4	Ordinal_213	undefined *	.rdata
+1026b8a4	vgui::TextPanel::`vftable'	undefined *	.rdata
+1026bb24	??_7LoweredBorder@vgui@@6B@	undefined *	.rdata
+1026bb24	Ordinal_195	undefined *	.rdata
+1026bb24	vgui::LoweredBorder::`vftable'	undefined *	.rdata
+1026bba8	??_7Font@vgui@@6B@	undefined *	.rdata
+1026bba8	Ordinal_184	undefined *	.rdata
+1026bba8	vgui::Font::`vftable'	undefined *	.rdata
+1026bbcc	??_7App@vgui@@6B@	undefined *	.rdata
+1026bbcc	Ordinal_170	undefined *	.rdata
+1026bbcc	vgui::App::`vftable'	undefined *	.rdata
+1026bcd8	??_7BuildGroup@vgui@@6B@	undefined *	.rdata
+1026bcd8	Ordinal_175	undefined *	.rdata
+1026bcd8	vgui::BuildGroup::`vftable'	undefined *	.rdata
+1026bd20	??_7InputStream@vgui@@6B@	undefined *	.rdata
+1026bd20	Ordinal_190	undefined *	.rdata
+1026bd20	vgui::InputStream::`vftable'	undefined *	.rdata
+1026bd48	??_7FileInputStream@vgui@@6B@	undefined *	.rdata
+1026bd48	Ordinal_183	undefined *	.rdata
+1026bd48	vgui::FileInputStream::`vftable'	undefined *	.rdata
+1026bd74	??_7DesktopIcon@vgui@@6B@	undefined *	.rdata
+1026bd74	Ordinal_181	undefined *	.rdata
+1026bd74	vgui::DesktopIcon::`vftable'	undefined *	.rdata
+1026bff0	??_7MiniApp@vgui@@6B@	undefined *	.rdata
+1026bff0	Ordinal_197	undefined *	.rdata
+1026bff0	vgui::MiniApp::`vftable'	undefined *	.rdata
+1026c004	??_7ScrollPanel@vgui@@6B@	undefined *	.rdata
+1026c004	Ordinal_202	undefined *	.rdata
+1026c004	vgui::ScrollPanel::`vftable'	undefined *	.rdata
+1026c2a4	??_7ScrollBar@vgui@@6B@	undefined *	.rdata
+1026c2a4	Ordinal_201	undefined *	.rdata
+1026c2a4	vgui::ScrollBar::`vftable'	undefined *	.rdata
+1026c55c	??_7Slider@vgui@@6B@	undefined *	.rdata
+1026c55c	Ordinal_204	undefined *	.rdata
+1026c55c	vgui::Slider::`vftable'	undefined *	.rdata
+1026c88c	??_7ScrollBar2@vgui@@6B@	undefined *	.rdata
+1026c88c	Ordinal_200	undefined *	.rdata
+1026c88c	vgui::ScrollBar2::`vftable'	undefined *	.rdata
+1026ce3c	??_7Slider2@vgui@@6B@	undefined *	.rdata
+1026ce3c	Ordinal_203	undefined *	.rdata
+1026ce3c	vgui::Slider2::`vftable'	undefined *	.rdata
+1026d0f4	??_7IntChangeSignal@vgui@@6B@	pointer	.rdata
+1026d0f4	Ordinal_191	pointer	.rdata
+1026d0f4	vgui::IntChangeSignal::`vftable'	pointer	.rdata
+1026d79c	??_7TextImage@vgui@@6B@	undefined *	.rdata
+1026d79c	Ordinal_212	undefined *	.rdata
+1026d79c	vgui::TextImage::`vftable'	undefined *	.rdata
+1026eac4	??_7TablePanel@vgui@@6B@	undefined *	.rdata
+1026eac4	Ordinal_208	undefined *	.rdata
+1026eac4	vgui::TablePanel::`vftable'	undefined *	.rdata
+1026ed94	??_7HeaderPanel@vgui@@6B@	undefined *	.rdata
+1026ed94	Ordinal_186	undefined *	.rdata
+1026ed94	vgui::HeaderPanel::`vftable'	undefined *	.rdata
+1026f02c	??_7TextGrid@vgui@@6B@	undefined *	.rdata
+1026f02c	Ordinal_211	undefined *	.rdata
+1026f02c	vgui::TextGrid::`vftable'	undefined *	.rdata
+10272874	??_7TextEntry@vgui@@6BInputSignal@1@@	undefined *	.rdata
+10272874	Ordinal_209	undefined *	.rdata
+10272874	vgui::TextEntry::`vftable'{for_`vgui::InputSignal'}	undefined *	.rdata
+102728b4	??_7TextEntry@vgui@@6BPanel@1@@	undefined *	.rdata
+102728b4	Ordinal_210	undefined *	.rdata
+102728b4	vgui::TextEntry::`vftable'{for_`vgui::Panel'}	undefined *	.rdata
+10272b94	??_7EtchedBorder@vgui@@6B@	undefined *	.rdata
+10272b94	Ordinal_182	undefined *	.rdata
+10272b94	vgui::EtchedBorder::`vftable'	undefined *	.rdata
+102731c8	??_7DataInputStream@vgui@@6BInputStream@1@@	undefined *	.rdata
+102731c8	Ordinal_180	undefined *	.rdata
+102731c8	vgui::DataInputStream::`vftable'{for_`vgui::InputStream'}	undefined *	.rdata
+102731f0	??_7DataInputStream@vgui@@6B01@@	undefined *	.rdata
+102731f0	Ordinal_179	undefined *	.rdata
+102731f0	vgui::DataInputStream::`vftable'{for_`vgui::DataInputStream'}	undefined *	.rdata
+1027322c	??_8DataInputStream@vgui@@7B@	undefined1	.rdata
+1027322c	Ordinal_214	undefined1	.rdata
+1027322c	vgui::DataInputStream::`vbtable'	undefined1	.rdata
+10274c7c	??_7StackLayout@vgui@@6B@	pointer	.rdata
+10274c7c	Ordinal_205	pointer	.rdata
+10274c7c	vgui::StackLayout::`vftable'	pointer	.rdata
+10278c04	type_info::vftable	pointer	.rdata
+10288dd8	vgui::Scheme::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288df8	vgui::Color::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288e18	vgui::Panel::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288e38	vgui::Label::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288e58	vgui::Image::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288e78	vgui::Border::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288e98	vgui::LineBorder::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288ebc	vgui::ImagePanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288ee0	vgui::Bitmap::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288f00	vgui::BitmapTGA::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288f24	vgui::InputSignal::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288f4c	vgui::Button::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288f6c	CBaseEntity::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288f8c	CBaseDelay::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288fac	CBaseAnimating::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288fd0	CBaseToggle::RTTI_Type_Descriptor	TypeDescriptor	.data
+10288ff0	CBaseMonster::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289010	CBasePlayer::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289030	CBasePlayerItem::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289054	CBasePlayerWeapon::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028907c	CTSGun::RTTI_Type_Descriptor	TypeDescriptor	.data
+102890f4	IPainterCallback::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028911c	vgui::ActionSignal::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289144	CTSBuyMenu::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289164	CTSMenuPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289184	vgui::Cursor::RTTI_Type_Descriptor	TypeDescriptor	.data
+102891a4	vgui::Frame::RTTI_Type_Descriptor	TypeDescriptor	.data
+102891c4	vgui::SurfaceBase::RTTI_Type_Descriptor	TypeDescriptor	.data
+102891ec	vgui::Surface::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028920c	vgui::Layout::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028922c	vgui::BorderLayout::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289254	vgui::MenuSeparator::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028927c	vgui::TextPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+102892a0	vgui::LoweredBorder::RTTI_Type_Descriptor	TypeDescriptor	.data
+102892c8	vgui::Font::RTTI_Type_Descriptor	TypeDescriptor	.data
+102892e4	vgui::App::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289300	vgui::BuildGroup::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289324	vgui::InputStream::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028934c	vgui::FileInputStream::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289378	vgui::DesktopIcon::RTTI_Type_Descriptor	TypeDescriptor	.data
+102893a0	vgui::MiniApp::RTTI_Type_Descriptor	TypeDescriptor	.data
+102893c0	vgui::ScrollPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+102893e8	vgui::ScrollBar::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028940c	vgui::Slider::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028942c	vgui::ScrollBar2::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289450	ScrollBarButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289474	vgui::IntChangeSignal::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289630	vgui::Slider2::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289710	vgui::CDefaultInputSignal::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289740	CHudBase::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028975c	CVoiceStatus::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289780	vgui::TextImage::RTTI_Type_Descriptor	TypeDescriptor	.data
+102897a4	CVoiceTweakOKButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+102897cc	vgui::ICheckButton2Handler::RTTI_Type_Descriptor	TypeDescriptor	.data
+102897fc	CTransparentPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289824	CMenuPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289844	CVoiceVGUITweakDlg::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289870	CHudAmmo::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028988c	CHudHealth::RTTI_Type_Descriptor	TypeDescriptor	.data
+102898ac	CHudGeiger::RTTI_Type_Descriptor	TypeDescriptor	.data
+102898cc	CHudBattery::RTTI_Type_Descriptor	TypeDescriptor	.data
+102898ec	CHudTrain::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289908	CHudFlashlight::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028992c	CHudMessage::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028994c	CHudStatusBar::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289970	CHudDeathNotice::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289994	CHudSayText::RTTI_Type_Descriptor	TypeDescriptor	.data
+102899b4	CHudMenu::RTTI_Type_Descriptor	TypeDescriptor	.data
+102899d0	CHudAmmoSecondary::RTTI_Type_Descriptor	TypeDescriptor	.data
+102899f8	CHudTextMessage::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289a1c	CHudStatusIcons::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289a40	CHudSpectator::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289a64	CHudTSWeapons::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289a88	CHudTSPlayer::RTTI_Type_Descriptor	TypeDescriptor	.data
+10289fd4	CStudioModelRenderer::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a000	CGameStudioModelRenderer::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a06c	IVoiceStatusHelper::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a094	CHLVoiceStatusHelper::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a0c0	vgui::TablePanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a0e4	vgui::HeaderPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a10c	vgui::TextGrid::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a354	vgui::CCheckButton2::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a37c	CClassMenuPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a3a0	CMenuHandler_StringCommand::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a3d4	CMenuHandler_StringCommandClassSelect::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a414	CMenuHandler_TextWindow::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a444	CHandler_MenuButtonOver::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a474	CommandButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a498	ClassButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a4b8	ConsolePanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a580	vgui::TextEntry::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a5a4	vgui::EtchedBorder::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a5cc	ControlConfigPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a6b0	vgui::DataInputStream::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a6f0	CImageLabel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a710	CTFScrollButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a734	CTFScrollPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a758	CHandler_ButtonHighlight::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a788	CHandler_CommandButtonHighlight::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a7c0	CTFSlider::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a7dc	vgui::CGrid::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a81c	vgui::CListBox::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a840	vgui::CListBox::ListBoxSignal::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a874	MemoryInputStream::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a89c	CMessageWindowPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a8c4	vgui::StackLayout::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a91c	CSchemeManager::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a9b4	ScorePanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028a9d4	ScorePanel::HitTestPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028aa04	CLabelHeader::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028aa24	CTextImage2::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028aa44	ServerBrowser::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028aea0	CSBLabel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028aebc	LabelSortInputHandler::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b01c	TeamFortressViewport::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b048	CViewPortInputHandler::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b074	CException::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b094	CCommandMenu::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b0b4	CMenuHandler_StringCommandWatch::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b0ec	CMenuHandler_PopupSubMenuInput::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b124	TeamButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b144	FeignButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b164	DisguiseButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b188	DetpackButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b1ac	BuildButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b1cc	MapButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b1e8	TeamOnlyCommandButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b214	CTeamMenuPanel::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b23c	CTSBuyMenuButton::RTTI_Type_Descriptor	TypeDescriptor	.data
+1028b308	type_info::RTTI_Type_Descriptor	TypeDescriptor	.data
+ffdff000	ExceptionList	void *32	tdb
+ffdff004	StackBase	void *32	tdb
+ffdff008	StackLimit	void *32	tdb
+ffdff00c	SubSystemTib	void *32	tdb
+ffdff010	FiberData	void *32	tdb
+ffdff014	ArbitraryUserPointer	void *32	tdb
+ffdff018	Self	void *32	tdb
+ffdff01c	EnvironmentPointer	void *32	tdb
+ffdff020	ClientId	CLIENT_ID	tdb
+ffdff028	ActiveRpcHandle	void *32	tdb
+ffdff02c	ThreadLocalStoragePointer	void *32	tdb
+ffdff030	ProcessEnvironmentBlock	void *32	tdb
+ffdff034	LastErrorValue	dword.conflict	tdb
+ffdff038	CountOfOwnedCriticalSections	dword.conflict	tdb
+ffdff03c	CsrClientThread	void *32	tdb
+ffdff040	Win32ThreadInfo	void *32	tdb
+ffdff044	User32Reserved	dword.conflict[26]	tdb
+ffdff0ac	UserReserved	dword.conflict[5]	tdb
+ffdff0c0	WOW32Reserved	void *32	tdb
+ffdff0c4	CurrentLocale	dword.conflict	tdb
+ffdff0c8	FpSoftwareStatusRegister	dword.conflict	tdb
+ffdff0cc	SystemReserved1	void *32[54]	tdb
+ffdff1a4	ExceptionCode	dword.conflict	tdb
+ffdff1a8	ActivationContextStackPointer	void *32	tdb
+ffdff1ac	SpareBytes	uchar[36]	tdb
+ffdff1d0	TxFsContext	dword.conflict	tdb
+ffdff1d4	GdiTebBatch	dword.conflict	tdb
+ffdff6b4	RealClientId	CLIENT_ID	tdb
+ffdff6bc	GdiCachedProcessHandle	void *32	tdb
+ffdff6c0	GdiClientPID	dword.conflict	tdb
+ffdff6c4	GdiCLientTID	dword.conflict	tdb
+ffdff6c8	GdiThreadLocalInfo	void *32	tdb
+ffdff6cc	Win32ClientInfo	void *32[62]	tdb
+ffdff7c4	glDispatchTable	void *32[233]	tdb
+ffdffb68	glReserved1	void *32[29]	tdb
+ffdffbdc	glReserved2	void *32	tdb
+ffdffbe0	glSectionInfo	void *32	tdb
+ffdffbe4	glSection	void *32	tdb
+ffdffbe8	glTable	void *32	tdb
+ffdffbec	glCurrentRC	void *32	tdb
+ffdffbf0	glContext	void *32	tdb
+ffdffbf4	LastStatusValue	dword.conflict	tdb
+ffdffc00	StaticUnicodeBuffer	wchar16[261]	tdb
+ffdffe0c	DeallocationStack	void *32	tdb
+ffdffe10	TlsSlots	void *32[64]	tdb
+ffdfff10	TlsLinks.Flink	void *32	tdb
+ffdfff14	TlsLinks.Blink	void *32	tdb
+ffdfff18	Vdm	void *32	tdb
+ffdfff1c	ReservedForNtRpc	void *32	tdb
+ffdfff20	DbgSsReserved	void *32[2]	tdb
+ffdfff28	HardErrorMode	dword.conflict	tdb
+ffdfff2c	Instrumentation	void *32[9]	tdb
+ffdfff50	ActivityId	GUID	tdb
+ffdfff60	SubProcessTag	void *32	tdb
+ffdfff64	EtwLocalData	void *32	tdb
+ffdfff68	EtwTraceData	void *32	tdb
+ffdfff6c	WinSockData	void *32	tdb
+ffdfff70	GdiBatchCount	dword.conflict	tdb
+ffdfff74	IdealProcessorValue	dword.conflict	tdb
+ffdfff78	GuaranteedStackBytes	dword.conflict	tdb
+ffdfff7c	ReservedForPerf	void *32	tdb
+ffdfff80	ReservedForOle	void *32	tdb
+ffdfff84	WaitingOnLoaderLock	dword.conflict	tdb
+ffdfff88	SavedPriorityState	void *32	tdb
+ffdfff8c	SoftPatchPtr1	void *32	tdb
+ffdfff90	ThreadPoolData	void *32	tdb
+ffdfff94	TlsExpansionSlots	void *32	tdb
+ffdfff98	MuiGeneration	dword.conflict	tdb
+ffdfff9c	IsImpersonating	dword.conflict	tdb
+ffdfffa0	NlsCache	void *32	tdb
+ffdfffa4	pShimData	void *32	tdb
+ffdfffa8	HeapVirtualAffinity	dword.conflict	tdb
+ffdfffac	CurrentTransactionHandle	void *32	tdb
+ffdfffb0	ActiveFrame	void *32	tdb
+ffdfffb4	FlsData	void *32	tdb
+ffdfffb8	PreferredLanguages	void *32	tdb
+ffdfffbc	UserPrefLanguages	void *32	tdb
+ffdfffc0	MergedPrefLanguages	void *32	tdb
+ffdfffc4	MuiImpersonation	dword.conflict	tdb
+ffdfffc8	CrossTebFlags	ushort	tdb
+ffdfffca	SameTebFlags	ushort	tdb
+ffdfffcc	TxnScopeEnterCallback	void *32	tdb
+ffdfffd0	TxnScopeExitCallback	void *32	tdb
+ffdfffd4	TxnScopeContext	void *32	tdb
+ffdfffd8	LockCount	dword.conflict	tdb
+ffdfffe0	ResourceRetValue	void *32	tdb

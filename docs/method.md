@@ -102,6 +102,37 @@ interactively. The GhidraMCP bridge works once the GUI is running.
 | `Path element starting with '.' is not permitted` | Ghidra rejects `..` in project paths | `run.sh` canonicalizes paths. |
 | Engine ran the client but printed nothing | (FWGS, not Ghidra) | Use `-dev 2`. |
 
+## TS 2.1 (`scripts/run.sh ts21`)
+
+`ts21/server-win/` and `ts21/client/` are TS 2.1's `mp.dll` and `client.dll` (`TS21_DIR`, default
+`../ts21`), run through the same pipeline so 2.1 gameplay can be compared with 3.0. The Ghidra
+projects are `ts21_server-win` and `ts21_client` in `PROJECT_DIR`. Differences from the 3.0 run:
+
+* 2.1 was linked incrementally, so every export (and many calls) is a `jmp` thunk. A classname
+  export is `jmp GetClassPtr<X>` rather than a wrapper that calls it; `NameMsvcServer.java` follows
+  the jump.
+* 2.1's `CBaseEntity` has 7 fewer virtual slots than 3.0's, so `NameMsvcServer.java` remaps the
+  `.so` slots before naming (it detects the old layout from the slot-count difference). Worked out
+  from function bodies and sizes:
+
+  | 2.1 slot | Methods | 3.0 `.so` slot |
+  |---|---|---|
+  | 0-1 | `BreakableRespawn`, `CanUsedTroughWalls` | same |
+  | 2 | a 2.1-only virtual (`pev->nextthink = time + c`), left unnamed | none |
+  | | `GiveSlowMul`, `GoSlow`, `InSlow`, `IsObjective`, `EnableObjective` (3.0 only) | 2-6 |
+  | 3-9 | `Spawn` .. `Activate` | +4 |
+  | | `OnFreeEntPrivateData`, `ShouldCollide` (NEW_DLL_FUNCTIONS, 3.0 only) | 14-15 |
+  | 10-49 | `SetObjectCollisionBox` .. `Blocked` | +6 |
+  | | `UpdateOnRemove` (newer HL SDK, 3.0 only) | 56 |
+  | 50- | `Respawn` .. and every derived-class slot | +7 |
+
+  All 11 save/restore export anchors agree. Seven classes still differ in slot count (`CTSBomb`,
+  `CTSGroundWeapon`, `CTSHack`, `CTSModel`, `CTSObjectiveManager`, `CTSTeamEscape`, `CTSTrigger`):
+  their own virtuals may carry wrong names.
+* 2.1 doesn't export `GetNewDLLFunctions`, and `scripts/types/mpdll_names.tsv` (3.0 addresses)
+  isn't applied, so the 2.1 bot AI is unnamed.
+* Member offsets are 2.1's own (`sizeof(CBasePlayer)` is 0xae4). Match fields by code, not offset.
+
 ## Known gaps
 
 * The client is stripped and has no RTTI. Its functions are named only where the subsystem docs

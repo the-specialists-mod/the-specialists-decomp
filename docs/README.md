@@ -19,6 +19,8 @@ from behaviour rather than from a symbol or string.
 | **Client** (`client.dll`) | |
 | [client/architecture-hud.md](client/architecture-hud.md) | Exports, 107 cvars, 93 commands, 76 message hooks with payloads, the HUD manager and its 17 elements, input and TS buttons, the anti-script gate, the immediate-mode buy menu, scoreboard overflow |
 | [client/rendering-effects-prediction.md](client/rendering-effects-prediction.md) | Studio renderer (torso/legs split), 11 event handlers, the TS particle system and BSP-lump emitters, `V_CalcRefdef` (recoil, slow-mo tint), motion-blur ghosts, client pmove and weapon prediction |
+| **TS 2.1** (`ts21/`) | |
+| [ts21/README.md](ts21/README.md) | What 2.1 does differently from 3.0, for a 2.1 gameplay mode: [weapons](ts21/weapons.md), [movement and stunts](ts21/movement.md), [rules, powerups and modes](ts21/rules.md), [client and protocol](ts21/client-protocol.md), [bots and entities](ts21/bots-entities.md) |
 
 ## Headline facts
 

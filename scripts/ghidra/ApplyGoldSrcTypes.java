@@ -302,7 +302,8 @@ public class ApplyGoldSrcTypes extends GhidraScript {
             typeFunctionTable(ft, st, true);
         }
         Address nft = null;
-        for (Instruction ins : currentProgram.getListing().getInstructions(getFunctionAt(symbol("GetNewDLLFunctions")).getBody(), true)) {
+        Address gnd = symbol("GetNewDLLFunctions"); // TS 2.1's mp.dll doesn't export it
+        if (gnd != null) for (Instruction ins : currentProgram.getListing().getInstructions(getFunctionAt(gnd).getBody(), true)) {
             if (nft != null) break;
             if (!ins.getMnemonicString().equals("MOV") || !ins.getDefaultOperandRepresentation(0).equals("EAX")) continue;
             for (Reference r : ins.getReferencesFrom()) if (r.getReferenceType().isRead()) nft = r.getToAddress();

@@ -41,6 +41,7 @@ public class NameMsvcServer extends GhidraScript {
         Map<String, String> classOf = classnameMap(Path.of(args[0]));
         Map<String, List<String>> soSlots = soVtables(Path.of(args[1]));
         findClasses(classOf);
+        soSlots = remapOldSlots(soSlots);
         nameVirtuals(soSlots);
         nameBaseVtables(soSlots);
         nameVirtuals(soSlots);
@@ -48,6 +49,42 @@ public class NameMsvcServer extends GhidraScript {
         propagateCallGraph(Path.of(args[0]));
         if (args.length > 3 && Files.exists(Path.of(args[3]))) manualNames(Path.of(args[3]));
         classStructs(); // last: moving functions into class namespaces can replace the class structs
+    }
+
+    /**
+     * An older mp.dll (TS 2.1) has 7 fewer CBaseEntity virtuals than the .so, so its slots are
+     * remapped onto the .so's. The shift is the most common .so-minus-mp.dll slot count difference
+     * (0 for the 3.0 mp.dll, which is used as is). For 7, TS 2.1's CBaseEntity is, by function
+     * bodies:
+     *   2.1 slot 0-1   BreakableRespawn, CanUsedTroughWalls      = .so slot 0-1
+     *   2.1 slot 2     a 2.1-only virtual (pev->nextthink = time + c), no .so counterpart
+     *   (.so 2-6       GiveSlowMul, GoSlow, InSlow, IsObjective, EnableObjective: 3.0 only)
+     *   2.1 slot 3-9   Spawn .. Activate                         = .so slot +4
+     *   (.so 14-15     OnFreeEntPrivateData, ShouldCollide: NEW_DLL_FUNCTIONS, 3.0 only)
+     *   2.1 slot 10-49 SetObjectCollisionBox .. Blocked          = .so slot +6
+     *   (.so 56        UpdateOnRemove, newer HL SDK: 3.0 only)
+     *   2.1 slot 50-   Respawn .. and every derived-class slot   = .so slot +7
+     */
+    private Map<String, List<String>> remapOldSlots(Map<String, List<String>> soSlots) throws Exception {
+        Map<Integer, Integer> diffs = new HashMap<>();
+        for (ClassInfo c : classes.values()) {
+            List<String> so = soSlots.get(c.name());
+            if (so != null) diffs.merge(so.size() - slots(c.vtable()).size(), 1, Integer::sum);
+        }
+        int shift = diffs.isEmpty() ? 0 : Collections.max(diffs.entrySet(), Map.Entry.comparingByValue()).getKey();
+        println("vtable slot count difference vs the .so: " + shift);
+        if (shift == 0) return soSlots;
+        if (shift != 7) throw new IllegalStateException("no slot map for an mp.dll with " + shift + " fewer slots");
+        Map<String, List<String>> out = new HashMap<>();
+        for (var e : soSlots.entrySet()) {
+            List<String> so = e.getValue(), mapped = new ArrayList<>();
+            for (int i = 0; i + 7 < so.size(); i++) {
+                int j = i <= 1 ? i : i == 2 ? -1 : i <= 9 ? i + 4 : i <= 49 ? i + 6 : i + 7;
+                mapped.add(j < 0 ? "" : so.get(j)); // "" has no "::", so nameVirtuals skips it
+            }
+            out.put(e.getKey(), mapped);
+        }
+        return out;
     }
 
     /** Class structs: MSVC vptr at +0, pev at +4, size from GetClassPtr. */
@@ -115,12 +152,22 @@ public class NameMsvcServer extends GhidraScript {
         for (AddressIterator it = st.getExternalEntryPointIterator(); it.hasNext(); ) {
             Address a = it.next();
             Symbol s = st.getPrimarySymbol(a);
-            Function f = getFunctionAt(a);
             String cls = s == null ? null : classOf.get(s.getName());
-            if (cls == null || f == null) continue;
+            if (cls == null) continue;
+            // TS 2.1's mp.dll exports an incremental-link thunk (`jmp GetClassPtr<X>`) instead of a
+            // wrapper that calls it, and analysis leaves the thunk as bare code.
+            Instruction first = getInstructionAt(a);
             Address g = null;
-            for (Instruction ins : currentProgram.getListing().getInstructions(f.getBody(), true)) {
-                if (ins.getFlowType().isCall() && ins.getFlows().length > 0) { g = ins.getFlows()[0]; break; }
+            if (first != null && first.getMnemonicString().equals("JMP") && first.getFlows().length > 0) {
+                g = first.getFlows()[0];
+                if (getFunctionAt(a) == null) createFunction(a, s.getName());
+                if (getFunctionAt(g) == null) createFunction(g, null);
+            } else {
+                Function f = getFunctionAt(a);
+                if (f == null) continue;
+                for (Instruction ins : currentProgram.getListing().getInstructions(f.getBody(), true)) {
+                    if (ins.getFlowType().isCall() && ins.getFlows().length > 0) { g = ins.getFlows()[0]; break; }
+                }
             }
             Function gf = g == null ? null : getFunctionAt(g);
             if (gf == null) continue;

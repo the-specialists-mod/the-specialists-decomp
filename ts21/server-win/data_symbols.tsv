@@ -1,0 +1,240 @@
+address	name	type	section
+10080230	CFuncWall::vftable	undefined *	.rdata
+10080320	CFuncWallToggle::vftable	undefined *	.rdata
+10080410	CFuncConveyor::vftable	undefined *	.rdata
+10080500	CFuncIllusionary::vftable	undefined *	.rdata
+100805f8	CFuncMonsterClip::vftable	undefined *	.rdata
+100806e8	CFuncRotating::vftable	undefined *	.rdata
+100807d8	CPendulum::vftable	undefined *	.rdata
+100808d8	CEnvGlobal::vftable	undefined *	.rdata
+100809c8	CMultiSource::vftable	undefined *	.rdata
+10080ab8	CBaseButton::vftable	undefined *	.rdata
+10080bb0	CRotButton::vftable	undefined *	.rdata
+10080ca8	CMomentaryRotButton::vftable	undefined *	.rdata
+10080da0	CEnvSpark::vftable	undefined *	.rdata
+10080e90	CButtonTarget::vftable	undefined *	.rdata
+10080fc0	CBasePlayer::vftable	undefined *	.rdata
+10081110	CBaseMonster::vftable	undefined *	.rdata
+100813e0	CBaseDoor::vftable	undefined *	.rdata
+100814d8	CRotDoor::vftable	undefined *	.rdata
+100815d0	CMomentaryDoor::vftable	undefined *	.rdata
+100816e8	CPointEntity::vftable	undefined *	.rdata
+100817d8	CBubbling::vftable	undefined *	.rdata
+100818c8	CBeam::vftable	undefined *	.rdata
+100819b8	CLightning::vftable	undefined *	.rdata
+10081aa8	CLaser::vftable	undefined *	.rdata
+10081b98	CGlow::vftable	undefined *	.rdata
+10081c88	CSprite::vftable	undefined *	.rdata
+10081d78	CGibShooter::vftable	undefined *	.rdata
+10081e70	CEnvShooter::vftable	undefined *	.rdata
+10081f68	CTestEffect::vftable	undefined *	.rdata
+10082058	CBlood::vftable	undefined *	.rdata
+10082148	CShake::vftable	undefined *	.rdata
+10082238	CFade::vftable	undefined *	.rdata
+10082328	CMessage::vftable	undefined *	.rdata
+10082418	CEnvFunnel::vftable	undefined *	.rdata
+10082508	CEnvBeverage::vftable	undefined *	.rdata
+100825f8	CItemSoda::vftable	undefined *	.rdata
+10082700	CShower::vftable	undefined *	.rdata
+100827f0	CEnvExplosion::vftable	undefined *	.rdata
+10082940	CBreakable::vftable	undefined *	.rdata
+10082a30	CPushable::vftable	undefined *	.rdata
+10082b38	CFuncTankGun::vftable	undefined *	.rdata
+10082c30	CFuncTankLaser::vftable	undefined *	.rdata
+10082d28	CFuncTankRocket::vftable	undefined *	.rdata
+10082e20	CFuncTankMortar::vftable	undefined *	.rdata
+10082f18	CFuncTankControls::vftable	undefined *	.rdata
+10083028	CRecharge::vftable	undefined *	.rdata
+10083120	CGenericCycler::vftable	undefined *	.rdata
+10083258	CCyclerProbe::vftable	undefined *	.rdata
+10083390	CCyclerSprite::vftable	undefined *	.rdata
+10083480	CWeaponCycler::vftable	undefined *	.rdata
+100835f8	CWreckage::vftable	undefined *	.rdata
+10083730	CHealthKit::vftable	undefined *	.rdata
+10083828	CWallHealth::vftable	undefined *	.rdata
+10083920	CWorldItem::vftable	undefined *	.rdata
+10083a10	CItemSuit::vftable	undefined *	.rdata
+10083b08	CItemBattery::vftable	undefined *	.rdata
+10083c10	CItemAntidote::vftable	undefined *	.rdata
+10083d08	CItemSecurity::vftable	undefined *	.rdata
+10083e00	CTSSuperJump::vftable	undefined *	.rdata
+10083f08	CLight::vftable	undefined *	.rdata
+10083ff8	CEnvLight::vftable	undefined *	.rdata
+100840e8	CGameScore::vftable	undefined *	.rdata
+100841d8	CGameEnd::vftable	undefined *	.rdata
+100842c8	CGameText::vftable	undefined *	.rdata
+100843b8	CGameTeamMaster::vftable	undefined *	.rdata
+100844a8	CGameTeamSet::vftable	undefined *	.rdata
+10084598	CGamePlayerZone::vftable	undefined *	.rdata
+10084688	CGamePlayerHurt::vftable	undefined *	.rdata
+10084778	CGameCounter::vftable	undefined *	.rdata
+10084868	CGameCounterSet::vftable	undefined *	.rdata
+10084958	CGamePlayerEquip::vftable	undefined *	.rdata
+10084a48	CGamePlayerTeam::vftable	undefined *	.rdata
+10084c58	CPathCorner::vftable	undefined *	.rdata
+10084d48	CPathTrack::vftable	undefined *	.rdata
+10084e58	CFuncPlat::vftable	undefined *	.rdata
+10085050	CFuncPlatRot::vftable	undefined *	.rdata
+10085158	CFuncTrain::vftable	undefined *	.rdata
+10085250	CFuncTrackTrain::vftable	undefined *	.rdata
+10085340	CFuncTrainControls::vftable	undefined *	.rdata
+10085430	CFuncTrackChange::vftable	undefined *	.rdata
+10085540	CFuncTrackAuto::vftable	undefined *	.rdata
+10085650	CGunTarget::vftable	undefined *	.rdata
+10085aa8	CDeadHEV::vftable	undefined *	.rdata
+10085be0	CStripWeapons::vftable	undefined *	.rdata
+10085cd0	CRevertSaved::vftable	undefined *	.rdata
+10085dc0	CInfoIntermission::vftable	undefined *	.rdata
+10086058	CAmbientGeneric::vftable	undefined *	.rdata
+10086148	CEnvSound::vftable	undefined *	.rdata
+10086238	CSpeaker::vftable	undefined *	.rdata
+10086328	CSoundEnt::vftable	undefined *	.rdata
+10086418	CNullEntity::vftable	undefined *	.rdata
+10086508	CBaseDMStart::vftable	undefined *	.rdata
+100865f8	CBaseDelay::vftable	undefined *	.rdata
+100867e8	CChangeLevel::vftable	undefined *	.rdata
+100868e0	CFrictionModifier::vftable	undefined *	.rdata
+100869d0	CAutoTrigger::vftable	undefined *	.rdata
+10086ac0	CTriggerRelay::vftable	undefined *	.rdata
+10086bb0	CMultiManager::vftable	undefined *	.rdata
+10086ca8	CRenderFxManager::vftable	undefined *	.rdata
+10086d98	CBaseTrigger::vftable	undefined *	.rdata
+10086e90	CTriggerHurt::vftable	undefined *	.rdata
+10086f88	CTriggerMonsterJump::vftable	undefined *	.rdata
+10087080	CTriggerCDAudio::vftable	undefined *	.rdata
+10087178	CTargetCDAudio::vftable	undefined *	.rdata
+10087268	CTriggerMultiple::vftable	undefined *	.rdata
+10087360	CTriggerOnce::vftable	undefined *	.rdata
+10087458	CTriggerCounter::vftable	undefined *	.rdata
+10087550	CTriggerVolume::vftable	undefined *	.rdata
+10087640	CFireAndDie::vftable	undefined *	.rdata
+10087730	CLadder::vftable	undefined *	.rdata
+10087828	CTriggerPush::vftable	undefined *	.rdata
+10087920	CTriggerTeleport::vftable	undefined *	.rdata
+10087a18	CTriggerSave::vftable	undefined *	.rdata
+10087b10	CTriggerEndSection::vftable	undefined *	.rdata
+10087c08	CTriggerGravity::vftable	undefined *	.rdata
+10087d00	CTriggerChangeTarget::vftable	undefined *	.rdata
+10087df0	CTriggerCamera::vftable	undefined *	.rdata
+10087f08	CTSDeadCorpse::vftable	undefined *	.rdata
+10087ff8	CTSTrigger::vftable	undefined *	.rdata
+100880e8	CTSSlowMotion::vftable	undefined *	.rdata
+100881d8	CTSSlowMotionPoint::vftable	undefined *	.rdata
+100882c8	CTSDMHill::vftable	undefined *	.rdata
+100883b8	CTSModel::vftable	undefined *	.rdata
+100884f0	CTSMapGlobals::vftable	undefined *	.rdata
+10088628	CTSShrapnel::vftable	undefined *	.rdata
+10088728	CM61Grenade::vftable	undefined *	.rdata
+10088828	CTSKnife::vftable	undefined *	.rdata
+10088980	CTSGun::vftable	undefined *	.rdata
+10088af8	CTSObjectiveManager::vftable	undefined *	.rdata
+10088be8	CTSObjectivePointer::vftable	undefined *	.rdata
+10088cd8	CTSWinGiver::vftable	undefined *	.rdata
+10088dc8	CTSBomb::vftable	undefined *	.rdata
+10088ec0	CTSHack::vftable	undefined *	.rdata
+10088fb8	CTSTeamEscape::vftable	undefined *	.rdata
+10089118	CTSPowerUp::vftable	undefined *	.rdata
+100893f0	CTSWorldGun::vftable	undefined *	.rdata
+100894f0	CTSAmmoPack::vftable	undefined *	.rdata
+100895e0	CTSGroundWeapon::vftable	undefined *	.rdata
+100896e8	CWeaponBox::vftable	undefined *	.rdata
+100897d8	CDecal::vftable	undefined *	.rdata
+100898c8	CCorpse::vftable	undefined *	.rdata
+100899b8	CWorld::vftable	undefined *	.rdata
+10089aa8	CXenPLight::vftable	undefined *	.rdata
+10089ba0	CXenHair::vftable	undefined *	.rdata
+10089c98	CXenTreeTrigger::vftable	undefined *	.rdata
+10089d88	CXenTree::vftable	undefined *	.rdata
+10089e80	CXenHull::vftable	undefined *	.rdata
+10089f70	CXenSporeSmall::vftable	undefined *	.rdata
+1008a068	CXenSporeMed::vftable	undefined *	.rdata
+1008a160	CXenSporeLarge::vftable	undefined *	.rdata
+10091640	gFunctionTable	DLL_FUNCTIONS	.data
+1009f4d8	g_engfuncs	enginefuncs_t_ts30	.data
+1009f744	gpGlobals	globalvars_t *	.data
+ffdff000	ExceptionList	void *32	tdb
+ffdff004	StackBase	void *32	tdb
+ffdff008	StackLimit	void *32	tdb
+ffdff00c	SubSystemTib	void *32	tdb
+ffdff010	FiberData	void *32	tdb
+ffdff014	ArbitraryUserPointer	void *32	tdb
+ffdff018	Self	void *32	tdb
+ffdff01c	EnvironmentPointer	void *32	tdb
+ffdff020	ClientId	CLIENT_ID	tdb
+ffdff028	ActiveRpcHandle	void *32	tdb
+ffdff02c	ThreadLocalStoragePointer	void *32	tdb
+ffdff030	ProcessEnvironmentBlock	void *32	tdb
+ffdff034	LastErrorValue	dword.conflict	tdb
+ffdff038	CountOfOwnedCriticalSections	dword.conflict	tdb
+ffdff03c	CsrClientThread	void *32	tdb
+ffdff040	Win32ThreadInfo	void *32	tdb
+ffdff044	User32Reserved	dword.conflict[26]	tdb
+ffdff0ac	UserReserved	dword.conflict[5]	tdb
+ffdff0c0	WOW32Reserved	void *32	tdb
+ffdff0c4	CurrentLocale	dword.conflict	tdb
+ffdff0c8	FpSoftwareStatusRegister	dword.conflict	tdb
+ffdff0cc	SystemReserved1	void *32[54]	tdb
+ffdff1a4	ExceptionCode	dword.conflict	tdb
+ffdff1a8	ActivationContextStackPointer	void *32	tdb
+ffdff1ac	SpareBytes	uchar[36]	tdb
+ffdff1d0	TxFsContext	dword.conflict	tdb
+ffdff1d4	GdiTebBatch	dword.conflict	tdb
+ffdff6b4	RealClientId	CLIENT_ID	tdb
+ffdff6bc	GdiCachedProcessHandle	void *32	tdb
+ffdff6c0	GdiClientPID	dword.conflict	tdb
+ffdff6c4	GdiCLientTID	dword.conflict	tdb
+ffdff6c8	GdiThreadLocalInfo	void *32	tdb
+ffdff6cc	Win32ClientInfo	void *32[62]	tdb
+ffdff7c4	glDispatchTable	void *32[233]	tdb
+ffdffb68	glReserved1	void *32[29]	tdb
+ffdffbdc	glReserved2	void *32	tdb
+ffdffbe0	glSectionInfo	void *32	tdb
+ffdffbe4	glSection	void *32	tdb
+ffdffbe8	glTable	void *32	tdb
+ffdffbec	glCurrentRC	void *32	tdb
+ffdffbf0	glContext	void *32	tdb
+ffdffbf4	LastStatusValue	dword.conflict	tdb
+ffdffc00	StaticUnicodeBuffer	wchar16[261]	tdb
+ffdffe0c	DeallocationStack	void *32	tdb
+ffdffe10	TlsSlots	void *32[64]	tdb
+ffdfff10	TlsLinks.Flink	void *32	tdb
+ffdfff14	TlsLinks.Blink	void *32	tdb
+ffdfff18	Vdm	void *32	tdb
+ffdfff1c	ReservedForNtRpc	void *32	tdb
+ffdfff20	DbgSsReserved	void *32[2]	tdb
+ffdfff28	HardErrorMode	dword.conflict	tdb
+ffdfff2c	Instrumentation	void *32[9]	tdb
+ffdfff50	ActivityId	GUID	tdb
+ffdfff60	SubProcessTag	void *32	tdb
+ffdfff64	EtwLocalData	void *32	tdb
+ffdfff68	EtwTraceData	void *32	tdb
+ffdfff6c	WinSockData	void *32	tdb
+ffdfff70	GdiBatchCount	dword.conflict	tdb
+ffdfff74	IdealProcessorValue	dword.conflict	tdb
+ffdfff78	GuaranteedStackBytes	dword.conflict	tdb
+ffdfff7c	ReservedForPerf	void *32	tdb
+ffdfff80	ReservedForOle	void *32	tdb
+ffdfff84	WaitingOnLoaderLock	dword.conflict	tdb
+ffdfff88	SavedPriorityState	void *32	tdb
+ffdfff8c	SoftPatchPtr1	void *32	tdb
+ffdfff90	ThreadPoolData	void *32	tdb
+ffdfff94	TlsExpansionSlots	void *32	tdb
+ffdfff98	MuiGeneration	dword.conflict	tdb
+ffdfff9c	IsImpersonating	dword.conflict	tdb
+ffdfffa0	NlsCache	void *32	tdb
+ffdfffa4	pShimData	void *32	tdb
+ffdfffa8	HeapVirtualAffinity	dword.conflict	tdb
+ffdfffac	CurrentTransactionHandle	void *32	tdb
+ffdfffb0	ActiveFrame	void *32	tdb
+ffdfffb4	FlsData	void *32	tdb
+ffdfffb8	PreferredLanguages	void *32	tdb
+ffdfffbc	UserPrefLanguages	void *32	tdb
+ffdfffc0	MergedPrefLanguages	void *32	tdb
+ffdfffc4	MuiImpersonation	dword.conflict	tdb
+ffdfffc8	CrossTebFlags	ushort	tdb
+ffdfffca	SameTebFlags	ushort	tdb
+ffdfffcc	TxnScopeEnterCallback	void *32	tdb
+ffdfffd0	TxnScopeExitCallback	void *32	tdb
+ffdfffd4	TxnScopeContext	void *32	tdb
+ffdfffd8	LockCount	dword.conflict	tdb
+ffdfffe0	ResourceRetValue	void *32	tdb

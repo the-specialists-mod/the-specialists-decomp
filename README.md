@@ -16,7 +16,15 @@ constants, and data layouts.
 | Client (Windows) | `ts/cl_dlls/client.dll` | MSVC (2007) | Exports only, no RTTI | `1811bd4f…8f1fdd` |
 | Server (Windows) | `ts/dlls/mp.dll` | MSVC | Exports only, no RTTI. Names recovered from the `.so` (see below). **The only build with the bot AI.** | `df7d1f20…7580d0` |
 
-The binaries aren't in this repo. Point `TS_DIR` at a TS 3.0 install to regenerate.
+TS 2.1 (April 2004, `ts21/`, for comparing gameplay with 3.0):
+
+| Role | File | Toolchain | Symbols | SHA-256 |
+|---|---|---|---|---|
+| Server (Windows) | `ts21/dlls/mp.dll` | MSVC 6, incremental link (`jmp` thunks) | Exports only. Names recovered from the 3.0 `.so`. Has a bot AI. | `31a632e5…8f0e` |
+| Client (Windows) | `ts21/cl_dlls/client.dll` | MSVC 6 | Exports, plus RTTI (names the statically linked VGUI classes only) | `6352c0c2…fe5` |
+
+The binaries aren't in this repo. Point `TS_DIR` at a TS 3.0 install to regenerate (and `TS21_DIR`
+at a TS 2.1 install for `scripts/run.sh ts21`).
 
 `mp.dll` has no symbols beyond its exports, so `NameMsvcServer.java` borrows them from the `.so`
 export: classname exports give 175 classes and their vtables, the `.so` vtables name 745 virtual
@@ -35,6 +43,8 @@ docs/                     written analysis (start here)
 server/                   ts_i386.so export: 3,158 functions (35 unnamed), 197 entity class layouts, 226 vtables
 client/                   client.dll export: 2,271 functions (1,880 unnamed), 142 heuristic vtables
 server-win/               mp.dll export: 2,677 functions (816 unnamed), 181 named vtables, the bot AI
+ts21/server-win/          TS 2.1 mp.dll export: 2,643 functions (1,186 unnamed), 149 classes, 798 virtuals named
+ts21/client/              TS 2.1 client.dll export: 4,095 functions (game code unnamed; VGUI named by RTTI)
   decomp/*.c              Ghidra C, grouped by class (server) or address range (client)
   functions.tsv           index: address, size, class, name, signature, callees, callers, file
   strings.tsv             strings with their referencing functions
