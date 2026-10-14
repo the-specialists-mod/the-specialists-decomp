@@ -81,3 +81,25 @@ takes about 3 minutes on 24 cores (`mpdll` runs after `server`, whose export it 
 ## Documentation index
 
 See [docs/README.md](docs/README.md).
+
+## License
+
+**Covered by the MIT License** ([LICENSE](LICENSE), Copyright (c) 2026 The Specialists Mod
+contributors): this repository's own work, meaning the tooling in `scripts/` (Ghidra scripts,
+`run.sh`, `ndm.py`, `types/` with the hand-made `mpdll_names.tsv` and the stub headers) and the
+written analysis in `docs/`.
+
+**Not covered by the MIT License:** the material exported from or decompiled out of The
+Specialists and Half-Life belongs to its original owners, and nothing in this repository grants
+any rights to it. That covers:
+
+* `server/`, `client/`, `server-win/`, `ts21/server-win/` and `ts21/client/`: the decompiled C
+  (`decomp/*.c`) and the exported indexes (`functions.tsv`, `strings.tsv`, `vtables.tsv`,
+  `classes.tsv`, `data_symbols.tsv`, `imports.tsv`).
+* Decompiled code, strings, names and data from those binaries quoted in `docs/`.
+* Half-Life SDK and Xash3D FWGS types applied during analysis. These come from their own headers
+  (Valve's Half-Life 1 SDK license, and the GPL for FWGS's own files) and are not redistributed
+  here beyond what appears in the exports.
+
+The TS binaries themselves aren't in this repository. The export is kept for interoperability
+and research (recreating the mod's behaviour in the Rust port), not for rebuilding TS.
