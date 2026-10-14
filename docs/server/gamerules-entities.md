@@ -219,7 +219,7 @@ for each living, visible (EF_NODRAW clear) player P != self:
 score = !enemy_sees && teammate_sees ? rand(6145..8192)
       : !enemy_sees                  ? rand(4097..6144)
       :                                mindist
-pick max score; if best < 128: telefrag (TakeDamage 300, DMG_ALWAYSGIB) every living player within 128
+pick max score; if best < 128: telefrag (TakeDamage 300, 0x1000 = DMG_NEVERGIB: the body never gibs) every living player within 128
 fallback: first info_player_deathmatch, then info_player_start
 ```
 
